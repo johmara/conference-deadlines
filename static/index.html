@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conference Deadlines</title>
+<style>
+:root {
+  --bg:      #f8fafc; --card:    #ffffff; --border:  #e2e8f0;
+  --text:    #0f172a; --muted:   #64748b;
+  --research:#2563eb; --short:   #d97706; --tools:   #16a34a; --doctoral:#7c3aed;
+  --past-bg: #f1f5f9; --past-tx: #94a3b8;
+  --open-bg: #f0fdf4; --open-tx: #15803d;
+  --soon-bg: #fffbeb; --soon-tx: #b45309;
+  --hot-bg:  #fff1f2; --hot-tx:  #be123c;
+  --panel-w: 380px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); font-size: 13px; }
+
+/* ── Toolbar ── */
+.toolbar {
+  position: sticky; top: 0; z-index: 200;
+  background: var(--card); border-bottom: 2px solid var(--border);
+  padding: 0.6rem 1.25rem;
+  display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.toolbar h1 { font-size: 1rem; font-weight: 800; white-space: nowrap; }
+#year-btns  { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.28rem 0.75rem; border-radius: 6px; cursor: pointer;
+  border: 1.5px solid var(--border); background: var(--bg);
+  font-size: 0.78rem; font-weight: 600; color: var(--muted);
+  transition: all .12s; white-space: nowrap;
+}
+.btn:hover:not(:disabled)   { border-color: var(--text); color: var(--text); }
+.btn:disabled               { opacity: .5; cursor: not-allowed; }
+.btn.active                 { background: var(--text); color: white; border-color: var(--text); }
+.btn.primary                { border-color: #2563eb; background: #eff6ff; color: #2563eb; }
+.btn.primary:hover          { background: #2563eb; color: white; }
+.btn.danger                 { border-color: #dc2626; background: #fef2f2; color: #dc2626; }
+.btn.danger:hover           { background: #dc2626; color: white; }
+.btn.success                { border-color: #16a34a; background: #f0fdf4; color: #16a34a; }
+.btn.success:hover          { background: #16a34a; color: white; }
+.spin { animation: spin .8s linear infinite; display: inline-block; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ml-auto { margin-left: auto; }
+.updated-info { font-size: .7rem; color: var(--muted); }
+
+/* ── Legend ── */
+.legend {
+  display: flex; flex-wrap: wrap; gap: .4rem 1.1rem;
+  padding: .5rem 1.25rem; background: var(--card);
+  border-bottom: 1px solid var(--border); align-items: center;
+}
+.li  { display: flex; align-items: center; gap: .3rem; font-size: .74rem; color: var(--muted); }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; }
+.chip{ display:inline-block; padding:.06rem .38rem; border-radius:4px; font-size:.68rem; font-weight:600; }
+.chip-past { background:var(--past-bg); color:var(--past-tx); }
+.chip-open { background:var(--open-bg); color:var(--open-tx); }
+.chip-soon { background:var(--soon-bg); color:var(--soon-tx); }
+.chip-hot  { background:var(--hot-bg);  color:var(--hot-tx); }
+
+/* ── Page body ── */
+.page { padding: 1.1rem 1.25rem; max-width: 1500px; margin: 0 auto; }
+.sec-title { font-weight: 700; font-size: .87rem; margin: 1.1rem 0 .55rem; }
+
+/* ── Table ── */
+.tbl-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+thead th { padding: .52rem .7rem; text-align: left; background: #f1f5f9; border-bottom: 2px solid var(--border); font-weight: 700; font-size: .73rem; white-space: nowrap; }
+th.r{color:var(--research);} th.s{color:var(--short);} th.t{color:var(--tools);} th.d{color:var(--doctoral);}
+th.sortable:hover { background:#e8edf4; }
+.sort-ind { font-size:.65rem; opacity:.5; margin-left:.2rem; }
+.sort-ind.asc::after  { content:'▲'; }
+.sort-ind.desc::after { content:'▼'; }
+tbody tr { border-bottom: 1px solid var(--border); }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: #fafafa; }
+td { padding: .46rem .7rem; vertical-align: middle; }
+.conf-key  { font-weight: 700; font-size: .87rem; }
+.conf-key a{ color: var(--text); text-decoration: none; }
+.conf-key a:hover { color: #2563eb; text-decoration: underline; }
+.conf-sub  { font-size: .7rem; color: var(--muted); margin-top: .1rem; }
+.new-badge  { display:inline-block; margin-left:.35rem; padding:.03rem .32rem; border-radius:4px; font-size:.62rem; font-weight:700; background:#fef9c3; color:#854d0e; }
+.live-badge { display:inline-block; margin-left:.35rem; padding:.03rem .38rem; border-radius:4px; font-size:.62rem; font-weight:800; background:#dcfce7; color:#166534; animation:livepulse 2s infinite; }
+@keyframes livepulse { 0%,100%{opacity:1;} 50%{opacity:.55;} }
+.row-live { border-left: 3px solid #16a34a !important; }
+
+.tag { display:inline-flex; align-items:center; gap:.22rem; padding:.18rem .48rem; border-radius:5px; font-size:.71rem; font-weight:500; white-space:nowrap; }
+.tag-past { background:var(--past-bg); color:var(--past-tx); text-decoration:line-through; }
+.tag-open { background:var(--open-bg); color:var(--open-tx); font-weight:600; }
+.tag-soon { background:var(--soon-bg); color:var(--soon-tx); font-weight:700; }
+.tag-hot  { background:var(--hot-bg);  color:var(--hot-tx);  font-weight:700; animation:pulse 1.5s infinite; }
+.tag-none { color:var(--past-tx); font-size:.69rem; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.65} }
+
+/* ── Timeline ── */
+.tl-wrap {
+  background:var(--card); border:1px solid var(--border); border-radius:10px;
+  overflow:hidden;
+}
+/* sticky label column + scrollable chart area side by side */
+.tl-layout { display:flex; }
+.tl-labels { flex-shrink:0; width:126px; border-right:1px solid var(--border);
+             background:var(--card); z-index:15; } /* padding-top set by JS to match axis */
+.tl-lbl { height:28px; display:flex; align-items:center; margin-bottom:2px;
+          font-size:.68rem; font-weight:600; padding:0 .5rem;
+          white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.tl-chart { flex:1; overflow-x:auto; position:relative; max-width:calc(100% - 126px); }
+.tl-inner { position:relative; } /* width set by JS */
+/* Month axis */
+.tl-axis { position:relative; height:28px; border-bottom:2px solid var(--border); }
+.tl-month { position:absolute; top:50%; transform:translateY(-50%);
+            font-size:.62rem; font-weight:700; color:var(--muted);
+            text-transform:uppercase; white-space:nowrap; padding-left:4px; }
+/* Month grid line */
+.tl-grid { position:absolute; top:28px; bottom:0; width:1px; background:var(--border); opacity:.5; z-index:1; }
+/* Today marker */
+.tl-today { position:absolute; top:0; bottom:0; width:2px; background:#f43f5e; z-index:20; }
+.tl-today-lbl { position:absolute; top:6px; left:4px; font-size:.59rem; font-weight:800; color:#f43f5e; white-space:nowrap; }
+/* Rows */
+.tl-rows { position:relative; }
+.tl-row  { height:28px; margin-bottom:2px; }
+.tl-track{ position:relative; height:28px; }
+/* Conference window */
+.tl-bar  { position:absolute; top:50%; transform:translateY(-50%); height:8px; border-radius:4px;
+           background:#3b82f6; opacity:.7; z-index:5; }
+/* Deadline dot */
+.tl-ev   { position:absolute; top:50%; transform:translate(-50%,-50%); z-index:10; cursor:default; }
+.tl-dot  { width:10px; height:10px; border-radius:50%; border:2px solid white;
+           box-shadow:0 1px 4px rgba(0,0,0,.3); transition:transform .12s; }
+.tl-ev:hover .tl-dot { transform:scale(1.8); }
+.tl-dot.research{background:var(--research);} .tl-dot.short{background:var(--short);}
+.tl-dot.tools{background:var(--tools);} .tl-dot.doctoral{background:var(--doctoral);}
+.tl-dot.past{opacity:.3;}
+
+/* ── Settings panel ── */
+.overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.3); z-index:300; }
+.overlay.open { display:block; }
+.panel {
+  position:fixed; top:0; right:0; bottom:0; width:var(--panel-w);
+  background:var(--card); border-left:1px solid var(--border);
+  z-index:301; display:flex; flex-direction:column;
+  transform:translateX(100%); transition:transform .25s ease;
+  box-shadow:-4px 0 20px rgba(0,0,0,.12);
+}
+.panel.open { transform:translateX(0); }
+.panel-header {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:.85rem 1.1rem; border-bottom:2px solid var(--border);
+  background:#f8fafc;
+}
+.panel-header h2 { font-size:.95rem; font-weight:800; }
+.panel-body { flex:1; overflow-y:auto; padding:1rem 1.1rem; }
+.panel-section { margin-bottom:1.4rem; }
+.panel-section h3 { font-size:.8rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-bottom:.6rem; }
+.panel-section p  { font-size:.77rem; color:var(--muted); margin-bottom:.5rem; line-height:1.5; }
+
+.field { margin-bottom:.65rem; }
+.field label { display:block; font-size:.74rem; font-weight:600; margin-bottom:.25rem; }
+.field input, .field select {
+  width:100%; padding:.35rem .6rem; border:1.5px solid var(--border); border-radius:6px;
+  font-size:.8rem; background:var(--bg); color:var(--text); outline:none;
+}
+.field input:focus, .field select:focus { border-color:#2563eb; }
+.field-row { display:flex; gap:.5rem; align-items:flex-end; }
+.field-row .field { flex:1; margin-bottom:0; }
+
+/* Series list */
+.series-item {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:.4rem .6rem; border:1px solid var(--border); border-radius:6px;
+  margin-bottom:.35rem; background:var(--bg);
+}
+.series-item-name { font-weight:600; font-size:.8rem; }
+.series-item-slug { font-size:.68rem; color:var(--muted); font-family:monospace; }
+.series-status { font-size:.65rem; padding:.1rem .3rem; border-radius:4px; background:#dcfce7; color:#166534; margin-left:.35rem; }
+
+.divider { height:1px; background:var(--border); margin:.8rem 0; }
+.add-form { background:#f8fafc; border:1px solid var(--border); border-radius:8px; padding:.75rem; }
+.add-form h4 { font-size:.78rem; font-weight:700; margin-bottom:.6rem; }
+#series-test-result { font-size:.72rem; margin-top:.35rem; min-height:1.1em; }
+
+/* ── Toast ── */
+.toast {
+  position:fixed; bottom:1.4rem; right:1.4rem; z-index:500;
+  width:310px; background:#1e293b; color:#f8fafc;
+  border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,.35);
+  overflow:hidden;
+  transform:translateY(calc(100% + 2rem)); transition:transform .3s cubic-bezier(.34,1.56,.64,1);
+  pointer-events:none;
+}
+.toast.show { transform:translateY(0); pointer-events:auto; }
+.toast-bar  { height:3px; background:#334155; }
+.toast-fill { height:100%; background:#3b82f6; width:0%; transition:width .4s ease; }
+.toast.success .toast-fill { background:#4ade80; width:100%; }
+.toast.error   .toast-fill { background:#f87171; width:100%; }
+.toast-hd { display:flex; align-items:center; gap:.55rem; padding:.7rem .9rem .45rem; }
+.toast-icon  { font-size:.95rem; }
+.toast-title { font-weight:700; font-size:.82rem; flex:1; }
+.toast-x { background:none; border:none; color:#94a3b8; cursor:pointer; font-size:.95rem; padding:0; line-height:1; }
+.toast-x:hover { color:white; }
+.toast-bd { padding:0 .9rem .7rem; }
+.toast-step    { font-size:.72rem; color:#94a3b8; min-height:1em; }
+.toast-summary { font-size:.74rem; color:#86efac; margin-top:.25rem; display:none; }
+
+/* ── Tooltip ── */
+.tip { display:none; position:fixed; background:#1e293b; color:#f8fafc; padding:.3rem .6rem; border-radius:6px; font-size:.72rem; pointer-events:none; z-index:9999; box-shadow:0 4px 16px rgba(0,0,0,.3); white-space:nowrap; }
+.tip.show { display:block; }
+
+footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.25rem; padding-top:.9rem; border-top:1px solid var(--border); }
+</style>
+</head>
+<body>
+
+<!-- Toolbar -->
+<div class="toolbar">
+  <h1>Conference Deadlines</h1>
+  <div id="year-btns"></div>
+  <span class="updated-info" id="updated-info"></span>
+  <button class="btn primary ml-auto" id="refresh-btn" onclick="startRefresh()">
+    <span id="refresh-icon">↻</span> Refresh &amp; Discover
+  </button>
+  <button class="btn" onclick="openPanel()" title="Settings">⚙ Settings</button>
+</div>
+
+<!-- Legend -->
+<div class="legend">
+  <span style="font-weight:700;font-size:.74rem">Status:</span>
+  <span class="li"><span class="chip chip-past">✕ Jan 1</span> Past</span>
+  <span class="li"><span class="chip chip-hot">▲ Apr 17</span> Urgent &lt;2w</span>
+  <span class="li"><span class="chip chip-soon">● May 11</span> Soon &lt;6w</span>
+  <span class="li"><span class="chip chip-open">● Jun 30</span> Open</span>
+  <span style="margin-left:auto;font-size:.7rem;color:var(--muted)" id="today-lbl"></span>
+</div>
+
+<!-- Main content -->
+<div class="page">
+  <div class="sec-title">All Tracks at a Glance</div>
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="min-width:200px">
+            <div style="display:flex;align-items:center;gap:.5rem">
+              Conference
+              <input id="conf-search" type="search" placeholder="Search…"
+                oninput="filterTable(this.value)"
+                style="padding:.18rem .5rem;border:1.5px solid var(--border);border-radius:5px;
+                       font-size:.72rem;font-weight:400;background:white;color:var(--text);
+                       outline:none;width:130px;min-width:0">
+            </div>
+          </th>
+          <th class="sortable" style="min-width:108px;cursor:pointer" onclick="sortBy('date')" title="Sort by conference date">Dates <span class="sort-ind" id="si-date"></span></th>
+          <th class="r sortable" data-sort="research" style="min-width:135px;cursor:pointer" onclick="sortBy('research')" title="Sort by Research deadline">● Research / Full Papers <span class="sort-ind" id="si-research"></span></th>
+          <th class="s sortable" data-sort="short"    style="min-width:135px;cursor:pointer" onclick="sortBy('short')"    title="Sort by Short/NIER deadline">● Short / NIER / ERA <span class="sort-ind" id="si-short"></span></th>
+          <th class="t sortable" data-sort="tools"    style="min-width:135px;cursor:pointer" onclick="sortBy('tools')"    title="Sort by Tools deadline">● Tools &amp; Demos <span class="sort-ind" id="si-tools"></span></th>
+          <th class="d sortable" data-sort="doctoral" style="min-width:135px;cursor:pointer" onclick="sortBy('doctoral')" title="Sort by Doctoral deadline">● Doctoral Symposium <span class="sort-ind" id="si-doctoral"></span></th>
+        </tr>
+      </thead>
+      <tbody id="tbl-body"></tbody>
+    </table>
+  </div>
+
+  <div class="sec-title">Deadline Timeline</div>
+  <div class="tl-wrap">
+    <div class="tl-layout">
+      <div class="tl-labels" id="tl-labels"></div>
+      <div class="tl-chart" id="tl-chart">
+        <div class="tl-inner" id="tl-inner">
+          <div class="tl-axis" id="tl-axis"></div>
+          <div class="tl-today" id="tl-today"><div class="tl-today-lbl">Today</div></div>
+          <div class="tl-rows" id="tl-rows"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="legend" style="margin-top:.5rem;border-top:1px solid var(--border);border-bottom:none;border-radius:0;padding-left:0">
+    <span class="li"><span class="dot" style="background:var(--research)"></span> Research</span>
+    <span class="li"><span class="dot" style="background:var(--short)"></span> Short/NIER</span>
+    <span class="li"><span class="dot" style="background:var(--tools)"></span> Tools &amp; Demos</span>
+    <span class="li"><span class="dot" style="background:var(--doctoral)"></span> Doctoral Symp.</span>
+    <span class="li"><span style="display:inline-block;width:16px;height:6px;border-radius:3px;background:#3b82f6;opacity:.4"></span> Conference window</span>
+    <span class="li" style="color:#f43f5e;font-weight:700">| Today</span>
+  </div>
+  <footer>Data from conf.researchr.org · Verify all deadlines on official sites before submitting.</footer>
+</div>
+
+<!-- Settings panel -->
+<div class="overlay" id="overlay" onclick="closePanel()"></div>
+<div class="panel" id="panel">
+  <div class="panel-header">
+    <h2>⚙ Settings</h2>
+    <button class="btn" style="padding:.2rem .55rem" onclick="closePanel()">✕</button>
+  </div>
+  <div class="panel-body">
+
+    <!-- Display settings -->
+    <div class="panel-section">
+      <h3>Display</h3>
+      <div class="field-row" style="align-items:center">
+        <label style="font-size:.77rem;font-weight:600;flex:1">Hide concluded conferences</label>
+        <label style="display:flex;align-items:center;gap:.4rem;cursor:pointer">
+          <input type="checkbox" id="hide-past-chk" onchange="saveHidePast(this.checked)" style="width:15px;height:15px">
+        </label>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Year range -->
+    <div class="panel-section">
+      <h3>Scrape Range</h3>
+      <p>How many years ahead (from today) to discover new conference editions.</p>
+      <div class="field-row">
+        <div class="field">
+          <label>Years ahead</label>
+          <select id="year-range-sel">
+            <option value="1">1 year</option>
+            <option value="2">2 years</option>
+            <option value="3">3 years</option>
+            <option value="4">4 years</option>
+            <option value="5">5 years</option>
+          </select>
+        </div>
+        <button class="btn success" onclick="saveYearRange()">Save</button>
+      </div>
+      <div id="settings-msg" style="font-size:.72rem;margin-top:.4rem;color:var(--open-tx)"></div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Conference series -->
+    <div class="panel-section">
+      <h3>Conference Series</h3>
+      <p>Series are scanned on conf.researchr.org when discovering new editions. Remove series you don't care about.</p>
+      <div id="series-list"></div>
+
+      <div class="divider"></div>
+
+      <div class="add-form">
+        <h4>Add new series</h4>
+        <div class="field">
+          <label>researchr.org slug</label>
+          <input type="text" id="new-slug" placeholder="e.g. asplos, pldi, sosp…" oninput="clearTestResult()">
+        </div>
+        <div class="field">
+          <label>Short display name</label>
+          <input type="text" id="new-display" placeholder="e.g. ASPLOS">
+        </div>
+        <div class="field">
+          <label>Full name <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+          <input type="text" id="new-fullname" placeholder="e.g. Architectural Support for Programming Languages…">
+        </div>
+        <div style="display:flex;gap:.5rem;margin-top:.5rem">
+          <button class="btn" onclick="testSeries()" style="flex:1">Test URL</button>
+          <button class="btn primary" onclick="addSeries()" style="flex:1">Add Series</button>
+        </div>
+        <div id="series-test-result"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast">
+  <div class="toast-bar"><div class="toast-fill" id="toast-fill"></div></div>
+  <div class="toast-hd">
+    <span class="toast-icon" id="toast-icon">↻</span>
+    <span class="toast-title" id="toast-title">Refreshing…</span>
+    <button class="toast-x" onclick="hideToast()">✕</button>
+  </div>
+  <div class="toast-bd">
+    <div class="toast-step" id="toast-step"></div>
+    <div class="toast-summary" id="toast-summary"></div>
+  </div>
+</div>
+
+<!-- Tooltip -->
+<div class="tip" id="tip"></div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────────────
+const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+let ALL_DATA     = [];
+let CURRENT_YEAR = null;
+let _newKeys     = new Set();
+let HIDE_PAST    = false;
+let SORT_COL     = null;   // 'research' | 'short' | 'tools' | 'doctoral' | null
+let SORT_DIR     = 'asc';  // 'asc' | 'desc'
+
+document.getElementById('today-lbl').textContent =
+  'Today: ' + TODAY.toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
+
+// ── Date helpers ──────────────────────────────────────────────────────────────
+const parseDate = s => { if(!s) return null; const [y,m,d]=s.split('-').map(Number); return new Date(y,m-1,d); };
+const daysFrom  = d => d ? Math.round((d-TODAY)/86400000) : null;
+const fmtShort  = d => d ? d.toLocaleDateString('en-GB',{day:'numeric',month:'short'}) : null;
+const fmtFull   = d => d ? d.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}) : null;
+
+function deadlineTag(dateStr) {
+  if (!dateStr) return '<span class="tag-none">—</span>';
+  const d=parseDate(dateStr), days=daysFrom(d), lbl=fmtShort(d);
+  if (days<0)   return `<span class="tag tag-past" title="${fmtFull(d)}">✕ ${lbl}</span>`;
+  if (days<=13)  return `<span class="tag tag-hot"  title="${fmtFull(d)}">▲ ${lbl} <small>${days}d</small></span>`;
+  if (days<=42)  return `<span class="tag tag-soon" title="${fmtFull(d)}">● ${lbl} <small>${days}d</small></span>`;
+  return `<span class="tag tag-open" title="${fmtFull(d)}">● ${lbl}</span>`;
+}
+
+const trackFor    = (c, type) => c.tracks.find(t=>t.track_type===type) || null;
+const confIsPast  = c => { const e=parseDate(c.conf_end); return e && e<TODAY; };
+const confIsLive  = c => { const s=parseDate(c.conf_start), e=parseDate(c.conf_end); return s&&e && s<=TODAY && TODAY<=e; };
+const confDateLbl = c => {
+  const s=parseDate(c.conf_start), e=parseDate(c.conf_end);
+  if(!s||!e) return '—';
+  return s.toLocaleDateString('en-GB',{day:'numeric',month:'short'}) + '–' +
+         e.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+};
+
+// ── Table ─────────────────────────────────────────────────────────────────────
+function buildTable(confs) {
+  const tbody = document.getElementById('tbl-body');
+  tbody.innerHTML = '';
+  const visible = applySort(HIDE_PAST ? confs.filter(c => !confIsPast(c)) : confs);
+  visible.forEach(c => {
+    const past = confIsPast(c);
+    const live = confIsLive(c);
+    const [r,s,t,d] = ['research','short','tools','doctoral'].map(x=>trackFor(c,x));
+    const nameEl = c.url ? `<a href="${c.url}" target="_blank" rel="noopener">${c.key}</a>` : c.key;
+    const badges = (live ? '<span class="live-badge">LIVE</span>' : '') +
+                   (_newKeys.has(c.key) ? '<span class="new-badge">new</span>' : '');
+    const tr = document.createElement('tr');
+    if (live) tr.classList.add('row-live');
+    tr.innerHTML = `
+      <td>
+        <div class="conf-key" style="${past&&!live?'color:var(--past-tx)':''}">
+          ${nameEl}${badges}
+        </div>
+        <div class="conf-sub">${c.location||''}</div>
+      </td>
+      <td style="${past&&!live?'color:var(--past-tx)':''}; white-space:nowrap; font-size:.7rem">${confDateLbl(c)}</td>
+      <td title="${r?.track_name||''}">${deadlineTag(r?.submission)}</td>
+      <td title="${s?.track_name||''}">${deadlineTag(s?.submission)}</td>
+      <td title="${t?.track_name||''}">${deadlineTag(t?.submission)}</td>
+      <td title="${d?.track_name||''}">${deadlineTag(d?.submission)}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function sortBy(col) {
+  if (SORT_COL === col) {
+    SORT_DIR = SORT_DIR === 'asc' ? 'desc' : 'asc';
+  } else {
+    SORT_COL = col; SORT_DIR = 'asc';
+  }
+  // Update indicators
+  ['date','research','short','tools','doctoral'].forEach(c => {
+    const el = document.getElementById('si-' + c);
+    if (!el) return;
+    el.className = 'sort-ind' + (c === SORT_COL ? ' ' + SORT_DIR : '');
+  });
+  setYear(CURRENT_YEAR);
+}
+
+function applySort(confs) {
+  if (!SORT_COL) return confs;
+  return confs.slice().sort((a, b) => {
+    let da, db;
+    if (SORT_COL === 'date') {
+      da = a.conf_start ? new Date(a.conf_start) : null;
+      db = b.conf_start ? new Date(b.conf_start) : null;
+    } else {
+      da = trackFor(a, SORT_COL)?.submission ? new Date(trackFor(a, SORT_COL).submission) : null;
+      db = trackFor(b, SORT_COL)?.submission ? new Date(trackFor(b, SORT_COL).submission) : null;
+    }
+    if (!da && !db) return 0;
+    if (!da) return 1;
+    if (!db) return -1;
+    return SORT_DIR === 'asc' ? da - db : db - da;
+  });
+}
+
+function filterTable(q) {
+  const term = q.trim().toLowerCase();
+  document.querySelectorAll('#tbl-body tr').forEach(tr => {
+    const text = tr.querySelector('.conf-key')?.textContent.toLowerCase() || '';
+    tr.style.display = (!term || text.includes(term)) ? '' : 'none';
+  });
+}
+
+// ── Timeline ──────────────────────────────────────────────────────────────────
+const PX_PER_DAY = 4; // pixels per calendar day → ~120px/month
+
+function dateToMs(d) { return d instanceof Date ? d.getTime() : 0; }
+
+function buildTimeline(confsIn) {
+  const confs = HIDE_PAST ? confsIn.filter(c => !confIsPast(c)) : confsIn;
+
+  // Determine full date range (all deadlines + conference windows)
+  const allD = [
+    ...confs.map(c=>parseDate(c.conf_start)),
+    ...confs.map(c=>parseDate(c.conf_end)),
+    ...confs.flatMap(c=>c.tracks.map(t=>parseDate(t.submission))),
+  ].filter(Boolean);
+  if (!allD.length) return;
+
+  // Snap to month boundaries
+  const TL_START = new Date(Math.min(...allD.map(dateToMs)));
+  TL_START.setDate(1);
+  const TL_END = new Date(Math.max(...allD.map(dateToMs)));
+  TL_END.setDate(1); TL_END.setMonth(TL_END.getMonth()+2);
+
+  const TOTAL_MS  = TL_END - TL_START;
+  const TOTAL_PX  = Math.round(TOTAL_MS / 86400000 * PX_PER_DAY);
+  const px = d => d ? Math.round((d - TL_START) / 86400000 * PX_PER_DAY) : null;
+
+  // Size the inner canvas
+  const inner = document.getElementById('tl-inner');
+  inner.style.width = TOTAL_PX + 'px';
+  inner.style.position = 'relative';
+
+  // Build month axis with grid lines (absolute positioning matches px() exactly)
+  const axis = document.getElementById('tl-axis');
+  axis.innerHTML = '';
+  axis.style.position = 'relative';
+  axis.style.height = '28px';
+  let cur = new Date(TL_START);
+  while (cur < TL_END) {
+    const x = px(cur);
+    const m = document.createElement('div');
+    m.className = 'tl-month';
+    m.style.left = x + 'px';
+    m.textContent = cur.toLocaleDateString('en-GB', {month:'short', year:'2-digit'});
+    axis.appendChild(m);
+    // Grid line
+    const g = document.createElement('div');
+    g.className = 'tl-grid';
+    g.style.left = x + 'px';
+    inner.appendChild(g);
+    cur = new Date(cur.getFullYear(), cur.getMonth()+1, 1);
+  }
+
+  // Today marker
+  const todayPx = px(TODAY);
+  const todayEl = document.getElementById('tl-today');
+  todayEl.style.left = todayPx + 'px';
+
+  // Label column (separate DOM, synced heights)
+  const labelsEl = document.getElementById('tl-labels');
+  labelsEl.innerHTML = '';
+
+  const rows = document.getElementById('tl-rows');
+  rows.innerHTML = '';
+
+  const tip = document.getElementById('tip');
+  document.addEventListener('mousemove', e => {
+    tip.style.left = (e.clientX + 14) + 'px';
+    tip.style.top  = (e.clientY - 34) + 'px';
+  });
+
+  confs.forEach(c => {
+    // Label (left sticky column)
+    const lbl = document.createElement('div');
+    lbl.className = 'tl-lbl';
+    lbl.textContent = c.key;
+    lbl.title = c.full_name || c.key;
+    labelsEl.appendChild(lbl);
+
+    // Chart row
+    const row = document.createElement('div'); row.className = 'tl-row';
+    const trk = document.createElement('div'); trk.className = 'tl-track';
+    trk.style.width = TOTAL_PX + 'px';
+
+    // Conference window bar
+    const cs = parseDate(c.conf_start), ce = parseDate(c.conf_end);
+    if (cs && ce) {
+      const bar = document.createElement('div'); bar.className = 'tl-bar';
+      const left = px(cs), right = px(ce);
+      bar.style.left  = left + 'px';
+      bar.style.width = Math.max(4, right - left) + 'px';
+      trk.appendChild(bar);
+    }
+
+    // Deadline dots
+    const LABELS = {research:'Research', short:'Short/NIER', tools:'Tools', doctoral:'Doctoral'};
+    ['research','short','tools','doctoral'].forEach(type => {
+      const t = trackFor(c, type); if (!t?.submission) return;
+      const d = parseDate(t.submission); if (!d) return;
+      const x = px(d); if (x === null) return;
+      const ev = document.createElement('div'); ev.className = 'tl-ev';
+      ev.style.left = x + 'px';
+      const dot = document.createElement('div');
+      dot.className = 'tl-dot ' + type + (d < TODAY ? ' past' : '');
+      ev.appendChild(dot);
+      const days = daysFrom(d);
+      const dStr = d < TODAY ? 'past' : days === 0 ? 'TODAY' : `in ${days}d`;
+      ev.addEventListener('mouseenter', () => {
+        tip.textContent = `${c.key} · ${LABELS[type]}: ${fmtFull(d)} (${dStr})`;
+        tip.classList.add('show');
+      });
+      ev.addEventListener('mouseleave', () => tip.classList.remove('show'));
+      trk.appendChild(ev);
+    });
+
+    row.appendChild(trk);
+    rows.appendChild(row);
+  });
+
+  // Scroll to show today (center today in the 6-month window)
+  // Sync label column top-padding to actual rendered axis height
+  const axisEl = document.getElementById('tl-axis');
+  requestAnimationFrame(() => {
+    document.getElementById('tl-labels').style.paddingTop = axisEl.offsetHeight + 'px';
+  });
+
+  const chart = document.getElementById('tl-chart');
+  chart.style.maxWidth = '100%';
+  chart.scrollLeft = Math.max(0, todayPx - PX_PER_DAY * 30);
+}
+
+// ── Year selector ─────────────────────────────────────────────────────────────
+function setYear(year) {
+  CURRENT_YEAR = year;
+  const srch = document.getElementById('conf-search');
+  if (srch) srch.value = '';
+  if (CURRENT_YEAR !== year) {
+    SORT_COL = null; SORT_DIR = 'asc';
+    ['date','research','short','tools','doctoral'].forEach(c => {
+      const el = document.getElementById('si-' + c); if (el) el.className = 'sort-ind';
+    });
+  }
+  document.querySelectorAll('.year-btn').forEach(b=>
+    b.classList.toggle('active', parseInt(b.dataset.year)===year)
+  );
+  const confs = (year ? ALL_DATA.filter(c=>c.year===year) : ALL_DATA)
+    .slice()
+    .sort((a,b) => {
+      const da = a.conf_start ? new Date(a.conf_start) : null;
+      const db = b.conf_start ? new Date(b.conf_start) : null;
+      if (!da && !db) return 0;
+      if (!da) return 1;
+      if (!db) return -1;
+      return da - db;
+    });
+  buildTable(confs); buildTimeline(confs);
+  const latest = confs.map(c=>c.last_updated).filter(Boolean).sort().at(-1);
+  document.getElementById('updated-info').textContent = latest
+    ? 'Updated ' + new Date(latest).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})
+    : '';
+}
+
+// ── Load data ─────────────────────────────────────────────────────────────────
+async function loadData(keepBadges=false) {
+  if (!keepBadges) _newKeys.clear();
+  const [years, confs] = await Promise.all([
+    fetch('/api/years').then(r=>r.json()),
+    fetch('/api/conferences').then(r=>r.json()),
+  ]);
+  ALL_DATA = confs;
+
+  const container = document.getElementById('year-btns');
+  const prev = CURRENT_YEAR;
+  container.innerHTML = '';
+
+  // "All" button
+  const all = document.createElement('button');
+  all.className='btn year-btn'; all.textContent='All'; all.dataset.year='0';
+  all.onclick=()=>setYear(null); container.appendChild(all);
+
+  years.forEach(y=>{
+    const b=document.createElement('button');
+    b.className='btn year-btn'; b.textContent=y; b.dataset.year=y;
+    b.onclick=()=>setYear(y); container.appendChild(b);
+  });
+
+  const yr = prev ?? (years.includes(new Date().getFullYear()) ? new Date().getFullYear() : years[0]);
+  setYear(yr);
+}
+
+// ── Toast helpers ─────────────────────────────────────────────────────────────
+let _dismissTimer=null, _pollTimer=null;
+
+function showToast(title, step='', state='running') {
+  const t=document.getElementById('toast');
+  document.getElementById('toast-title').textContent=title;
+  document.getElementById('toast-step').textContent=step;
+  document.getElementById('toast-summary').style.display='none';
+  document.getElementById('toast-icon').textContent=state==='success'?'✓':state==='error'?'✕':'↻';
+  t.className='toast show'+(state!=='running'?' '+state:'');
+}
+function bumpBar() {
+  const f=document.getElementById('toast-fill');
+  f.style.width=Math.min(parseFloat(f.style.width||0)+7, 90)+'%';
+}
+function finishToast(title, summary, state='success') {
+  document.getElementById('toast-title').textContent=title;
+  document.getElementById('toast-step').textContent='';
+  document.getElementById('toast-icon').textContent=state==='success'?'✓':'✕';
+  const s=document.getElementById('toast-summary'); s.textContent=summary; s.style.display='block';
+  document.getElementById('toast').className='toast show '+state;
+  _dismissTimer=setTimeout(hideToast, 4500);
+}
+function hideToast() {
+  clearTimeout(_dismissTimer);
+  document.getElementById('toast').classList.remove('show');
+  document.getElementById('toast-fill').style.width='0%';
+}
+
+// ── Refresh ───────────────────────────────────────────────────────────────────
+async function startRefresh() {
+  const btn=document.getElementById('refresh-btn');
+  const icon=document.getElementById('refresh-icon');
+  btn.disabled=true; icon.className='spin';
+  clearTimeout(_dismissTimer); clearInterval(_pollTimer);
+  document.getElementById('toast-fill').style.width='4%';
+  showToast('Refreshing & discovering…','Starting…');
+
+  const qs = CURRENT_YEAR ? `?year=${CURRENT_YEAR}` : '';
+  try {
+    const r = await fetch('/api/refresh'+qs, {method:'POST'});
+    if (!r.ok) { const e=await r.json(); finishToast('Failed',e.detail||'Error','error'); btn.disabled=false; icon.className=''; return; }
+  } catch(e) { finishToast('Failed',e.message,'error'); btn.disabled=false; icon.className=''; return; }
+
+  let lastLen=0;
+  _pollTimer=setInterval(async()=>{
+    try {
+      const s=await fetch('/api/refresh/status').then(r=>r.json());
+      if (s.log.length>lastLen) { document.getElementById('toast-step').textContent=s.log.at(-1); lastLen=s.log.length; bumpBar(); }
+      if (!s.running) {
+        clearInterval(_pollTimer); btn.disabled=false; icon.className='';
+        if (s.discovered>0) {
+          const fresh=await fetch('/api/conferences').then(r=>r.json());
+          const old=new Set(ALL_DATA.map(c=>c.key));
+          fresh.forEach(c=>{ if(!old.has(c.key)) _newKeys.add(c.key); });
+          ALL_DATA=fresh;
+        }
+        const parts=[];
+        if(s.updated>0)    parts.push(`${s.updated} updated`);
+        if(s.discovered>0) parts.push(`${s.discovered} new discovered`);
+        finishToast('Done!', parts.join(' · ')||'Nothing changed');
+        loadData(true);
+      }
+    } catch {}
+  }, 1500);
+}
+
+// ── Settings panel ────────────────────────────────────────────────────────────
+function openPanel()  { document.getElementById('overlay').classList.add('open'); document.getElementById('panel').classList.add('open'); loadSeriesList(); }
+function closePanel() { document.getElementById('overlay').classList.remove('open'); document.getElementById('panel').classList.remove('open'); }
+
+async function loadSettings() {
+  const s = await fetch('/api/settings').then(r=>r.json());
+  const sel = document.getElementById('year-range-sel');
+  if (sel) sel.value = s.year_range || '2';
+  HIDE_PAST = s.hide_past === '1' || s.hide_past === true;
+  const chk = document.getElementById('hide-past-chk');
+  if (chk) chk.checked = HIDE_PAST;
+}
+
+async function saveHidePast(checked) {
+  HIDE_PAST = checked;
+  await fetch('/api/settings/hide_past', {
+    method:'PUT', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({value: checked ? '1' : '0'})
+  });
+  setYear(CURRENT_YEAR);
+}
+
+async function saveYearRange() {
+  const val = document.getElementById('year-range-sel').value;
+  await fetch('/api/settings/year_range', {
+    method:'PUT', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({value: val})
+  });
+  const msg=document.getElementById('settings-msg');
+  msg.textContent='✓ Saved'; setTimeout(()=>msg.textContent='', 2500);
+}
+
+async function loadSeriesList() {
+  const list = await fetch('/api/series').then(r=>r.json());
+  const el   = document.getElementById('series-list');
+  el.innerHTML = '';
+  list.filter(s=>s.active).forEach(s => {
+    const item = document.createElement('div'); item.className='series-item';
+    item.innerHTML = `
+      <div>
+        <span class="series-item-name">${s.display}</span>
+        <span class="series-item-slug">${s.slug}</span>
+      </div>
+      <button class="btn danger" style="padding:.15rem .45rem;font-size:.68rem" onclick="removeSeries('${s.slug}')">✕</button>
+    `;
+    el.appendChild(item);
+  });
+  if (!list.filter(s=>s.active).length) el.innerHTML='<div style="color:var(--muted);font-size:.76rem">No active series.</div>';
+}
+
+async function removeSeries(slug) {
+  await fetch(`/api/series/${slug}`, {method:'DELETE'});
+  loadSeriesList();
+}
+
+function clearTestResult() { document.getElementById('series-test-result').textContent=''; }
+
+async function testSeries() {
+  const slug   = document.getElementById('new-slug').value.trim().toLowerCase();
+  const result = document.getElementById('series-test-result');
+  if (!slug) { result.style.color='var(--hot-tx)'; result.textContent='Enter a slug first.'; return; }
+  result.textContent = 'Checking…'; result.style.color='var(--muted)';
+  const r = await fetch('/api/series', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({slug, display: slug.toUpperCase(), full_name: ''})
+  });
+  const data = await r.json();
+  if (data.valid_on_researchr) {
+    result.style.color='var(--open-tx)';
+    result.textContent='✓ Found on conf.researchr.org — added!';
+    loadSeriesList();
+  } else {
+    result.style.color='var(--soon-tx)';
+    result.textContent='⚠ Added but series not found on conf.researchr.org — may not yield results.';
+    loadSeriesList();
+  }
+  document.getElementById('new-slug').value='';
+  document.getElementById('new-display').value='';
+  document.getElementById('new-fullname').value='';
+}
+
+async function addSeries() {
+  const slug     = document.getElementById('new-slug').value.trim().toLowerCase();
+  const display  = document.getElementById('new-display').value.trim();
+  const fullname = document.getElementById('new-fullname').value.trim();
+  const result   = document.getElementById('series-test-result');
+  if (!slug)    { result.style.color='var(--hot-tx)'; result.textContent='Slug is required.'; return; }
+  if (!display) { result.style.color='var(--hot-tx)'; result.textContent='Display name is required.'; return; }
+  result.textContent='Adding…'; result.style.color='var(--muted)';
+  const r = await fetch('/api/series', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({slug, display, full_name: fullname})
+  });
+  const data = await r.json();
+  result.style.color = data.valid_on_researchr ? 'var(--open-tx)' : 'var(--soon-tx)';
+  result.textContent = data.valid_on_researchr
+    ? `✓ "${display}" added and verified on conf.researchr.org`
+    : `⚠ "${display}" added — not verified on conf.researchr.org`;
+  document.getElementById('new-slug').value='';
+  document.getElementById('new-display').value='';
+  document.getElementById('new-fullname').value='';
+  loadSeriesList();
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+loadData();
+loadSettings();
+</script>
+</body>
+</html>
