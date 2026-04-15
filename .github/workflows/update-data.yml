@@ -1,0 +1,37 @@
+name: Update conference data
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'   # every Sunday at 03:00 UTC
+  workflow_dispatch:        # manual trigger (refresh button)
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install httpx beautifulsoup4 lxml
+
+      - name: Generate data.json
+        run: python generate_data.py
+        env:
+          YEAR_RANGE: 2
+
+      - name: Commit updated data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "chore: refresh conference data $(date -u +%Y-%m-%d)"
+          git push
