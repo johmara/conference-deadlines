@@ -8,7 +8,7 @@
     "conf_end": "2026-03-20",
     "url": "https://conf.researchr.org/home/saner-2026",
     "dates_url": "https://conf.researchr.org/dates/saner-2026",
-    "last_updated": "2026-04-17T08:50:24.906325",
+    "last_updated": "2026-04-17T09:01:56.216436",
     "tracks": [
       {
         "track_type": "other",
@@ -84,7 +84,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/cain-2026",
     "dates_url": "https://conf.researchr.org/dates/cain-2026",
-    "last_updated": "2026-04-17T08:50:23.611841",
+    "last_updated": "2026-04-17T09:01:54.821334",
     "tracks": [
       {
         "track_type": "short",
@@ -132,7 +132,7 @@
     "conf_end": "2026-04-13",
     "url": "https://conf.researchr.org/home/icpc-2026",
     "dates_url": "https://conf.researchr.org/dates/icpc-2026",
-    "last_updated": "2026-04-17T08:50:24.128335",
+    "last_updated": "2026-04-17T09:01:55.449871",
     "tracks": [
       {
         "track_type": "research",
@@ -180,7 +180,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/icse-2026",
     "dates_url": "https://conf.researchr.org/dates/icse-2026",
-    "last_updated": "2026-04-17T08:50:24.445974",
+    "last_updated": "2026-04-17T09:01:55.750293",
     "tracks": [
       {
         "track_type": "other",
@@ -788,7 +788,7 @@
     "conf_end": "2026-04-14",
     "url": "https://conf.researchr.org/home/msr-2026",
     "dates_url": "https://conf.researchr.org/dates/msr-2026",
-    "last_updated": "2026-04-17T08:50:24.852328",
+    "last_updated": "2026-04-17T09:01:56.163227",
     "tracks": [
       {
         "track_type": "other",
@@ -857,7 +857,7 @@
     "conf_end": "2026-05-08",
     "url": "https://conf.researchr.org/home/icsa-2026",
     "dates_url": "https://conf.researchr.org/dates/icsa-2026",
-    "last_updated": "2026-04-17T08:50:24.182489",
+    "last_updated": "2026-04-17T09:01:55.504132",
     "tracks": [
       {
         "track_type": "other",
@@ -954,7 +954,7 @@
     "conf_end": "2026-05-22",
     "url": "https://conf.researchr.org/home/icst-2026",
     "dates_url": "https://conf.researchr.org/dates/icst-2026",
-    "last_updated": "2026-04-17T08:50:24.620208",
+    "last_updated": "2026-04-17T09:01:55.924541",
     "tracks": [
       {
         "track_type": "other",
@@ -1128,7 +1128,7 @@
     "conf_end": "2026-06-12",
     "url": "https://conf.researchr.org/home/ease-2026",
     "dates_url": "https://conf.researchr.org/dates/ease-2026",
-    "last_updated": "2026-04-17T08:50:23.693913",
+    "last_updated": "2026-04-17T09:01:54.886540",
     "tracks": [
       {
         "track_type": "other",
@@ -1260,7 +1260,7 @@
     "conf_end": "2026-07-03",
     "url": "https://conf.researchr.org/home/ecoop-2026",
     "dates_url": "https://conf.researchr.org/dates/ecoop-2026",
-    "last_updated": "2026-04-17T08:50:23.780307",
+    "last_updated": "2026-04-17T09:01:55.036809",
     "tracks": [
       {
         "track_type": "doctoral",
@@ -1385,7 +1385,7 @@
     "conf_end": "2026-07-09",
     "url": "https://conf.researchr.org/home/fse-2026",
     "dates_url": "https://conf.researchr.org/dates/fse-2026",
-    "last_updated": "2026-04-17T08:50:23.957918",
+    "last_updated": "2026-04-17T09:01:55.213987",
     "tracks": [
       {
         "track_type": "research",
@@ -1554,12 +1554,12 @@
     "key": "SSBSE 2026",
     "year": 2026,
     "full_name": "Intl. Symposium on Search-Based Software Engineering",
-    "location": "Montreal, Canada (co-located FSE)",
+    "location": "Montreal, Canada",
     "conf_start": "2026-07-05",
     "conf_end": "2026-07-06",
     "url": "https://conf.researchr.org/home/ssbse-2026",
     "dates_url": "https://conf.researchr.org/dates/ssbse-2026",
-    "last_updated": "2026-04-17T08:50:25.192956",
+    "last_updated": "2026-04-17T09:01:56.575405",
     "tracks": [
       {
         "track_type": "research",
@@ -1600,7 +1600,7 @@
     "conf_end": "2026-09-18",
     "url": "https://conf.researchr.org/home/icsme-2026",
     "dates_url": "https://conf.researchr.org/dates/icsme-2026",
-    "last_updated": "2026-04-17T08:50:24.553565",
+    "last_updated": "2026-04-17T09:01:55.858504",
     "tracks": [
       {
         "track_type": "research",
@@ -1676,7 +1676,7 @@
     "conf_end": "2026-09-18",
     "url": "https://conf.researchr.org/home/scam-2026",
     "dates_url": "https://conf.researchr.org/dates/scam-2026",
-    "last_updated": "2026-04-17T08:50:25.014972",
+    "last_updated": "2026-04-17T09:01:56.320710",
     "tracks": [
       {
         "track_type": "research",
@@ -1696,7 +1696,7 @@
     "conf_end": "2026-10-02",
     "url": "https://conf.researchr.org/home/variability-2026",
     "dates_url": "https://conf.researchr.org/dates/variability-2026",
-    "last_updated": "2026-04-17T08:50:25.242815",
+    "last_updated": "2026-04-17T09:01:56.624234",
     "tracks": [
       {
         "track_type": "research",
@@ -1765,7 +1765,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/issta-2026",
     "dates_url": "https://conf.researchr.org/dates/issta-2026",
-    "last_updated": "2026-04-17T08:50:24.728398",
+    "last_updated": "2026-04-17T09:01:56.044819",
     "tracks": [
       {
         "track_type": "research",
@@ -1904,7 +1904,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/esem-2026",
     "dates_url": "https://conf.researchr.org/dates/esem-2026",
-    "last_updated": "2026-04-17T08:50:23.865365",
+    "last_updated": "2026-04-17T09:01:55.131870",
     "tracks": [
       {
         "track_type": "research",
@@ -1959,7 +1959,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/models-2026",
     "dates_url": "https://conf.researchr.org/dates/models-2026",
-    "last_updated": "2026-04-17T08:50:24.784113",
+    "last_updated": "2026-04-17T09:01:56.102151",
     "tracks": [
       {
         "track_type": "research",
@@ -2035,7 +2035,7 @@
     "conf_end": "2026-10-16",
     "url": "https://conf.researchr.org/home/ase-2026",
     "dates_url": "https://conf.researchr.org/dates/ase-2026",
-    "last_updated": "2026-04-17T08:50:23.525090",
+    "last_updated": "2026-04-17T09:01:54.759760",
     "tracks": [
       {
         "track_type": "short",
@@ -2117,7 +2117,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/gpce-2026",
     "dates_url": "https://conf.researchr.org/dates/gpce-2026",
-    "last_updated": "2026-04-17T08:50:24.067475",
+    "last_updated": "2026-04-17T09:01:55.392506",
     "tracks": [
       {
         "track_type": "other",
@@ -2137,7 +2137,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/sle-2026",
     "dates_url": "https://conf.researchr.org/dates/sle-2026",
-    "last_updated": "2026-04-17T08:50:25.068786",
+    "last_updated": "2026-04-17T09:01:56.376815",
     "tracks": [
       {
         "track_type": "other",
@@ -2157,7 +2157,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/splash-2026",
     "dates_url": "https://conf.researchr.org/dates/splash-2026",
-    "last_updated": "2026-04-17T08:50:25.140604",
+    "last_updated": "2026-04-17T09:01:56.456085",
     "tracks": [
       {
         "track_type": "research",
@@ -2337,7 +2337,7 @@
     "conf_end": "2027-05-01",
     "url": "https://conf.researchr.org/home/icse-2027",
     "dates_url": "https://conf.researchr.org/dates/icse-2027",
-    "last_updated": "2026-04-17T08:50:24.501877",
+    "last_updated": "2026-04-17T09:01:55.808544",
     "tracks": [
       {
         "track_type": "other",
@@ -2437,11 +2437,11 @@
     "year": 2027,
     "full_name": "ACM Foundations of Software Engineering (ESEC/FSE)",
     "location": null,
-    "conf_start": null,
-    "conf_end": null,
+    "conf_start": "2027-07-12",
+    "conf_end": "2027-07-16",
     "url": "https://conf.researchr.org/home/fse-2027",
     "dates_url": "https://conf.researchr.org/dates/fse-2027",
-    "last_updated": "2026-04-17T08:50:24.004862",
+    "last_updated": "2026-04-17T09:01:55.330602",
     "tracks": [
       {
         "track_type": "research",
@@ -2461,7 +2461,7 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/icsa-2027",
     "dates_url": "https://conf.researchr.org/dates/icsa-2027",
-    "last_updated": "2026-04-17T08:50:24.249137",
+    "last_updated": "2026-04-17T09:01:55.597243",
     "tracks": [
       {
         "track_type": "other",

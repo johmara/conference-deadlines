@@ -82,12 +82,15 @@ def _load_seed() -> list[dict]:
 # ── Scraper helpers ───────────────────────────────────────────────────────────
 
 DATE_RE = re.compile(
-    r'(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[,.\s]+(\d{1,2})\s+'
-    r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})',
+    r'(?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[,.\s]+)?'   # optional weekday prefix
+    r'(\d{1,2})\s+'
+    r'(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|'
+    r'Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+'
+    r'(\d{4})',
     re.IGNORECASE,
 )
-MONTH = dict(Jan=1, Feb=2, Mar=3, Apr=4, May=5, Jun=6,
-             Jul=7, Aug=8, Sep=9, Oct=10, Nov=11, Dec=12)
+MONTH = {'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
+         'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12}
 
 TRACK_TYPES = {
     "research": ["research", "technical", "full paper", "regular paper", "main track",
@@ -116,7 +119,7 @@ def _parse_date(text: str) -> Optional[str]:
     if not m:
         return None
     day   = int(m.group(1))
-    month = MONTH[m.group(2).capitalize()]
+    month = MONTH[m.group(2).lower()[:3]]
     year  = int(m.group(3))
     return f"{year:04d}-{month:02d}-{day:02d}"
 
@@ -224,6 +227,34 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[d
     ]
 
 
+CITY_COUNTRY_RE = re.compile(
+    r'\b([A-Z][a-zA-Z\s]{2,25}),\s*([A-Z][a-zA-Z\s]{2,20})\b'
+)
+
+_MON = (r'Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|'
+        r'Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?')
+_WD  = r'(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[,.\s]+'
+
+# Same-month range: "Sun 5 - Mon 6 July 2026"
+DATE_RANGE_RE = re.compile(
+    rf'{_WD}(\d{{1,2}})\s*[-–]\s*(?:{_WD})?(\d{{1,2}})\s+({_MON})\s+(\d{{4}})',
+    re.IGNORECASE,
+)
+# Cross-month range: "Mon 29 June - Fri 3 July 2026"
+DATE_RANGE_CROSS_RE = re.compile(
+    rf'{_WD}(\d{{1,2}})\s+({_MON})\s*[-–]\s*(?:{_WD})?(\d{{1,2}})\s+({_MON})\s+(\d{{4}})',
+    re.IGNORECASE,
+)
+
+# Country names to validate City, Country matches
+COUNTRIES = {
+    "australia", "austria", "belgium", "brazil", "canada", "china", "denmark",
+    "finland", "france", "germany", "greece", "india", "ireland", "italy",
+    "japan", "korea", "netherlands", "norway", "portugal", "singapore",
+    "spain", "sweden", "switzerland", "uk", "usa", "united states", "united kingdom",
+}
+
+
 async def _fetch_conf_page(client: httpx.AsyncClient, home_url: str) -> dict:
     """Extract location and dates from a conference homepage."""
     meta: dict = {}
@@ -237,12 +268,24 @@ async def _fetch_conf_page(client: httpx.AsyncClient, home_url: str) -> dict:
 
     # ── Location ──────────────────────────────────────────────────────────────
     text = soup.get_text(" ")
+
+    # Strategy 1: keyword-anchored pattern (held in / venue / location: ...)
     loc_m = re.search(
         r'(?:held|take[s]? place|located|venue|location)[^\n]{0,60}?([A-Z][a-zA-Z\s]+,\s*[A-Z][a-zA-Z\s]+)',
         text
     )
     if loc_m:
         meta["location"] = loc_m.group(1).strip()
+    else:
+        # Strategy 2: look for <a> or <div> tags containing "City, Country" directly
+        for el in soup.find_all(["a", "div", "span", "p"], string=CITY_COUNTRY_RE):
+            if el.parent and el.parent.name in ("script", "style"):
+                continue
+            el_text = (el.get_text(" ", strip=True) if not isinstance(el, str) else str(el))
+            m = CITY_COUNTRY_RE.search(el_text)
+            if m and m.group(2).strip().lower() in COUNTRIES:
+                meta["location"] = f"{m.group(1).strip()}, {m.group(2).strip()}"
+                break
 
     # ── Conference dates ───────────────────────────────────────────────────────
     from datetime import date as _date
@@ -252,6 +295,9 @@ async def _fetch_conf_page(client: httpx.AsyncClient, home_url: str) -> dict:
         if len(ds) < 2:
             return True
         return (_date.fromisoformat(ds[-1]) - _date.fromisoformat(ds[0])).days <= 14
+
+    def _iso(d: str, m: str, y: str) -> str:
+        return f"{int(y):04d}-{MONTH[m.lower()[:3]]:02d}-{int(d):02d}"
 
     # Strategy 1: look for the "When:" row in the researchr sidebar/info table.
     # Skip script/style nodes — "When" appears in JS strings too, giving false matches.
@@ -266,8 +312,7 @@ async def _fetch_conf_page(client: httpx.AsyncClient, home_url: str) -> dict:
                 break
             chunk = parent.get_text(" ", strip=True)
             found = sorted({
-                f"{int(y):04d}-{MONTH[m.capitalize()]:02d}-{int(d):02d}"
-                for d, m, y in DATE_RE.findall(chunk)
+                _iso(d, m, y) for d, m, y in DATE_RE.findall(chunk)
             })
             if found and _dates_sane(found):
                 when_dates = found
@@ -278,11 +323,26 @@ async def _fetch_conf_page(client: httpx.AsyncClient, home_url: str) -> dict:
         meta["conf_start"] = when_dates[0]
         meta["conf_end"]   = when_dates[-1]
     else:
-        # Strategy 2: all dates on page — but sanity-check the span.
-        # A real conference window is ≤ 14 days; longer means we caught deadlines.
+        # Strategy 2: look for date-range elements (same-month or cross-month)
+        for el in soup.find_all(["div", "span", "p", "td", "li"]):
+            chunk = el.get_text(" ", strip=True)
+            rm = DATE_RANGE_RE.search(chunk)
+            if rm:
+                day1, day2, mon, year = rm.group(1), rm.group(2), rm.group(3), rm.group(4)
+                meta["conf_start"] = _iso(day1, mon, year)
+                meta["conf_end"]   = _iso(day2, mon, year)
+                break
+            rm2 = DATE_RANGE_CROSS_RE.search(chunk)
+            if rm2:
+                day1, mon1, day2, mon2, year = rm2.groups()
+                meta["conf_start"] = _iso(day1, mon1, year)
+                meta["conf_end"]   = _iso(day2, mon2, year)
+                break
+
+    if "conf_start" not in meta:
+        # Strategy 3: all dates on page — sanity-check the span.
         dates = sorted({
-            f"{int(y):04d}-{MONTH[m.capitalize()]:02d}-{int(d):02d}"
-            for d, m, y in DATE_RE.findall(text)
+            _iso(d, m, y) for d, m, y in DATE_RE.findall(text)
         })
         if len(dates) >= 2 and _dates_sane(dates):
             meta["conf_start"] = dates[0]
@@ -409,6 +469,17 @@ async def _main_async() -> None:
                 _log(f"  {key}: no dates_url, skipping")
                 continue
             _log(f"  Fetching {key} — {dates_url}")
+
+            # Re-fetch homepage if location or conf dates are still unknown
+            needs_meta = not conf.get("conf_start") or conf.get("location") in (None, "TBD")
+            if needs_meta and conf.get("url"):
+                meta = await _fetch_conf_page(client, conf["url"])
+                if meta.get("location"):
+                    conf["location"] = meta["location"]
+                if meta.get("conf_start"):
+                    conf["conf_start"] = meta["conf_start"]
+                    conf["conf_end"]   = meta.get("conf_end")
+
             scraped = await _fetch_dates_page(client, dates_url)
             if scraped:
                 conf["tracks"] = scraped
@@ -456,8 +527,18 @@ async def _main_async() -> None:
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
         f.write("\n")
-
     _log(f"\nWrote {len(output)} conferences to {out_path}")
+
+    # Write series-config.json derived from YAML so the browser can fetch it as JSON
+    series_json_path = os.path.join(os.path.dirname(__file__), "series-config.json")
+    series_yaml_path = os.path.join(os.path.dirname(__file__), "series-config.yaml")
+    if os.path.exists(series_yaml_path):
+        with open(series_yaml_path) as f:
+            series = yaml.safe_load(f)
+        with open(series_json_path, "w", encoding="utf-8") as f:
+            json.dump(series, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        _log(f"Wrote {series_json_path}")
 
 
 def main() -> None:
