@@ -352,10 +352,10 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
     <!-- Missing conference -->
     <div class="panel-section">
       <h3>Missing a conference?</h3>
-      <p>Add the series slug to <code style="font-size:.75rem;background:#f1f5f9;padding:.1rem .3rem;border-radius:3px">series-config.json</code> — the scraper handles the rest automatically.</p>
-      <a href="https://github.com/johmara/conference-deadlines/edit/main/series-config.json"
+      <p>Add the series slug to <code style="font-size:.75rem;background:#f1f5f9;padding:.1rem .3rem;border-radius:3px">series-config.yaml</code> — the scraper handles the rest automatically.</p>
+      <a href="https://github.com/johmara/conference-deadlines/edit/main/series-config.yaml"
          target="_blank" rel="noopener" class="btn primary" style="width:100%;justify-content:center;margin-top:.2rem">
-        Edit series-config.json on GitHub
+        Edit series-config.yaml on GitHub
       </a>
       <a href="https://github.com/johmara/conference-deadlines/compare/main...main?quick_pull=1&template=pull_request_template.md"
          target="_blank" rel="noopener" class="btn" style="width:100%;justify-content:center;margin-top:.4rem">
@@ -687,7 +687,7 @@ function buildTimeline(confsIn) {
 
 // ── GitHub PAT helpers ────────────────────────────────────────────────────────
 // ── Series filter (localStorage) ─────────────────────────────────────────────
-// ALL_SERIES: full list from series-config.json (fetched once)
+// ALL_SERIES: derived from data.json after load
 // HIDDEN_SERIES: set of slugs the user has unchecked (stored in localStorage)
 
 let ALL_SERIES = [];
@@ -709,15 +709,6 @@ function getActiveDisplaySet() {
 }
 
 async function loadSeriesList() {
-  // Fetch series-config.json to get the authoritative list
-  try {
-    const resp = await fetch('series-config.json?_=' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      if (Array.isArray(data)) ALL_SERIES = data;
-    }
-  } catch(e) { /* use whatever ALL_SERIES already has */ }
-
   const hidden = getHiddenSeries();
   const el = document.getElementById('series-filter-list');
   el.innerHTML = '';
@@ -907,6 +898,15 @@ async function loadData(keepBadges=false) {
 
   ALL_DATA = Array.isArray(confs) ? confs : [];
 
+  // Derive series list from data — no separate series-config fetch needed
+  const seen = new Map();
+  for (const c of ALL_DATA) {
+    const display = c.key.replace(/\s+\d{4}$/, '').trim();
+    if (!seen.has(display))
+      seen.set(display, { slug: display.toLowerCase(), display, full_name: c.full_name || '' });
+  }
+  ALL_SERIES = [...seen.values()].sort((a, b) => a.display.localeCompare(b.display));
+
   // Compute available years from data, filtered by year_range setting
   const settings = getSettings();
   const yearRange = parseInt(settings.year_range, 10) || 2;
@@ -991,12 +991,7 @@ setInterval(() => {
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 loadSettings();
-// Load series config first so getActiveDisplaySet() works when loadData() renders
-fetch('series-config.json')
-  .then(r => r.ok ? r.json() : null)
-  .then(data => { if (Array.isArray(data)) ALL_SERIES = data; })
-  .catch(() => {})
-  .finally(() => loadData());
+loadData();
 </script>
 </body>
 </html>

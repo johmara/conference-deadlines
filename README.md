@@ -39,8 +39,8 @@
 ### 📡 Data Pipeline
 - 🤖 **Auto-Scraper** — Pulls dates from conf.researchr.org
 - 🔄 **GitHub Actions** — Refreshes `data.json` on a schedule
-- 🌱 **Seed Fallback** — `conferences-seed.json` covers gaps
-- ⚙️ **Configurable** — Add/remove series via `series-config.json`
+- 🌱 **Seed Fallback** — `conferences-seed.yaml` covers gaps
+- ⚙️ **Configurable** — Add/remove series via `series-config.yaml`
 
 ### 🎨 UI/UX
 - 📱 **Responsive** — Works on all screen sizes
@@ -76,10 +76,12 @@ YEAR_RANGE=3 python generate_data.py
 
 ## ➕ Adding a Conference
 
-Edit **`series-config.json`** — that's all contributors need to touch:
+Edit **`series-config.yaml`** — that's all contributors need to touch:
 
-```json
-{ "slug": "icse", "display": "ICSE", "full_name": "IEEE/ACM Intl. Conf. on Software Engineering" }
+```yaml
+- slug: icse
+  display: ICSE
+  full_name: IEEE/ACM Intl. Conf. on Software Engineering
 ```
 
 | Field | Description |

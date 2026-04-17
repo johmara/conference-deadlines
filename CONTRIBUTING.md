@@ -30,11 +30,11 @@ pip install httpx beautifulsoup4
 python generate_data.py
 ```
 
-Verify `data.json` looks correct, then commit it alongside any changes to `series-config.json` or `conferences-seed.json`.
+Verify `data.json` looks correct, then commit it alongside any changes to `series-config.yaml` or `conferences-seed.yaml`.
 
 ## Pull request checklist
 
-- [ ] `series-config.json` entries are in alphabetical order by `slug`
+- [ ] `series-config.yaml` entries are in alphabetical order by `slug`
 - [ ] `generate_data.py` runs without errors
 - [ ] `data.json` is committed if you changed which conferences are tracked
 - [ ] PR description explains what was added/fixed and links any relevant CFP page

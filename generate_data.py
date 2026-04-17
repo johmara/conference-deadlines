@@ -529,16 +529,6 @@ async def _main_async() -> None:
         f.write("\n")
     _log(f"\nWrote {len(output)} conferences to {out_path}")
 
-    # Write series-config.json derived from YAML so the browser can fetch it as JSON
-    series_json_path = os.path.join(os.path.dirname(__file__), "series-config.json")
-    series_yaml_path = os.path.join(os.path.dirname(__file__), "series-config.yaml")
-    if os.path.exists(series_yaml_path):
-        with open(series_yaml_path) as f:
-            series = yaml.safe_load(f)
-        with open(series_json_path, "w", encoding="utf-8") as f:
-            json.dump(series, f, indent=2, ensure_ascii=False)
-            f.write("\n")
-        _log(f"Wrote {series_json_path}")
 
 
 def main() -> None:
