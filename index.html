@@ -948,7 +948,12 @@ function closePanel() {
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 loadSettings();
-loadData();
+// Load series config first so getActiveDisplaySet() works when loadData() renders
+fetch('series-config.json')
+  .then(r => r.ok ? r.json() : null)
+  .then(data => { if (Array.isArray(data)) ALL_SERIES = data; })
+  .catch(() => {})
+  .finally(() => loadData());
 </script>
 </body>
 </html>
