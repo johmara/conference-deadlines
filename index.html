@@ -98,6 +98,9 @@ td { padding: .46rem .7rem; vertical-align: middle; }
 .tag-none { color:var(--past-tx); font-size:.69rem; }
 .cdwn { font-size:.67rem; opacity:.8; font-weight:500; font-variant-numeric:tabular-nums; }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.65} }
+.dl-link { text-decoration:none; }
+.dl-link .tag { cursor:pointer; }
+.dl-link .tag:hover { filter:brightness(0.88); }
 
 /* ── Timeline ── */
 .tl-wrap {
@@ -477,7 +480,7 @@ function fmtCountdown(ms) {
   return `${mins}m`;
 }
 
-function deadlineTag(dateStr) {
+function deadlineTag(dateStr, submissionUrl) {
   if (!dateStr) return '<span class="tag-none">—</span>';
   const dlMs = deadlineMs(dateStr);
   const dlDate = new Date(dlMs);
@@ -494,10 +497,15 @@ function deadlineTag(dateStr) {
   const tip = `${localDl} (original: 23:59 AoE / UTC−12)`;
 
   const cdwnHtml = cdwn ? ` <small class="cdwn">${cdwn}</small>` : '';
-  if (dlMs <= Date.now()) return `<span class="tag tag-past" title="${tip}">✕ ${lbl}</span>`;
-  if (days <= 13) return `<span class="tag tag-hot"  title="${tip}">▲ ${lbl}${cdwnHtml}</span>`;
-  if (days <= 42) return `<span class="tag tag-soon" title="${tip}">● ${lbl}${cdwnHtml}</span>`;
-  return `<span class="tag tag-open" title="${tip}">● ${lbl}${cdwnHtml}</span>`;
+  let tag;
+  if (dlMs <= Date.now()) tag = `<span class="tag tag-past" title="${tip}">✕ ${lbl}</span>`;
+  else if (days <= 13)    tag = `<span class="tag tag-hot"  title="${tip}">▲ ${lbl}${cdwnHtml}</span>`;
+  else if (days <= 42)    tag = `<span class="tag tag-soon" title="${tip}">● ${lbl}${cdwnHtml}</span>`;
+  else                    tag = `<span class="tag tag-open" title="${tip}">● ${lbl}${cdwnHtml}</span>`;
+  if (submissionUrl) {
+    return `<a href="${submissionUrl}" target="_blank" rel="noopener" class="dl-link">${tag}</a>`;
+  }
+  return tag;
 }
 
 const trackFor    = (c, type) => c.tracks.find(t=>t.track_type===type) || null;
@@ -560,6 +568,10 @@ function buildTable(confs) {
     const past = confIsPast(c);
     const live = confIsLive(c);
     const [r,s,t,d] = ['research','short','tools','doctoral'].map(x=>trackFor(c,x));
+    const rUrl = r?.submission_url || c.submission_url || null;
+    const sUrl = s?.submission_url || c.submission_url || null;
+    const tUrl = t?.submission_url || c.submission_url || null;
+    const dUrl = d?.submission_url || c.submission_url || null;
     const nameEl = c.url ? `<a href="${c.url}" target="_blank" rel="noopener">${c.key}</a>` : c.key;
     const badges = (live ? '<span class="live-badge">LIVE</span>' : '') +
                    (_newKeys.has(c.key) ? '<span class="new-badge">new</span>' : '');
@@ -579,10 +591,10 @@ function buildTable(confs) {
         ${noteBtn}
       </td>
       <td style="${past&&!live?'color:var(--past-tx)':''}; white-space:nowrap; font-size:.7rem">${confDateLbl(c)}</td>
-      <td title="${r?.track_name||''}">${deadlineTag(r?.submission)}</td>
-      <td title="${s?.track_name||''}">${deadlineTag(s?.submission)}</td>
-      <td title="${t?.track_name||''}">${deadlineTag(t?.submission)}</td>
-      <td title="${d?.track_name||''}">${deadlineTag(d?.submission)}</td>
+      <td title="${r?.track_name||''}">${deadlineTag(r?.submission, rUrl)}</td>
+      <td title="${s?.track_name||''}">${deadlineTag(s?.submission, sUrl)}</td>
+      <td title="${t?.track_name||''}">${deadlineTag(t?.submission, tUrl)}</td>
+      <td title="${d?.track_name||''}">${deadlineTag(d?.submission, dUrl)}</td>
     `;
     tbody.appendChild(tr);
   });

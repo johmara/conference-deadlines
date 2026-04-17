@@ -142,6 +142,16 @@ def _classify_label(label: str) -> Optional[str]:
     return None
 
 
+PORTAL_DOMAINS = ("easychair.org", "hotcrp.com", "openreview.net",
+                  "cmt3.research.microsoft.com", "softconf.com")
+
+def _extract_portal_url(row_el) -> Optional[str]:
+    for a in row_el.find_all("a", href=True):
+        if any(d in a["href"] for d in PORTAL_DOMAINS):
+            return a["href"]
+    return None
+
+
 async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[dict]:
     """
     Scrape a conf.researchr.org/dates/{slug} page.
@@ -180,6 +190,10 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[d
                 tracks[track_name][slot] = min(existing, date_str)
             else:
                 tracks[track_name].setdefault(slot, date_str)
+            # Try to extract portal URL from row links (never overwrite existing)
+            scraped_url = _extract_portal_url(row)
+            if scraped_url:
+                tracks[track_name].setdefault("submission_url", scraped_url)
 
         if tracks:
             return [
@@ -189,6 +203,7 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[d
                     submission=data.get("submission"),
                     notification=data.get("notification"),
                     camera_ready=data.get("camera_ready"),
+                    submission_url=data.get("submission_url"),
                 )
                 for name, data in tracks.items()
                 if any(data.values())
@@ -496,22 +511,24 @@ async def _main_async() -> None:
     output = []
     for conf in result:
         output.append({
-            "key":          conf.get("key"),
-            "year":         conf.get("year"),
-            "full_name":    conf.get("full_name"),
-            "location":     conf.get("location"),
-            "conf_start":   conf.get("conf_start"),
-            "conf_end":     conf.get("conf_end"),
-            "url":          conf.get("url"),
-            "dates_url":    conf.get("dates_url"),
-            "last_updated": conf.get("last_updated"),
+            "key":            conf.get("key"),
+            "year":           conf.get("year"),
+            "full_name":      conf.get("full_name"),
+            "location":       conf.get("location"),
+            "conf_start":     conf.get("conf_start"),
+            "conf_end":       conf.get("conf_end"),
+            "url":            conf.get("url"),
+            "dates_url":      conf.get("dates_url"),
+            "last_updated":   conf.get("last_updated"),
+            "submission_url": conf.get("submission_url"),
             "tracks": [
                 {
-                    "track_type":   t.get("track_type"),
-                    "track_name":   t.get("track_name"),
-                    "submission":   t.get("submission"),
-                    "notification": t.get("notification"),
-                    "camera_ready": t.get("camera_ready"),
+                    "track_type":     t.get("track_type"),
+                    "track_name":     t.get("track_name"),
+                    "submission":     t.get("submission"),
+                    "notification":   t.get("notification"),
+                    "camera_ready":   t.get("camera_ready"),
+                    "submission_url": t.get("submission_url"),
                 }
                 for t in conf.get("tracks", [])
             ],

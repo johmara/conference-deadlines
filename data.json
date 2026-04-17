@@ -181,6 +181,7 @@
     "url": "https://conf.researchr.org/home/icse-2026",
     "dates_url": "https://conf.researchr.org/dates/icse-2026",
     "last_updated": "2026-04-17T09:01:55.750293",
+    "submission_url": "https://icse2026.hotcrp.com",
     "tracks": [
       {
         "track_type": "other",
@@ -1386,6 +1387,7 @@
     "url": "https://conf.researchr.org/home/fse-2026",
     "dates_url": "https://conf.researchr.org/dates/fse-2026",
     "last_updated": "2026-04-17T09:01:55.213987",
+    "submission_url": "https://fse2026.hotcrp.com",
     "tracks": [
       {
         "track_type": "research",
@@ -1766,6 +1768,7 @@
     "url": "https://conf.researchr.org/home/issta-2026",
     "dates_url": "https://conf.researchr.org/dates/issta-2026",
     "last_updated": "2026-04-17T09:01:56.044819",
+    "submission_url": "https://issta2026.hotcrp.com",
     "tracks": [
       {
         "track_type": "research",
