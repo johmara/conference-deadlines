@@ -426,8 +426,6 @@ document.getElementById('today-lbl').textContent =
 
 // ── Date helpers ──────────────────────────────────────────────────────────────
 // Deadlines are interpreted as 23:59 AoE (UTC-12) unless a time is stored
-const AOE_OFFSET_MS = -12 * 60 * 60 * 1000;
-
 function deadlineMs(dateStr, timeStr) {
   if (!dateStr) return null;
   // Build ISO string: date + time (default 23:59) + AoE offset (-12:00)
@@ -454,13 +452,20 @@ function fmtCountdown(ms) {
 
 function deadlineTag(dateStr, timeStr) {
   if (!dateStr) return '<span class="tag-none">—</span>';
-  const dlMs   = deadlineMs(dateStr, timeStr);
-  const d      = parseDate(dateStr);
-  const days   = daysFrom(d);
-  const lbl    = fmtShort(d);
-  const cdwn   = fmtCountdown(dlMs);
-  const tz     = 'AoE (UTC−12)';
-  const tip    = `${fmtFull(d)} 23:59 ${tz}`;
+  const dlMs = deadlineMs(dateStr, timeStr);
+  const dlDate = new Date(dlMs);
+  const days = Math.round((dlMs - Date.now()) / 86400000);
+  const lbl  = fmtShort(parseDate(dateStr));
+  const cdwn = fmtCountdown(dlMs);
+
+  // Show deadline in user's local timezone
+  const localDl = dlDate.toLocaleString('en-GB', {
+    day:'numeric', month:'short', year:'numeric',
+    hour:'2-digit', minute:'2-digit',
+    timeZoneName:'short'
+  });
+  const tip = `${localDl} (original: 23:59 AoE / UTC−12)`;
+
   const cdwnHtml = cdwn ? ` <small class="cdwn">${cdwn}</small>` : '';
   if (dlMs <= Date.now()) return `<span class="tag tag-past" title="${tip}">✕ ${lbl}</span>`;
   if (days <= 13) return `<span class="tag tag-hot"  title="${tip}">▲ ${lbl}${cdwnHtml}</span>`;
