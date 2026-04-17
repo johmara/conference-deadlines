@@ -24,6 +24,7 @@ from datetime import datetime
 from typing import Optional
 
 import httpx
+import yaml
 from bs4 import BeautifulSoup
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -34,11 +35,11 @@ HEADERS    = {"User-Agent": "SE-Conference-Tracker/1.0 (+research-tool)"}
 # ── Series ────────────────────────────────────────────────────────────────────
 
 def _load_series() -> list[tuple[str, str, str]]:
-    """Load series from series-config.json if present, else use hardcoded defaults."""
-    config_path = os.path.join(os.path.dirname(__file__), "series-config.json")
+    """Load series from series-config.yaml if present, else use hardcoded defaults."""
+    config_path = os.path.join(os.path.dirname(__file__), "series-config.yaml")
     if os.path.exists(config_path):
         with open(config_path) as f:
-            data = json.load(f)
+            data = yaml.safe_load(f)
         return [(s["slug"], s["display"], s.get("full_name", "")) for s in data]
     # Fallback hardcoded list
     return [
@@ -67,10 +68,10 @@ DEACTIVATED_DISPLAYS: set[str] = set()  # populated during init
 # ── Seed data ─────────────────────────────────────────────────────────────────
 
 def _load_seed() -> list[dict]:
-    """Load seed conference data from conferences-seed.json in the same directory."""
-    seed_path = os.path.join(os.path.dirname(__file__), "conferences-seed.json")
+    """Load seed conference data from conferences-seed.yaml in the same directory."""
+    seed_path = os.path.join(os.path.dirname(__file__), "conferences-seed.yaml")
     with open(seed_path, encoding="utf-8") as f:
-        entries = json.load(f)
+        entries = yaml.safe_load(f)
     result = []
     for entry in entries:
         conf = {k: v for k, v in entry.items() if k != "tracks"}

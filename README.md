@@ -98,8 +98,8 @@ Re-run `generate_data.py` to pull dates for the new entry.
 se-conferences/
 ├── index.html            # Single-page app — all UI and logic
 ├── data.json             # Scraped deadline data (auto-generated)
-├── conferences-seed.json # Hand-curated fallback / override data
-├── series-config.json    # Conference series to track
+├── conferences-seed.yaml # Hand-curated fallback / override data
+├── series-config.yaml    # Conference series to track
 └── generate_data.py      # Scraper — reads series-config, writes data.json
 ```
 
