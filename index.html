@@ -226,6 +226,9 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
   </a>
   <h1>Conference Deadlines</h1>
   <div id="year-btns"></div>
+  <button class="btn" onclick="exportIcal()" title="Export visible deadlines as iCal (.ics) — re-export after data refreshes">
+    Export .ics
+  </button>
   <span class="updated-info ml-auto" id="updated-info"></span>
   <a href="https://github.com/johmara/conference-deadlines/actions" target="_blank" rel="noopener"
      class="btn" title="Trigger a manual data refresh on GitHub Actions" style="font-size:.7rem;color:var(--muted)">↻</a>
@@ -982,6 +985,87 @@ setInterval(() => {
   const confs = (CURRENT_YEAR ? ALL_DATA.filter(c => c.year === CURRENT_YEAR) : ALL_DATA);
   buildTable(confs);
 }, 60000); // refresh every minute
+
+// ── iCal export ───────────────────────────────────────────────────────────────
+function foldIcalLine(s) {
+  // RFC 5545: lines must not exceed 75 octets; fold with CRLF + space
+  const out = [];
+  while (s.length > 75) { out.push(s.slice(0, 75)); s = ' ' + s.slice(75); }
+  out.push(s);
+  return out.join('\r\n');
+}
+
+function icalEscape(s) {
+  return String(s).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
+}
+
+function exportIcal() {
+  // Build the same filtered set that the table shows
+  const activeDisplays = getActiveDisplaySet();
+  let confs = ALL_DATA.filter(c => {
+    const key = (c.key || '').toLowerCase();
+    for (const disp of activeDisplays) {
+      if (key.startsWith(disp)) return true;
+    }
+    return false;
+  });
+  if (CURRENT_YEAR) confs = confs.filter(c => c.year === CURRENT_YEAR);
+  if (HIDE_PAST) confs = confs.filter(c => !confIsPast(c));
+
+  const lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//SE Conference Deadlines//EN',
+    'CALSCALE:GREGORIAN',
+    'X-WR-CALNAME:SE Conference Deadlines',
+  ];
+
+  const TRACK_LABELS = { research:'Research', short:'Short/NIER', tools:'Tools', doctoral:'Doctoral' };
+
+  for (const c of confs) {
+    for (const type of ['research','short','tools','doctoral']) {
+      const track = (c.tracks||[]).find(t => t.track_type === type);
+      if (!track?.submission) continue;
+
+      // Respect HIDE_PAST: skip individual past tracks too
+      if (HIDE_PAST && deadlineMs(track.submission) <= Date.now()) continue;
+
+      const dtStart = track.submission.replace(/-/g,'');
+      const uid = `${c.key.replace(/\s+/g,'-')}-${type}-${track.submission}@se-conferences`;
+      const dtStamp = new Date().toISOString().replace(/[-:.]/g,'').slice(0,15)+'Z';
+      const summary = `${c.key} \u2014 ${TRACK_LABELS[type]} deadline`;
+      const descParts = [
+        `Track: ${track.track_name}`,
+        `Deadline: 23:59 AoE (UTC-12)`,
+        c.location ? `Location: ${c.location}` : null,
+        c.url ? `Info: ${c.url}` : null,
+      ].filter(Boolean).join('\\n');
+
+      lines.push(
+        'BEGIN:VEVENT',
+        foldIcalLine(`UID:${uid}`),
+        foldIcalLine(`DTSTAMP:${dtStamp}`),
+        `DTSTART;VALUE=DATE:${dtStart}`,
+        `DTEND;VALUE=DATE:${dtStart}`,
+        foldIcalLine(`SUMMARY:${icalEscape(summary)}`),
+        foldIcalLine(`DESCRIPTION:${icalEscape(descParts)}`),
+        ...(c.url ? [foldIcalLine(`URL:${c.url}`)] : []),
+        'END:VEVENT',
+      );
+    }
+  }
+
+  lines.push('END:VCALENDAR');
+
+  const blob = new Blob([lines.join('\r\n') + '\r\n'], { type: 'text/calendar;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `se-conferences${CURRENT_YEAR ? '-'+CURRENT_YEAR : ''}.ics`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+}
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 loadSettings();
