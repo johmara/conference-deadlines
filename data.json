@@ -8,7 +8,7 @@
     "conf_end": "2026-03-20",
     "url": "https://conf.researchr.org/home/saner-2026",
     "dates_url": "https://conf.researchr.org/dates/saner-2026",
-    "last_updated": "2026-04-17T07:50:15.890053",
+    "last_updated": "2026-04-17T08:22:47.641549",
     "tracks": [
       {
         "track_type": "other",
@@ -84,7 +84,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/cain-2026",
     "dates_url": "https://conf.researchr.org/dates/cain-2026",
-    "last_updated": "2026-04-17T07:50:14.576346",
+    "last_updated": "2026-04-17T08:22:46.406442",
     "tracks": [
       {
         "track_type": "short",
@@ -132,7 +132,7 @@
     "conf_end": "2026-04-13",
     "url": "https://conf.researchr.org/home/icpc-2026",
     "dates_url": "https://conf.researchr.org/dates/icpc-2026",
-    "last_updated": "2026-04-17T07:50:15.027974",
+    "last_updated": "2026-04-17T08:22:46.866048",
     "tracks": [
       {
         "track_type": "research",
@@ -180,7 +180,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/icse-2026",
     "dates_url": "https://conf.researchr.org/dates/icse-2026",
-    "last_updated": "2026-04-17T07:50:15.280423",
+    "last_updated": "2026-04-17T08:22:47.123305",
     "tracks": [
       {
         "track_type": "other",
@@ -788,7 +788,7 @@
     "conf_end": "2026-04-14",
     "url": "https://conf.researchr.org/home/msr-2026",
     "dates_url": "https://conf.researchr.org/dates/msr-2026",
-    "last_updated": "2026-04-17T07:50:15.793242",
+    "last_updated": "2026-04-17T08:22:47.555015",
     "tracks": [
       {
         "track_type": "other",
@@ -849,96 +849,6 @@
     ]
   },
   {
-    "key": "ICSA 2027",
-    "year": 2027,
-    "full_name": "IEEE Intl. Conf. on Software Architecture",
-    "location": "Sydney, Australia",
-    "conf_start": "2026-04-27",
-    "conf_end": "2026-12-15",
-    "url": "https://conf.researchr.org/home/icsa-2027",
-    "dates_url": "https://conf.researchr.org/dates/icsa-2027",
-    "last_updated": "2026-04-17T07:50:15.131287",
-    "tracks": [
-      {
-        "track_type": "other",
-        "track_name": "Workshops",
-        "submission": "2026-04-12",
-        "notification": "2026-04-27",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Working Sessions",
-        "submission": "2026-10-02",
-        "notification": null,
-        "camera_ready": null
-      },
-      {
-        "track_type": "research",
-        "track_name": "Research Papers",
-        "submission": "2026-10-30",
-        "notification": "2026-12-15",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Software Architecture in Practice",
-        "submission": "2026-10-30",
-        "notification": "2026-12-15",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "New and Emerging Ideas",
-        "submission": "2026-12-16",
-        "notification": null,
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Journal First",
-        "submission": "2026-12-20",
-        "notification": "2027-01-19",
-        "camera_ready": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Software Architecture Showcase",
-        "submission": "2026-12-20",
-        "notification": "2027-01-19",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Early Career",
-        "submission": "2026-12-20",
-        "notification": "2027-01-19",
-        "camera_ready": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "Posters",
-        "submission": "2026-12-20",
-        "notification": "2027-01-19",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Tutorials/Tech Briefings",
-        "submission": "2026-12-20",
-        "notification": "2027-01-19",
-        "camera_ready": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Artifacts Evaluation",
-        "submission": "2026-12-25",
-        "notification": "2027-01-20",
-        "camera_ready": null
-      }
-    ]
-  },
-  {
     "key": "ICSA 2026",
     "year": 2026,
     "full_name": "IEEE Intl. Conf. on Software Architecture",
@@ -947,7 +857,7 @@
     "conf_end": "2026-05-08",
     "url": "https://conf.researchr.org/home/icsa-2026",
     "dates_url": "https://conf.researchr.org/dates/icsa-2026",
-    "last_updated": "2026-04-17T07:50:15.079668",
+    "last_updated": "2026-04-17T08:22:46.920047",
     "tracks": [
       {
         "track_type": "other",
@@ -1044,7 +954,7 @@
     "conf_end": "2026-05-22",
     "url": "https://conf.researchr.org/home/icst-2026",
     "dates_url": "https://conf.researchr.org/dates/icst-2026",
-    "last_updated": "2026-04-17T07:50:15.449614",
+    "last_updated": "2026-04-17T08:22:47.310455",
     "tracks": [
       {
         "track_type": "other",
@@ -1218,7 +1128,7 @@
     "conf_end": "2026-06-12",
     "url": "https://conf.researchr.org/home/ease-2026",
     "dates_url": "https://conf.researchr.org/dates/ease-2026",
-    "last_updated": "2026-04-17T07:50:14.632380",
+    "last_updated": "2026-04-17T08:22:46.465347",
     "tracks": [
       {
         "track_type": "other",
@@ -1350,7 +1260,7 @@
     "conf_end": "2026-07-09",
     "url": "https://conf.researchr.org/home/fse-2026",
     "dates_url": "https://conf.researchr.org/dates/fse-2026",
-    "last_updated": "2026-04-17T07:50:14.862528",
+    "last_updated": "2026-04-17T08:22:46.695448",
     "tracks": [
       {
         "track_type": "research",
@@ -1524,7 +1434,7 @@
     "conf_end": "2026-09-18",
     "url": "https://conf.researchr.org/home/icsme-2026",
     "dates_url": "https://conf.researchr.org/dates/icsme-2026",
-    "last_updated": "2026-04-17T07:50:15.384083",
+    "last_updated": "2026-04-17T08:22:47.235395",
     "tracks": [
       {
         "track_type": "research",
@@ -1600,7 +1510,7 @@
     "conf_end": "2026-09-18",
     "url": "https://conf.researchr.org/home/scam-2026",
     "dates_url": "https://conf.researchr.org/dates/scam-2026",
-    "last_updated": "2026-04-17T07:50:15.981098",
+    "last_updated": "2026-04-17T08:22:47.728568",
     "tracks": [
       {
         "track_type": "research",
@@ -1620,7 +1530,7 @@
     "conf_end": "2026-10-02",
     "url": "https://conf.researchr.org/home/variability-2026",
     "dates_url": "https://conf.researchr.org/dates/variability-2026",
-    "last_updated": "2026-04-17T07:50:16.212519",
+    "last_updated": "2026-04-17T08:22:47.949853",
     "tracks": [
       {
         "track_type": "research",
@@ -1681,26 +1591,6 @@
     ]
   },
   {
-    "key": "FSE 2027",
-    "year": 2027,
-    "full_name": "ACM Foundations of Software Engineering (ESEC/FSE)",
-    "location": null,
-    "conf_start": "2026-10-02",
-    "conf_end": "2027-03-31",
-    "url": "https://conf.researchr.org/home/fse-2027",
-    "dates_url": "https://conf.researchr.org/dates/fse-2027",
-    "last_updated": "2026-04-17T07:50:14.905564",
-    "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "Research Papers",
-        "submission": "2026-10-02",
-        "notification": "2027-01-22",
-        "camera_ready": null
-      }
-    ]
-  },
-  {
     "key": "ISSTA 2026",
     "year": 2026,
     "full_name": "Intl. Symposium on Software Testing and Analysis (co-located SPLASH)",
@@ -1709,7 +1599,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/issta-2026",
     "dates_url": "https://conf.researchr.org/dates/issta-2026",
-    "last_updated": "2026-04-17T07:50:15.558015",
+    "last_updated": "2026-04-17T08:22:47.420022",
     "tracks": [
       {
         "track_type": "research",
@@ -1848,7 +1738,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/esem-2026",
     "dates_url": "https://conf.researchr.org/dates/esem-2026",
-    "last_updated": "2026-04-17T07:50:14.790875",
+    "last_updated": "2026-04-17T08:22:46.621419",
     "tracks": [
       {
         "track_type": "research",
@@ -1903,7 +1793,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/models-2026",
     "dates_url": "https://conf.researchr.org/dates/models-2026",
-    "last_updated": "2026-04-17T07:50:15.617568",
+    "last_updated": "2026-04-17T08:22:47.477197",
     "tracks": [
       {
         "track_type": "research",
@@ -1979,7 +1869,7 @@
     "conf_end": "2026-10-16",
     "url": "https://conf.researchr.org/home/ase-2026",
     "dates_url": "https://conf.researchr.org/dates/ase-2026",
-    "last_updated": "2026-04-17T07:50:14.518695",
+    "last_updated": "2026-04-17T08:22:46.351676",
     "tracks": [
       {
         "track_type": "short",
@@ -2061,7 +1951,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/gpce-2026",
     "dates_url": "https://conf.researchr.org/dates/gpce-2026",
-    "last_updated": "2026-04-17T07:50:14.962392",
+    "last_updated": "2026-04-17T08:22:46.805781",
     "tracks": [
       {
         "track_type": "other",
@@ -2081,7 +1971,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/sle-2026",
     "dates_url": "https://conf.researchr.org/dates/sle-2026",
-    "last_updated": "2026-04-17T07:50:16.037688",
+    "last_updated": "2026-04-17T08:22:47.781240",
     "tracks": [
       {
         "track_type": "other",
@@ -2101,7 +1991,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/splash-2026",
     "dates_url": "https://conf.researchr.org/dates/splash-2026",
-    "last_updated": "2026-04-17T07:50:16.108053",
+    "last_updated": "2026-04-17T08:22:47.851374",
     "tracks": [
       {
         "track_type": "research",
@@ -2281,7 +2171,7 @@
     "conf_end": "2027-05-01",
     "url": "https://conf.researchr.org/home/icse-2027",
     "dates_url": "https://conf.researchr.org/dates/icse-2027",
-    "last_updated": "2026-04-17T07:50:15.333174",
+    "last_updated": "2026-04-17T08:22:47.180916",
     "tracks": [
       {
         "track_type": "other",
@@ -2385,7 +2275,7 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/apsec-2026",
     "dates_url": "https://conf.researchr.org/dates/apsec-2026",
-    "last_updated": "2026-04-17T07:50:14.463018",
+    "last_updated": "2026-04-17T08:22:46.305905",
     "tracks": [
       {
         "track_type": "research",
@@ -2412,7 +2302,7 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/ecoop-2026",
     "dates_url": "https://conf.researchr.org/dates/ecoop-2026",
-    "last_updated": "2026-04-17T07:50:14.706660",
+    "last_updated": "2026-04-17T08:22:46.533490",
     "tracks": [
       {
         "track_type": "doctoral",
@@ -2529,6 +2419,116 @@
     ]
   },
   {
+    "key": "FSE 2027",
+    "year": 2027,
+    "full_name": "ACM Foundations of Software Engineering (ESEC/FSE)",
+    "location": null,
+    "conf_start": null,
+    "conf_end": null,
+    "url": "https://conf.researchr.org/home/fse-2027",
+    "dates_url": "https://conf.researchr.org/dates/fse-2027",
+    "last_updated": "2026-04-17T08:22:46.744013",
+    "tracks": [
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "submission": "2026-10-02",
+        "notification": "2027-01-22",
+        "camera_ready": null
+      }
+    ]
+  },
+  {
+    "key": "ICSA 2027",
+    "year": 2027,
+    "full_name": "IEEE Intl. Conf. on Software Architecture",
+    "location": "Sydney, Australia",
+    "conf_start": null,
+    "conf_end": null,
+    "url": "https://conf.researchr.org/home/icsa-2027",
+    "dates_url": "https://conf.researchr.org/dates/icsa-2027",
+    "last_updated": "2026-04-17T08:22:46.967508",
+    "tracks": [
+      {
+        "track_type": "other",
+        "track_name": "Workshops",
+        "submission": "2026-04-12",
+        "notification": "2026-04-27",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Working Sessions",
+        "submission": "2026-10-02",
+        "notification": null,
+        "camera_ready": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "submission": "2026-10-30",
+        "notification": "2026-12-15",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Software Architecture in Practice",
+        "submission": "2026-10-30",
+        "notification": "2026-12-15",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "New and Emerging Ideas",
+        "submission": "2026-12-16",
+        "notification": null,
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Journal First",
+        "submission": "2026-12-20",
+        "notification": "2027-01-19",
+        "camera_ready": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Software Architecture Showcase",
+        "submission": "2026-12-20",
+        "notification": "2027-01-19",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Early Career",
+        "submission": "2026-12-20",
+        "notification": "2027-01-19",
+        "camera_ready": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "Posters",
+        "submission": "2026-12-20",
+        "notification": "2027-01-19",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Tutorials/Tech Briefings",
+        "submission": "2026-12-20",
+        "notification": "2027-01-19",
+        "camera_ready": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Artifacts Evaluation",
+        "submission": "2026-12-25",
+        "notification": "2027-01-20",
+        "camera_ready": null
+      }
+    ]
+  },
+  {
     "key": "QRS 2026",
     "year": 2026,
     "full_name": "IEEE Intl. Conf. on Software Quality, Reliability and Security",
@@ -2557,7 +2557,7 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/ssbse-2026",
     "dates_url": "https://conf.researchr.org/dates/ssbse-2026",
-    "last_updated": "2026-04-17T07:50:16.159565",
+    "last_updated": "2026-04-17T08:22:47.904159",
     "tracks": [
       {
         "track_type": "research",

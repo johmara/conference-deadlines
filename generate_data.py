@@ -233,8 +233,9 @@ async def _fetch_conf_page(client: httpx.AsyncClient, home_url: str) -> dict:
         return meta
 
     soup = BeautifulSoup(resp.text, "lxml")
-    text = soup.get_text(" ")
 
+    # ── Location ──────────────────────────────────────────────────────────────
+    text = soup.get_text(" ")
     loc_m = re.search(
         r'(?:held|take[s]? place|located|venue|location)[^\n]{0,60}?([A-Z][a-zA-Z\s]+,\s*[A-Z][a-zA-Z\s]+)',
         text
@@ -242,15 +243,51 @@ async def _fetch_conf_page(client: httpx.AsyncClient, home_url: str) -> dict:
     if loc_m:
         meta["location"] = loc_m.group(1).strip()
 
-    dates = sorted({
-        f"{int(y):04d}-{MONTH[m.capitalize()]:02d}-{int(d):02d}"
-        for d, m, y in DATE_RE.findall(text)
-    })
-    if len(dates) >= 2:
-        meta["conf_start"] = dates[0]
-        meta["conf_end"]   = dates[-1]
-    elif len(dates) == 1:
-        meta["conf_start"] = meta["conf_end"] = dates[0]
+    # ── Conference dates ───────────────────────────────────────────────────────
+    from datetime import date as _date
+
+    def _dates_sane(ds: list[str]) -> bool:
+        """True if dates span ≤ 14 days (i.e. they are a conference window, not deadlines)."""
+        if len(ds) < 2:
+            return True
+        return (_date.fromisoformat(ds[-1]) - _date.fromisoformat(ds[0])).days <= 14
+
+    # Strategy 1: look for the "When:" row in the researchr sidebar/info table.
+    # Skip script/style nodes — "When" appears in JS strings too, giving false matches.
+    when_dates: list[str] = []
+    for el in soup.find_all(string=re.compile(r'\bWhen\b', re.I)):
+        if el.parent and el.parent.name in ("script", "style"):
+            continue
+        parent = el.parent
+        # Walk up to find a container that also has sibling/child date text
+        for _ in range(4):
+            if parent is None:
+                break
+            chunk = parent.get_text(" ", strip=True)
+            found = sorted({
+                f"{int(y):04d}-{MONTH[m.capitalize()]:02d}-{int(d):02d}"
+                for d, m, y in DATE_RE.findall(chunk)
+            })
+            if found and _dates_sane(found):
+                when_dates = found
+                break
+            parent = parent.parent
+
+    if when_dates:
+        meta["conf_start"] = when_dates[0]
+        meta["conf_end"]   = when_dates[-1]
+    else:
+        # Strategy 2: all dates on page — but sanity-check the span.
+        # A real conference window is ≤ 14 days; longer means we caught deadlines.
+        dates = sorted({
+            f"{int(y):04d}-{MONTH[m.capitalize()]:02d}-{int(d):02d}"
+            for d, m, y in DATE_RE.findall(text)
+        })
+        if len(dates) >= 2 and _dates_sane(dates):
+            meta["conf_start"] = dates[0]
+            meta["conf_end"]   = dates[-1]
+        elif len(dates) == 1:
+            meta["conf_start"] = meta["conf_end"] = dates[0]
 
     return meta
 
