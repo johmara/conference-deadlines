@@ -170,15 +170,14 @@ td { padding: .46rem .7rem; vertical-align: middle; }
 .field-row { display:flex; gap:.5rem; align-items:flex-end; }
 .field-row .field { flex:1; margin-bottom:0; }
 
-/* Series list */
-.series-item {
-  display:flex; align-items:center; justify-content:space-between;
-  padding:.4rem .6rem; border:1px solid var(--border); border-radius:6px;
-  margin-bottom:.35rem; background:var(--bg);
+/* Series filter list */
+.series-filter-item {
+  display:flex; align-items:center; gap:.55rem;
+  padding:.3rem .1rem; border-bottom:1px solid var(--border);
 }
-.series-item-name { font-weight:600; font-size:.8rem; }
-.series-item-slug { font-size:.68rem; color:var(--muted); font-family:monospace; }
-.series-status { font-size:.65rem; padding:.1rem .3rem; border-radius:4px; background:#dcfce7; color:#166534; margin-left:.35rem; }
+.series-filter-item:last-child { border-bottom:none; }
+.series-filter-item label { font-size:.8rem; font-weight:600; cursor:pointer; flex:1; }
+.series-filter-item .series-fullname { font-size:.68rem; color:var(--muted); font-weight:400; display:block; }
 
 .divider { height:1px; background:var(--border); margin:.8rem 0; }
 .add-form { background:#f8fafc; border:1px solid var(--border); border-radius:8px; padding:.75rem; }
@@ -336,54 +335,31 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
 
     <div class="divider"></div>
 
-    <div class="divider"></div>
-
-    <!-- Conference series -->
+    <!-- Conference series filter -->
     <div class="panel-section">
       <h3>Conference Series</h3>
-      <p>Series tracked for conference editions. Remove series you don't care about.</p>
-      <div id="series-list"></div>
-
-      <div class="divider"></div>
-
-      <div class="add-form">
-        <h4>Add new series</h4>
-        <div class="field">
-          <label>researchr.org slug</label>
-          <input type="text" id="new-slug" placeholder="e.g. asplos, pldi, sosp…" oninput="clearTestResult()">
-        </div>
-        <div class="field">
-          <label>Short display name</label>
-          <input type="text" id="new-display" placeholder="e.g. ASPLOS">
-        </div>
-        <div class="field">
-          <label>Full name <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
-          <input type="text" id="new-fullname" placeholder="e.g. Architectural Support for Programming Languages…">
-        </div>
-        <div style="display:flex;gap:.5rem;margin-top:.5rem">
-          <button class="btn" onclick="testSeries()" style="flex:1">Test URL</button>
-          <button class="btn primary" onclick="addSeriesConfig()" style="flex:1">Add Series</button>
-        </div>
-        <div id="series-test-result"></div>
+      <p>Choose which series to show. Your selection is saved locally.</p>
+      <div style="display:flex;gap:.4rem;margin-bottom:.6rem">
+        <button class="btn" style="font-size:.7rem;padding:.2rem .5rem" onclick="setAllSeries(true)">All</button>
+        <button class="btn" style="font-size:.7rem;padding:.2rem .5rem" onclick="setAllSeries(false)">None</button>
       </div>
+      <div id="series-filter-list"></div>
     </div>
 
     <div class="divider"></div>
 
-    <!-- GitHub Token -->
+    <!-- Missing conference -->
     <div class="panel-section">
-      <h3>GitHub Token</h3>
-      <p style="font-weight:600;color:var(--muted)">Owner access — required to save series changes</p>
-      <div class="field">
-        <label>Personal Access Token</label>
-        <input type="password" id="gh-pat-input" placeholder="GitHub PAT (workflow + contents scope)"
-               style="font-size:.75rem">
-      </div>
-      <div style="display:flex;gap:.5rem;align-items:center;margin-top:.35rem">
-        <button class="btn primary" style="flex:1"
-          onclick="saveGhPat(document.getElementById('gh-pat-input').value)">Save token</button>
-        <span id="gh-pat-status" style="font-size:.72rem;color:var(--muted)">No token</span>
-      </div>
+      <h3>Missing a conference?</h3>
+      <p>Conference data is maintained in the GitHub repository. Submit a pull request to add or update a series.</p>
+      <a href="https://github.com/johmara/conference-deadlines/blob/gh-pages/series-config.json"
+         target="_blank" rel="noopener" class="btn primary" style="width:100%;justify-content:center;margin-top:.2rem">
+        View series-config.json on GitHub
+      </a>
+      <a href="https://github.com/johmara/conference-deadlines/compare"
+         target="_blank" rel="noopener" class="btn" style="width:100%;justify-content:center;margin-top:.4rem">
+        Create a Pull Request
+      </a>
     </div>
 
   </div>
@@ -411,14 +387,9 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
 const LS_DATA_KEY        = 'conf_data';
 const LS_DATA_TS_KEY     = 'conf_data_updated';
 const LS_SETTINGS_KEY    = 'conf_settings';
-const LS_SERIES_KEY      = 'conf_series';
-const LS_SERIES_CFG_KEY  = 'conf_series_config';
 const DATA_URL           = 'data.json';
 const CACHE_TTL_MS       = 60 * 60 * 1000; // 1 hour
 
-const GH_REPO        = 'johmara/conference-deadlines';
-const GH_BRANCH      = 'gh-pages';
-const GH_SERIES_PATH = 'series-config.json';
 
 const DEFAULT_SERIES = [
   {slug:'icse',        display:'ICSE',        full_name:'International Conference on Software Engineering'},
@@ -680,160 +651,71 @@ function buildTimeline(confsIn) {
 }
 
 // ── GitHub PAT helpers ────────────────────────────────────────────────────────
-function getGhPat() {
-  return localStorage.getItem('gh_pat') || '';
+// ── Series filter (localStorage) ─────────────────────────────────────────────
+// ALL_SERIES: full list from series-config.json (fetched once)
+// HIDDEN_SERIES: set of slugs the user has unchecked (stored in localStorage)
+
+let ALL_SERIES = [];
+
+function getHiddenSeries() {
+  try { return new Set(JSON.parse(localStorage.getItem('conf_hidden_series') || '[]')); }
+  catch(e) { return new Set(); }
 }
 
-function saveGhPat(pat) {
-  localStorage.setItem('gh_pat', pat.trim());
-  const statusEl = document.getElementById('gh-pat-status');
-  if (statusEl) statusEl.textContent = pat.trim() ? 'Token saved' : 'No token';
+function saveHiddenSeries(hiddenSet) {
+  localStorage.setItem('conf_hidden_series', JSON.stringify([...hiddenSet]));
 }
 
-// ── Series helpers ────────────────────────────────────────────────────────────
-function getSeriesList() {
-  // Read from series-config.json cache (LS_SERIES_CFG_KEY), fall back to legacy LS_SERIES_KEY, then DEFAULT_SERIES
-  try {
-    const raw = localStorage.getItem(LS_SERIES_CFG_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch(e) {}
-  try {
-    const raw = localStorage.getItem(LS_SERIES_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch(e) {}
-  return DEFAULT_SERIES.map(s => ({...s}));
-}
-
-function saveSeriesList(list) {
-  localStorage.setItem(LS_SERIES_CFG_KEY, JSON.stringify(list));
-}
-
-// Build a Set of display names (lowercased) for series filtering
 function getActiveDisplaySet() {
-  return new Set(getSeriesList().map(s => s.display.toLowerCase()));
+  const hidden = getHiddenSeries();
+  return new Set(
+    ALL_SERIES.filter(s => !hidden.has(s.slug)).map(s => s.display.toLowerCase())
+  );
 }
 
-// ── GitHub API: fetch series-config.json (returns {data, sha}) ────────────────
-async function fetchSeriesConfig() {
-  const resp = await fetch(GH_SERIES_PATH + '?_=' + Date.now());
-  if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-  const data = await resp.json();
-  // Also get SHA from GitHub API for committing
-  const apiResp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_SERIES_PATH}?ref=${GH_BRANCH}`);
-  if (!apiResp.ok) throw new Error(`GitHub API ${apiResp.status}`);
-  const meta = await apiResp.json();
-  return { data, sha: meta.sha };
-}
+async function loadSeriesList() {
+  // Fetch series-config.json to get the authoritative list
+  try {
+    const resp = await fetch('series-config.json?_=' + Date.now());
+    if (resp.ok) {
+      const data = await resp.json();
+      if (Array.isArray(data)) ALL_SERIES = data;
+    }
+  } catch(e) { /* use whatever ALL_SERIES already has */ }
 
-// ── GitHub API: commit series-config.json ─────────────────────────────────────
-async function commitSeriesConfig(arr, sha, message) {
-  const pat = getGhPat();
-  if (!pat) {
-    const status = 401;
-    throw Object.assign(new Error('No PAT'), { status });
-  }
-  const content = btoa(JSON.stringify(arr, null, 2) + '\n');
-  const resp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_SERIES_PATH}`, {
-    method: 'PUT',
-    headers: {
-      'Authorization': `Bearer ${pat}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ message, content, sha, branch: GH_BRANCH }),
+  const hidden = getHiddenSeries();
+  const el = document.getElementById('series-filter-list');
+  el.innerHTML = '';
+
+  ALL_SERIES.forEach(s => {
+    const item = document.createElement('div');
+    item.className = 'series-filter-item';
+    const id = 'sf-' + s.slug;
+    item.innerHTML = `
+      <input type="checkbox" id="${id}" ${hidden.has(s.slug) ? '' : 'checked'}
+             style="width:14px;height:14px;cursor:pointer;flex-shrink:0"
+             onchange="toggleSeries('${s.slug}', this.checked)">
+      <label for="${id}">
+        ${s.display}
+        ${s.full_name ? `<span class="series-fullname">${s.full_name}</span>` : ''}
+      </label>
+    `;
+    el.appendChild(item);
   });
-  if (resp.status === 401) throw Object.assign(new Error('Unauthorized'), { status: 401 });
-  if (!resp.ok) {
-    const body = await resp.json().catch(() => ({}));
-    throw new Error(body.message || `HTTP ${resp.status}`);
-  }
-  return await resp.json();
 }
 
-function showSeriesInlineMsg(msg, isError = false) {
-  let el = document.getElementById('series-inline-msg');
-  if (!el) {
-    el = document.createElement('div');
-    el.id = 'series-inline-msg';
-    el.style.cssText = 'font-size:.72rem;margin:.35rem 0;padding:.3rem .5rem;border-radius:5px;';
-    const seriesEl = document.getElementById('series-list');
-    seriesEl.parentNode.insertBefore(el, seriesEl.nextSibling);
-  }
-  el.textContent = msg;
-  el.style.background = isError ? 'var(--hot-bg)' : 'var(--open-bg)';
-  el.style.color = isError ? 'var(--hot-tx)' : 'var(--open-tx)';
+function toggleSeries(slug, checked) {
+  const hidden = getHiddenSeries();
+  checked ? hidden.delete(slug) : hidden.add(slug);
+  saveHiddenSeries(hidden);
+  setYear(CURRENT_YEAR);
 }
 
-async function removeSeriesConfig(slug) {
-  let sha, arr;
-  try {
-    const result = await fetchSeriesConfig();
-    sha = result.sha;
-    arr = result.data.filter(s => s.slug !== slug);
-  } catch(e) {
-    showToast('Failed to fetch series config', e.message, 'error');
-    finishToast('Error', e.message, 'error');
-    return;
-  }
-  try {
-    await commitSeriesConfig(arr, sha, `chore: remove series ${slug}`);
-    localStorage.setItem(LS_SERIES_CFG_KEY, JSON.stringify(arr));
-    loadSeriesList();
-    setYear(CURRENT_YEAR);
-    finishToast('Series removed', `"${slug}" removed successfully`, 'success');
-  } catch(e) {
-    if (e.status === 401) {
-      showSeriesInlineMsg('Save your GitHub token first', true);
-    } else {
-      finishToast('Commit failed', e.message, 'error');
-    }
-  }
-}
-
-async function addSeriesConfig() {
-  const slug     = document.getElementById('new-slug').value.trim().toLowerCase();
-  const display  = document.getElementById('new-display').value.trim();
-  const fullname = document.getElementById('new-fullname').value.trim();
-  const result   = document.getElementById('series-test-result');
-  if (!slug)    { result.style.color = 'var(--hot-tx)'; result.textContent = 'Slug is required.'; return; }
-  if (!display) { result.style.color = 'var(--hot-tx)'; result.textContent = 'Display name is required.'; return; }
-
-  let sha, arr;
-  try {
-    const fetched = await fetchSeriesConfig();
-    sha = fetched.sha;
-    arr = fetched.data;
-  } catch(e) {
-    result.style.color = 'var(--hot-tx)';
-    result.textContent = 'Failed to fetch series config: ' + e.message;
-    return;
-  }
-
-  if (arr.some(s => s.slug === slug)) {
-    result.style.color = 'var(--soon-tx)';
-    result.textContent = `"${slug}" is already in the list.`;
-    return;
-  }
-
-  arr.push({ slug, display, full_name: fullname });
-
-  try {
-    await commitSeriesConfig(arr, sha, `chore: add series ${slug}`);
-    localStorage.setItem(LS_SERIES_CFG_KEY, JSON.stringify(arr));
-    document.getElementById('new-slug').value    = '';
-    document.getElementById('new-display').value  = '';
-    document.getElementById('new-fullname').value = '';
-    result.textContent = '';
-    loadSeriesList();
-    setYear(CURRENT_YEAR);
-    finishToast('Series added', `"${display}" added successfully`, 'success');
-  } catch(e) {
-    if (e.status === 401) {
-      showSeriesInlineMsg('Save your GitHub token first', true);
-    } else {
-      result.style.color = 'var(--hot-tx)';
-      result.textContent = 'Commit failed: ' + e.message;
-    }
-  }
+function setAllSeries(checked) {
+  saveHiddenSeries(checked ? new Set() : new Set(ALL_SERIES.map(s => s.slug)));
+  document.querySelectorAll('#series-filter-list input[type=checkbox]')
+    .forEach(cb => cb.checked = checked);
+  setYear(CURRENT_YEAR);
 }
 
 // ── Year selector ─────────────────────────────────────────────────────────────
@@ -1063,58 +945,6 @@ function closePanel() {
   document.getElementById('panel').classList.remove('open');
 }
 
-async function loadSeriesList() {
-  const el = document.getElementById('series-list');
-  el.innerHTML = '<div style="color:var(--muted);font-size:.76rem">Loading…</div>';
-
-  // Fetch series-config.json and cache it
-  try {
-    const resp = await fetch(GH_SERIES_PATH + '?_=' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      if (Array.isArray(data)) {
-        localStorage.setItem(LS_SERIES_CFG_KEY, JSON.stringify(data));
-      }
-    }
-  } catch(e) {
-    // Fall through: will use cached data below
-  }
-
-  const list = getSeriesList();
-  el.innerHTML = '';
-  if (!list.length) {
-    el.innerHTML = '<div style="color:var(--muted);font-size:.76rem">No active series.</div>';
-    return;
-  }
-  list.forEach(s => {
-    const item = document.createElement('div');
-    item.className = 'series-item';
-    item.innerHTML = `
-      <div>
-        <span class="series-item-name">${s.display}</span>
-        <span class="series-item-slug">${s.slug}</span>
-      </div>
-      <button class="btn danger" style="padding:.15rem .45rem;font-size:.68rem" onclick="removeSeriesConfig('${s.slug}')">✕</button>
-    `;
-    el.appendChild(item);
-  });
-}
-
-function clearTestResult() {
-  document.getElementById('series-test-result').textContent = '';
-}
-
-function testSeries() {
-  const slug   = document.getElementById('new-slug').value.trim().toLowerCase();
-  const result = document.getElementById('series-test-result');
-  if (!slug) {
-    result.style.color = 'var(--hot-tx)';
-    result.textContent = 'Enter a slug first.';
-    return;
-  }
-  result.style.color = 'var(--open-tx)';
-  result.textContent = `Will be included in next data refresh (conf.researchr.org/series/${slug})`;
-}
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 loadSettings();
