@@ -113,6 +113,12 @@ To trigger a manual refresh, re-run the scraper and commit `data.json`.
 
 ---
 
+## 🖥️ Server-side alternative
+
+The [`api` branch](https://github.com/johmara/conference-deadlines/tree/api) contains a FastAPI backend with a SQLite database. Use it if you want to self-host a proper server instead of relying on a static `data.json` file and GitHub Pages.
+
+---
+
 ## 🌐 Browser Compatibility
 
 Works in all modern browsers with CSS custom properties support:
