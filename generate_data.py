@@ -33,28 +33,35 @@ HEADERS    = {"User-Agent": "SE-Conference-Tracker/1.0 (+research-tool)"}
 
 # ── Series ────────────────────────────────────────────────────────────────────
 
-# (slug, display, full_name)
-DEFAULT_SERIES: list[tuple[str, str, str]] = [
-    ("icse",        "ICSE",        "IEEE/ACM Intl. Conf. on Software Engineering"),
-    ("fse",         "FSE",         "ACM Foundations of Software Engineering (ESEC/FSE)"),
-    ("ase",         "ASE",         "IEEE/ACM Intl. Conf. on Automated Software Engineering"),
-    ("saner",       "SANER",       "IEEE Intl. Conf. on Software Analysis, Evolution & Reengineering"),
-    ("icsme",       "ICSME",       "IEEE Intl. Conf. on Software Maintenance and Evolution"),
-    ("models",      "MODELS",      "ACM/IEEE Intl. Conf. on Model Driven Engineering Languages & Systems"),
-    ("issta",       "ISSTA",       "ACM Intl. Symposium on Software Testing and Analysis"),
-    ("esem",        "ESEM",        "IEEE/ACM Intl. Symposium on Empirical Software Engineering and Measurement"),
-    ("ease",        "EASE",        "Intl. Conf. on Evaluation and Assessment in Software Engineering"),
-    ("icst",        "ICST",        "IEEE Intl. Conf. on Software Testing, Verification and Validation"),
-    ("scam",        "SCAM",        "IEEE Intl. Working Conf. on Source Code Analysis and Manipulation"),
-    ("icpc",        "ICPC",        "IEEE/ACM Intl. Conf. on Program Comprehension"),
-    ("msr",         "MSR",         "IEEE/ACM Intl. Conf. on Mining Software Repositories"),
-    ("variability", "VARIABILITY", "Intl. Conf. on Software and Systems Variability (SPLC/VaMoS/ICSR)"),
-    ("issre",       "ISSRE",       "IEEE Intl. Symposium on Software Reliability Engineering"),
-    ("wcre",        "WCRE",        "IEEE Working Conf. on Reverse Engineering"),
-    ("splc",        "SPLC",        "ACM/IEEE Intl. Systems and Software Product Line Conference"),
-]
+def _load_series() -> list[tuple[str, str, str]]:
+    """Load series from series-config.json if present, else use hardcoded defaults."""
+    config_path = os.path.join(os.path.dirname(__file__), "series-config.json")
+    if os.path.exists(config_path):
+        with open(config_path) as f:
+            data = json.load(f)
+        return [(s["slug"], s["display"], s.get("full_name", "")) for s in data]
+    # Fallback hardcoded list
+    return [
+        ("icse",        "ICSE",        "IEEE/ACM Intl. Conf. on Software Engineering"),
+        ("fse",         "FSE",         "ACM Foundations of Software Engineering (ESEC/FSE)"),
+        ("ase",         "ASE",         "IEEE/ACM Intl. Conf. on Automated Software Engineering"),
+        ("saner",       "SANER",       "IEEE Intl. Conf. on Software Analysis, Evolution & Reengineering"),
+        ("icsme",       "ICSME",       "IEEE Intl. Conf. on Software Maintenance and Evolution"),
+        ("models",      "MODELS",      "ACM/IEEE Intl. Conf. on Model Driven Engineering Languages & Systems"),
+        ("issta",       "ISSTA",       "ACM Intl. Symposium on Software Testing and Analysis"),
+        ("esem",        "ESEM",        "IEEE/ACM Intl. Symposium on Empirical Software Engineering and Measurement"),
+        ("ease",        "EASE",        "Intl. Conf. on Evaluation and Assessment in Software Engineering"),
+        ("icst",        "ICST",        "IEEE Intl. Conf. on Software Testing, Verification and Validation"),
+        ("scam",        "SCAM",        "IEEE Intl. Working Conf. on Source Code Analysis and Manipulation"),
+        ("icpc",        "ICPC",        "IEEE/ACM Intl. Conf. on Program Comprehension"),
+        ("msr",         "MSR",         "IEEE/ACM Intl. Conf. on Mining Software Repositories"),
+        ("variability", "VARIABILITY", "Intl. Conf. on Software and Systems Variability (SPLC/VaMoS/ICSR)"),
+        ("issre",       "ISSRE",       "IEEE Intl. Symposium on Software Reliability Engineering"),
+        ("wcre",        "WCRE",        "IEEE Working Conf. on Reverse Engineering"),
+        ("splc",        "SPLC",        "ACM/IEEE Intl. Systems and Software Product Line Conference"),
+    ]
 
-DEACTIVATED_SERIES: list[str] = ["pldi", "cgo", "icsm"]
+DEFAULT_SERIES: list[tuple[str, str, str]] = _load_series()
 DEACTIVATED_DISPLAYS: set[str] = set()  # populated during init
 
 # ── Seed data ─────────────────────────────────────────────────────────────────
