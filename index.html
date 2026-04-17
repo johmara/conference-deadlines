@@ -260,10 +260,10 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
             </div>
           </th>
           <th class="sortable" style="min-width:108px;cursor:pointer" onclick="sortBy('date')" title="Sort by conference date">Dates <span class="sort-ind" id="si-date"></span></th>
-          <th class="r sortable" data-sort="research" style="min-width:135px;cursor:pointer" onclick="sortBy('research')" title="Sort by Research deadline">● Research / Full Papers <span class="sort-ind" id="si-research"></span></th>
-          <th class="s sortable" data-sort="short"    style="min-width:135px;cursor:pointer" onclick="sortBy('short')"    title="Sort by Short/NIER deadline">● Short / NIER / ERA <span class="sort-ind" id="si-short"></span></th>
-          <th class="t sortable" data-sort="tools"    style="min-width:135px;cursor:pointer" onclick="sortBy('tools')"    title="Sort by Tools deadline">● Tools &amp; Demos <span class="sort-ind" id="si-tools"></span></th>
-          <th class="d sortable" data-sort="doctoral" style="min-width:135px;cursor:pointer" onclick="sortBy('doctoral')" title="Sort by Doctoral deadline">● Doctoral Symposium <span class="sort-ind" id="si-doctoral"></span></th>
+          <th class="r sortable" style="min-width:135px;cursor:pointer" onclick="sortBy('research')" title="Sort by Research deadline">● Research / Full Papers <span class="sort-ind" id="si-research"></span></th>
+          <th class="s sortable" style="min-width:135px;cursor:pointer" onclick="sortBy('short')"    title="Sort by Short/NIER deadline">● Short / NIER / ERA <span class="sort-ind" id="si-short"></span></th>
+          <th class="t sortable" style="min-width:135px;cursor:pointer" onclick="sortBy('tools')"    title="Sort by Tools deadline">● Tools &amp; Demos <span class="sort-ind" id="si-tools"></span></th>
+          <th class="d sortable" style="min-width:135px;cursor:pointer" onclick="sortBy('doctoral')" title="Sort by Doctoral deadline">● Doctoral Symposium <span class="sort-ind" id="si-doctoral"></span></th>
         </tr>
       </thead>
       <tbody id="tbl-body"></tbody>
@@ -425,12 +425,9 @@ document.getElementById('today-lbl').textContent =
   'Today: ' + TODAY.toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
 
 // ── Date helpers ──────────────────────────────────────────────────────────────
-// Deadlines are interpreted as 23:59 AoE (UTC-12) unless a time is stored
-function deadlineMs(dateStr, timeStr) {
+function deadlineMs(dateStr) {
   if (!dateStr) return null;
-  // Build ISO string: date + time (default 23:59) + AoE offset (-12:00)
-  const time = timeStr || '23:59';
-  return new Date(`${dateStr}T${time}:00-12:00`).getTime();
+  return new Date(`${dateStr}T23:59:00-12:00`).getTime();
 }
 
 const parseDate  = s => { if(!s) return null; const [y,m,d]=s.split('-').map(Number); return new Date(y,m-1,d); };
@@ -450,9 +447,9 @@ function fmtCountdown(ms) {
   return `${mins}m`;
 }
 
-function deadlineTag(dateStr, timeStr) {
+function deadlineTag(dateStr) {
   if (!dateStr) return '<span class="tag-none">—</span>';
-  const dlMs = deadlineMs(dateStr, timeStr);
+  const dlMs = deadlineMs(dateStr);
   const dlDate = new Date(dlMs);
   const days = Math.round((dlMs - Date.now()) / 86400000);
   const lbl  = fmtShort(parseDate(dateStr));
@@ -505,10 +502,10 @@ function buildTable(confs) {
         <div class="conf-sub">${c.location||''}</div>
       </td>
       <td style="${past&&!live?'color:var(--past-tx)':''}; white-space:nowrap; font-size:.7rem">${confDateLbl(c)}</td>
-      <td title="${r?.track_name||''}">${deadlineTag(r?.submission, r?.submission_time)}</td>
-      <td title="${s?.track_name||''}">${deadlineTag(s?.submission, s?.submission_time)}</td>
-      <td title="${t?.track_name||''}">${deadlineTag(t?.submission, t?.submission_time)}</td>
-      <td title="${d?.track_name||''}">${deadlineTag(d?.submission, d?.submission_time)}</td>
+      <td title="${r?.track_name||''}">${deadlineTag(r?.submission)}</td>
+      <td title="${s?.track_name||''}">${deadlineTag(s?.submission)}</td>
+      <td title="${t?.track_name||''}">${deadlineTag(t?.submission)}</td>
+      <td title="${d?.track_name||''}">${deadlineTag(d?.submission)}</td>
     `;
     tbody.appendChild(tr);
   });
@@ -969,9 +966,6 @@ function hideToast() {
 function openPanel() {
   document.getElementById('overlay').classList.add('open');
   document.getElementById('panel').classList.add('open');
-  // Update PAT status display
-  const statusEl = document.getElementById('gh-pat-status');
-  if (statusEl) statusEl.textContent = getGhPat() ? 'Token saved' : 'No token';
   loadSeriesList();
 }
 

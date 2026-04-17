@@ -63,7 +63,6 @@ def _load_series() -> list[tuple[str, str, str]]:
     ]
 
 DEFAULT_SERIES: list[tuple[str, str, str]] = _load_series()
-DEACTIVATED_DISPLAYS: set[str] = set()  # populated during init
 
 # ── Seed data ─────────────────────────────────────────────────────────────────
 
@@ -372,8 +371,6 @@ async def _discover_new_editions(
     new_confs: list[dict] = []
 
     for slug, display, full_name in DEFAULT_SERIES:
-        if display in DEACTIVATED_DISPLAYS:
-            continue
         series_url = f"https://conf.researchr.org/series/{slug}"
         _log(f"Scanning series: {series_url}")
         try:
@@ -430,9 +427,6 @@ async def _discover_new_editions(
 async def _main_async() -> None:
     _log(f"YEAR_RANGE={YEAR_RANGE}")
 
-    # Build the active display names for deactivated series
-    # (so we can skip them during discovery — they were already excluded from DEFAULT_SERIES
-    # but DEACTIVATED_SERIES may refer to slugs not in DEFAULT_SERIES)
     _log("Initialising from seed data...")
 
     # Start from a clean copy of the seed; preserve track lists by deep-copying
