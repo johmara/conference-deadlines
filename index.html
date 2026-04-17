@@ -321,6 +321,12 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
           <input type="checkbox" id="hide-past-chk" onchange="saveHidePast(this.checked)" style="width:15px;height:15px">
         </label>
       </div>
+      <div class="field-row" style="align-items:center;margin-top:.5rem">
+        <label style="font-size:.77rem;font-weight:600;flex:1">Show note buttons</label>
+        <input type="checkbox" id="notes-enabled-chk"
+               onchange="setNotesEnabled(this.checked)"
+               style="width:15px;height:15px;cursor:pointer">
+      </div>
     </div>
 
     <div class="divider"></div>
@@ -341,6 +347,29 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
           </select>
         </div>
       </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Deadline reminders -->
+    <div class="panel-section">
+      <h3>Deadline Reminders</h3>
+      <p style="font-size:.76rem;color:var(--muted);margin-bottom:.5rem">Browser notification when a deadline is approaching. Requires page to be open.</p>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.4rem">
+        <span style="font-size:.77rem;font-weight:600">Enable notifications</span>
+        <input type="checkbox" id="notify-chk" onchange="toggleNotifications(this.checked)"
+               style="width:15px;height:15px;cursor:pointer">
+      </div>
+      <div id="notify-days-field" style="display:none">
+        <label style="font-size:.76rem;color:var(--muted);display:block;margin-bottom:.25rem">Remind me N days before</label>
+        <select id="notify-days-sel" onchange="saveNotifySettings()" class="btn" style="cursor:pointer;font-weight:400">
+          <option value="3">3 days</option>
+          <option value="7">7 days</option>
+          <option value="14" selected>14 days</option>
+          <option value="30">30 days</option>
+        </select>
+      </div>
+      <div id="notify-status" style="font-size:.72rem;color:var(--muted);margin-top:.35rem;min-height:1rem"></div>
     </div>
 
     <div class="divider"></div>
@@ -520,9 +549,20 @@ function saveNote(key, text) {
   localStorage.setItem(LS_NOTES_KEY, JSON.stringify(notes));
 }
 
+function notesEnabled() {
+  return localStorage.getItem('conf_notes_enabled') !== 'false';
+}
+
+function setNotesEnabled(val) {
+  localStorage.setItem('conf_notes_enabled', val ? 'true' : 'false');
+  // Re-render table so note buttons appear/disappear immediately
+  setYear(CURRENT_YEAR);
+}
+
 let _noteCurrentKey = null;
 
 function openNoteEditor(key, evt) {
+  if (!notesEnabled()) return;   // ← notes feature disabled
   evt?.stopPropagation();
   _noteCurrentKey = key;
   const existing = getNote(key);
@@ -565,9 +605,11 @@ function buildTable(confs) {
                    (_newKeys.has(c.key) ? '<span class="new-badge">new</span>' : '');
     const note = getNote(c.key);
     const safeKey = c.key.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
-    const noteBtn = note
-      ? `<div class="note-btn has-note" onclick="openNoteEditor('${safeKey}',event)" title="${note.replace(/"/g,'&quot;')}">📝</div>`
-      : `<div class="note-btn no-note" onclick="openNoteEditor('${safeKey}',event)" title="Add note">+</div>`;
+    const noteBtn = notesEnabled()
+      ? (note
+          ? `<div class="note-btn has-note" onclick="openNoteEditor('${safeKey}',event)" title="${note.replace(/"/g,'&quot;')}">📝</div>`
+          : `<div class="note-btn no-note" onclick="openNoteEditor('${safeKey}',event)" title="Add note">+</div>`)
+      : '';
     const tr = document.createElement('tr');
     if (live) tr.classList.add('row-live');
     tr.innerHTML = `
@@ -1007,6 +1049,7 @@ async function loadData(keepBadges=false) {
 
   const yr = prev ?? (years.includes(currentYear) ? currentYear : years[0]);
   setYear(yr ?? null);
+  checkDeadlineNotifications();
 }
 
 // ── Toast helpers ─────────────────────────────────────────────────────────────
@@ -1044,6 +1087,8 @@ function openPanel() {
   document.getElementById('overlay').classList.add('open');
   document.getElementById('panel').classList.add('open');
   loadSeriesList();
+  const notesChk = document.getElementById('notes-enabled-chk');
+  if (notesChk) notesChk.checked = notesEnabled();
 }
 
 function closePanel() {
