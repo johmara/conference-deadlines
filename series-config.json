@@ -19,9 +19,7 @@
   {"slug": "icsa",        "display": "ICSA",        "full_name": "IEEE Intl. Conf. on Software Architecture"},
   {"slug": "splash",      "display": "SPLASH",      "full_name": "ACM SIGPLAN Conf. on Systems, Programming, Languages and Applications (incl. OOPSLA)"},
   {"slug": "ecoop",       "display": "ECOOP",       "full_name": "European Conf. on Object-Oriented Programming"},
-  {"slug": "apsec",       "display": "APSEC",       "full_name": "Asia-Pacific Software Engineering Conference"},
-  {"slug": "qrs",         "display": "QRS",         "full_name": "IEEE Intl. Conf. on Software Quality, Reliability and Security"},
-  {"slug": "gpce",        "display": "GPCE",        "full_name": "ACM SIGPLAN Intl. Conf. on Generative Programming: Concepts & Experiences"},
+{"slug": "gpce",        "display": "GPCE",        "full_name": "ACM SIGPLAN Intl. Conf. on Generative Programming: Concepts & Experiences"},
   {"slug": "sle",         "display": "SLE",         "full_name": "ACM SIGPLAN Intl. Conf. on Software Language Engineering"},
   {"slug": "ssbse",       "display": "SSBSE",       "full_name": "Intl. Symposium on Search-Based Software Engineering"},
   {"slug": "cain",        "display": "CAIN",        "full_name": "IEEE/ACM Intl. Conf. on AI Engineering"}

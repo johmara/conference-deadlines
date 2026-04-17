@@ -279,13 +279,15 @@
     "key": "ECOOP 2026",
     "year": 2026,
     "full_name": "European Conf. on Object-Oriented Programming",
-    "location": "TBD",
-    "conf_start": null,
-    "conf_end": null,
+    "location": "Brussels, Belgium",
+    "conf_start": "2026-06-29",
+    "conf_end": "2026-07-03",
     "url": "https://conf.researchr.org/home/ecoop-2026",
     "dates_url": "https://conf.researchr.org/dates/ecoop-2026",
     "tracks": [
-      {"track_type": "research", "track_name": "Research Papers (TBA)", "submission": null, "notification": null, "camera_ready": null}
+      {"track_type": "research",  "track_name": "Technical Papers",  "submission": "2025-11-27", "notification": null, "camera_ready": null},
+      {"track_type": "doctoral",  "track_name": "Doctoral Symposium", "submission": "2026-04-15", "notification": null, "camera_ready": null},
+      {"track_type": "tools",     "track_name": "Demos",              "submission": "2026-04-15", "notification": null, "camera_ready": null}
     ]
   },
   {
@@ -331,39 +333,16 @@
     "key": "SSBSE 2026",
     "year": 2026,
     "full_name": "Intl. Symposium on Search-Based Software Engineering",
-    "location": "TBD",
-    "conf_start": null,
-    "conf_end": null,
+    "location": "Montreal, Canada (co-located FSE)",
+    "conf_start": "2026-07-05",
+    "conf_end": "2026-07-06",
     "url": "https://conf.researchr.org/home/ssbse-2026",
     "dates_url": "https://conf.researchr.org/dates/ssbse-2026",
     "tracks": [
-      {"track_type": "research", "track_name": "Research Papers (TBA)", "submission": null, "notification": null, "camera_ready": null}
-    ]
-  },
-  {
-    "key": "APSEC 2026",
-    "year": 2026,
-    "full_name": "Asia-Pacific Software Engineering Conference",
-    "location": "TBD",
-    "conf_start": null,
-    "conf_end": null,
-    "url": "https://conf.researchr.org/home/apsec-2026",
-    "dates_url": "https://conf.researchr.org/dates/apsec-2026",
-    "tracks": [
-      {"track_type": "research", "track_name": "Research Papers (TBA)", "submission": null, "notification": null, "camera_ready": null}
-    ]
-  },
-  {
-    "key": "QRS 2026",
-    "year": 2026,
-    "full_name": "IEEE Intl. Conf. on Software Quality, Reliability and Security",
-    "location": "TBD",
-    "conf_start": null,
-    "conf_end": null,
-    "url": "https://conf.researchr.org/home/qrs-2026",
-    "dates_url": "https://conf.researchr.org/dates/qrs-2026",
-    "tracks": [
-      {"track_type": "research", "track_name": "Research Papers (TBA)", "submission": null, "notification": null, "camera_ready": null}
+      {"track_type": "research", "track_name": "Research Papers",      "submission": "2026-03-17", "notification": null, "camera_ready": null},
+      {"track_type": "short",    "track_name": "RENE/NIER",            "submission": "2026-03-24", "notification": null, "camera_ready": null},
+      {"track_type": "tools",    "track_name": "SSBSE Challenge",      "submission": "2026-04-09", "notification": null, "camera_ready": null},
+      {"track_type": "short",    "track_name": "Hot-off-the-Press",    "submission": "2026-04-15", "notification": null, "camera_ready": null}
     ]
   },
   {

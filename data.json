@@ -8,7 +8,7 @@
     "conf_end": "2026-03-20",
     "url": "https://conf.researchr.org/home/saner-2026",
     "dates_url": "https://conf.researchr.org/dates/saner-2026",
-    "last_updated": "2026-04-17T08:22:47.641549",
+    "last_updated": "2026-04-17T08:50:24.906325",
     "tracks": [
       {
         "track_type": "other",
@@ -84,7 +84,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/cain-2026",
     "dates_url": "https://conf.researchr.org/dates/cain-2026",
-    "last_updated": "2026-04-17T08:22:46.406442",
+    "last_updated": "2026-04-17T08:50:23.611841",
     "tracks": [
       {
         "track_type": "short",
@@ -132,7 +132,7 @@
     "conf_end": "2026-04-13",
     "url": "https://conf.researchr.org/home/icpc-2026",
     "dates_url": "https://conf.researchr.org/dates/icpc-2026",
-    "last_updated": "2026-04-17T08:22:46.866048",
+    "last_updated": "2026-04-17T08:50:24.128335",
     "tracks": [
       {
         "track_type": "research",
@@ -180,7 +180,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/icse-2026",
     "dates_url": "https://conf.researchr.org/dates/icse-2026",
-    "last_updated": "2026-04-17T08:22:47.123305",
+    "last_updated": "2026-04-17T08:50:24.445974",
     "tracks": [
       {
         "track_type": "other",
@@ -788,7 +788,7 @@
     "conf_end": "2026-04-14",
     "url": "https://conf.researchr.org/home/msr-2026",
     "dates_url": "https://conf.researchr.org/dates/msr-2026",
-    "last_updated": "2026-04-17T08:22:47.555015",
+    "last_updated": "2026-04-17T08:50:24.852328",
     "tracks": [
       {
         "track_type": "other",
@@ -857,7 +857,7 @@
     "conf_end": "2026-05-08",
     "url": "https://conf.researchr.org/home/icsa-2026",
     "dates_url": "https://conf.researchr.org/dates/icsa-2026",
-    "last_updated": "2026-04-17T08:22:46.920047",
+    "last_updated": "2026-04-17T08:50:24.182489",
     "tracks": [
       {
         "track_type": "other",
@@ -954,7 +954,7 @@
     "conf_end": "2026-05-22",
     "url": "https://conf.researchr.org/home/icst-2026",
     "dates_url": "https://conf.researchr.org/dates/icst-2026",
-    "last_updated": "2026-04-17T08:22:47.310455",
+    "last_updated": "2026-04-17T08:50:24.620208",
     "tracks": [
       {
         "track_type": "other",
@@ -1128,7 +1128,7 @@
     "conf_end": "2026-06-12",
     "url": "https://conf.researchr.org/home/ease-2026",
     "dates_url": "https://conf.researchr.org/dates/ease-2026",
-    "last_updated": "2026-04-17T08:22:46.465347",
+    "last_updated": "2026-04-17T08:50:23.693913",
     "tracks": [
       {
         "track_type": "other",
@@ -1252,6 +1252,131 @@
     ]
   },
   {
+    "key": "ECOOP 2026",
+    "year": 2026,
+    "full_name": "European Conf. on Object-Oriented Programming",
+    "location": "Brussels, Belgium",
+    "conf_start": "2026-06-29",
+    "conf_end": "2026-07-03",
+    "url": "https://conf.researchr.org/home/ecoop-2026",
+    "dates_url": "https://conf.researchr.org/dates/ecoop-2026",
+    "last_updated": "2026-04-17T08:50:23.780307",
+    "tracks": [
+      {
+        "track_type": "doctoral",
+        "track_name": "Doctoral Symposium",
+        "submission": "2026-04-15",
+        "notification": "2026-04-17",
+        "camera_ready": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Artifact Evaluation",
+        "submission": "2026-02-05",
+        "notification": "2026-05-11",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "UNSOUND",
+        "submission": "2026-04-14",
+        "notification": "2026-04-19",
+        "camera_ready": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "Posters",
+        "submission": "2026-04-21",
+        "notification": "2026-04-24",
+        "camera_ready": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "Student Research Competition",
+        "submission": "2026-04-21",
+        "notification": null,
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Student Volunteers",
+        "submission": "2026-04-22",
+        "notification": "2026-04-25",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "GPCE",
+        "submission": "2026-03-12",
+        "notification": "2026-04-23",
+        "camera_ready": "2026-05-14"
+      },
+      {
+        "track_type": "other",
+        "track_name": "VeriLang",
+        "submission": "2026-03-14",
+        "notification": "2026-04-24",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "The Scala Workshop",
+        "submission": "2026-03-23",
+        "notification": "2026-04-13",
+        "camera_ready": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "Technical Papers",
+        "submission": "2025-11-27",
+        "notification": "2026-04-09",
+        "camera_ready": "2026-04-27"
+      },
+      {
+        "track_type": "other",
+        "track_name": "DEBT",
+        "submission": "2026-03-11",
+        "notification": "2026-04-15",
+        "camera_ready": "2026-04-28"
+      },
+      {
+        "track_type": "other",
+        "track_name": "ICOOOLPS",
+        "submission": "2026-03-21",
+        "notification": "2026-04-15",
+        "camera_ready": "2026-04-29"
+      },
+      {
+        "track_type": "other",
+        "track_name": "FTfJP",
+        "submission": "2026-02-25",
+        "notification": "2026-04-01",
+        "camera_ready": "2026-04-30"
+      },
+      {
+        "track_type": "other",
+        "track_name": "VORTEX",
+        "submission": "2026-04-10",
+        "notification": "2026-04-15",
+        "camera_ready": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Demos",
+        "submission": "2026-04-10",
+        "notification": null,
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "MPLR",
+        "submission": "2026-03-06",
+        "notification": "2026-04-15",
+        "camera_ready": null
+      }
+    ]
+  },
+  {
     "key": "FSE 2026",
     "year": 2026,
     "full_name": "ACM Foundations of Software Engineering (ESEC/FSE)",
@@ -1260,7 +1385,7 @@
     "conf_end": "2026-07-09",
     "url": "https://conf.researchr.org/home/fse-2026",
     "dates_url": "https://conf.researchr.org/dates/fse-2026",
-    "last_updated": "2026-04-17T08:22:46.695448",
+    "last_updated": "2026-04-17T08:50:23.957918",
     "tracks": [
       {
         "track_type": "research",
@@ -1426,6 +1551,47 @@
     ]
   },
   {
+    "key": "SSBSE 2026",
+    "year": 2026,
+    "full_name": "Intl. Symposium on Search-Based Software Engineering",
+    "location": "Montreal, Canada (co-located FSE)",
+    "conf_start": "2026-07-05",
+    "conf_end": "2026-07-06",
+    "url": "https://conf.researchr.org/home/ssbse-2026",
+    "dates_url": "https://conf.researchr.org/dates/ssbse-2026",
+    "last_updated": "2026-04-17T08:50:25.192956",
+    "tracks": [
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "submission": "2026-03-17",
+        "notification": "2026-04-10",
+        "camera_ready": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "RENE/NIER",
+        "submission": "2026-03-24",
+        "notification": "2026-04-15",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Hot-off-the-Press Track",
+        "submission": "2026-04-15",
+        "notification": "2026-04-22",
+        "camera_ready": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "SSBSE Challenge",
+        "submission": "2026-04-09",
+        "notification": "2026-04-30",
+        "camera_ready": null
+      }
+    ]
+  },
+  {
     "key": "ICSME 2026",
     "year": 2026,
     "full_name": "Intl. Conf. on Software Maintenance and Evolution",
@@ -1434,7 +1600,7 @@
     "conf_end": "2026-09-18",
     "url": "https://conf.researchr.org/home/icsme-2026",
     "dates_url": "https://conf.researchr.org/dates/icsme-2026",
-    "last_updated": "2026-04-17T08:22:47.235395",
+    "last_updated": "2026-04-17T08:50:24.553565",
     "tracks": [
       {
         "track_type": "research",
@@ -1510,7 +1676,7 @@
     "conf_end": "2026-09-18",
     "url": "https://conf.researchr.org/home/scam-2026",
     "dates_url": "https://conf.researchr.org/dates/scam-2026",
-    "last_updated": "2026-04-17T08:22:47.728568",
+    "last_updated": "2026-04-17T08:50:25.014972",
     "tracks": [
       {
         "track_type": "research",
@@ -1530,7 +1696,7 @@
     "conf_end": "2026-10-02",
     "url": "https://conf.researchr.org/home/variability-2026",
     "dates_url": "https://conf.researchr.org/dates/variability-2026",
-    "last_updated": "2026-04-17T08:22:47.949853",
+    "last_updated": "2026-04-17T08:50:25.242815",
     "tracks": [
       {
         "track_type": "research",
@@ -1599,7 +1765,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/issta-2026",
     "dates_url": "https://conf.researchr.org/dates/issta-2026",
-    "last_updated": "2026-04-17T08:22:47.420022",
+    "last_updated": "2026-04-17T08:50:24.728398",
     "tracks": [
       {
         "track_type": "research",
@@ -1738,7 +1904,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/esem-2026",
     "dates_url": "https://conf.researchr.org/dates/esem-2026",
-    "last_updated": "2026-04-17T08:22:46.621419",
+    "last_updated": "2026-04-17T08:50:23.865365",
     "tracks": [
       {
         "track_type": "research",
@@ -1793,7 +1959,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/models-2026",
     "dates_url": "https://conf.researchr.org/dates/models-2026",
-    "last_updated": "2026-04-17T08:22:47.477197",
+    "last_updated": "2026-04-17T08:50:24.784113",
     "tracks": [
       {
         "track_type": "research",
@@ -1869,7 +2035,7 @@
     "conf_end": "2026-10-16",
     "url": "https://conf.researchr.org/home/ase-2026",
     "dates_url": "https://conf.researchr.org/dates/ase-2026",
-    "last_updated": "2026-04-17T08:22:46.351676",
+    "last_updated": "2026-04-17T08:50:23.525090",
     "tracks": [
       {
         "track_type": "short",
@@ -1951,7 +2117,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/gpce-2026",
     "dates_url": "https://conf.researchr.org/dates/gpce-2026",
-    "last_updated": "2026-04-17T08:22:46.805781",
+    "last_updated": "2026-04-17T08:50:24.067475",
     "tracks": [
       {
         "track_type": "other",
@@ -1971,7 +2137,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/sle-2026",
     "dates_url": "https://conf.researchr.org/dates/sle-2026",
-    "last_updated": "2026-04-17T08:22:47.781240",
+    "last_updated": "2026-04-17T08:50:25.068786",
     "tracks": [
       {
         "track_type": "other",
@@ -1991,7 +2157,7 @@
     "conf_end": "2026-10-30",
     "url": "https://conf.researchr.org/home/splash-2026",
     "dates_url": "https://conf.researchr.org/dates/splash-2026",
-    "last_updated": "2026-04-17T08:22:47.851374",
+    "last_updated": "2026-04-17T08:50:25.140604",
     "tracks": [
       {
         "track_type": "research",
@@ -2171,7 +2337,7 @@
     "conf_end": "2027-05-01",
     "url": "https://conf.researchr.org/home/icse-2027",
     "dates_url": "https://conf.researchr.org/dates/icse-2027",
-    "last_updated": "2026-04-17T08:22:47.180916",
+    "last_updated": "2026-04-17T08:50:24.501877",
     "tracks": [
       {
         "track_type": "other",
@@ -2267,158 +2433,6 @@
     ]
   },
   {
-    "key": "APSEC 2026",
-    "year": 2026,
-    "full_name": "Asia-Pacific Software Engineering Conference",
-    "location": "TBD",
-    "conf_start": null,
-    "conf_end": null,
-    "url": "https://conf.researchr.org/home/apsec-2026",
-    "dates_url": "https://conf.researchr.org/dates/apsec-2026",
-    "last_updated": "2026-04-17T08:22:46.305905",
-    "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "Technical Track",
-        "submission": "2026-07-06",
-        "notification": "2026-09-14",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Software Engineering in Practices (SEIP)",
-        "submission": "2026-08-17",
-        "notification": "2026-09-28",
-        "camera_ready": null
-      }
-    ]
-  },
-  {
-    "key": "ECOOP 2026",
-    "year": 2026,
-    "full_name": "European Conf. on Object-Oriented Programming",
-    "location": "TBD",
-    "conf_start": null,
-    "conf_end": null,
-    "url": "https://conf.researchr.org/home/ecoop-2026",
-    "dates_url": "https://conf.researchr.org/dates/ecoop-2026",
-    "last_updated": "2026-04-17T08:22:46.533490",
-    "tracks": [
-      {
-        "track_type": "doctoral",
-        "track_name": "Doctoral Symposium",
-        "submission": "2026-04-15",
-        "notification": "2026-04-17",
-        "camera_ready": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Artifact Evaluation",
-        "submission": "2026-02-05",
-        "notification": "2026-05-11",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "UNSOUND",
-        "submission": "2026-04-14",
-        "notification": "2026-04-19",
-        "camera_ready": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "Posters",
-        "submission": "2026-04-21",
-        "notification": "2026-04-24",
-        "camera_ready": null
-      },
-      {
-        "track_type": "research",
-        "track_name": "Student Research Competition",
-        "submission": "2026-04-21",
-        "notification": null,
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Student Volunteers",
-        "submission": "2026-04-22",
-        "notification": "2026-04-25",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "GPCE",
-        "submission": "2026-03-12",
-        "notification": "2026-04-23",
-        "camera_ready": "2026-05-14"
-      },
-      {
-        "track_type": "other",
-        "track_name": "VeriLang",
-        "submission": "2026-03-14",
-        "notification": "2026-04-24",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "The Scala Workshop",
-        "submission": "2026-03-23",
-        "notification": "2026-04-13",
-        "camera_ready": null
-      },
-      {
-        "track_type": "research",
-        "track_name": "Technical Papers",
-        "submission": "2025-11-27",
-        "notification": "2026-04-09",
-        "camera_ready": "2026-04-27"
-      },
-      {
-        "track_type": "other",
-        "track_name": "DEBT",
-        "submission": "2026-03-11",
-        "notification": "2026-04-15",
-        "camera_ready": "2026-04-28"
-      },
-      {
-        "track_type": "other",
-        "track_name": "ICOOOLPS",
-        "submission": "2026-03-21",
-        "notification": "2026-04-15",
-        "camera_ready": "2026-04-29"
-      },
-      {
-        "track_type": "other",
-        "track_name": "FTfJP",
-        "submission": "2026-02-25",
-        "notification": "2026-04-01",
-        "camera_ready": "2026-04-30"
-      },
-      {
-        "track_type": "other",
-        "track_name": "VORTEX",
-        "submission": "2026-04-10",
-        "notification": "2026-04-15",
-        "camera_ready": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Demos",
-        "submission": "2026-04-10",
-        "notification": null,
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "MPLR",
-        "submission": "2026-03-06",
-        "notification": "2026-04-15",
-        "camera_ready": null
-      }
-    ]
-  },
-  {
     "key": "FSE 2027",
     "year": 2027,
     "full_name": "ACM Foundations of Software Engineering (ESEC/FSE)",
@@ -2427,7 +2441,7 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/fse-2027",
     "dates_url": "https://conf.researchr.org/dates/fse-2027",
-    "last_updated": "2026-04-17T08:22:46.744013",
+    "last_updated": "2026-04-17T08:50:24.004862",
     "tracks": [
       {
         "track_type": "research",
@@ -2447,7 +2461,7 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/icsa-2027",
     "dates_url": "https://conf.researchr.org/dates/icsa-2027",
-    "last_updated": "2026-04-17T08:22:46.967508",
+    "last_updated": "2026-04-17T08:50:24.249137",
     "tracks": [
       {
         "track_type": "other",
@@ -2524,67 +2538,6 @@
         "track_name": "Artifacts Evaluation",
         "submission": "2026-12-25",
         "notification": "2027-01-20",
-        "camera_ready": null
-      }
-    ]
-  },
-  {
-    "key": "QRS 2026",
-    "year": 2026,
-    "full_name": "IEEE Intl. Conf. on Software Quality, Reliability and Security",
-    "location": "TBD",
-    "conf_start": null,
-    "conf_end": null,
-    "url": "https://conf.researchr.org/home/qrs-2026",
-    "dates_url": "https://conf.researchr.org/dates/qrs-2026",
-    "last_updated": null,
-    "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "Research Papers (TBA)",
-        "submission": null,
-        "notification": null,
-        "camera_ready": null
-      }
-    ]
-  },
-  {
-    "key": "SSBSE 2026",
-    "year": 2026,
-    "full_name": "Intl. Symposium on Search-Based Software Engineering",
-    "location": "TBD",
-    "conf_start": null,
-    "conf_end": null,
-    "url": "https://conf.researchr.org/home/ssbse-2026",
-    "dates_url": "https://conf.researchr.org/dates/ssbse-2026",
-    "last_updated": "2026-04-17T08:22:47.904159",
-    "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "Research Papers",
-        "submission": "2026-03-17",
-        "notification": "2026-04-10",
-        "camera_ready": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "RENE/NIER",
-        "submission": "2026-03-24",
-        "notification": "2026-04-15",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Hot-off-the-Press Track",
-        "submission": "2026-04-15",
-        "notification": "2026-04-22",
-        "camera_ready": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "SSBSE Challenge",
-        "submission": "2026-04-09",
-        "notification": "2026-04-30",
         "camera_ready": null
       }
     ]
