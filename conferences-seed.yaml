@@ -289,6 +289,7 @@
   year: 2026
   full_name: Empirical Software Engineering & Measurement (ESEIW)
   location: Munich, Germany
+  submission_url: https://esem2026.hotcrp.com
   conf_start: '2026-10-04'
   conf_end: '2026-10-09'
   url: https://conf.researchr.org/home/esem-2026
@@ -337,6 +338,7 @@
   year: 2026
   full_name: IEEE/ACM Intl. Conf. on Automated Software Engineering
   location: Munich, Germany
+  submission_url: https://ase26.hotcrp.com
   conf_start: '2026-10-12'
   conf_end: '2026-10-16'
   url: https://conf.researchr.org/home/ase-2026
@@ -468,6 +470,7 @@
   year: 2026
   full_name: European Conf. on Object-Oriented Programming
   location: TBD
+  submission_url: https://ecoop26.hotcrp.com
   conf_start: null
   conf_end: null
   url: https://conf.researchr.org/home/ecoop-2026
@@ -528,6 +531,7 @@
   year: 2027
   full_name: IEEE/ACM Intl. Conf. on Software Engineering
   location: Dublin, Ireland
+  submission_url: https://icse2027.hotcrp.com
   conf_start: '2027-04-25'
   conf_end: '2027-05-01'
   url: https://conf.researchr.org/home/icse-2027

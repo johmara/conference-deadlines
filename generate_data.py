@@ -145,6 +145,40 @@ def _classify_label(label: str) -> Optional[str]:
 PORTAL_DOMAINS = ("easychair.org", "hotcrp.com", "openreview.net",
                   "cmt3.research.microsoft.com", "softconf.com")
 
+# Domains we won't follow as the "real" conference website
+_SITE_BLACKLIST = frozenset([
+    "conf.researchr.org", "researchr.org",
+    "twitter.com", "x.com", "linkedin.com", "facebook.com",
+    "youtube.com", "github.com", "doi.org", "acm.org", "ieee.org",
+    "scholar.google.com", "dl.acm.org",
+])
+
+def _find_portal_link(soup) -> Optional[str]:
+    for a in soup.find_all("a", href=True):
+        if any(d in a["href"] for d in PORTAL_DOMAINS):
+            return a["href"]
+    return None
+
+def _find_conf_website(soup) -> Optional[str]:
+    """Find link to the real conference website from a researchr page."""
+    from urllib.parse import urlparse
+    # Look for a link near "website" keyword text
+    for el in soup.find_all(string=re.compile(r'\bwebsite\b', re.I)):
+        parent = el.parent
+        for _ in range(4):
+            if parent is None:
+                break
+            for a in (parent.find_all("a", href=True) if hasattr(parent, 'find_all') else []):
+                href = a["href"]
+                parsed = urlparse(href)
+                if parsed.scheme not in ("http", "https"):
+                    continue
+                domain = parsed.netloc.lower().lstrip("www.")
+                if not any(b in domain for b in _SITE_BLACKLIST):
+                    return href
+            parent = parent.parent
+    return None
+
 def _extract_portal_url(row_el) -> Optional[str]:
     for a in row_el.find_all("a", href=True):
         if any(d in a["href"] for d in PORTAL_DOMAINS):
@@ -152,7 +186,7 @@ def _extract_portal_url(row_el) -> Optional[str]:
     return None
 
 
-async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[dict]:
+async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> dict:
     """
     Scrape a conf.researchr.org/dates/{slug} page.
     The page uses a 3-column table: When | Track | What
@@ -161,7 +195,7 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[d
         resp = await client.get(dates_url)
         resp.raise_for_status()
     except Exception:
-        return []
+        return {"tracks": [], "submission_url": None}
 
     soup = BeautifulSoup(resp.text, "lxml")
 
@@ -196,18 +230,23 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[d
                 tracks[track_name].setdefault("submission_url", scraped_url)
 
         if tracks:
-            return [
-                dict(
-                    track_type=_classify_track(name),
-                    track_name=name,
-                    submission=data.get("submission"),
-                    notification=data.get("notification"),
-                    camera_ready=data.get("camera_ready"),
-                    submission_url=data.get("submission_url"),
-                )
-                for name, data in tracks.items()
-                if any(data.values())
-            ]
+            # Search full page for a portal URL to use as conference-level fallback
+            page_portal = _find_portal_link(soup)
+            return {
+                "tracks": [
+                    dict(
+                        track_type=_classify_track(name),
+                        track_name=name,
+                        submission=data.get("submission"),
+                        notification=data.get("notification"),
+                        camera_ready=data.get("camera_ready"),
+                        submission_url=data.get("submission_url"),
+                    )
+                    for name, data in tracks.items()
+                    if any(data.values())
+                ],
+                "submission_url": page_portal,
+            }
 
     # ── Fallback: heading → text walk ─────────────────────────────────────────
     for tag in soup(["script", "style", "nav", "footer", "header"]):
@@ -232,13 +271,15 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[d
         if slot:
             tracks_fb[current].setdefault(slot, d)
 
-    return [
-        dict(track_type=_classify_track(n), track_name=n,
-             submission_time="23:59",  # AoE (UTC-12) convention
-             **data)
-        for n, data in tracks_fb.items()
-        if any(data.values())
-    ]
+    page_portal = _find_portal_link(soup)
+    return {
+        "tracks": [
+            dict(track_type=_classify_track(n), track_name=n, **data)
+            for n, data in tracks_fb.items()
+            if any(data.values())
+        ],
+        "submission_url": page_portal,
+    }
 
 
 CITY_COUNTRY_RE = re.compile(
@@ -364,6 +405,22 @@ async def _fetch_conf_page(client: httpx.AsyncClient, home_url: str) -> dict:
         elif len(dates) == 1:
             meta["conf_start"] = meta["conf_end"] = dates[0]
 
+    # ── Portal / submission URL ────────────────────────────────────────────────
+    # Check researchr homepage itself first, then follow the conf's own website.
+    portal = _find_portal_link(soup)
+    if not portal:
+        conf_site = _find_conf_website(soup)
+        if conf_site:
+            try:
+                r2 = await client.get(conf_site)
+                r2.raise_for_status()
+                s2 = BeautifulSoup(r2.text, "lxml")
+                portal = _find_portal_link(s2)
+            except Exception:
+                pass
+    if portal:
+        meta["submission_url"] = portal
+
     return meta
 
 
@@ -429,6 +486,7 @@ async def _discover_new_editions(
                 conf_end=meta.get("conf_end"),
                 url=home_url,
                 dates_url=dates_url,
+                submission_url=meta.get("submission_url"),
                 last_updated=datetime.utcnow().isoformat(),
                 tracks=[],
             ))
@@ -479,8 +537,12 @@ async def _main_async() -> None:
                 continue
             _log(f"  Fetching {key} — {dates_url}")
 
-            # Re-fetch homepage if location or conf dates are still unknown
-            needs_meta = not conf.get("conf_start") or conf.get("location") in (None, "TBD")
+            # Re-fetch homepage if location, conf dates, or submission URL are unknown
+            needs_meta = (
+                not conf.get("conf_start")
+                or conf.get("location") in (None, "TBD")
+                or conf.get("submission_url") is None
+            )
             if needs_meta and conf.get("url"):
                 meta = await _fetch_conf_page(client, conf["url"])
                 if meta.get("location"):
@@ -488,13 +550,19 @@ async def _main_async() -> None:
                 if meta.get("conf_start"):
                     conf["conf_start"] = meta["conf_start"]
                     conf["conf_end"]   = meta.get("conf_end")
+                if meta.get("submission_url") and not conf.get("submission_url"):
+                    conf["submission_url"] = meta["submission_url"]
+                    _log(f"    -> portal URL: {meta['submission_url']}")
 
             scraped = await _fetch_dates_page(client, dates_url)
-            if scraped:
-                conf["tracks"] = scraped
+            if scraped["tracks"]:
+                conf["tracks"] = scraped["tracks"]
                 conf["last_updated"] = datetime.utcnow().isoformat()
                 updated += 1
-                _log(f"    -> {len(scraped)} track(s) found")
+                _log(f"    -> {len(scraped['tracks'])} track(s) found")
+                if scraped["submission_url"] and not conf.get("submission_url"):
+                    conf["submission_url"] = scraped["submission_url"]
+                    _log(f"    -> portal URL (dates page): {scraped['submission_url']}")
             else:
                 _log(f"    -> no dates found, keeping seed data")
 

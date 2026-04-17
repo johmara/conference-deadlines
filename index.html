@@ -220,6 +220,11 @@ td { padding: .46rem .7rem; vertical-align: middle; }
 .note-btn.no-note { opacity:0;transition:opacity .12s; }
 tbody tr:hover .note-btn.no-note { opacity:1; }
 .note-btn.has-note { opacity:1; }
+.note-cell { cursor:pointer; max-width:180px; }
+.note-cell .note-snippet { font-size:.72rem; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:170px; display:block; }
+.note-cell .note-add { font-size:.72rem; color:var(--border); opacity:0; transition:opacity .12s; }
+tbody tr:hover .note-cell .note-add { opacity:1; color:var(--muted); }
+table.notes-hidden #th-notes, table.notes-hidden .note-cell { display:none; }
 
 footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.25rem; padding-top:.9rem; border-top:1px solid var(--border); }
 </style>
@@ -276,6 +281,7 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
           <th class="s sortable" style="min-width:135px;cursor:pointer" onclick="sortBy('short')"    title="Sort by Short/NIER deadline">● Short / NIER / ERA <span class="sort-ind" id="si-short"></span></th>
           <th class="t sortable" style="min-width:135px;cursor:pointer" onclick="sortBy('tools')"    title="Sort by Tools deadline">● Tools &amp; Demos <span class="sort-ind" id="si-tools"></span></th>
           <th class="d sortable" style="min-width:135px;cursor:pointer" onclick="sortBy('doctoral')" title="Sort by Doctoral deadline">● Doctoral Symposium <span class="sort-ind" id="si-doctoral"></span></th>
+          <th id="th-notes" style="min-width:130px">Notes</th>
         </tr>
       </thead>
       <tbody id="tbl-body"></tbody>
@@ -325,7 +331,7 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
         </label>
       </div>
       <div class="field-row" style="align-items:center;margin-top:.5rem">
-        <label style="font-size:.77rem;font-weight:600;flex:1">Show note buttons</label>
+        <label style="font-size:.77rem;font-weight:600;flex:1">Show notes column</label>
         <input type="checkbox" id="notes-enabled-chk"
                onchange="setNotesEnabled(this.checked)"
                style="width:15px;height:15px;cursor:pointer">
@@ -563,7 +569,7 @@ function notesEnabled() {
 
 function setNotesEnabled(val) {
   localStorage.setItem('conf_notes_enabled', val ? 'true' : 'false');
-  // Re-render table so note buttons appear/disappear immediately
+  document.querySelector('table').classList.toggle('notes-hidden', !val);
   setYear(CURRENT_YEAR);
 }
 
@@ -617,11 +623,14 @@ function buildTable(confs) {
                    (_newKeys.has(c.key) ? '<span class="new-badge">new</span>' : '');
     const note = getNote(c.key);
     const safeKey = c.key.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
-    const noteBtn = notesEnabled()
-      ? (note
-          ? `<div class="note-btn has-note" onclick="openNoteEditor('${safeKey}',event)" title="${note.replace(/"/g,'&quot;')}">📝</div>`
-          : `<div class="note-btn no-note" onclick="openNoteEditor('${safeKey}',event)" title="Add note">+</div>`)
-      : '';
+    const snippet = note ? note.replace(/"/g,'&quot;') : '';
+    const noteCell = note
+      ? `<td class="note-cell" onclick="openNoteEditor('${safeKey}',event)" title="${snippet}">
+           <span class="note-snippet">${snippet}</span>
+         </td>`
+      : `<td class="note-cell" onclick="openNoteEditor('${safeKey}',event)" title="Add note">
+           <span class="note-add">+ add note</span>
+         </td>`;
     const tr = document.createElement('tr');
     if (live) tr.classList.add('row-live');
     tr.innerHTML = `
@@ -630,13 +639,13 @@ function buildTable(confs) {
           ${nameEl}${badges}
         </div>
         <div class="conf-sub">${c.location||''}</div>
-        ${noteBtn}
       </td>
       <td style="${past&&!live?'color:var(--past-tx)':''}; white-space:nowrap; font-size:.7rem">${confDateLbl(c)}</td>
       <td title="${r?.track_name||''}">${deadlineTag(r?.submission, rUrl)}</td>
       <td title="${s?.track_name||''}">${deadlineTag(s?.submission, sUrl)}</td>
       <td title="${t?.track_name||''}">${deadlineTag(t?.submission, tUrl)}</td>
       <td title="${d?.track_name||''}">${deadlineTag(d?.submission, dUrl)}</td>
+      ${noteCell}
     `;
     tbody.appendChild(tr);
   });
@@ -938,6 +947,10 @@ function loadSettings() {
   HIDE_PAST = s.hide_past === true || s.hide_past === '1';
   const chk = document.getElementById('hide-past-chk');
   if (chk) chk.checked = HIDE_PAST;
+  // Apply notes column visibility
+  document.querySelector('table').classList.toggle('notes-hidden', !notesEnabled());
+  const notesChk = document.getElementById('notes-enabled-chk');
+  if (notesChk) notesChk.checked = notesEnabled();
 }
 
 function getSettings() {
