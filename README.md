@@ -4,11 +4,12 @@
 
 **Track submission deadlines for top software engineering conferences**
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=for-the-badge)](https://johmara.github.io/conference-deadlines/)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=for-the-badge)](https://johan.martinson.phd/conference-deadlines/)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![Update data](https://github.com/johmara/conference-deadlines/actions/workflows/update-data.yml/badge.svg)](https://github.com/johmara/conference-deadlines/actions/workflows/update-data.yml)
 
-[Live Demo](https://johmara.github.io/conference-deadlines/) • [Report Bug](https://github.com/johmara/conference-deadlines/issues) • [Request Feature](https://github.com/johmara/conference-deadlines/issues)
+[Live Demo](https://johan.martinson.phd/conference-deadlines/) • [Report Bug](https://github.com/johmara/conference-deadlines/issues) • [Request Feature](https://github.com/johmara/conference-deadlines/issues)
 
 </div>
 
@@ -55,12 +56,12 @@
 
 ### View deadlines
 
-Just open the [live site](https://johmara.github.io/conference-deadlines/).
+Just open the [live site](https://johan.martinson.phd/conference-deadlines/).
 
 ### Run the scraper locally
 
 ```bash
-pip install httpx beautifulsoup4
+pip install -r requirements.txt
 python generate_data.py        # writes data.json
 # Then open index.html in a browser
 ```
