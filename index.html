@@ -1082,11 +1082,93 @@ function hideToast() {
 
 
 
+// ── Notifications ─────────────────────────────────────────────────────────────
+const LS_NOTIFY_KEY   = 'conf_notify_settings';
+const LS_NOTIFIED_KEY = 'conf_notified';
+
+function getNotifySettings() {
+  try { return { enabled: false, days_before: 14, ...JSON.parse(localStorage.getItem(LS_NOTIFY_KEY) || '{}') }; }
+  catch { return { enabled: false, days_before: 14 }; }
+}
+
+function saveNotifySettings() {
+  const days = parseInt(document.getElementById('notify-days-sel')?.value || '14', 10);
+  localStorage.setItem(LS_NOTIFY_KEY, JSON.stringify({ ...getNotifySettings(), days_before: days }));
+}
+
+function loadNotifyUI() {
+  const s = getNotifySettings();
+  const chk = document.getElementById('notify-chk');
+  if (chk) chk.checked = s.enabled && Notification.permission === 'granted';
+  const sel = document.getElementById('notify-days-sel');
+  if (sel) sel.value = String(s.days_before);
+  const field = document.getElementById('notify-days-field');
+  if (field) field.style.display = (s.enabled && Notification.permission === 'granted') ? '' : 'none';
+  const status = document.getElementById('notify-status');
+  if (status && Notification.permission === 'denied')
+    status.textContent = 'Permission denied — enable in browser settings.';
+}
+
+async function toggleNotifications(checked) {
+  if (checked && Notification.permission !== 'granted') {
+    const perm = await Notification.requestPermission();
+    if (perm !== 'granted') {
+      document.getElementById('notify-chk').checked = false;
+      document.getElementById('notify-status').textContent = 'Permission denied — enable in browser settings.';
+      document.getElementById('notify-days-field').style.display = 'none';
+      localStorage.setItem(LS_NOTIFY_KEY, JSON.stringify({ ...getNotifySettings(), enabled: false }));
+      return;
+    }
+  }
+  localStorage.setItem(LS_NOTIFY_KEY, JSON.stringify({ ...getNotifySettings(), enabled: checked }));
+  document.getElementById('notify-days-field').style.display = checked ? '' : 'none';
+  document.getElementById('notify-status').textContent = '';
+  if (checked) checkDeadlineNotifications();
+}
+
+function checkDeadlineNotifications() {
+  const s = getNotifySettings();
+  if (!s.enabled || Notification.permission !== 'granted' || !ALL_DATA.length) return;
+
+  const notified = (() => { try { return JSON.parse(localStorage.getItem(LS_NOTIFIED_KEY) || '{}'); } catch { return {}; } })();
+  const todayStr = TODAY.toISOString().split('T')[0];
+  const activeDisplays = getActiveDisplaySet();
+
+  const confs = ALL_DATA.filter(c => {
+    const disp = (c.key || '').replace(/\s+\d{4}$/, '').trim().toLowerCase();
+    return activeDisplays.has(disp);
+  });
+
+  const TRACK_LABELS = { research:'Research', short:'Short/NIER', tools:'Tools', doctoral:'Doctoral' };
+  let changed = false;
+
+  for (const c of confs) {
+    for (const type of ['research','short','tools','doctoral']) {
+      const track = (c.tracks || []).find(t => t.track_type === type);
+      if (!track?.submission) continue;
+      const d = parseDate(track.submission);
+      if (!d || d <= TODAY) continue;
+      const days = daysFrom(d);
+      if (days == null || days > s.days_before) continue;
+      const uid = `${c.key}::${type}::${track.submission}`;
+      if (notified[uid] === todayStr) continue;
+      new Notification(`${c.key} — ${TRACK_LABELS[type]} in ${days}d`, {
+        body: `${track.track_name}\n${fmtFull(d)} (23:59 AoE)`,
+        tag: uid,
+      });
+      notified[uid] = todayStr;
+      changed = true;
+    }
+  }
+  if (changed) localStorage.setItem(LS_NOTIFIED_KEY, JSON.stringify(notified));
+}
+
 // ── Settings panel ────────────────────────────────────────────────────────────
 function openPanel() {
   document.getElementById('overlay').classList.add('open');
   document.getElementById('panel').classList.add('open');
   loadSeriesList();
+  loadNotifyUI();
   const notesChk = document.getElementById('notes-enabled-chk');
   if (notesChk) notesChk.checked = notesEnabled();
 }
