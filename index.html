@@ -212,6 +212,12 @@ td { padding: .46rem .7rem; vertical-align: middle; }
 .tip { display:none; position:fixed; background:#1e293b; color:#f8fafc; padding:.3rem .6rem; border-radius:6px; font-size:.72rem; pointer-events:none; z-index:9999; box-shadow:0 4px 16px rgba(0,0,0,.3); white-space:nowrap; }
 .tip.show { display:block; }
 
+/* ── Notes ── */
+.note-btn { display:inline-block;cursor:pointer;font-size:.75rem;margin-top:.15rem;color:var(--muted);line-height:1;user-select:none; }
+.note-btn.no-note { opacity:0;transition:opacity .12s; }
+tbody tr:hover .note-btn.no-note { opacity:1; }
+.note-btn.has-note { opacity:1; }
+
 footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.25rem; padding-top:.9rem; border-top:1px solid var(--border); }
 </style>
 </head>
@@ -226,6 +232,9 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
   </a>
   <h1>Conference Deadlines</h1>
   <div id="year-btns"></div>
+  <button class="btn" onclick="exportIcal()" title="Export visible deadlines as iCal (.ics) — re-export after data refreshes">
+    Export .ics
+  </button>
   <span class="updated-info ml-auto" id="updated-info"></span>
   <a href="https://github.com/johmara/conference-deadlines/actions" target="_blank" rel="noopener"
      class="btn" title="Trigger a manual data refresh on GitHub Actions" style="font-size:.7rem;color:var(--muted)">↻</a>
@@ -383,6 +392,27 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
 <!-- Tooltip -->
 <div class="tip" id="tip"></div>
 
+<div id="note-overlay" onclick="closeNoteEditor()"
+     style="display:none;position:fixed;inset:0;z-index:399;background:rgba(0,0,0,.25)"></div>
+<div id="note-modal"
+     style="display:none;position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);
+            z-index:400;background:var(--card);border:1px solid var(--border);border-radius:12px;
+            box-shadow:0 8px 32px rgba(0,0,0,.18);padding:1rem;width:340px;max-width:calc(100vw - 2rem)">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem">
+    <strong id="note-modal-title" style="font-size:.85rem"></strong>
+    <button class="btn" style="padding:.2rem .5rem;font-size:.75rem" onclick="closeNoteEditor()">✕</button>
+  </div>
+  <textarea id="note-textarea" placeholder="e.g. 'Submitted research track' or 'Rejected, try 2027'"
+    style="width:100%;height:80px;padding:.4rem .5rem;border:1.5px solid var(--border);
+           border-radius:6px;font-size:.8rem;resize:vertical;font-family:inherit;box-sizing:border-box"
+    onkeydown="if(event.key==='Escape')closeNoteEditor();if(event.ctrlKey&&event.key==='Enter')saveNoteFromModal()">
+  </textarea>
+  <div style="display:flex;gap:.4rem;margin-top:.5rem;justify-content:flex-end">
+    <button class="btn danger" id="note-clear-btn" onclick="clearNoteFromModal()" style="display:none">Clear</button>
+    <button class="btn primary" onclick="saveNoteFromModal()">Save (Ctrl+↵)</button>
+  </div>
+</div>
+
 <script>
 // ── Constants ─────────────────────────────────────────────────────────────────
 const LS_DATA_KEY        = 'conf_data';
@@ -480,6 +510,47 @@ const confDateLbl = c => {
          e.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
 };
 
+// ── Notes ─────────────────────────────────────────────────────────────────────
+const LS_NOTES_KEY = 'conf_notes';
+function getNotes() { try { return JSON.parse(localStorage.getItem(LS_NOTES_KEY)||'{}'); } catch { return {}; } }
+function getNote(key) { return getNotes()[key] || ''; }
+function saveNote(key, text) {
+  const notes = getNotes();
+  if (text.trim()) notes[key] = text.trim(); else delete notes[key];
+  localStorage.setItem(LS_NOTES_KEY, JSON.stringify(notes));
+}
+
+let _noteCurrentKey = null;
+
+function openNoteEditor(key, evt) {
+  evt?.stopPropagation();
+  _noteCurrentKey = key;
+  const existing = getNote(key);
+  document.getElementById('note-modal-title').textContent = key;
+  document.getElementById('note-textarea').value = existing;
+  document.getElementById('note-clear-btn').style.display = existing ? '' : 'none';
+  document.getElementById('note-overlay').style.display = 'block';
+  document.getElementById('note-modal').style.display = 'block';
+  setTimeout(() => document.getElementById('note-textarea').focus(), 50);
+}
+function closeNoteEditor() {
+  document.getElementById('note-overlay').style.display = 'none';
+  document.getElementById('note-modal').style.display = 'none';
+  _noteCurrentKey = null;
+}
+function saveNoteFromModal() {
+  if (!_noteCurrentKey) return;
+  saveNote(_noteCurrentKey, document.getElementById('note-textarea').value);
+  closeNoteEditor();
+  setYear(CURRENT_YEAR);
+}
+function clearNoteFromModal() {
+  if (!_noteCurrentKey) return;
+  saveNote(_noteCurrentKey, '');
+  closeNoteEditor();
+  setYear(CURRENT_YEAR);
+}
+
 // ── Table ─────────────────────────────────────────────────────────────────────
 function buildTable(confs) {
   const tbody = document.getElementById('tbl-body');
@@ -492,6 +563,11 @@ function buildTable(confs) {
     const nameEl = c.url ? `<a href="${c.url}" target="_blank" rel="noopener">${c.key}</a>` : c.key;
     const badges = (live ? '<span class="live-badge">LIVE</span>' : '') +
                    (_newKeys.has(c.key) ? '<span class="new-badge">new</span>' : '');
+    const note = getNote(c.key);
+    const safeKey = c.key.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+    const noteBtn = note
+      ? `<div class="note-btn has-note" onclick="openNoteEditor('${safeKey}',event)" title="${note.replace(/"/g,'&quot;')}">📝</div>`
+      : `<div class="note-btn no-note" onclick="openNoteEditor('${safeKey}',event)" title="Add note">+</div>`;
     const tr = document.createElement('tr');
     if (live) tr.classList.add('row-live');
     tr.innerHTML = `
@@ -500,6 +576,7 @@ function buildTable(confs) {
           ${nameEl}${badges}
         </div>
         <div class="conf-sub">${c.location||''}</div>
+        ${noteBtn}
       </td>
       <td style="${past&&!live?'color:var(--past-tx)':''}; white-space:nowrap; font-size:.7rem">${confDateLbl(c)}</td>
       <td title="${r?.track_name||''}">${deadlineTag(r?.submission)}</td>
@@ -982,6 +1059,87 @@ setInterval(() => {
   const confs = (CURRENT_YEAR ? ALL_DATA.filter(c => c.year === CURRENT_YEAR) : ALL_DATA);
   buildTable(confs);
 }, 60000); // refresh every minute
+
+// ── iCal export ───────────────────────────────────────────────────────────────
+function foldIcalLine(s) {
+  // RFC 5545: lines must not exceed 75 octets; fold with CRLF + space
+  const out = [];
+  while (s.length > 75) { out.push(s.slice(0, 75)); s = ' ' + s.slice(75); }
+  out.push(s);
+  return out.join('\r\n');
+}
+
+function icalEscape(s) {
+  return String(s).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
+}
+
+function exportIcal() {
+  // Build the same filtered set that the table shows
+  const activeDisplays = getActiveDisplaySet();
+  let confs = ALL_DATA.filter(c => {
+    const key = (c.key || '').toLowerCase();
+    for (const disp of activeDisplays) {
+      if (key.startsWith(disp)) return true;
+    }
+    return false;
+  });
+  if (CURRENT_YEAR) confs = confs.filter(c => c.year === CURRENT_YEAR);
+  if (HIDE_PAST) confs = confs.filter(c => !confIsPast(c));
+
+  const lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//SE Conference Deadlines//EN',
+    'CALSCALE:GREGORIAN',
+    'X-WR-CALNAME:SE Conference Deadlines',
+  ];
+
+  const TRACK_LABELS = { research:'Research', short:'Short/NIER', tools:'Tools', doctoral:'Doctoral' };
+
+  for (const c of confs) {
+    for (const type of ['research','short','tools','doctoral']) {
+      const track = (c.tracks||[]).find(t => t.track_type === type);
+      if (!track?.submission) continue;
+
+      // Respect HIDE_PAST: skip individual past tracks too
+      if (HIDE_PAST && deadlineMs(track.submission) <= Date.now()) continue;
+
+      const dtStart = track.submission.replace(/-/g,'');
+      const uid = `${c.key.replace(/\s+/g,'-')}-${type}-${track.submission}@se-conferences`;
+      const dtStamp = new Date().toISOString().replace(/[-:.]/g,'').slice(0,15)+'Z';
+      const summary = `${c.key} \u2014 ${TRACK_LABELS[type]} deadline`;
+      const descParts = [
+        `Track: ${track.track_name}`,
+        `Deadline: 23:59 AoE (UTC-12)`,
+        c.location ? `Location: ${c.location}` : null,
+        c.url ? `Info: ${c.url}` : null,
+      ].filter(Boolean).join('\\n');
+
+      lines.push(
+        'BEGIN:VEVENT',
+        foldIcalLine(`UID:${uid}`),
+        foldIcalLine(`DTSTAMP:${dtStamp}`),
+        `DTSTART;VALUE=DATE:${dtStart}`,
+        `DTEND;VALUE=DATE:${dtStart}`,
+        foldIcalLine(`SUMMARY:${icalEscape(summary)}`),
+        foldIcalLine(`DESCRIPTION:${icalEscape(descParts)}`),
+        ...(c.url ? [foldIcalLine(`URL:${c.url}`)] : []),
+        'END:VEVENT',
+      );
+    }
+  }
+
+  lines.push('END:VCALENDAR');
+
+  const blob = new Blob([lines.join('\r\n') + '\r\n'], { type: 'text/calendar;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `se-conferences${CURRENT_YEAR ? '-'+CURRENT_YEAR : ''}.ics`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+}
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 loadSettings();
