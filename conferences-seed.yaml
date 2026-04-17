@@ -73,6 +73,7 @@
   conf_end: '2026-04-18'
   url: https://conf.researchr.org/home/icse-2026
   dates_url: https://conf.researchr.org/dates/icse-2026
+  submission_url: https://icse2026.hotcrp.com
   tracks:
   - track_type: research
     track_name: Research Track (C1)
@@ -160,6 +161,7 @@
   conf_end: '2026-07-09'
   url: https://conf.researchr.org/home/fse-2026
   dates_url: https://conf.researchr.org/dates/fse-2026
+  submission_url: https://fse2026.hotcrp.com
   tracks:
   - track_type: research
     track_name: Research Papers
@@ -261,6 +263,7 @@
   conf_end: '2026-10-09'
   url: https://conf.researchr.org/home/issta-2026
   dates_url: https://conf.researchr.org/dates/issta-2026
+  submission_url: https://issta2026.hotcrp.com
   tracks:
   - track_type: research
     track_name: Research Papers
