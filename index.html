@@ -96,6 +96,7 @@ td { padding: .46rem .7rem; vertical-align: middle; }
 .tag-soon { background:var(--soon-bg); color:var(--soon-tx); font-weight:700; }
 .tag-hot  { background:var(--hot-bg);  color:var(--hot-tx);  font-weight:700; animation:pulse 1.5s infinite; }
 .tag-none { color:var(--past-tx); font-size:.69rem; }
+.cdwn { font-size:.67rem; opacity:.8; font-weight:500; font-variant-numeric:tabular-nums; }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.65} }
 
 /* ── Timeline ── */
@@ -356,7 +357,7 @@ footer { font-size:.69rem; color:var(--muted); text-align:center; margin-top:1.2
          target="_blank" rel="noopener" class="btn primary" style="width:100%;justify-content:center;margin-top:.2rem">
         View series-config.json on GitHub
       </a>
-      <a href="https://github.com/johmara/conference-deadlines/compare/gh-pages...gh-pages?quick_pull=1&template=pull_request_template.md"
+      <a href="https://github.com/johmara/conference-deadlines/compare/main...main?quick_pull=1&template=pull_request_template.md"
          target="_blank" rel="noopener" class="btn" style="width:100%;justify-content:center;margin-top:.4rem">
         Create a Pull Request
       </a>
@@ -424,18 +425,47 @@ document.getElementById('today-lbl').textContent =
   'Today: ' + TODAY.toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
 
 // ── Date helpers ──────────────────────────────────────────────────────────────
-const parseDate = s => { if(!s) return null; const [y,m,d]=s.split('-').map(Number); return new Date(y,m-1,d); };
-const daysFrom  = d => d ? Math.round((d-TODAY)/86400000) : null;
-const fmtShort  = d => d ? d.toLocaleDateString('en-GB',{day:'numeric',month:'short'}) : null;
-const fmtFull   = d => d ? d.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}) : null;
+// Deadlines are interpreted as 23:59 AoE (UTC-12) unless a time is stored
+const AOE_OFFSET_MS = -12 * 60 * 60 * 1000;
 
-function deadlineTag(dateStr) {
+function deadlineMs(dateStr, timeStr) {
+  if (!dateStr) return null;
+  // Build ISO string: date + time (default 23:59) + AoE offset (-12:00)
+  const time = timeStr || '23:59';
+  return new Date(`${dateStr}T${time}:00-12:00`).getTime();
+}
+
+const parseDate  = s => { if(!s) return null; const [y,m,d]=s.split('-').map(Number); return new Date(y,m-1,d); };
+const fmtShort   = d => d ? d.toLocaleDateString('en-GB',{day:'numeric',month:'short'}) : null;
+const fmtFull    = d => d ? d.toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'}) : null;
+const daysFrom   = d => d ? Math.round((d - TODAY) / 86400000) : null;
+
+function fmtCountdown(ms) {
+  const diff = ms - Date.now();
+  if (diff <= 0) return null;
+  const totalMins = Math.floor(diff / 60000);
+  const days  = Math.floor(totalMins / 1440);
+  const hours = Math.floor((totalMins % 1440) / 60);
+  const mins  = totalMins % 60;
+  if (days > 0)  return `${days}d ${hours}h`;
+  if (hours > 0) return `${hours}h ${mins}m`;
+  return `${mins}m`;
+}
+
+function deadlineTag(dateStr, timeStr) {
   if (!dateStr) return '<span class="tag-none">—</span>';
-  const d=parseDate(dateStr), days=daysFrom(d), lbl=fmtShort(d);
-  if (days<0)   return `<span class="tag tag-past" title="${fmtFull(d)}">✕ ${lbl}</span>`;
-  if (days<=13)  return `<span class="tag tag-hot"  title="${fmtFull(d)}">▲ ${lbl} <small>${days}d</small></span>`;
-  if (days<=42)  return `<span class="tag tag-soon" title="${fmtFull(d)}">● ${lbl} <small>${days}d</small></span>`;
-  return `<span class="tag tag-open" title="${fmtFull(d)}">● ${lbl}</span>`;
+  const dlMs   = deadlineMs(dateStr, timeStr);
+  const d      = parseDate(dateStr);
+  const days   = daysFrom(d);
+  const lbl    = fmtShort(d);
+  const cdwn   = fmtCountdown(dlMs);
+  const tz     = 'AoE (UTC−12)';
+  const tip    = `${fmtFull(d)} 23:59 ${tz}`;
+  const cdwnHtml = cdwn ? ` <small class="cdwn">${cdwn}</small>` : '';
+  if (dlMs <= Date.now()) return `<span class="tag tag-past" title="${tip}">✕ ${lbl}</span>`;
+  if (days <= 13) return `<span class="tag tag-hot"  title="${tip}">▲ ${lbl}${cdwnHtml}</span>`;
+  if (days <= 42) return `<span class="tag tag-soon" title="${tip}">● ${lbl}${cdwnHtml}</span>`;
+  return `<span class="tag tag-open" title="${tip}">● ${lbl}${cdwnHtml}</span>`;
 }
 
 const trackFor    = (c, type) => c.tracks.find(t=>t.track_type===type) || null;
@@ -470,10 +500,10 @@ function buildTable(confs) {
         <div class="conf-sub">${c.location||''}</div>
       </td>
       <td style="${past&&!live?'color:var(--past-tx)':''}; white-space:nowrap; font-size:.7rem">${confDateLbl(c)}</td>
-      <td title="${r?.track_name||''}">${deadlineTag(r?.submission)}</td>
-      <td title="${s?.track_name||''}">${deadlineTag(s?.submission)}</td>
-      <td title="${t?.track_name||''}">${deadlineTag(t?.submission)}</td>
-      <td title="${d?.track_name||''}">${deadlineTag(d?.submission)}</td>
+      <td title="${r?.track_name||''}">${deadlineTag(r?.submission, r?.submission_time)}</td>
+      <td title="${s?.track_name||''}">${deadlineTag(s?.submission, s?.submission_time)}</td>
+      <td title="${t?.track_name||''}">${deadlineTag(t?.submission, t?.submission_time)}</td>
+      <td title="${d?.track_name||''}">${deadlineTag(d?.submission, d?.submission_time)}</td>
     `;
     tbody.appendChild(tr);
   });
@@ -945,6 +975,14 @@ function closePanel() {
   document.getElementById('panel').classList.remove('open');
 }
 
+
+// ── Live countdown tick ───────────────────────────────────────────────────────
+setInterval(() => {
+  // Only re-render table cells, not the whole page
+  if (!ALL_DATA.length) return;
+  const confs = (CURRENT_YEAR ? ALL_DATA.filter(c => c.year === CURRENT_YEAR) : ALL_DATA);
+  buildTable(confs);
+}, 60000); // refresh every minute
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 loadSettings();

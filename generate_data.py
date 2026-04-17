@@ -384,7 +384,9 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> list[d
             tracks_fb[current].setdefault(slot, d)
 
     return [
-        dict(track_type=_classify_track(n), track_name=n, **data)
+        dict(track_type=_classify_track(n), track_name=n,
+             submission_time="23:59",  # AoE (UTC-12) convention
+             **data)
         for n, data in tracks_fb.items()
         if any(data.values())
     ]
