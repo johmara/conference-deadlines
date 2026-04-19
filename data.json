@@ -8,7 +8,7 @@
     "conf_end": "2026-03-20",
     "url": "https://conf.researchr.org/home/saner-2026",
     "dates_url": "https://conf.researchr.org/dates/saner-2026",
-    "last_updated": "2026-04-17T09:38:52.409041",
+    "last_updated": "2026-04-19T05:21:26.874201",
     "submission_url": null,
     "tracks": [
       {
@@ -89,12 +89,12 @@
     "key": "CAIN 2026",
     "year": 2026,
     "full_name": "IEEE/ACM Intl. Conf. on AI Engineering",
-    "location": "Rio de Janeiro, Brazil (co-located ICSE)",
+    "location": "Rio de Janeiro, Brazil",
     "conf_start": "2026-04-12",
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/cain-2026",
     "dates_url": "https://conf.researchr.org/dates/cain-2026",
-    "last_updated": "2026-04-17T09:38:51.051835",
+    "last_updated": "2026-04-19T05:21:19.212036",
     "submission_url": null,
     "tracks": [
       {
@@ -143,12 +143,12 @@
     "key": "ICPC 2026",
     "year": 2026,
     "full_name": "IEEE/ACM Intl. Conf. on Program Comprehension",
-    "location": "Rio de Janeiro, Brazil (co-located ICSE)",
+    "location": "Rio de Janeiro, Brazil",
     "conf_start": "2026-04-12",
     "conf_end": "2026-04-13",
     "url": "https://conf.researchr.org/home/icpc-2026",
     "dates_url": "https://conf.researchr.org/dates/icpc-2026",
-    "last_updated": "2026-04-17T09:38:51.629232",
+    "last_updated": "2026-04-19T05:21:22.806412",
     "submission_url": null,
     "tracks": [
       {
@@ -202,7 +202,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/icse-2026",
     "dates_url": "https://conf.researchr.org/dates/icse-2026",
-    "last_updated": "2026-04-17T09:38:51.936574",
+    "last_updated": "2026-04-19T05:21:23.633126",
     "submission_url": "https://icse2026.hotcrp.com",
     "tracks": [
       {
@@ -888,15 +888,37 @@
     ]
   },
   {
+    "key": "GPCE 2026",
+    "year": 2026,
+    "full_name": "ACM SIGPLAN Intl. Conf. on Generative Programming: Concepts & Experiences",
+    "location": "Brussels, Belgium",
+    "conf_start": "2026-04-13",
+    "conf_end": "2026-04-16",
+    "url": "https://conf.researchr.org/home/gpce-2026",
+    "dates_url": "https://conf.researchr.org/dates/gpce-2026",
+    "last_updated": "2026-04-19T05:21:22.524648",
+    "submission_url": "https://gpce26.hotcrp.com/",
+    "tracks": [
+      {
+        "track_type": "other",
+        "track_name": "GPCE 2026",
+        "submission": "2026-03-12",
+        "notification": "2026-04-23",
+        "camera_ready": "2026-05-14",
+        "submission_url": null
+      }
+    ]
+  },
+  {
     "key": "MSR 2026",
     "year": 2026,
     "full_name": "IEEE/ACM Intl. Conf. on Mining Software Repositories",
-    "location": "Rio de Janeiro, Brazil (co-located ICSE)",
+    "location": "Rio de Janeiro, Brazil",
     "conf_start": "2026-04-13",
     "conf_end": "2026-04-14",
     "url": "https://conf.researchr.org/home/msr-2026",
     "dates_url": "https://conf.researchr.org/dates/msr-2026",
-    "last_updated": "2026-04-17T09:38:52.356421",
+    "last_updated": "2026-04-19T05:21:26.594832",
     "submission_url": null,
     "tracks": [
       {
@@ -966,125 +988,15 @@
     ]
   },
   {
-    "key": "ICSA 2026",
-    "year": 2026,
-    "full_name": "IEEE Intl. Conf. on Software Architecture",
-    "location": "Odense, Denmark",
-    "conf_start": "2026-05-04",
-    "conf_end": "2026-05-08",
-    "url": "https://conf.researchr.org/home/icsa-2026",
-    "dates_url": "https://conf.researchr.org/dates/icsa-2026",
-    "last_updated": "2026-04-17T09:38:51.688400",
-    "submission_url": null,
-    "tracks": [
-      {
-        "track_type": "other",
-        "track_name": "Open Science Challenge",
-        "submission": "2026-03-31",
-        "notification": null,
-        "camera_ready": null,
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Workshops",
-        "submission": "2026-02-20",
-        "notification": "2026-03-13",
-        "camera_ready": "2026-03-27",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Journal First",
-        "submission": "2026-02-13",
-        "notification": "2026-03-13",
-        "camera_ready": "2026-03-27",
-        "submission_url": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "Posters",
-        "submission": "2026-02-13",
-        "notification": "2026-03-13",
-        "camera_ready": "2026-03-27",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Tutorials/Tech Briefings",
-        "submission": "2026-02-13",
-        "notification": "2026-03-13",
-        "camera_ready": "2026-03-27",
-        "submission_url": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Software Architecture Showcase",
-        "submission": "2026-02-13",
-        "notification": "2026-03-13",
-        "camera_ready": "2026-03-27",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Early Career",
-        "submission": "2026-02-13",
-        "notification": "2026-03-13",
-        "camera_ready": "2026-03-27",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "New and Emerging Ideas",
-        "submission": "2026-02-13",
-        "notification": "2026-03-13",
-        "camera_ready": "2026-03-27",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Working Sessions",
-        "submission": "2026-02-13",
-        "notification": "2026-03-13",
-        "camera_ready": "2026-03-27",
-        "submission_url": null
-      },
-      {
-        "track_type": "research",
-        "track_name": "Research Papers",
-        "submission": "2025-11-28",
-        "notification": "2026-02-06",
-        "camera_ready": "2026-03-06",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Software Architecture in Practice",
-        "submission": "2025-11-28",
-        "notification": "2026-02-06",
-        "camera_ready": "2026-03-06",
-        "submission_url": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Artifacts Evaluation",
-        "submission": "2026-02-13",
-        "notification": "2026-03-03",
-        "camera_ready": null,
-        "submission_url": null
-      }
-    ]
-  },
-  {
     "key": "ICST 2026",
     "year": 2026,
     "full_name": "Intl. Conf. on Software Testing, Verification & Validation",
-    "location": "Daejeon, South Korea",
+    "location": "Daejeon, Republic of Korea",
     "conf_start": "2026-05-18",
     "conf_end": "2026-05-22",
     "url": "https://conf.researchr.org/home/icst-2026",
     "dates_url": "https://conf.researchr.org/dates/icst-2026",
-    "last_updated": "2026-04-17T09:38:52.113743",
+    "last_updated": "2026-04-19T05:21:25.589317",
     "submission_url": null,
     "tracks": [
       {
@@ -1200,18 +1112,18 @@
         "submission_url": null
       },
       {
-        "track_type": "other",
-        "track_name": "Education",
-        "submission": "2026-02-20",
-        "notification": "2026-03-31",
-        "camera_ready": null,
-        "submission_url": null
-      },
-      {
         "track_type": "short",
         "track_name": "Short Papers, Vision and Emerging Results",
         "submission": "2026-02-20",
         "notification": "2026-03-15",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Education",
+        "submission": "2026-02-20",
+        "notification": "2026-03-31",
         "camera_ready": null,
         "submission_url": null
       },
@@ -1277,12 +1189,12 @@
     "key": "EASE 2026",
     "year": 2026,
     "full_name": "Evaluation & Assessment in Software Engineering",
-    "location": "Glasgow, UK",
+    "location": "Glasgow, Scotland",
     "conf_start": "2026-06-09",
     "conf_end": "2026-06-12",
     "url": "https://conf.researchr.org/home/ease-2026",
     "dates_url": "https://conf.researchr.org/dates/ease-2026",
-    "last_updated": "2026-04-17T09:38:51.118321",
+    "last_updated": "2026-04-19T05:21:20.612869",
     "submission_url": null,
     "tracks": [
       {
@@ -1303,17 +1215,17 @@
       },
       {
         "track_type": "other",
-        "track_name": "Gamify",
-        "submission": "2026-03-20",
-        "notification": null,
+        "track_name": "LEARNER",
+        "submission": "2026-03-08",
+        "notification": "2026-04-06",
         "camera_ready": null,
         "submission_url": null
       },
       {
         "track_type": "other",
-        "track_name": "LEARNER",
-        "submission": "2026-03-08",
-        "notification": "2026-04-06",
+        "track_name": "Gamify",
+        "submission": "2026-03-20",
+        "notification": null,
         "camera_ready": null,
         "submission_url": null
       },
@@ -1424,6 +1336,116 @@
     ]
   },
   {
+    "key": "ICSA 2026",
+    "year": 2026,
+    "full_name": "IEEE Intl. Conf. on Software Architecture",
+    "location": "Vrije Universiteit Amsterdam , Netherlands",
+    "conf_start": "2026-06-22",
+    "conf_end": "2026-06-26",
+    "url": "https://conf.researchr.org/home/icsa-2026",
+    "dates_url": "https://conf.researchr.org/dates/icsa-2026",
+    "last_updated": "2026-04-19T05:21:23.087134",
+    "submission_url": null,
+    "tracks": [
+      {
+        "track_type": "other",
+        "track_name": "Open Science Challenge",
+        "submission": "2026-03-31",
+        "notification": null,
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Workshops",
+        "submission": "2026-02-20",
+        "notification": "2026-03-13",
+        "camera_ready": "2026-03-27",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Journal First",
+        "submission": "2026-02-13",
+        "notification": "2026-03-13",
+        "camera_ready": "2026-03-27",
+        "submission_url": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "Posters",
+        "submission": "2026-02-13",
+        "notification": "2026-03-13",
+        "camera_ready": "2026-03-27",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Tutorials/Tech Briefings",
+        "submission": "2026-02-13",
+        "notification": "2026-03-13",
+        "camera_ready": "2026-03-27",
+        "submission_url": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Software Architecture Showcase",
+        "submission": "2026-02-13",
+        "notification": "2026-03-13",
+        "camera_ready": "2026-03-27",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Early Career",
+        "submission": "2026-02-13",
+        "notification": "2026-03-13",
+        "camera_ready": "2026-03-27",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "New and Emerging Ideas",
+        "submission": "2026-02-13",
+        "notification": "2026-03-13",
+        "camera_ready": "2026-03-27",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Working Sessions",
+        "submission": "2026-02-13",
+        "notification": "2026-03-13",
+        "camera_ready": "2026-03-27",
+        "submission_url": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "submission": "2025-11-28",
+        "notification": "2026-02-06",
+        "camera_ready": "2026-03-06",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Software Architecture in Practice",
+        "submission": "2025-11-28",
+        "notification": "2026-02-06",
+        "camera_ready": "2026-03-06",
+        "submission_url": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Artifacts Evaluation",
+        "submission": "2026-02-13",
+        "notification": "2026-03-03",
+        "camera_ready": null,
+        "submission_url": null
+      }
+    ]
+  },
+  {
     "key": "ECOOP 2026",
     "year": 2026,
     "full_name": "European Conf. on Object-Oriented Programming",
@@ -1432,17 +1454,9 @@
     "conf_end": "2026-07-03",
     "url": "https://conf.researchr.org/home/ecoop-2026",
     "dates_url": "https://conf.researchr.org/dates/ecoop-2026",
-    "last_updated": "2026-04-17T09:38:51.270234",
+    "last_updated": "2026-04-19T05:21:20.942221",
     "submission_url": "https://ecoop26.hotcrp.com",
     "tracks": [
-      {
-        "track_type": "doctoral",
-        "track_name": "Doctoral Symposium",
-        "submission": "2026-04-15",
-        "notification": "2026-04-17",
-        "camera_ready": null,
-        "submission_url": null
-      },
       {
         "track_type": "tools",
         "track_name": "Artifact Evaluation",
@@ -1556,10 +1570,40 @@
         "submission_url": null
       },
       {
+        "track_type": "doctoral",
+        "track_name": "Doctoral Symposium",
+        "submission": "2026-04-15",
+        "notification": "2026-04-17",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
         "track_type": "other",
         "track_name": "MPLR",
         "submission": "2026-03-06",
         "notification": "2026-04-15",
+        "camera_ready": null,
+        "submission_url": null
+      }
+    ]
+  },
+  {
+    "key": "SLE 2026",
+    "year": 2026,
+    "full_name": "ACM SIGPLAN Intl. Conf. on Software Language Engineering",
+    "location": "INRIA Center, University of Rennes STAF",
+    "conf_start": "2026-07-02",
+    "conf_end": "2026-07-03",
+    "url": "https://conf.researchr.org/home/sle-2026",
+    "dates_url": "https://conf.researchr.org/dates/sle-2026",
+    "last_updated": "2026-04-19T05:21:27.820982",
+    "submission_url": "https://sle26.hotcrp.com",
+    "tracks": [
+      {
+        "track_type": "other",
+        "track_name": "SLE 2026",
+        "submission": "2026-02-27",
+        "notification": "2026-04-20",
         "camera_ready": null,
         "submission_url": null
       }
@@ -1574,17 +1618,9 @@
     "conf_end": "2026-07-09",
     "url": "https://conf.researchr.org/home/fse-2026",
     "dates_url": "https://conf.researchr.org/dates/fse-2026",
-    "last_updated": "2026-04-17T09:38:51.434707",
+    "last_updated": "2026-04-19T05:21:21.352262",
     "submission_url": "https://fse2026.hotcrp.com",
     "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "SSBSE Research Papers",
-        "submission": "2026-03-17",
-        "notification": "2026-04-10",
-        "camera_ready": null,
-        "submission_url": null
-      },
       {
         "track_type": "tools",
         "track_name": "AIware Benchmark & Dataset Track",
@@ -1654,6 +1690,14 @@
         "track_name": "Artifacts",
         "submission": "2026-04-11",
         "notification": "2026-05-15",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "SSBSE Research Papers",
+        "submission": "2026-03-17",
+        "notification": "2026-04-10",
         "camera_ready": null,
         "submission_url": null
       },
@@ -1772,17 +1816,9 @@
     "conf_end": "2026-07-06",
     "url": "https://conf.researchr.org/home/ssbse-2026",
     "dates_url": "https://conf.researchr.org/dates/ssbse-2026",
-    "last_updated": "2026-04-17T09:38:52.761784",
+    "last_updated": "2026-04-19T05:21:28.413638",
     "submission_url": null,
     "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "Research Papers",
-        "submission": "2026-03-17",
-        "notification": "2026-04-10",
-        "camera_ready": null,
-        "submission_url": null
-      },
       {
         "track_type": "short",
         "track_name": "RENE/NIER",
@@ -1806,6 +1842,14 @@
         "notification": "2026-04-30",
         "camera_ready": null,
         "submission_url": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "submission": "2026-03-17",
+        "notification": "2026-04-10",
+        "camera_ready": null,
+        "submission_url": null
       }
     ]
   },
@@ -1818,7 +1862,7 @@
     "conf_end": "2026-09-18",
     "url": "https://conf.researchr.org/home/icsme-2026",
     "dates_url": "https://conf.researchr.org/dates/icsme-2026",
-    "last_updated": "2026-04-17T09:38:52.044655",
+    "last_updated": "2026-04-19T05:21:24.139546",
     "submission_url": null,
     "tracks": [
       {
@@ -1901,10 +1945,10 @@
     "full_name": "Source Code Analysis and Manipulation (co-located ICSME)",
     "location": "Benevento, Italy",
     "conf_start": "2026-09-14",
-    "conf_end": "2026-09-18",
+    "conf_end": "2026-09-15",
     "url": "https://conf.researchr.org/home/scam-2026",
     "dates_url": "https://conf.researchr.org/dates/scam-2026",
-    "last_updated": "2026-04-17T09:38:52.499127",
+    "last_updated": "2026-04-19T05:21:27.386941",
     "submission_url": null,
     "tracks": [
       {
@@ -1926,7 +1970,7 @@
     "conf_end": "2026-10-02",
     "url": "https://conf.researchr.org/home/variability-2026",
     "dates_url": "https://conf.researchr.org/dates/variability-2026",
-    "last_updated": "2026-04-17T09:38:52.816224",
+    "last_updated": "2026-04-19T05:21:28.684840",
     "submission_url": null,
     "tracks": [
       {
@@ -2004,17 +2048,9 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/issta-2026",
     "dates_url": "https://conf.researchr.org/dates/issta-2026",
-    "last_updated": "2026-04-17T09:38:52.234086",
+    "last_updated": "2026-04-19T05:21:25.993897",
     "submission_url": "https://issta2026.hotcrp.com",
     "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "Research papers",
-        "submission": "2026-01-29",
-        "notification": "2026-04-16",
-        "camera_ready": "2026-07-23",
-        "submission_url": null
-      },
       {
         "track_type": "other",
         "track_name": "SAS",
@@ -2045,6 +2081,14 @@
         "submission": "2026-05-15",
         "notification": "2026-06-22",
         "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "Research papers",
+        "submission": "2026-01-29",
+        "notification": "2026-06-25",
+        "camera_ready": "2026-07-23",
         "submission_url": null
       },
       {
@@ -2154,309 +2198,17 @@
     ]
   },
   {
-    "key": "ESEM 2026",
-    "year": 2026,
-    "full_name": "Empirical Software Engineering & Measurement (ESEIW)",
-    "location": "Munich, Germany",
-    "conf_start": "2026-10-04",
-    "conf_end": "2026-10-09",
-    "url": "https://conf.researchr.org/home/esem-2026",
-    "dates_url": "https://conf.researchr.org/dates/esem-2026",
-    "last_updated": "2026-04-17T09:38:51.357022",
-    "submission_url": "https://esem2026.hotcrp.com",
-    "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "ESEM - Technical Track",
-        "submission": "2026-05-11",
-        "notification": "2026-06-30",
-        "camera_ready": "2026-08-17",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "ESEM - Software Engineering in Practice Track",
-        "submission": "2026-05-20",
-        "notification": "2026-07-08",
-        "camera_ready": "2026-08-05",
-        "submission_url": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "ESEM - Emerging Results, Vision, and Reflection Papers Track",
-        "submission": "2026-05-22",
-        "notification": "2026-07-10",
-        "camera_ready": "2026-08-05",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "ESEM - Registered Reports Track",
-        "submission": "2026-04-13",
-        "notification": "2026-06-08",
-        "camera_ready": null,
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "ESEM - Journal First Track",
-        "submission": "2026-07-01",
-        "notification": "2026-08-03",
-        "camera_ready": null,
-        "submission_url": null
-      },
-      {
-        "track_type": "doctoral",
-        "track_name": "IDoESE - Doctoral Symposium",
-        "submission": "2026-07-03",
-        "notification": "2026-08-03",
-        "camera_ready": null,
-        "submission_url": null
-      }
-    ]
-  },
-  {
-    "key": "MODELS 2026",
-    "year": 2026,
-    "full_name": "ACM/IEEE Model Driven Engineering Languages & Systems",
-    "location": "Malaga, Spain",
-    "conf_start": "2026-10-04",
-    "conf_end": "2026-10-09",
-    "url": "https://conf.researchr.org/home/models-2026",
-    "dates_url": "https://conf.researchr.org/dates/models-2026",
-    "last_updated": "2026-04-17T09:38:52.290432",
-    "submission_url": null,
-    "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "Research Papers",
-        "submission": "2026-03-20",
-        "notification": "2026-06-17",
-        "camera_ready": "2026-07-31",
-        "submission_url": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "New Ideas and Emerging Results (NIER)",
-        "submission": "2026-06-24",
-        "notification": "2026-07-29",
-        "camera_ready": "2026-08-05",
-        "submission_url": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "EDTconf Short Papers",
-        "submission": "2026-06-24",
-        "notification": "2026-08-04",
-        "camera_ready": "2026-08-11",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "EDTconf Industrial Talks",
-        "submission": "2026-06-24",
-        "notification": "2026-08-04",
-        "camera_ready": "2026-08-11",
-        "submission_url": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Artifact Evaluation",
-        "submission": "2026-06-26",
-        "notification": "2026-07-27",
-        "camera_ready": null,
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Workshops",
-        "submission": "2026-03-06",
-        "notification": "2026-07-31",
-        "camera_ready": null,
-        "submission_url": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Tools and Demonstrations",
-        "submission": "2026-07-08",
-        "notification": null,
-        "camera_ready": "2026-08-14",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Educators Symposium",
-        "submission": "2026-07-10",
-        "notification": "2026-07-31",
-        "camera_ready": "2026-08-14",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Tutorials",
-        "submission": null,
-        "notification": "2026-07-31",
-        "camera_ready": null,
-        "submission_url": null
-      }
-    ]
-  },
-  {
-    "key": "ASE 2026",
-    "year": 2026,
-    "full_name": "IEEE/ACM Intl. Conf. on Automated Software Engineering",
-    "location": "Munich, Germany",
-    "conf_start": "2026-10-12",
-    "conf_end": "2026-10-16",
-    "url": "https://conf.researchr.org/home/ase-2026",
-    "dates_url": "https://conf.researchr.org/dates/ase-2026",
-    "last_updated": "2026-04-17T09:38:50.983004",
-    "submission_url": "https://ase26.hotcrp.com",
-    "tracks": [
-      {
-        "track_type": "short",
-        "track_name": "Industry Showcase",
-        "submission": "2026-04-23",
-        "notification": "2026-06-21",
-        "camera_ready": "2026-08-03",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "KLEE",
-        "submission": "2026-04-24",
-        "notification": "2026-05-15",
-        "camera_ready": null,
-        "submission_url": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Tools and Datasets",
-        "submission": "2026-05-11",
-        "notification": "2026-06-17",
-        "camera_ready": null,
-        "submission_url": null
-      },
-      {
-        "track_type": "research",
-        "track_name": "Research Papers",
-        "submission": "2026-03-26",
-        "notification": "2026-05-25",
-        "camera_ready": "2026-08-03",
-        "submission_url": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "Co-Located Events",
-        "submission": "2026-04-15",
-        "notification": null,
-        "camera_ready": null,
-        "submission_url": null
-      }
-    ]
-  },
-  {
-    "key": "ISSRE 2026",
-    "year": 2026,
-    "full_name": "IEEE Intl. Symposium on Software Reliability Engineering",
-    "location": "Limassol, Cyprus",
-    "conf_start": "2026-10-20",
-    "conf_end": "2026-10-23",
-    "url": "https://conf.researchr.org/home/issre-2026",
-    "dates_url": "https://conf.researchr.org/dates/issre-2026",
-    "last_updated": null,
-    "submission_url": null,
-    "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "Research Track",
-        "submission": "2026-04-17",
-        "notification": "2026-07-08",
-        "camera_ready": "2026-08-19",
-        "submission_url": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "Fast Abstracts",
-        "submission": "2026-06-15",
-        "notification": "2026-08-05",
-        "camera_ready": "2026-08-19",
-        "submission_url": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Tool Demos / Talks",
-        "submission": "2026-08-15",
-        "notification": null,
-        "camera_ready": null,
-        "submission_url": null
-      }
-    ]
-  },
-  {
-    "key": "GPCE 2026",
-    "year": 2026,
-    "full_name": "ACM SIGPLAN Intl. Conf. on Generative Programming: Concepts & Experiences",
-    "location": "Singapore (co-located SPLASH)",
-    "conf_start": "2026-10-25",
-    "conf_end": "2026-10-30",
-    "url": "https://conf.researchr.org/home/gpce-2026",
-    "dates_url": "https://conf.researchr.org/dates/gpce-2026",
-    "last_updated": "2026-04-17T09:38:51.573239",
-    "submission_url": null,
-    "tracks": [
-      {
-        "track_type": "other",
-        "track_name": "GPCE 2026",
-        "submission": "2026-03-12",
-        "notification": "2026-04-23",
-        "camera_ready": "2026-05-14",
-        "submission_url": null
-      }
-    ]
-  },
-  {
-    "key": "SLE 2026",
-    "year": 2026,
-    "full_name": "ACM SIGPLAN Intl. Conf. on Software Language Engineering",
-    "location": "Singapore (co-located SPLASH)",
-    "conf_start": "2026-10-25",
-    "conf_end": "2026-10-30",
-    "url": "https://conf.researchr.org/home/sle-2026",
-    "dates_url": "https://conf.researchr.org/dates/sle-2026",
-    "last_updated": "2026-04-17T09:38:52.558501",
-    "submission_url": null,
-    "tracks": [
-      {
-        "track_type": "other",
-        "track_name": "SLE 2026",
-        "submission": "2026-02-27",
-        "notification": "2026-04-20",
-        "camera_ready": null,
-        "submission_url": null
-      }
-    ]
-  },
-  {
     "key": "SPLASH 2026",
     "year": 2026,
     "full_name": "ACM SIGPLAN Conf. on Systems, Programming, Languages and Applications (incl. OOPSLA)",
     "location": "Singapore",
-    "conf_start": "2026-10-25",
-    "conf_end": "2026-10-30",
+    "conf_start": "2026-10-03",
+    "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/splash-2026",
     "dates_url": "https://conf.researchr.org/dates/splash-2026",
-    "last_updated": "2026-04-17T09:38:52.631628",
+    "last_updated": "2026-04-19T05:21:28.140270",
     "submission_url": null,
     "tracks": [
-      {
-        "track_type": "research",
-        "track_name": "ISSTA Research papers",
-        "submission": "2026-01-29",
-        "notification": "2026-04-16",
-        "camera_ready": "2026-07-23",
-        "submission_url": null
-      },
       {
         "track_type": "other",
         "track_name": "SAS",
@@ -2487,6 +2239,14 @@
         "submission": "2026-05-15",
         "notification": "2026-06-22",
         "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "ISSTA Research papers",
+        "submission": "2026-01-29",
+        "notification": "2026-06-25",
+        "camera_ready": "2026-07-23",
         "submission_url": null
       },
       {
@@ -2596,6 +2356,246 @@
     ]
   },
   {
+    "key": "ESEM 2026",
+    "year": 2026,
+    "full_name": "Empirical Software Engineering & Measurement (ESEIW)",
+    "location": "Munich, Germany",
+    "conf_start": "2026-10-04",
+    "conf_end": "2026-10-09",
+    "url": "https://conf.researchr.org/home/esem-2026",
+    "dates_url": "https://conf.researchr.org/dates/esem-2026",
+    "last_updated": "2026-04-19T05:21:21.185668",
+    "submission_url": "https://esem2026.hotcrp.com",
+    "tracks": [
+      {
+        "track_type": "research",
+        "track_name": "ESEM - Technical Track",
+        "submission": "2026-05-11",
+        "notification": "2026-07-10",
+        "camera_ready": "2026-08-17",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "ESEM - Software Engineering in Practice Track",
+        "submission": "2026-05-20",
+        "notification": "2026-07-08",
+        "camera_ready": "2026-08-05",
+        "submission_url": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "ESEM - Emerging Results, Vision, and Reflection Papers Track",
+        "submission": "2026-05-22",
+        "notification": "2026-07-10",
+        "camera_ready": "2026-08-05",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "ESEM - Registered Reports Track",
+        "submission": "2026-04-13",
+        "notification": "2026-06-08",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "ESEM - Journal First Track",
+        "submission": "2026-07-01",
+        "notification": "2026-08-03",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "doctoral",
+        "track_name": "IDoESE - Doctoral Symposium",
+        "submission": "2026-07-03",
+        "notification": "2026-08-03",
+        "camera_ready": null,
+        "submission_url": null
+      }
+    ]
+  },
+  {
+    "key": "MODELS 2026",
+    "year": 2026,
+    "full_name": "ACM/IEEE Model Driven Engineering Languages & Systems",
+    "location": "Malaga, Spain",
+    "conf_start": "2026-10-04",
+    "conf_end": "2026-10-09",
+    "url": "https://conf.researchr.org/home/models-2026",
+    "dates_url": "https://conf.researchr.org/dates/models-2026",
+    "last_updated": "2026-04-19T05:21:26.291344",
+    "submission_url": null,
+    "tracks": [
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "submission": "2026-03-20",
+        "notification": "2026-06-17",
+        "camera_ready": "2026-07-31",
+        "submission_url": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "New Ideas and Emerging Results (NIER)",
+        "submission": "2026-06-24",
+        "notification": "2026-07-29",
+        "camera_ready": "2026-08-05",
+        "submission_url": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "EDTconf Short Papers",
+        "submission": "2026-06-24",
+        "notification": "2026-08-04",
+        "camera_ready": "2026-08-11",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "EDTconf Industrial Talks",
+        "submission": "2026-06-24",
+        "notification": "2026-08-04",
+        "camera_ready": "2026-08-11",
+        "submission_url": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Artifact Evaluation",
+        "submission": "2026-06-26",
+        "notification": "2026-07-27",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Workshops",
+        "submission": "2026-03-06",
+        "notification": "2026-07-31",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Tools and Demonstrations",
+        "submission": "2026-07-08",
+        "notification": null,
+        "camera_ready": "2026-08-14",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Educators Symposium",
+        "submission": "2026-07-10",
+        "notification": "2026-07-31",
+        "camera_ready": "2026-08-14",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Tutorials",
+        "submission": null,
+        "notification": "2026-07-31",
+        "camera_ready": null,
+        "submission_url": null
+      }
+    ]
+  },
+  {
+    "key": "ASE 2026",
+    "year": 2026,
+    "full_name": "IEEE/ACM Intl. Conf. on Automated Software Engineering",
+    "location": "Munich, Germany",
+    "conf_start": "2026-10-12",
+    "conf_end": "2026-10-16",
+    "url": "https://conf.researchr.org/home/ase-2026",
+    "dates_url": "https://conf.researchr.org/dates/ase-2026",
+    "last_updated": "2026-04-19T05:21:18.925718",
+    "submission_url": "https://ase26.hotcrp.com",
+    "tracks": [
+      {
+        "track_type": "short",
+        "track_name": "Industry Showcase",
+        "submission": "2026-04-23",
+        "notification": "2026-06-21",
+        "camera_ready": "2026-08-03",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "KLEE",
+        "submission": "2026-04-24",
+        "notification": "2026-05-15",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Tools and Datasets",
+        "submission": "2026-05-11",
+        "notification": "2026-06-17",
+        "camera_ready": null,
+        "submission_url": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "submission": "2026-03-26",
+        "notification": "2026-05-25",
+        "camera_ready": "2026-08-03",
+        "submission_url": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Co-Located Events",
+        "submission": "2026-04-15",
+        "notification": null,
+        "camera_ready": null,
+        "submission_url": null
+      }
+    ]
+  },
+  {
+    "key": "ISSRE 2026",
+    "year": 2026,
+    "full_name": "IEEE Intl. Symposium on Software Reliability Engineering",
+    "location": "Limassol, Cyprus",
+    "conf_start": "2026-10-20",
+    "conf_end": "2026-10-23",
+    "url": "https://conf.researchr.org/home/issre-2026",
+    "dates_url": "https://conf.researchr.org/dates/issre-2026",
+    "last_updated": null,
+    "submission_url": null,
+    "tracks": [
+      {
+        "track_type": "research",
+        "track_name": "Research Track",
+        "submission": "2026-04-17",
+        "notification": "2026-07-08",
+        "camera_ready": "2026-08-19",
+        "submission_url": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "Fast Abstracts",
+        "submission": "2026-06-15",
+        "notification": "2026-08-05",
+        "camera_ready": "2026-08-19",
+        "submission_url": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Tool Demos / Talks",
+        "submission": "2026-08-15",
+        "notification": null,
+        "camera_ready": null,
+        "submission_url": null
+      }
+    ]
+  },
+  {
     "key": "SANER 2027",
     "year": 2027,
     "full_name": "IEEE Intl. Conf. on Software Analysis, Evolution & Reengineering",
@@ -2650,7 +2650,7 @@
     "conf_end": "2027-05-01",
     "url": "https://conf.researchr.org/home/icse-2027",
     "dates_url": "https://conf.researchr.org/dates/icse-2027",
-    "last_updated": "2026-04-17T09:38:51.994914",
+    "last_updated": "2026-04-19T05:21:23.777577",
     "submission_url": "https://icse2027.hotcrp.com",
     "tracks": [
       {
@@ -2763,12 +2763,12 @@
     "key": "FSE 2027",
     "year": 2027,
     "full_name": "ACM Foundations of Software Engineering (ESEC/FSE)",
-    "location": null,
+    "location": "Shenzhen, China",
     "conf_start": "2027-07-12",
     "conf_end": "2027-07-16",
     "url": "https://conf.researchr.org/home/fse-2027",
     "dates_url": "https://conf.researchr.org/dates/fse-2027",
-    "last_updated": "2026-04-17T09:38:51.517360",
+    "last_updated": "2026-04-19T05:21:21.592722",
     "submission_url": null,
     "tracks": [
       {
@@ -2790,8 +2790,8 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/icsa-2027",
     "dates_url": "https://conf.researchr.org/dates/icsa-2027",
-    "last_updated": "2026-04-17T09:38:51.774019",
-    "submission_url": null,
+    "last_updated": "2026-04-19T05:21:23.340697",
+    "submission_url": "https://easychair.org/my/conference?conf=icsa2027",
     "tracks": [
       {
         "track_type": "other",
