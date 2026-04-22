@@ -516,11 +516,25 @@ function fmtCountdown(ms) {
   return `${mins}m`;
 }
 
+function getActiveRound(track) {
+  if (!track) return null;
+  const rounds = track.rounds;
+  if (!rounds?.length) return {submission: track.submission, notification: track.notification, abstract: track.abstract, roundNum: null, totalRounds: 1};
+  const now = Date.now();
+  let idx = rounds.findIndex(r => r.submission && deadlineMs(r.submission) > now);
+  if (idx === -1) idx = rounds.length - 1;
+  return {...rounds[idx], roundNum: idx + 1, totalRounds: rounds.length};
+}
+
 function trackDeadlineTag(track, url) {
   if (!track) return '<span class="tag-none">—</span>';
-  if (track.abstract && deadlineMs(track.abstract) > Date.now())
-    return deadlineTag(track.abstract, url, 'abstract');
-  return deadlineTag(track.submission, url);
+  const r = getActiveRound(track);
+  const isAbstract = r.abstract && deadlineMs(r.abstract) > Date.now();
+  const dateStr = isAbstract ? r.abstract : r.submission;
+  const parts = [];
+  if (isAbstract) parts.push('abstract');
+  if (r.totalRounds > 1) parts.push(`R${r.roundNum}/${r.totalRounds}`);
+  return deadlineTag(dateStr, url, parts.length ? parts.join(' ') : null);
 }
 
 function deadlineTag(dateStr, submissionUrl, label = null) {
@@ -683,9 +697,9 @@ function applySort(confs) {
       da = a.conf_start ? new Date(a.conf_start) : null;
       db = b.conf_start ? new Date(b.conf_start) : null;
     } else {
-      const ta = trackFor(a, SORT_COL), tb = trackFor(b, SORT_COL);
-      da = ta ? new Date(ta.abstract || ta.submission) : null;
-      db = tb ? new Date(tb.abstract || tb.submission) : null;
+      const ra = getActiveRound(trackFor(a, SORT_COL)), rb = getActiveRound(trackFor(b, SORT_COL));
+      da = ra ? new Date(ra.abstract || ra.submission) : null;
+      db = rb ? new Date(rb.abstract || rb.submission) : null;
     }
     if (!da && !db) return 0;
     if (!da) return 1;

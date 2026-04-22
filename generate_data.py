@@ -108,6 +108,7 @@ NOTIF_KW      = ["notification", "decision", "accept", "author notification",
                  "notification of", "acceptance notification"]
 CAMERA_KW     = ["camera", "final version", "camera-ready", "camera ready",
                  "final manuscript"]
+ROUND_RE      = re.compile(r'\bround\s*(\d+)\b', re.IGNORECASE)
 
 
 def _log(msg: str) -> None:
@@ -143,6 +144,33 @@ def _classify_label(label: str) -> Optional[str]:
     if any(k in ll for k in CAMERA_KW):
         return "camera_ready"
     return None
+
+
+def _build_track(name: str, data: dict) -> dict:
+    rounds_data = data.get("_rounds", {})
+    base = dict(
+        track_type=_classify_track(name),
+        track_name=name,
+        submission_url=data.get("submission_url"),
+    )
+    if len(rounds_data) > 1:
+        rounds = [
+            {k: v for k, v in rd.items()}
+            for _, rd in sorted(rounds_data.items())
+        ]
+        # Flat fields show first round so existing sort/display logic still works
+        first = rounds[0]
+        return {**base, "abstract": first.get("abstract"), "submission": first.get("submission"),
+                "notification": first.get("notification"), "camera_ready": first.get("camera_ready"),
+                "rounds": rounds}
+    else:
+        # Merge single round (if any) into flat fields
+        flat = {k: v for k, v in data.items() if k not in ("_rounds", "submission_url")}
+        if len(rounds_data) == 1:
+            flat.update(list(rounds_data.values())[0])
+        return {**base, "abstract": flat.get("abstract"), "submission": flat.get("submission"),
+                "notification": flat.get("notification"), "camera_ready": flat.get("camera_ready"),
+                "rounds": None}
 
 
 PORTAL_DOMAINS = ("easychair.org", "hotcrp.com", "openreview.net",
@@ -221,12 +249,23 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> dict:
                 continue
             if track_name not in tracks:
                 tracks[track_name] = {}
-            # Keep earliest date if multiple rows for the same slot
-            if slot in tracks[track_name]:
-                existing = tracks[track_name][slot]
-                tracks[track_name][slot] = min(existing, date_str)
+            rm = ROUND_RE.search(label)
+            if rm:
+                # Round-specific row: store in nested rounds dict
+                rnum = int(rm.group(1))
+                rounds = tracks[track_name].setdefault("_rounds", {})
+                rdata  = rounds.setdefault(rnum, {})
+                if slot in rdata:
+                    rdata[slot] = min(rdata[slot], date_str)
+                else:
+                    rdata[slot] = date_str
             else:
-                tracks[track_name][slot] = date_str
+                # Keep earliest date if multiple rows for the same slot
+                if slot in tracks[track_name]:
+                    existing = tracks[track_name][slot]
+                    tracks[track_name][slot] = min(existing, date_str)
+                else:
+                    tracks[track_name][slot] = date_str
             # Try to extract portal URL from row links (never overwrite existing)
             scraped_url = _extract_portal_url(row)
             if scraped_url:
@@ -237,17 +276,9 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> dict:
             page_portal = _find_portal_link(soup)
             return {
                 "tracks": [
-                    dict(
-                        track_type=_classify_track(name),
-                        track_name=name,
-                        abstract=data.get("abstract"),
-                        submission=data.get("submission"),
-                        notification=data.get("notification"),
-                        camera_ready=data.get("camera_ready"),
-                        submission_url=data.get("submission_url"),
-                    )
+                    _build_track(name, data)
                     for name, data in tracks.items()
-                    if any(data.values())
+                    if any(v for k, v in data.items() if k != "_rounds") or data.get("_rounds")
                 ],
                 "submission_url": page_portal,
             }
@@ -602,6 +633,7 @@ async def _main_async() -> None:
                     "notification":   t.get("notification"),
                     "camera_ready":   t.get("camera_ready"),
                     "submission_url": t.get("submission_url"),
+                    "rounds":         t.get("rounds") or None,
                 }
                 for t in conf.get("tracks", [])
             ],
