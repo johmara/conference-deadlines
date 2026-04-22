@@ -97,6 +97,7 @@ td { padding: .46rem .7rem; vertical-align: middle; }
 .tag-hot  { background:var(--hot-bg);  color:var(--hot-tx);  font-weight:700; animation:pulse 1.5s infinite; }
 .tag-none { color:var(--past-tx); font-size:.69rem; }
 .cdwn { font-size:.67rem; opacity:.8; font-weight:500; font-variant-numeric:tabular-nums; }
+.dl-label { font-size:.62rem; opacity:.7; font-style:italic; }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.65} }
 .dl-link { text-decoration:none; }
 .dl-link .tag { cursor:pointer; }
@@ -515,7 +516,14 @@ function fmtCountdown(ms) {
   return `${mins}m`;
 }
 
-function deadlineTag(dateStr, submissionUrl) {
+function trackDeadlineTag(track, url) {
+  if (!track) return '<span class="tag-none">—</span>';
+  if (track.abstract && deadlineMs(track.abstract) > Date.now())
+    return deadlineTag(track.abstract, url, 'abstract');
+  return deadlineTag(track.submission, url);
+}
+
+function deadlineTag(dateStr, submissionUrl, label = null) {
   if (!dateStr) return '<span class="tag-none">—</span>';
   const dlMs = deadlineMs(dateStr);
   const dlDate = new Date(dlMs);
@@ -532,11 +540,12 @@ function deadlineTag(dateStr, submissionUrl) {
   const tip = `${localDl} (original: 23:59 AoE / UTC−12)`;
 
   const cdwnHtml = cdwn ? ` <small class="cdwn">${cdwn}</small>` : '';
+  const labelHtml = label ? ` <small class="dl-label">${label}</small>` : '';
   let tag;
-  if (dlMs <= Date.now()) tag = `<span class="tag tag-past" title="${tip}">✕ ${lbl}</span>`;
-  else if (days <= 13)    tag = `<span class="tag tag-hot"  title="${tip}">▲ ${lbl}${cdwnHtml}</span>`;
-  else if (days <= 42)    tag = `<span class="tag tag-soon" title="${tip}">● ${lbl}${cdwnHtml}</span>`;
-  else                    tag = `<span class="tag tag-open" title="${tip}">● ${lbl}${cdwnHtml}</span>`;
+  if (dlMs <= Date.now()) tag = `<span class="tag tag-past" title="${tip}">✕ ${lbl}${labelHtml}</span>`;
+  else if (days <= 13)    tag = `<span class="tag tag-hot"  title="${tip}">▲ ${lbl}${cdwnHtml}${labelHtml}</span>`;
+  else if (days <= 42)    tag = `<span class="tag tag-soon" title="${tip}">● ${lbl}${cdwnHtml}${labelHtml}</span>`;
+  else                    tag = `<span class="tag tag-open" title="${tip}">● ${lbl}${cdwnHtml}${labelHtml}</span>`;
   if (submissionUrl) {
     return `<a href="${submissionUrl}" target="_blank" rel="noopener" class="dl-link">${tag}</a>`;
   }
@@ -641,10 +650,10 @@ function buildTable(confs) {
         <div class="conf-sub">${c.location||''}</div>
       </td>
       <td style="${past&&!live?'color:var(--past-tx)':''}; white-space:nowrap; font-size:.7rem">${confDateLbl(c)}</td>
-      <td title="${r?.track_name||''}">${deadlineTag(r?.submission, rUrl)}</td>
-      <td title="${s?.track_name||''}">${deadlineTag(s?.submission, sUrl)}</td>
-      <td title="${t?.track_name||''}">${deadlineTag(t?.submission, tUrl)}</td>
-      <td title="${d?.track_name||''}">${deadlineTag(d?.submission, dUrl)}</td>
+      <td title="${r?.track_name||''}">${trackDeadlineTag(r, rUrl)}</td>
+      <td title="${s?.track_name||''}">${trackDeadlineTag(s, sUrl)}</td>
+      <td title="${t?.track_name||''}">${trackDeadlineTag(t, tUrl)}</td>
+      <td title="${d?.track_name||''}">${trackDeadlineTag(d, dUrl)}</td>
       ${noteCell}
     `;
     tbody.appendChild(tr);
@@ -674,8 +683,9 @@ function applySort(confs) {
       da = a.conf_start ? new Date(a.conf_start) : null;
       db = b.conf_start ? new Date(b.conf_start) : null;
     } else {
-      da = trackFor(a, SORT_COL)?.submission ? new Date(trackFor(a, SORT_COL).submission) : null;
-      db = trackFor(b, SORT_COL)?.submission ? new Date(trackFor(b, SORT_COL).submission) : null;
+      const ta = trackFor(a, SORT_COL), tb = trackFor(b, SORT_COL);
+      da = ta ? new Date(ta.abstract || ta.submission) : null;
+      db = tb ? new Date(tb.abstract || tb.submission) : null;
     }
     if (!da && !db) return 0;
     if (!da) return 1;

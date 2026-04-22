@@ -2315,9 +2315,18 @@
     "tracks": [
       {
         "track_type": "short",
+        "track_name": "NIER",
+        "submission": "2026-05-12",
+        "notification": "2026-07-01",
+        "camera_ready": "2026-08-03",
+        "submission_url": null
+      },
+      {
+        "track_type": "short",
         "track_name": "Industry Showcase",
-        "submission": "2026-04-23",
-        "notification": "2026-06-21",
+        "abstract": "2026-04-23",
+        "submission": "2026-04-30",
+        "notification": "2026-06-28",
         "camera_ready": "2026-08-03",
         "submission_url": null
       },

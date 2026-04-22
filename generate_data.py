@@ -101,8 +101,9 @@ TRACK_TYPES = {
     "doctoral": ["doctoral", "phd", "graduate", "doctoral symposium", "phd symposium"],
 }
 
-SUBMISSION_KW = ["submission", "abstract", "paper due", "deadline", "due date",
-                 "paper submission", "abstract submission", "submission deadline"]
+ABSTRACT_KW   = ["abstract"]
+SUBMISSION_KW = ["submission", "paper due", "deadline", "due date",
+                 "paper submission", "submission deadline"]
 NOTIF_KW      = ["notification", "decision", "accept", "author notification",
                  "notification of", "acceptance notification"]
 CAMERA_KW     = ["camera", "final version", "camera-ready", "camera ready",
@@ -133,6 +134,8 @@ def _classify_track(name: str) -> str:
 
 def _classify_label(label: str) -> Optional[str]:
     ll = label.lower()
+    if any(k in ll for k in ABSTRACT_KW):
+        return "abstract"
     if any(k in ll for k in SUBMISSION_KW):
         return "submission"
     if any(k in ll for k in NOTIF_KW):
@@ -218,12 +221,12 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> dict:
                 continue
             if track_name not in tracks:
                 tracks[track_name] = {}
-            # Keep earliest submission date if multiple abstract/paper rows
-            if slot == "submission" and slot in tracks[track_name]:
+            # Keep earliest date if multiple rows for the same slot
+            if slot in tracks[track_name]:
                 existing = tracks[track_name][slot]
                 tracks[track_name][slot] = min(existing, date_str)
             else:
-                tracks[track_name].setdefault(slot, date_str)
+                tracks[track_name][slot] = date_str
             # Try to extract portal URL from row links (never overwrite existing)
             scraped_url = _extract_portal_url(row)
             if scraped_url:
@@ -237,6 +240,7 @@ async def _fetch_dates_page(client: httpx.AsyncClient, dates_url: str) -> dict:
                     dict(
                         track_type=_classify_track(name),
                         track_name=name,
+                        abstract=data.get("abstract"),
                         submission=data.get("submission"),
                         notification=data.get("notification"),
                         camera_ready=data.get("camera_ready"),
@@ -593,6 +597,7 @@ async def _main_async() -> None:
                 {
                     "track_type":     t.get("track_type"),
                     "track_name":     t.get("track_name"),
+                    "abstract":       t.get("abstract"),
                     "submission":     t.get("submission"),
                     "notification":   t.get("notification"),
                     "camera_ready":   t.get("camera_ready"),
