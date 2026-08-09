@@ -8,7 +8,7 @@
     "conf_end": "2026-03-20",
     "url": "https://conf.researchr.org/home/saner-2026",
     "dates_url": "https://conf.researchr.org/dates/saner-2026",
-    "last_updated": "2026-08-02T05:46:53.748096",
+    "last_updated": "2026-08-09T04:10:31.761041",
     "submission_url": null,
     "tracks": [
       {
@@ -112,7 +112,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/cain-2026",
     "dates_url": "https://conf.researchr.org/dates/cain-2026",
-    "last_updated": "2026-08-02T05:46:44.853154",
+    "last_updated": "2026-08-09T04:10:20.122381",
     "submission_url": null,
     "tracks": [
       {
@@ -176,7 +176,7 @@
     "conf_end": "2026-04-13",
     "url": "https://conf.researchr.org/home/icpc-2026",
     "dates_url": "https://conf.researchr.org/dates/icpc-2026",
-    "last_updated": "2026-08-02T05:46:49.117482",
+    "last_updated": "2026-08-09T04:10:25.619224",
     "submission_url": null,
     "tracks": [
       {
@@ -240,7 +240,7 @@
     "conf_end": "2026-04-18",
     "url": "https://conf.researchr.org/home/icse-2026",
     "dates_url": "https://conf.researchr.org/dates/icse-2026",
-    "last_updated": "2026-08-02T05:46:50.128947",
+    "last_updated": "2026-08-09T04:10:27.066676",
     "submission_url": "https://icse2026.hotcrp.com",
     "tracks": [
       {
@@ -1104,7 +1104,7 @@
     "conf_end": "2026-04-16",
     "url": "https://conf.researchr.org/home/gpce-2026",
     "dates_url": "https://conf.researchr.org/dates/gpce-2026",
-    "last_updated": "2026-08-02T05:46:48.853501",
+    "last_updated": "2026-08-09T04:10:25.246176",
     "submission_url": "https://gpce26.hotcrp.com/",
     "tracks": [
       {
@@ -1128,7 +1128,7 @@
     "conf_end": "2026-04-14",
     "url": "https://conf.researchr.org/home/msr-2026",
     "dates_url": "https://conf.researchr.org/dates/msr-2026",
-    "last_updated": "2026-08-02T05:46:53.243539",
+    "last_updated": "2026-08-09T04:10:30.960791",
     "submission_url": null,
     "tracks": [
       {
@@ -1222,7 +1222,7 @@
     "conf_end": "2026-05-22",
     "url": "https://conf.researchr.org/home/icst-2026",
     "dates_url": "https://conf.researchr.org/dates/icst-2026",
-    "last_updated": "2026-08-02T05:46:52.129196",
+    "last_updated": "2026-08-09T04:10:28.935651",
     "submission_url": null,
     "tracks": [
       {
@@ -1456,7 +1456,7 @@
     "conf_end": "2026-06-12",
     "url": "https://conf.researchr.org/home/ease-2026",
     "dates_url": "https://conf.researchr.org/dates/ease-2026",
-    "last_updated": "2026-08-02T05:46:46.650342",
+    "last_updated": "2026-08-09T04:10:22.287118",
     "submission_url": null,
     "tracks": [
       {
@@ -1640,7 +1640,7 @@
     "conf_end": "2026-06-26",
     "url": "https://conf.researchr.org/home/icsa-2026",
     "dates_url": "https://conf.researchr.org/dates/icsa-2026",
-    "last_updated": "2026-08-02T05:46:49.631360",
+    "last_updated": "2026-08-09T04:10:26.365853",
     "submission_url": null,
     "tracks": [
       {
@@ -1774,7 +1774,7 @@
     "conf_end": "2026-07-03",
     "url": "https://conf.researchr.org/home/ecoop-2026",
     "dates_url": "https://conf.researchr.org/dates/ecoop-2026",
-    "last_updated": "2026-08-02T05:46:47.189231",
+    "last_updated": "2026-08-09T04:10:23.050740",
     "submission_url": "https://ecoop26.hotcrp.com",
     "tracks": [
       {
@@ -1966,7 +1966,7 @@
     "conf_end": "2026-07-03",
     "url": "https://conf.researchr.org/home/sle-2026",
     "dates_url": "https://conf.researchr.org/dates/sle-2026",
-    "last_updated": "2026-08-02T05:46:54.794989",
+    "last_updated": "2026-08-09T04:10:33.199196",
     "submission_url": "https://sle26.hotcrp.com",
     "tracks": [
       {
@@ -1990,7 +1990,7 @@
     "conf_end": "2026-07-09",
     "url": "https://conf.researchr.org/home/fse-2026",
     "dates_url": "https://conf.researchr.org/dates/fse-2026",
-    "last_updated": "2026-08-02T05:46:47.569532",
+    "last_updated": "2026-08-09T04:10:23.604109",
     "submission_url": "https://fse2026.hotcrp.com",
     "tracks": [
       {
@@ -2243,7 +2243,7 @@
     "conf_end": "2026-07-06",
     "url": "https://conf.researchr.org/home/ssbse-2026",
     "dates_url": "https://conf.researchr.org/dates/ssbse-2026",
-    "last_updated": "2026-08-02T05:46:55.356880",
+    "last_updated": "2026-08-09T04:10:33.996307",
     "submission_url": null,
     "tracks": [
       {
@@ -2297,19 +2297,9 @@
     "conf_end": "2026-09-18",
     "url": "https://conf.researchr.org/home/icsme-2026",
     "dates_url": "https://conf.researchr.org/dates/icsme-2026",
-    "last_updated": "2026-08-02T05:46:50.623389",
+    "last_updated": "2026-08-09T04:10:27.699534",
     "submission_url": null,
     "tracks": [
-      {
-        "track_type": "other",
-        "track_name": "SCAM Engineering Track",
-        "abstract": "2026-06-12",
-        "submission": "2026-06-18",
-        "notification": "2026-08-05",
-        "camera_ready": "2026-08-20",
-        "submission_url": null,
-        "rounds": null
-      },
       {
         "track_type": "research",
         "track_name": "SCAM Research Track",
@@ -2317,6 +2307,16 @@
         "submission": "2026-06-11",
         "notification": "2026-07-30",
         "camera_ready": "2026-08-14",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "SCAM Engineering Track",
+        "abstract": "2026-06-12",
+        "submission": "2026-06-18",
+        "notification": "2026-08-05",
+        "camera_ready": "2026-08-20",
         "submission_url": null,
         "rounds": null
       },
@@ -2411,19 +2411,9 @@
     "conf_end": "2026-09-15",
     "url": "https://conf.researchr.org/home/scam-2026",
     "dates_url": "https://conf.researchr.org/dates/scam-2026",
-    "last_updated": "2026-08-02T05:46:54.280104",
+    "last_updated": "2026-08-09T04:10:32.510991",
     "submission_url": null,
     "tracks": [
-      {
-        "track_type": "other",
-        "track_name": "Engineering Track",
-        "abstract": "2026-06-12",
-        "submission": "2026-06-18",
-        "notification": "2026-08-05",
-        "camera_ready": "2026-08-20",
-        "submission_url": null,
-        "rounds": null
-      },
       {
         "track_type": "research",
         "track_name": "Research Track",
@@ -2431,6 +2421,16 @@
         "submission": "2026-06-11",
         "notification": "2026-07-30",
         "camera_ready": "2026-08-14",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Engineering Track",
+        "abstract": "2026-06-12",
+        "submission": "2026-06-18",
+        "notification": "2026-08-05",
+        "camera_ready": "2026-08-20",
         "submission_url": null,
         "rounds": null
       }
@@ -2445,7 +2445,7 @@
     "conf_end": "2026-10-02",
     "url": "https://conf.researchr.org/home/variability-2026",
     "dates_url": "https://conf.researchr.org/dates/variability-2026",
-    "last_updated": "2026-08-02T05:46:55.607576",
+    "last_updated": "2026-08-09T04:10:34.356761",
     "submission_url": null,
     "tracks": [
       {
@@ -2539,29 +2539,9 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/issta-2026",
     "dates_url": "https://conf.researchr.org/dates/issta-2026",
-    "last_updated": "2026-08-02T05:46:52.703240",
+    "last_updated": "2026-08-09T04:10:29.823889",
     "submission_url": "https://issta2026.hotcrp.com",
     "tracks": [
-      {
-        "track_type": "other",
-        "track_name": "SPLASH SIGPLAN track",
-        "abstract": null,
-        "submission": "2026-08-01",
-        "notification": null,
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "PLSS",
-        "abstract": null,
-        "submission": "2026-08-01",
-        "notification": "2026-08-05",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
       {
         "track_type": "other",
         "track_name": "FTA",
@@ -2569,97 +2549,6 @@
         "submission": "2026-07-20",
         "notification": "2026-08-03",
         "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "doctoral",
-        "track_name": "SPLASH/ISSTA Doctoral symposium",
-        "abstract": null,
-        "submission": "2026-07-03",
-        "notification": "2026-08-04",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "VMIL",
-        "abstract": null,
-        "submission": "2026-08-06",
-        "notification": "2026-08-24",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "SPLASH/ISSTA Tool Demonstrations",
-        "abstract": null,
-        "submission": "2026-06-26",
-        "notification": "2026-07-24",
-        "camera_ready": "2026-08-07",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "SPLASH -E",
-        "abstract": null,
-        "submission": "2026-06-24",
-        "notification": "2026-08-07",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "SPLASH OOPSLA",
-        "abstract": null,
-        "submission": "2025-10-10",
-        "notification": "2025-12-17",
-        "camera_ready": "2026-02-27",
-        "submission_url": null,
-        "rounds": [
-          {
-            "camera_ready": "2026-02-27",
-            "notification": "2025-12-17",
-            "submission": "2025-10-10"
-          },
-          {
-            "notification": "2026-06-10",
-            "camera_ready": "2026-08-14",
-            "submission": "2026-03-17"
-          }
-        ]
-      },
-      {
-        "track_type": "short",
-        "track_name": "SPLASH/ISSTA Posters",
-        "abstract": null,
-        "submission": "2026-06-26",
-        "notification": "2026-07-24",
-        "camera_ready": "2026-08-07",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "research",
-        "track_name": "SPLASH/ISSTA Student Research Competition",
-        "abstract": null,
-        "submission": "2026-06-26",
-        "notification": "2026-07-24",
-        "camera_ready": "2026-08-07",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "SpecOps",
-        "abstract": "2026-06-23",
-        "submission": "2026-06-30",
-        "notification": "2026-07-15",
-        "camera_ready": "2026-08-10",
         "submission_url": null,
         "rounds": null
       },
@@ -2694,11 +2583,52 @@
         "rounds": null
       },
       {
+        "track_type": "short",
+        "track_name": "SPLASH/ISSTA Posters",
+        "abstract": null,
+        "submission": "2026-06-26",
+        "notification": "2026-07-24",
+        "camera_ready": "2026-08-21",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "SPLASH OOPSLA",
+        "abstract": null,
+        "submission": "2025-10-10",
+        "notification": "2025-12-17",
+        "camera_ready": "2026-02-27",
+        "submission_url": null,
+        "rounds": [
+          {
+            "camera_ready": "2026-02-27",
+            "notification": "2025-12-17",
+            "submission": "2025-10-10"
+          },
+          {
+            "camera_ready": "2026-08-14",
+            "notification": "2026-06-10",
+            "submission": "2026-03-17"
+          }
+        ]
+      },
+      {
         "track_type": "other",
         "track_name": "SPLASH Onward! Papers",
         "abstract": null,
         "submission": "2026-05-15",
         "notification": "2026-06-22",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "VMIL",
+        "abstract": null,
+        "submission": "2026-08-14",
+        "notification": "2026-08-24",
         "camera_ready": null,
         "submission_url": null,
         "rounds": null
@@ -2735,10 +2665,50 @@
       },
       {
         "track_type": "other",
+        "track_name": "SpecOps",
+        "abstract": "2026-06-23",
+        "submission": "2026-06-30",
+        "notification": "2026-07-15",
+        "camera_ready": "2026-08-20",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "SPLASH/ISSTA Tool Demonstrations",
+        "abstract": null,
+        "submission": "2026-06-26",
+        "notification": "2026-07-24",
+        "camera_ready": "2026-08-21",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
         "track_name": "IWACO",
         "abstract": null,
         "submission": "2026-07-21",
         "notification": "2026-08-21",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "SPLASH/ISSTA Student Research Competition",
+        "abstract": null,
+        "submission": "2026-06-26",
+        "notification": "2026-07-24",
+        "camera_ready": "2026-08-21",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "doctoral",
+        "track_name": "SPLASH/ISSTA Doctoral symposium",
+        "abstract": null,
+        "submission": "2026-07-03",
+        "notification": "2026-08-04",
         "camera_ready": null,
         "submission_url": null,
         "rounds": null
@@ -2761,6 +2731,36 @@
             "submission": "2026-07-23"
           }
         ]
+      },
+      {
+        "track_type": "other",
+        "track_name": "SPLASH -E",
+        "abstract": null,
+        "submission": "2026-06-24",
+        "notification": "2026-08-07",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "PLSS",
+        "abstract": null,
+        "submission": "2026-08-01",
+        "notification": "2026-08-05",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "SPLASH SIGPLAN track",
+        "abstract": null,
+        "submission": "2026-08-01",
+        "notification": null,
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
       },
       {
         "track_type": "other",
@@ -2853,29 +2853,9 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/splash-2026",
     "dates_url": "https://conf.researchr.org/dates/splash-2026",
-    "last_updated": "2026-08-02T05:46:55.103077",
+    "last_updated": "2026-08-09T04:10:33.624934",
     "submission_url": null,
     "tracks": [
-      {
-        "track_type": "other",
-        "track_name": "SIGPLAN track",
-        "abstract": null,
-        "submission": "2026-08-01",
-        "notification": null,
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "PLSS",
-        "abstract": null,
-        "submission": "2026-08-01",
-        "notification": "2026-08-05",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
       {
         "track_type": "other",
         "track_name": "FTA",
@@ -2883,97 +2863,6 @@
         "submission": "2026-07-20",
         "notification": "2026-08-03",
         "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "doctoral",
-        "track_name": "SPLASH/ISSTA Doctoral symposium",
-        "abstract": null,
-        "submission": "2026-07-03",
-        "notification": "2026-08-04",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "VMIL",
-        "abstract": null,
-        "submission": "2026-08-06",
-        "notification": "2026-08-24",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "SPLASH/ISSTA Tool Demonstrations",
-        "abstract": null,
-        "submission": "2026-06-26",
-        "notification": "2026-07-24",
-        "camera_ready": "2026-08-07",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "SPLASH-E",
-        "abstract": null,
-        "submission": "2026-06-24",
-        "notification": "2026-08-07",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "OOPSLA",
-        "abstract": null,
-        "submission": "2025-10-10",
-        "notification": "2025-12-17",
-        "camera_ready": "2026-02-27",
-        "submission_url": null,
-        "rounds": [
-          {
-            "camera_ready": "2026-02-27",
-            "notification": "2025-12-17",
-            "submission": "2025-10-10"
-          },
-          {
-            "notification": "2026-06-10",
-            "camera_ready": "2026-08-14",
-            "submission": "2026-03-17"
-          }
-        ]
-      },
-      {
-        "track_type": "short",
-        "track_name": "SPLASH/ISSTA Posters",
-        "abstract": null,
-        "submission": "2026-06-26",
-        "notification": "2026-07-24",
-        "camera_ready": "2026-08-07",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "research",
-        "track_name": "SPLASH/ISSTA Student Research Competition",
-        "abstract": null,
-        "submission": "2026-06-26",
-        "notification": "2026-07-24",
-        "camera_ready": "2026-08-07",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "SpecOps",
-        "abstract": "2026-06-23",
-        "submission": "2026-06-30",
-        "notification": "2026-07-15",
-        "camera_ready": "2026-08-10",
         "submission_url": null,
         "rounds": null
       },
@@ -3008,11 +2897,52 @@
         "rounds": null
       },
       {
+        "track_type": "short",
+        "track_name": "SPLASH/ISSTA Posters",
+        "abstract": null,
+        "submission": "2026-06-26",
+        "notification": "2026-07-24",
+        "camera_ready": "2026-08-21",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "OOPSLA",
+        "abstract": null,
+        "submission": "2025-10-10",
+        "notification": "2025-12-17",
+        "camera_ready": "2026-02-27",
+        "submission_url": null,
+        "rounds": [
+          {
+            "camera_ready": "2026-02-27",
+            "notification": "2025-12-17",
+            "submission": "2025-10-10"
+          },
+          {
+            "camera_ready": "2026-08-14",
+            "notification": "2026-06-10",
+            "submission": "2026-03-17"
+          }
+        ]
+      },
+      {
         "track_type": "other",
         "track_name": "Onward! Papers",
         "abstract": null,
         "submission": "2026-05-15",
         "notification": "2026-06-22",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "VMIL",
+        "abstract": null,
+        "submission": "2026-08-14",
+        "notification": "2026-08-24",
         "camera_ready": null,
         "submission_url": null,
         "rounds": null
@@ -3049,10 +2979,50 @@
       },
       {
         "track_type": "other",
+        "track_name": "SpecOps",
+        "abstract": "2026-06-23",
+        "submission": "2026-06-30",
+        "notification": "2026-07-15",
+        "camera_ready": "2026-08-20",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "SPLASH/ISSTA Tool Demonstrations",
+        "abstract": null,
+        "submission": "2026-06-26",
+        "notification": "2026-07-24",
+        "camera_ready": "2026-08-21",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
         "track_name": "IWACO",
         "abstract": null,
         "submission": "2026-07-21",
         "notification": "2026-08-21",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "SPLASH/ISSTA Student Research Competition",
+        "abstract": null,
+        "submission": "2026-06-26",
+        "notification": "2026-07-24",
+        "camera_ready": "2026-08-21",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "doctoral",
+        "track_name": "SPLASH/ISSTA Doctoral symposium",
+        "abstract": null,
+        "submission": "2026-07-03",
+        "notification": "2026-08-04",
         "camera_ready": null,
         "submission_url": null,
         "rounds": null
@@ -3075,6 +3045,36 @@
             "submission": "2026-07-23"
           }
         ]
+      },
+      {
+        "track_type": "other",
+        "track_name": "SPLASH-E",
+        "abstract": null,
+        "submission": "2026-06-24",
+        "notification": "2026-08-07",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "PLSS",
+        "abstract": null,
+        "submission": "2026-08-01",
+        "notification": "2026-08-05",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "SIGPLAN track",
+        "abstract": null,
+        "submission": "2026-08-01",
+        "notification": null,
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
       },
       {
         "track_type": "other",
@@ -3167,26 +3167,26 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/esem-2026",
     "dates_url": "https://conf.researchr.org/dates/esem-2026",
-    "last_updated": "2026-08-02T05:46:47.405882",
+    "last_updated": "2026-08-09T04:10:23.384595",
     "submission_url": "https://esem2026.hotcrp.com",
     "tracks": [
       {
-        "track_type": "doctoral",
-        "track_name": "IDoESE - Doctoral Symposium",
-        "abstract": null,
-        "submission": "2026-07-03",
-        "notification": "2026-08-03",
-        "camera_ready": null,
+        "track_type": "research",
+        "track_name": "ESEM - Technical Track",
+        "abstract": "2026-05-11",
+        "submission": "2026-05-18",
+        "notification": "2026-07-14",
+        "camera_ready": "2026-08-17",
         "submission_url": null,
         "rounds": null
       },
       {
         "track_type": "other",
-        "track_name": "ESEM - Journal First Track",
-        "abstract": null,
-        "submission": "2026-07-01",
-        "notification": "2026-08-03",
-        "camera_ready": null,
+        "track_name": "ESEM - Software Engineering in Practice Track",
+        "abstract": "2026-05-22",
+        "submission": "2026-05-27",
+        "notification": "2026-07-08",
+        "camera_ready": "2026-08-05",
         "submission_url": null,
         "rounds": null
       },
@@ -3202,21 +3202,21 @@
       },
       {
         "track_type": "other",
-        "track_name": "ESEM - Software Engineering in Practice Track",
-        "abstract": "2026-05-22",
-        "submission": "2026-05-27",
-        "notification": "2026-07-08",
-        "camera_ready": "2026-08-05",
+        "track_name": "ESEM - Journal First Track",
+        "abstract": null,
+        "submission": "2026-07-01",
+        "notification": "2026-08-03",
+        "camera_ready": null,
         "submission_url": null,
         "rounds": null
       },
       {
-        "track_type": "research",
-        "track_name": "ESEM - Technical Track",
-        "abstract": "2026-05-11",
-        "submission": "2026-05-18",
-        "notification": "2026-07-14",
-        "camera_ready": "2026-08-17",
+        "track_type": "doctoral",
+        "track_name": "IDoESE - Doctoral Symposium",
+        "abstract": null,
+        "submission": "2026-07-03",
+        "notification": "2026-08-03",
+        "camera_ready": null,
         "submission_url": null,
         "rounds": null
       },
@@ -3241,7 +3241,7 @@
     "conf_end": "2026-10-09",
     "url": "https://conf.researchr.org/home/models-2026",
     "dates_url": "https://conf.researchr.org/dates/models-2026",
-    "last_updated": "2026-08-02T05:46:52.975347",
+    "last_updated": "2026-08-09T04:10:30.568331",
     "submission_url": null,
     "tracks": [
       {
@@ -3265,42 +3265,12 @@
         "rounds": null
       },
       {
-        "track_type": "short",
-        "track_name": "New Ideas and Emerging Results (NIER)",
-        "abstract": "2026-06-24",
-        "submission": "2026-07-01",
-        "notification": "2026-07-29",
-        "camera_ready": "2026-08-05",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "doctoral",
-        "track_name": "Doctoral Symposium",
-        "abstract": null,
-        "submission": "2026-07-15",
-        "notification": "2026-08-06",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
         "track_type": "other",
         "track_name": "Workshops",
         "abstract": null,
         "submission": "2026-03-06",
         "notification": "2026-03-27",
         "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Tools and Demonstrations",
-        "abstract": "2026-07-08",
-        "submission": "2026-07-15",
-        "notification": null,
-        "camera_ready": "2026-08-14",
         "submission_url": null,
         "rounds": null
       },
@@ -3325,6 +3295,26 @@
         "rounds": null
       },
       {
+        "track_type": "tools",
+        "track_name": "Tools and Demonstrations",
+        "abstract": "2026-07-08",
+        "submission": "2026-07-15",
+        "notification": null,
+        "camera_ready": "2026-08-14",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "doctoral",
+        "track_name": "Doctoral Symposium",
+        "abstract": null,
+        "submission": "2026-07-15",
+        "notification": "2026-08-06",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
         "track_type": "short",
         "track_name": "Posters",
         "abstract": null,
@@ -3335,12 +3325,12 @@
         "rounds": null
       },
       {
-        "track_type": "other",
-        "track_name": "Tutorials",
-        "abstract": null,
-        "submission": "2026-06-19",
-        "notification": "2026-07-31",
-        "camera_ready": null,
+        "track_type": "short",
+        "track_name": "New Ideas and Emerging Results (NIER)",
+        "abstract": "2026-06-24",
+        "submission": "2026-07-01",
+        "notification": "2026-07-29",
+        "camera_ready": "2026-08-05",
         "submission_url": null,
         "rounds": null
       },
@@ -3351,6 +3341,16 @@
         "submission": "2026-03-27",
         "notification": "2026-06-17",
         "camera_ready": "2026-07-31",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "Tutorials",
+        "abstract": null,
+        "submission": "2026-06-19",
+        "notification": "2026-07-31",
+        "camera_ready": null,
         "submission_url": null,
         "rounds": null
       },
@@ -3385,64 +3385,14 @@
     "conf_end": "2026-10-16",
     "url": "https://conf.researchr.org/home/ase-2026",
     "dates_url": "https://conf.researchr.org/dates/ase-2026",
-    "last_updated": "2026-08-02T05:46:44.585673",
+    "last_updated": "2026-08-09T04:10:19.737548",
     "submission_url": "https://ase26.hotcrp.com",
     "tracks": [
       {
-        "track_type": "short",
-        "track_name": "Industry Showcase",
-        "abstract": "2026-04-23",
-        "submission": "2026-04-30",
-        "notification": "2026-06-30",
-        "camera_ready": "2026-08-03",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "short",
-        "track_name": "NIER",
-        "abstract": null,
-        "submission": "2026-05-12",
-        "notification": "2026-07-01",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "tools",
-        "track_name": "Tools and Datasets",
-        "abstract": null,
-        "submission": "2026-05-11",
-        "notification": "2026-06-19",
-        "camera_ready": "2026-08-03",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "research",
-        "track_name": "Research Papers",
-        "abstract": null,
-        "submission": "2026-03-26",
-        "notification": "2026-05-25",
-        "camera_ready": "2026-08-03",
-        "submission_url": null,
-        "rounds": null
-      },
-      {
         "track_type": "other",
-        "track_name": "POVC",
+        "track_name": "APR",
         "abstract": null,
-        "submission": "2026-08-05",
-        "notification": "2026-08-23",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
-        "track_name": "AISM",
-        "abstract": null,
-        "submission": "2026-08-07",
+        "submission": "2026-08-10",
         "notification": "2026-08-21",
         "camera_ready": "2026-08-28",
         "submission_url": null,
@@ -3450,9 +3400,9 @@
       },
       {
         "track_type": "other",
-        "track_name": "APR",
+        "track_name": "AISM",
         "abstract": null,
-        "submission": "2026-08-07",
+        "submission": "2026-08-11",
         "notification": "2026-08-21",
         "camera_ready": "2026-08-28",
         "submission_url": null,
@@ -3590,6 +3540,16 @@
       },
       {
         "track_type": "other",
+        "track_name": "POVC",
+        "abstract": null,
+        "submission": "2026-08-05",
+        "notification": "2026-08-23",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
         "track_name": "MAS-GAIN",
         "abstract": "2026-07-17",
         "submission": "2026-07-22",
@@ -3605,6 +3565,46 @@
         "submission": "2026-07-28",
         "notification": "2026-08-25",
         "camera_ready": "2026-09-01",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "Industry Showcase",
+        "abstract": "2026-04-23",
+        "submission": "2026-04-30",
+        "notification": "2026-06-30",
+        "camera_ready": "2026-08-03",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "short",
+        "track_name": "NIER",
+        "abstract": null,
+        "submission": "2026-05-12",
+        "notification": "2026-07-01",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "tools",
+        "track_name": "Tools and Datasets",
+        "abstract": null,
+        "submission": "2026-05-11",
+        "notification": "2026-06-19",
+        "camera_ready": "2026-08-03",
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "abstract": null,
+        "submission": "2026-03-26",
+        "notification": "2026-05-25",
+        "camera_ready": "2026-08-03",
         "submission_url": null,
         "rounds": null
       },
@@ -3723,7 +3723,7 @@
     "conf_end": "2027-03-12",
     "url": "https://conf.researchr.org/home/saner-2027",
     "dates_url": "https://conf.researchr.org/dates/saner-2027",
-    "last_updated": "2026-08-02T05:46:54.021428",
+    "last_updated": "2026-08-09T04:10:32.138076",
     "submission_url": null,
     "tracks": [
       {
@@ -3827,7 +3827,7 @@
     "conf_end": "2027-04-26",
     "url": "https://conf.researchr.org/home/icpc-2027",
     "dates_url": "https://conf.researchr.org/dates/icpc-2027",
-    "last_updated": "2026-08-02T05:46:49.368826",
+    "last_updated": "2026-08-09T04:10:25.983908",
     "submission_url": null,
     "tracks": [
       {
@@ -3891,15 +3891,15 @@
     "conf_end": "2027-05-01",
     "url": "https://conf.researchr.org/home/icse-2027",
     "dates_url": "https://conf.researchr.org/dates/icse-2027",
-    "last_updated": "2026-08-02T05:46:50.300905",
+    "last_updated": "2026-08-09T04:10:27.293546",
     "submission_url": "https://icse2027.hotcrp.com",
     "tracks": [
       {
         "track_type": "other",
-        "track_name": "MSR Mining Challenge",
+        "track_name": "ICSE 2027 Competitions",
         "abstract": null,
-        "submission": "2026-08-03",
-        "notification": "2026-08-07",
+        "submission": "2026-06-26",
+        "notification": "2026-07-10",
         "camera_ready": null,
         "submission_url": null,
         "rounds": null
@@ -4156,16 +4156,6 @@
       },
       {
         "track_type": "other",
-        "track_name": "ICSE 2027 Competitions",
-        "abstract": null,
-        "submission": "2026-06-26",
-        "notification": "2026-07-10",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
         "track_name": "ICPC Replications and Negative Results (RENE)",
         "abstract": "2026-12-11",
         "submission": "2026-12-18",
@@ -4210,6 +4200,16 @@
         "abstract": null,
         "submission": "2027-01-22",
         "notification": "2027-02-26",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "MSR Mining Challenge",
+        "abstract": null,
+        "submission": "2026-08-03",
+        "notification": "2026-08-07",
         "camera_ready": null,
         "submission_url": null,
         "rounds": null
@@ -4225,15 +4225,15 @@
     "conf_end": "2027-05-01",
     "url": "https://conf.researchr.org/home/icse-2027",
     "dates_url": "https://conf.researchr.org/dates/icse-2027",
-    "last_updated": "2026-08-02T05:46:53.491007",
+    "last_updated": "2026-08-09T04:10:31.362925",
     "submission_url": null,
     "tracks": [
       {
         "track_type": "other",
-        "track_name": "MSR Mining Challenge",
+        "track_name": "ICSE 2027 Competitions",
         "abstract": null,
-        "submission": "2026-08-03",
-        "notification": "2026-08-07",
+        "submission": "2026-06-26",
+        "notification": "2026-07-10",
         "camera_ready": null,
         "submission_url": null,
         "rounds": null
@@ -4490,16 +4490,6 @@
       },
       {
         "track_type": "other",
-        "track_name": "ICSE 2027 Competitions",
-        "abstract": null,
-        "submission": "2026-06-26",
-        "notification": "2026-07-10",
-        "camera_ready": null,
-        "submission_url": null,
-        "rounds": null
-      },
-      {
-        "track_type": "other",
         "track_name": "ICPC Replications and Negative Results (RENE)",
         "abstract": "2026-12-11",
         "submission": "2026-12-18",
@@ -4547,6 +4537,16 @@
         "camera_ready": null,
         "submission_url": null,
         "rounds": null
+      },
+      {
+        "track_type": "other",
+        "track_name": "MSR Mining Challenge",
+        "abstract": null,
+        "submission": "2026-08-03",
+        "notification": "2026-08-07",
+        "camera_ready": null,
+        "submission_url": null,
+        "rounds": null
       }
     ]
   },
@@ -4559,7 +4559,7 @@
     "conf_end": "2027-05-21",
     "url": "https://conf.researchr.org/home/icst-2027",
     "dates_url": "https://conf.researchr.org/dates/icst-2027",
-    "last_updated": "2026-08-02T05:46:52.341572",
+    "last_updated": "2026-08-09T04:10:29.286318",
     "submission_url": null,
     "tracks": [
       {
@@ -4583,7 +4583,7 @@
     "conf_end": "2027-06-18",
     "url": "https://conf.researchr.org/home/ease-2027",
     "dates_url": "https://conf.researchr.org/dates/ease-2027",
-    "last_updated": "2026-08-02T05:46:41.785889",
+    "last_updated": "2026-08-09T04:10:15.737237",
     "submission_url": null,
     "tracks": []
   },
@@ -4596,7 +4596,7 @@
     "conf_end": "2027-07-16",
     "url": "https://conf.researchr.org/home/fse-2027",
     "dates_url": "https://conf.researchr.org/dates/fse-2027",
-    "last_updated": "2026-08-02T05:46:47.785335",
+    "last_updated": "2026-08-09T04:10:23.933403",
     "submission_url": null,
     "tracks": [
       {
@@ -4622,6 +4622,30 @@
     ]
   },
   {
+    "key": "ISSTA 2027",
+    "year": 2027,
+    "full_name": "ACM Intl. Symposium on Software Testing and Analysis",
+    "location": null,
+    "conf_start": "2027-09-07",
+    "conf_end": "2027-09-10",
+    "url": "https://conf.researchr.org/home/issta-2027",
+    "dates_url": "https://conf.researchr.org/dates/issta-2027",
+    "last_updated": "2026-08-09T04:10:30.180566",
+    "submission_url": null,
+    "tracks": [
+      {
+        "track_type": "research",
+        "track_name": "Research Papers",
+        "abstract": "2027-01-08",
+        "submission": "2027-01-11",
+        "notification": "2027-04-20",
+        "camera_ready": "2027-07-22",
+        "submission_url": null,
+        "rounds": null
+      }
+    ]
+  },
+  {
     "key": "CAIN 2027",
     "year": 2027,
     "full_name": "IEEE/ACM Intl. Conf. on AI Engineering",
@@ -4630,7 +4654,7 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/cain-2027",
     "dates_url": "https://conf.researchr.org/dates/cain-2027",
-    "last_updated": "2026-08-02T05:46:45.076875",
+    "last_updated": "2026-08-09T04:10:20.464732",
     "submission_url": null,
     "tracks": [
       {
@@ -4654,7 +4678,7 @@
     "conf_end": null,
     "url": "https://conf.researchr.org/home/icsa-2027",
     "dates_url": "https://conf.researchr.org/dates/icsa-2027",
-    "last_updated": "2026-08-02T05:46:49.861161",
+    "last_updated": "2026-08-09T04:10:26.738532",
     "submission_url": "https://easychair.org/my/conference?conf=icsa2027",
     "tracks": [
       {
