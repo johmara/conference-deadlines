@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  packages: read
 
 jobs:
   generate:
@@ -23,6 +24,19 @@ jobs:
       - name: Install dependencies
         run: pip install httpx beautifulsoup4 lxml pyyaml
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Pull the latest design system (not limited by the semver range in package.json)
+      # and refresh the copy GitHub Pages serves.
+      - name: Update design system
+        run: |
+          npm install --save-dev @johmara/design-system@latest
+          npm run vendor
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate data.json
         run: python generate_data.py
         env:
@@ -32,6 +46,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          git diff --cached --quiet || git commit -m "chore: refresh conference data $(date -u +%Y-%m-%d)"
+          git add data.json package.json package-lock.json vendor assets
+          git diff --cached --quiet || git commit -m "chore: refresh conference data and design system $(date -u +%Y-%m-%d)"
           git push

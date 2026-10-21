@@ -1,0 +1,10 @@
+{
+  "name": "conference-deadlines",
+  "private": true,
+  "scripts": {
+    "vendor": "sh scripts/vendor-design-system.sh"
+  },
+  "devDependencies": {
+    "@johmara/design-system": "^0.5.0"
+  }
+}
