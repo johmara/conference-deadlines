@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ICST deadlines — Short/NIER</title>
-  <id>https://johmara.github.io/conference-deadlines/feeds/icst-short.atom</id>
-  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/icst-short.atom"/>
-  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/icst-short.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/icst-short.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
   <updated>2026-10-18T07:33:09Z</updated>
   <entry>
     <title>2027-01-13 — ICST 2027 — New Ideas and Emerging Results: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-new-ideas-and-emerging-results-r1-submission@se-conferences/2027-01-13</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icst-2027-new-ideas-and-emerging-results-r1-submission@se-conferences/2027-01-13</id>
     <link href="https://conf.researchr.org/home/icst-2027"/>
     <updated>2026-10-18T07:33:09Z</updated>
     <summary type="text">Deadline: 2027-01-13 (23:59 AoE)
@@ -18,7 +18,7 @@ Info: https://conf.researchr.org/home/icst-2027</summary>
   </entry>
   <entry>
     <title>2027-01-21 — ICST 2027 — Industry: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-industry-r1-submission@se-conferences/2027-01-21</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icst-2027-industry-r1-submission@se-conferences/2027-01-21</id>
     <link href="https://conf.researchr.org/home/icst-2027"/>
     <updated>2026-10-18T07:33:09Z</updated>
     <summary type="text">Deadline: 2027-01-21 (23:59 AoE)

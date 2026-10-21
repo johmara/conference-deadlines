@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SE Conference Deadlines — Research</title>
-  <id>https://johmara.github.io/conference-deadlines/feeds/all-research.atom</id>
-  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/all-research.atom"/>
-  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/all-research.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/all-research.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
   <updated>2026-10-18T07:33:12Z</updated>
   <entry>
     <title>2026-10-16 — ICPC 2027 — CHASE Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-16 (23:59 AoE)
@@ -18,7 +18,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-16 — ICSE 2027 — CHASE Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-16 (23:59 AoE)
@@ -29,7 +29,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-16 — MSR 2027 — CHASE Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-16 (23:59 AoE)
@@ -40,7 +40,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-19 — ICPC 2027 — TechDebt Technical Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
@@ -51,7 +51,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-19 — ICSE 2027 — TechDebt Technical Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
@@ -62,7 +62,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-19 — MSR 2027 — TechDebt Technical Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
@@ -73,7 +73,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-19 — SANER 2027 — Early Research Achievement (ERA) Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-early-research-achievement-era-track-r1-abstract@se-conferences/2026-10-19</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/saner-2027-early-research-achievement-era-track-r1-abstract@se-conferences/2026-10-19</id>
     <link href="https://conf.researchr.org/home/saner-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
@@ -84,7 +84,7 @@ Info: https://conf.researchr.org/home/saner-2027</summary>
   </entry>
   <entry>
     <title>2026-10-20 — ICPC 2027 — MSR Technical Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-20 (23:59 AoE)
@@ -95,7 +95,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-20 — ICSE 2027 — MSR Technical Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-20 (23:59 AoE)
@@ -106,7 +106,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-20 — MSR 2027 — MSR Technical Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-20 (23:59 AoE)
@@ -117,7 +117,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICPC 2027 — CHASE Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -128,7 +128,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICPC 2027 — MSR Technical Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -139,7 +139,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICPC 2027 — SEAMS Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -150,7 +150,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICPC 2027 — Tutorials and Technical Briefings: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -161,7 +161,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICSE 2027 — CHASE Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -172,7 +172,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICSE 2027 — MSR Technical Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -183,7 +183,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICSE 2027 — SEAMS Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -194,7 +194,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICSE 2027 — Tutorials and Technical Briefings: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -205,7 +205,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — MSR 2027 — CHASE Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -216,7 +216,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — MSR 2027 — MSR Technical Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -227,7 +227,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — MSR 2027 — SEAMS Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -238,7 +238,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — MSR 2027 — Tutorials and Technical Briefings: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -249,7 +249,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — SANER 2027 — Early Research Achievement (ERA) Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-early-research-achievement-era-track-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/saner-2027-early-research-achievement-era-track-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/saner-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -260,7 +260,7 @@ Info: https://conf.researchr.org/home/saner-2027</summary>
   </entry>
   <entry>
     <title>2026-10-25 — ICPC 2027 — FORGE Research Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-25 (23:59 AoE)
@@ -271,7 +271,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-25 — ICSE 2027 — FORGE Research Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-25 (23:59 AoE)
@@ -282,7 +282,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-25 — MSR 2027 — FORGE Research Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-25 (23:59 AoE)
@@ -293,7 +293,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-26 — ICPC 2027 — TechDebt Technical Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-26 (23:59 AoE)
@@ -304,7 +304,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-26 — ICSE 2027 — TechDebt Technical Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-26 (23:59 AoE)
@@ -315,7 +315,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-26 — MSR 2027 — TechDebt Technical Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-26 (23:59 AoE)
@@ -326,7 +326,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-29 — ICPC 2027 — ICPC Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-29 (23:59 AoE)
@@ -337,7 +337,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-29 — ICSE 2027 — ICPC Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-29 (23:59 AoE)
@@ -348,7 +348,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-29 — MSR 2027 — ICPC Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-29 (23:59 AoE)
@@ -359,7 +359,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — CAIN 2027 — Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/cain-2027-research-track-r1-submission@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/cain-2027"/>
     <updated>2026-10-18T07:33:01Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -370,7 +370,7 @@ Info: https://conf.researchr.org/home/cain-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — ICPC 2027 — CAIN Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -381,7 +381,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — ICPC 2027 — FORGE Research Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -392,7 +392,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — ICPC 2027 — FormaliSE Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -403,7 +403,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — ICSA 2027 — Research Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-research-papers-r1-abstract@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icsa-2027-research-papers-r1-abstract@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icsa-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -414,7 +414,7 @@ Info: https://conf.researchr.org/home/icsa-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — ICSE 2027 — CAIN Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -425,7 +425,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — ICSE 2027 — FORGE Research Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -436,7 +436,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — ICSE 2027 — FormaliSE Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -447,7 +447,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — MSR 2027 — CAIN Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -458,7 +458,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — MSR 2027 — FORGE Research Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -469,7 +469,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — MSR 2027 — FormaliSE Research Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -480,7 +480,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-02 — ICST 2027 — Research Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-research-papers-r1-submission@se-conferences/2026-11-02</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icst-2027-research-papers-r1-submission@se-conferences/2026-11-02</id>
     <link href="https://conf.researchr.org/home/icst-2027"/>
     <updated>2026-10-18T07:33:09Z</updated>
     <summary type="text">Deadline: 2026-11-02 (23:59 AoE)
@@ -491,7 +491,7 @@ Info: https://conf.researchr.org/home/icst-2027</summary>
   </entry>
   <entry>
     <title>2026-11-04 — ICSA 2027 — Research Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-research-papers-r1-submission@se-conferences/2026-11-04</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icsa-2027-research-papers-r1-submission@se-conferences/2026-11-04</id>
     <link href="https://conf.researchr.org/home/icsa-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-04 (23:59 AoE)
@@ -502,7 +502,7 @@ Info: https://conf.researchr.org/home/icsa-2027</summary>
   </entry>
   <entry>
     <title>2026-11-05 — ICPC 2027 — ICPC Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
@@ -513,7 +513,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-05 — ICSE 2027 — ICPC Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
@@ -524,7 +524,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-05 — MSR 2027 — ICPC Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
@@ -535,7 +535,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-06 — ICPC 2027 — FormaliSE Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
@@ -546,7 +546,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-06 — ICSE 2027 — FormaliSE Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
@@ -557,7 +557,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-06 — MSR 2027 — FormaliSE Research Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
@@ -568,7 +568,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-13 — ICPC 2027 — SRC - ACM Student Research Competition: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
@@ -579,7 +579,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-13 — ICSE 2027 — SRC - ACM Student Research Competition: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
@@ -590,7 +590,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-13 — MSR 2027 — SRC - ACM Student Research Competition: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
@@ -601,7 +601,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-19 — ICPC 2027 — ICPC Early Research Achievements (ERA): abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
@@ -612,7 +612,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-19 — ICSE 2027 — ICPC Early Research Achievements (ERA): abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
@@ -623,7 +623,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-19 — MSR 2027 — ICPC Early Research Achievements (ERA): abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
@@ -634,7 +634,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-26 — ICPC 2027 — ICPC Early Research Achievements (ERA): submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-11-26 (23:59 AoE)
@@ -645,7 +645,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-26 — ICSE 2027 — ICPC Early Research Achievements (ERA): submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-26 (23:59 AoE)
@@ -656,7 +656,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-26 — MSR 2027 — ICPC Early Research Achievements (ERA): submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-26 (23:59 AoE)
@@ -667,7 +667,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-27 — ICPC 2027 — Tutorials and Technical Briefings: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:06Z</updated>
     <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
@@ -678,7 +678,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-27 — ICSE 2027 — Tutorials and Technical Briefings: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
@@ -689,7 +689,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-27 — MSR 2027 — Tutorials and Technical Briefings: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
@@ -700,7 +700,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2027-01-08 — ISSTA 2027 — Research Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/issta-2027-research-papers-r1-abstract@se-conferences/2027-01-08</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/issta-2027-research-papers-r1-abstract@se-conferences/2027-01-08</id>
     <link href="https://conf.researchr.org/home/issta-2027"/>
     <updated>2026-10-18T07:33:10Z</updated>
     <summary type="text">Deadline: 2027-01-08 (23:59 AoE)
@@ -710,7 +710,7 @@ Info: https://conf.researchr.org/home/issta-2027</summary>
   </entry>
   <entry>
     <title>2027-01-11 — ISSTA 2027 — Research Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/issta-2027-research-papers-r1-submission@se-conferences/2027-01-11</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/issta-2027-research-papers-r1-submission@se-conferences/2027-01-11</id>
     <link href="https://conf.researchr.org/home/issta-2027"/>
     <updated>2026-10-18T07:33:10Z</updated>
     <summary type="text">Deadline: 2027-01-11 (23:59 AoE)
@@ -720,7 +720,7 @@ Info: https://conf.researchr.org/home/issta-2027</summary>
   </entry>
   <entry>
     <title>2027-01-15 — EASE 2027 — Research Papers: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-research-papers-r1-abstract@se-conferences/2027-01-15</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ease-2027-research-papers-r1-abstract@se-conferences/2027-01-15</id>
     <link href="https://conf.researchr.org/home/ease-2027"/>
     <updated>2026-10-18T07:33:02Z</updated>
     <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
@@ -731,7 +731,7 @@ Info: https://conf.researchr.org/home/ease-2027</summary>
   </entry>
   <entry>
     <title>2027-01-22 — EASE 2027 — Research Papers: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-research-papers-r1-submission@se-conferences/2027-01-22</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ease-2027-research-papers-r1-submission@se-conferences/2027-01-22</id>
     <link href="https://conf.researchr.org/home/ease-2027"/>
     <updated>2026-10-18T07:33:02Z</updated>
     <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
@@ -742,7 +742,7 @@ Info: https://conf.researchr.org/home/ease-2027</summary>
   </entry>
   <entry>
     <title>2027-03-05 — ICSME 2027 — Research Papers Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icsme-2027-research-papers-track-r1-submission@se-conferences/2027-03-05</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icsme-2027-research-papers-track-r1-submission@se-conferences/2027-03-05</id>
     <link href="https://conf.researchr.org/home/icsme-2027"/>
     <updated>2026-10-18T07:33:08Z</updated>
     <summary type="text">Deadline: 2027-03-05 (23:59 AoE)

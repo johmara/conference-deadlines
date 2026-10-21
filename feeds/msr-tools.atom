@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>MSR deadlines — Tools</title>
-  <id>https://johmara.github.io/conference-deadlines/feeds/msr-tools.atom</id>
-  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/msr-tools.atom"/>
-  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/msr-tools.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/msr-tools.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
   <updated>2026-10-18T07:33:12Z</updated>
   <entry>
     <title>2026-10-23 — MSR 2027 — Tool Demonstration and Data Showcase: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-tool-demonstration-and-data-showcase-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-tool-demonstration-and-data-showcase-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -18,7 +18,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-30 — MSR 2027 — FormaliSE Artifact Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-formalise-artifact-track-r1-abstract@se-conferences/2026-10-30</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-formalise-artifact-track-r1-abstract@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
@@ -29,7 +29,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-05 — MSR 2027 — MSR Data and Tool Showcase Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences/2026-11-05</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences/2026-11-05</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
@@ -40,7 +40,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-06 — MSR 2027 — FormaliSE Artifact Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-formalise-artifact-track-r1-submission@se-conferences/2026-11-06</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-formalise-artifact-track-r1-submission@se-conferences/2026-11-06</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
@@ -51,7 +51,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-10 — MSR 2027 — MSR Data and Tool Showcase Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences/2026-11-10</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences/2026-11-10</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-10 (23:59 AoE)
@@ -62,7 +62,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-19 — MSR 2027 — ICPC Tool Demonstration: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-tool-demonstration-r1-submission@se-conferences/2026-11-19</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-icpc-tool-demonstration-r1-submission@se-conferences/2026-11-19</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
@@ -73,7 +73,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-12-01 — MSR 2027 — SEAMS Artifact Track: abstract deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-seams-artifact-track-r1-abstract@se-conferences/2026-12-01</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-seams-artifact-track-r1-abstract@se-conferences/2026-12-01</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-12-01 (23:59 AoE)
@@ -84,7 +84,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-12-07 — MSR 2027 — SEAMS Artifact Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-seams-artifact-track-r1-submission@se-conferences/2026-12-07</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-seams-artifact-track-r1-submission@se-conferences/2026-12-07</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-12-07 (23:59 AoE)
@@ -95,7 +95,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2027-01-22 — MSR 2027 — Artifact Evaluation: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-artifact-evaluation-r1-submission@se-conferences/2027-01-22</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-artifact-evaluation-r1-submission@se-conferences/2027-01-22</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
@@ -106,7 +106,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2027-01-31 — MSR 2027 — TechDebt Tool Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-techdebt-tool-track-r1-submission@se-conferences/2027-01-31</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-techdebt-tool-track-r1-submission@se-conferences/2027-01-31</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2027-01-31 (23:59 AoE)

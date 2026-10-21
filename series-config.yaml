@@ -71,3 +71,6 @@
 - slug: cain
   display: CAIN
   full_name: IEEE/ACM Intl. Conf. on AI Engineering
+- slug: forge
+  display: FORGE
+  full_name: ACM Intl. Conf. on AI Foundation Models and Software Engineering

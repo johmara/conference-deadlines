@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EASE deadlines — Doctoral</title>
-  <id>https://johmara.github.io/conference-deadlines/feeds/ease-doctoral.atom</id>
-  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/ease-doctoral.atom"/>
-  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/ease-doctoral.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/ease-doctoral.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
   <updated>2026-10-18T07:33:02Z</updated>
   <entry>
     <title>2027-03-08 — EASE 2027 — Doctoral Symposium: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-doctoral-symposium-r1-submission@se-conferences/2027-03-08</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ease-2027-doctoral-symposium-r1-submission@se-conferences/2027-03-08</id>
     <link href="https://conf.researchr.org/home/ease-2027"/>
     <updated>2026-10-18T07:33:02Z</updated>
     <summary type="text">Deadline: 2027-03-08 (23:59 AoE)

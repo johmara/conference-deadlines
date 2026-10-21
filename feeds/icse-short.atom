@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ICSE deadlines — Short/NIER</title>
-  <id>https://johmara.github.io/conference-deadlines/feeds/icse-short.atom</id>
-  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/icse-short.atom"/>
-  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/icse-short.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/icse-short.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
   <updated>2026-10-18T07:33:07Z</updated>
   <entry>
     <title>2026-10-23 — ICSE 2027 — New Ideas and Emerging Results (NIER): submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferences/2026-10-23</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
@@ -18,7 +18,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-06 — ICSE 2027 — CAIN Industry Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-cain-industry-track-r1-submission@se-conferences/2026-11-06</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-cain-industry-track-r1-submission@se-conferences/2026-11-06</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
@@ -29,7 +29,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-11-06 — ICSE 2027 — CAIN Posters and Demos: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-cain-posters-and-demos-r1-submission@se-conferences/2026-11-06</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-cain-posters-and-demos-r1-submission@se-conferences/2026-11-06</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
@@ -40,7 +40,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-12-18 — ICSE 2027 — MSR Industry Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-industry-track-r1-submission@se-conferences/2026-12-18</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-msr-industry-track-r1-submission@se-conferences/2026-12-18</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
@@ -51,7 +51,7 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2027-01-22 — ICSE 2027 — TechDebt Industry Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-techdebt-industry-track-r1-submission@se-conferences/2027-01-22</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-techdebt-industry-track-r1-submission@se-conferences/2027-01-22</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2027-01-22 (23:59 AoE)

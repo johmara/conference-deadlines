@@ -15,7 +15,7 @@ Usage:
     python generate_feeds.py
 
 Environment variables:
-    SITE_URL  — public base URL of the site (default: https://johmara.github.io/conference-deadlines/)
+    SITE_URL  — public base URL of the site (default: https://johan.martinson.phd/conference-deadlines/)
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ import re
 from datetime import date, datetime, timedelta, timezone
 from xml.sax.saxutils import escape
 
-SITE_URL = os.environ.get("SITE_URL", "https://johmara.github.io/conference-deadlines/").rstrip("/") + "/"
+SITE_URL = os.environ.get("SITE_URL", "https://johan.martinson.phd/conference-deadlines/").rstrip("/") + "/"
 OUT_DIR  = "feeds"
 TITLE    = "SE Conference Deadlines"
 

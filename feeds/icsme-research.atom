@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ICSME deadlines — Research</title>
-  <id>https://johmara.github.io/conference-deadlines/feeds/icsme-research.atom</id>
-  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/icsme-research.atom"/>
-  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/icsme-research.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/icsme-research.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
   <updated>2026-10-18T07:33:08Z</updated>
   <entry>
     <title>2027-03-05 — ICSME 2027 — Research Papers Track: submission deadline</title>
-    <id>https://johmara.github.io/conference-deadlines/deadline/icsme-2027-research-papers-track-r1-submission@se-conferences/2027-03-05</id>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icsme-2027-research-papers-track-r1-submission@se-conferences/2027-03-05</id>
     <link href="https://conf.researchr.org/home/icsme-2027"/>
     <updated>2026-10-18T07:33:08Z</updated>
     <summary type="text">Deadline: 2027-03-05 (23:59 AoE)
