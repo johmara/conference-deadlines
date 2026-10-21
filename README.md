@@ -66,7 +66,7 @@ python generate_data.py        # writes data.json
 # Then open index.html in a browser
 ```
 
-Set `YEAR_RANGE` to control how many years ahead to scan (default: 2):
+Set `YEAR_RANGE` to control how many years ahead to scan (default: 5):
 
 ```bash
 YEAR_RANGE=3 python generate_data.py

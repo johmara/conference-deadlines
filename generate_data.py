@@ -8,7 +8,7 @@ Usage:
     python generate_data.py
 
 Environment variables:
-    YEAR_RANGE  — how many years ahead to scan (default: 2)
+    YEAR_RANGE  — how many years ahead to scan (default: 5)
 
 Progress is printed to stderr; stdout is kept clean for piping.
 """
@@ -29,7 +29,7 @@ from bs4 import BeautifulSoup
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-YEAR_RANGE = int(os.environ.get("YEAR_RANGE", "2"))
+YEAR_RANGE = int(os.environ.get("YEAR_RANGE", "5"))
 HEADERS    = {"User-Agent": "SE-Conference-Tracker/1.0 (+research-tool)"}
 
 # ── Series ────────────────────────────────────────────────────────────────────
