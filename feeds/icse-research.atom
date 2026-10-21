@@ -4,29 +4,7 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/icse-research.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/icse-research.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2026-10-18T07:33:07Z</updated>
-  <entry>
-    <title>2026-10-16 — ICSE 2027 — CHASE Research Track: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-16 (23:59 AoE)
-Track: CHASE Research Track
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-19 — ICSE 2027 — TechDebt Technical Papers: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
-Track: TechDebt Technical Papers
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
+  <updated>2026-10-21T08:31:59Z</updated>
   <entry>
     <title>2026-10-20 — ICSE 2027 — MSR Technical Papers: abstract deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
@@ -39,11 +17,12 @@ Location: Dublin, Ireland
 Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
-    <title>2026-10-23 — ICSE 2027 — CHASE Research Track: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <title>Moved: 2026-10-23 — ICSE 2027 — CHASE Research Track: abstract deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-chase-research-track-r1-abstract@se-conferences/2026-10-23</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+    <updated>2026-10-21T08:31:59Z</updated>
+    <summary type="text">Moved from 2026-10-16 to 2026-10-23.
+Deadline: 2026-10-23 (23:59 AoE)
 Track: CHASE Research Track
 Deadline: 23:59 AoE (UTC-12)
 Location: Dublin, Ireland
@@ -94,11 +73,12 @@ Location: Dublin, Ireland
 Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
-    <title>2026-10-26 — ICSE 2027 — TechDebt Technical Papers: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
+    <title>Moved: 2026-10-26 — ICSE 2027 — TechDebt Technical Papers: abstract deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-26</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-26 (23:59 AoE)
+    <updated>2026-10-21T08:31:59Z</updated>
+    <summary type="text">Moved from 2026-10-19 to 2026-10-26.
+Deadline: 2026-10-26 (23:59 AoE)
 Track: TechDebt Technical Papers
 Deadline: 23:59 AoE (UTC-12)
 Location: Dublin, Ireland
@@ -127,6 +107,18 @@ Location: Dublin, Ireland
 Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
+    <title>Moved: 2026-10-30 — ICSE 2027 — CHASE Research Track: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-chase-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-21T08:31:59Z</updated>
+    <summary type="text">Moved from 2026-10-23 to 2026-10-30.
+Deadline: 2026-10-30 (23:59 AoE)
+Track: CHASE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
     <title>2026-10-30 — ICSE 2027 — FORGE Research Papers: submission deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
@@ -144,6 +136,18 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
 Track: FormaliSE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>Moved: 2026-11-02 — ICSE 2027 — TechDebt Technical Papers: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-11-02</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-21T08:31:59Z</updated>
+    <summary type="text">Moved from 2026-10-26 to 2026-11-02.
+Deadline: 2026-11-02 (23:59 AoE)
+Track: TechDebt Technical Papers
 Deadline: 23:59 AoE (UTC-12)
 Location: Dublin, Ireland
 Info: https://conf.researchr.org/home/icse-2027</summary>

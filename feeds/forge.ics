@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FORGE deadlines
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:forge-2027-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261021T083159Z
+LAST-MODIFIED:20261021T083159Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:FORGE 2027 — Research Papers: abstract deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Dublin\, Ireland\nInfo: https://conf.researchr.org/home/forge-2027
+URL:https://conf.researchr.org/home/forge-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:forge-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261021T083159Z
+LAST-MODIFIED:20261021T083159Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:FORGE 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Dublin\, Ireland\nInfo: https://conf.researchr.org/home/forge-2027
+URL:https://conf.researchr.org/home/forge-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:forge-2027-data-and-benchmarking-track-r1-submission@se-conferences
+DTSTAMP:20261021T083159Z
+LAST-MODIFIED:20261021T083159Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:FORGE 2027 — Data and Benchmarking Track: submission deadline
+DESCRIPTION:Track: Data and Benchmarking Track\nDeadline: 23:59 AoE (UTC-12
+ )\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/forge
+ -2027
+URL:https://conf.researchr.org/home/forge-2027
+END:VEVENT
+END:VCALENDAR

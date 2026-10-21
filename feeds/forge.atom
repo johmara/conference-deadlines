@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>FORGE deadlines</title>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/forge.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/forge.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
+  <updated>2026-10-21T08:31:59Z</updated>
+  <entry>
+    <title>New: 2026-10-25 — FORGE 2027 — Research Papers: abstract deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/forge-2027-research-papers-r1-abstract@se-conferences/2026-10-25</id>
+    <link href="https://conf.researchr.org/home/forge-2027"/>
+    <updated>2026-10-21T08:31:59Z</updated>
+    <summary type="text">Deadline: 2026-10-25 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/forge-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2026-10-30 — FORGE 2027 — Research Papers: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/forge-2027-research-papers-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/forge-2027"/>
+    <updated>2026-10-21T08:31:59Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/forge-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2026-11-15 — FORGE 2027 — Data and Benchmarking Track: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/forge-2027-data-and-benchmarking-track-r1-submission@se-conferences/2026-11-15</id>
+    <link href="https://conf.researchr.org/home/forge-2027"/>
+    <updated>2026-10-21T08:31:59Z</updated>
+    <summary type="text">Deadline: 2026-11-15 (23:59 AoE)
+Track: Data and Benchmarking Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/forge-2027</summary>
+  </entry>
+</feed>

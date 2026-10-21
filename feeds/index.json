@@ -21,6 +21,10 @@
    "display": "ESEM"
   },
   {
+   "slug": "forge",
+   "display": "FORGE"
+  },
+  {
    "slug": "fse",
    "display": "FSE"
   },
@@ -135,6 +139,11 @@
   "esem-research",
   "esem-short",
   "esem-doctoral",
+  "forge",
+  "forge-research",
+  "forge-short",
+  "forge-tools",
+  "forge-doctoral",
   "fse",
   "fse-research",
   "fse-short",
@@ -143,9 +152,7 @@
   "gpce",
   "icpc",
   "icpc-research",
-  "icpc-short",
   "icpc-tools",
-  "icpc-doctoral",
   "icsa",
   "icsa-research",
   "icsa-short",

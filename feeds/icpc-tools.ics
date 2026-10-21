@@ -7,135 +7,15 @@ X-WR-CALNAME:ICPC deadlines — Tools
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:icpc-2027-tool-demonstration-and-data-showcase-r1-submission@se-confere
- nces
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:ICPC 2027 — Tool Demonstration and Data Showcase: submission dead
- line
-DESCRIPTION:Track: Tool Demonstration and Data Showcase\nDeadline: 23:59 Ao
- E (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nIn
- fo: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-formalise-artifact-track-r1-abstract@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:ICPC 2027 — FormaliSE Artifact Track: abstract deadline
-DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
- Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
- conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:ICPC 2027 — MSR Data and Tool Showcase Track: abstract deadline
-DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
- TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
- https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-formalise-artifact-track-r1-submission@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:ICPC 2027 — FormaliSE Artifact Track: submission deadline
-DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
- Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
- conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:ICPC 2027 — MSR Data and Tool Showcase Track: submission deadline
-DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
- TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
- https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-icpc-tool-demonstration-r1-submission@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
+UID:icpc-2027-tool-demonstration-r1-submission@se-conferences
+DTSTAMP:20261021T083159Z
+LAST-MODIFIED:20261021T083159Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-SUMMARY:ICPC 2027 — ICPC Tool Demonstration: submission deadline
-DESCRIPTION:Track: ICPC Tool Demonstration\nDeadline: 23:59 AoE (UTC-12)\nL
- ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
- onf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-seams-artifact-track-r1-abstract@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:ICPC 2027 — SEAMS Artifact Track: abstract deadline
-DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-seams-artifact-track-r1-submission@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-SUMMARY:ICPC 2027 — SEAMS Artifact Track: submission deadline
-DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-artifact-evaluation-r1-submission@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-SUMMARY:ICPC 2027 — Artifact Evaluation: submission deadline
-DESCRIPTION:Track: Artifact Evaluation\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icpc-2027-techdebt-tool-track-r1-submission@se-conferences
-DTSTAMP:20261018T073306Z
-LAST-MODIFIED:20261018T073306Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270131
-DTEND;VALUE=DATE:20270201
-SUMMARY:ICPC 2027 — TechDebt Tool Track: submission deadline
-DESCRIPTION:Track: TechDebt Tool Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
+SUMMARY:ICPC 2027 — Tool Demonstration: submission deadline
+DESCRIPTION:Track: Tool Demonstration\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icpc-2027
+URL:https://conf.researchr.org/home/icpc-2027
 END:VEVENT
 END:VCALENDAR

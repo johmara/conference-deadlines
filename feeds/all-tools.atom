@@ -4,7 +4,7 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/all-tools.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/all-tools.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2026-10-18T07:33:12Z</updated>
+  <updated>2026-10-21T08:31:59Z</updated>
   <entry>
     <title>2026-10-19 — SANER 2027 — Tool Demo Track: abstract deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/saner-2027-tool-demo-track-r1-abstract@se-conferences/2026-10-19</id>
@@ -15,17 +15,6 @@ Track: Tool Demo Track
 Deadline: 23:59 AoE (UTC-12)
 Location: Richmond, VA, USA
 Info: https://conf.researchr.org/home/saner-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICPC 2027 — Tool Demonstration and Data Showcase: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-tool-demonstration-and-data-showcase-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: Tool Demonstration and Data Showcase
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
     <title>2026-10-23 — ICSE 2027 — Tool Demonstration and Data Showcase: submission deadline</title>
@@ -61,17 +50,6 @@ Location: Richmond, VA, USA
 Info: https://conf.researchr.org/home/saner-2027</summary>
   </entry>
   <entry>
-    <title>2026-10-30 — ICPC 2027 — FormaliSE Artifact Track: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-formalise-artifact-track-r1-abstract@se-conferences/2026-10-30</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
-Track: FormaliSE Artifact Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
     <title>2026-10-30 — ICSE 2027 — FormaliSE Artifact Track: abstract deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-formalise-artifact-track-r1-abstract@se-conferences/2026-10-30</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
@@ -89,17 +67,6 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
 Track: FormaliSE Artifact Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-11-05 — ICPC 2027 — MSR Data and Tool Showcase Track: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences/2026-11-05</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
-Track: MSR Data and Tool Showcase Track
 Deadline: 23:59 AoE (UTC-12)
 Location: May in Dublin, Ireland at the Convention Centre
 Info: https://conf.researchr.org/home/icse-2027</summary>
@@ -127,17 +94,6 @@ Location: May in Dublin, Ireland at the Convention Centre
 Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
-    <title>2026-11-06 — ICPC 2027 — FormaliSE Artifact Track: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-formalise-artifact-track-r1-submission@se-conferences/2026-11-06</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
-Track: FormaliSE Artifact Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
     <title>2026-11-06 — ICSE 2027 — FormaliSE Artifact Track: submission deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-formalise-artifact-track-r1-submission@se-conferences/2026-11-06</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
@@ -155,17 +111,6 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
 Track: FormaliSE Artifact Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-11-10 — ICPC 2027 — MSR Data and Tool Showcase Track: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences/2026-11-10</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2026-11-10 (23:59 AoE)
-Track: MSR Data and Tool Showcase Track
 Deadline: 23:59 AoE (UTC-12)
 Location: May in Dublin, Ireland at the Convention Centre
 Info: https://conf.researchr.org/home/icse-2027</summary>
@@ -193,15 +138,15 @@ Location: May in Dublin, Ireland at the Convention Centre
 Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
-    <title>2026-11-19 — ICPC 2027 — ICPC Tool Demonstration: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-icpc-tool-demonstration-r1-submission@se-conferences/2026-11-19</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
+    <title>New: 2026-11-19 — ICPC 2027 — Tool Demonstration: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-tool-demonstration-r1-submission@se-conferences/2026-11-19</id>
+    <link href="https://conf.researchr.org/home/icpc-2027"/>
+    <updated>2026-10-21T08:31:59Z</updated>
     <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
-Track: ICPC Tool Demonstration
+Track: Tool Demonstration
 Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icpc-2027</summary>
   </entry>
   <entry>
     <title>2026-11-19 — ICSE 2027 — ICPC Tool Demonstration: submission deadline</title>
@@ -226,17 +171,6 @@ Location: May in Dublin, Ireland at the Convention Centre
 Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
-    <title>2026-12-01 — ICPC 2027 — SEAMS Artifact Track: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-seams-artifact-track-r1-abstract@se-conferences/2026-12-01</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2026-12-01 (23:59 AoE)
-Track: SEAMS Artifact Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
     <title>2026-12-01 — ICSE 2027 — SEAMS Artifact Track: abstract deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-seams-artifact-track-r1-abstract@se-conferences/2026-12-01</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
@@ -253,17 +187,6 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-12-01 (23:59 AoE)
-Track: SEAMS Artifact Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-12-07 — ICPC 2027 — SEAMS Artifact Track: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-seams-artifact-track-r1-submission@se-conferences/2026-12-07</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2026-12-07 (23:59 AoE)
 Track: SEAMS Artifact Track
 Deadline: 23:59 AoE (UTC-12)
 Location: May in Dublin, Ireland at the Convention Centre
@@ -314,17 +237,6 @@ Location: Sydney, Australia
 Info: https://conf.researchr.org/home/icsa-2027</summary>
   </entry>
   <entry>
-    <title>2027-01-22 — ICPC 2027 — Artifact Evaluation: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-artifact-evaluation-r1-submission@se-conferences/2027-01-22</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
-Track: Artifact Evaluation
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
     <title>2027-01-22 — ICSE 2027 — Artifact Evaluation: submission deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-artifact-evaluation-r1-submission@se-conferences/2027-01-22</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
@@ -342,17 +254,6 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
 Track: Artifact Evaluation
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2027-01-31 — ICPC 2027 — TechDebt Tool Track: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icpc-2027-techdebt-tool-track-r1-submission@se-conferences/2027-01-31</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:06Z</updated>
-    <summary type="text">Deadline: 2027-01-31 (23:59 AoE)
-Track: TechDebt Tool Track
 Deadline: 23:59 AoE (UTC-12)
 Location: May in Dublin, Ireland at the Convention Centre
 Info: https://conf.researchr.org/home/icse-2027</summary>

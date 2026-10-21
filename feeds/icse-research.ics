@@ -7,31 +7,6 @@ X-WR-CALNAME:ICSE deadlines — Research
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:icse-2027-chase-research-track-r1-abstract@se-conferences
-DTSTAMP:20261018T073307Z
-LAST-MODIFIED:20261018T073307Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-SUMMARY:ICSE 2027 — CHASE Research Track: abstract deadline
-DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icse-2027-techdebt-technical-papers-r1-abstract@se-conferences
-DTSTAMP:20261018T073307Z
-LAST-MODIFIED:20261018T073307Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:ICSE 2027 — TechDebt Technical Papers: abstract deadline
-DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
- nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-20
- 27
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-msr-technical-papers-r1-abstract@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -44,13 +19,13 @@ DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:icse-2027-chase-research-track-r1-submission@se-conferences
-DTSTAMP:20261018T073307Z
-LAST-MODIFIED:20261018T073307Z
-SEQUENCE:0
+UID:icse-2027-chase-research-track-r1-abstract@se-conferences
+DTSTAMP:20261021T083159Z
+LAST-MODIFIED:20261021T083159Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-SUMMARY:ICSE 2027 — CHASE Research Track: submission deadline
+SUMMARY:ICSE 2027 — CHASE Research Track: abstract deadline
 DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
  tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
@@ -107,13 +82,13 @@ DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:icse-2027-techdebt-technical-papers-r1-submission@se-conferences
-DTSTAMP:20261018T073307Z
-LAST-MODIFIED:20261018T073307Z
-SEQUENCE:0
+UID:icse-2027-techdebt-technical-papers-r1-abstract@se-conferences
+DTSTAMP:20261021T083159Z
+LAST-MODIFIED:20261021T083159Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
-SUMMARY:ICSE 2027 — TechDebt Technical Papers: submission deadline
+SUMMARY:ICSE 2027 — TechDebt Technical Papers: abstract deadline
 DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
  nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-20
  27
@@ -144,6 +119,18 @@ DESCRIPTION:Track: CAIN Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:icse-2027-chase-research-track-r1-submission@se-conferences
+DTSTAMP:20261021T083159Z
+LAST-MODIFIED:20261021T083159Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSE 2027 — CHASE Research Track: submission deadline
+DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:icse-2027-forge-research-papers-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -166,6 +153,19 @@ SUMMARY:ICSE 2027 — FormaliSE Research Track: abstract deadline
 DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
  Location: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-202
  7
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-techdebt-technical-papers-r1-submission@se-conferences
+DTSTAMP:20261021T083159Z
+LAST-MODIFIED:20261021T083159Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:ICSE 2027 — TechDebt Technical Papers: submission deadline
+DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-20
+ 27
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
