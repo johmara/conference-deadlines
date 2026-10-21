@@ -229,12 +229,12 @@ table.notes-hidden #th-notes, table.notes-hidden .note-cell { display:none; }
   </a>
   <h1>Conference Deadlines</h1>
   <div id="year-btns"></div>
-  <button class="ds-btn ds-btn--secondary" onclick="exportIcal()" title="Export visible deadlines as iCal (.ics) — re-export after data refreshes">
-    Export .ics
-  </button>
   <span class="updated-info ml-auto" id="updated-info"></span>
   <button class="ds-btn ds-btn--ghost ds-btn--round" type="button" onclick="openSubscribe()" title="Subscribe to deadlines (calendar or feed)" aria-label="Subscribe to deadlines">
     <svg class="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+  </button>
+  <button class="ds-btn ds-btn--ghost ds-btn--round" type="button" onclick="exportIcal()" title="Export visible deadlines as iCal (.ics) — re-export after data refreshes" aria-label="Export visible deadlines as .ics">
+    <svg class="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="15" height="15" rx="2" ry="2"></rect><line x1="12" y1="2" x2="12" y2="6"></line><line x1="7" y1="2" x2="7" y2="6"></line><line x1="2" y1="10" x2="17" y2="10"></line><line x1="20.5" y1="13" x2="20.5" y2="20"></line><polyline points="18 17.5 20.5 20 23 17.5"></polyline><line x1="18" y1="23" x2="23" y2="23"></line></svg>
   </button>
   <a href="https://github.com/johmara/conference-deadlines/actions" target="_blank" rel="noopener"
      class="ds-btn ds-btn--ghost ds-btn--round" title="Trigger a manual data refresh on GitHub Actions" aria-label="Refresh data">
