@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ICSA deadlines — Short/NIER</title>
+  <id>https://johmara.github.io/conference-deadlines/feeds/icsa-short.atom</id>
+  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/icsa-short.atom"/>
+  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <updated>2026-10-18T07:33:07Z</updated>
+  <entry>
+    <title>2026-12-20 — ICSA 2027 — Posters: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-posters-r1-submission@se-conferences/2026-12-20</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-20 (23:59 AoE)
+Track: Posters
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+</feed>

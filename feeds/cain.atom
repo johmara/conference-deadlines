@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CAIN deadlines</title>
+  <id>https://johmara.github.io/conference-deadlines/feeds/cain.atom</id>
+  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/cain.atom"/>
+  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <updated>2026-10-18T07:33:01Z</updated>
+  <entry>
+    <title>2026-10-30 — CAIN 2027 — Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/cain-2027"/>
+    <updated>2026-10-18T07:33:01Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/cain-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — CAIN 2027 — Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-doctoral-symposium-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/cain-2027"/>
+    <updated>2026-10-18T07:33:01Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/cain-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — CAIN 2027 — Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-industry-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/cain-2027"/>
+    <updated>2026-10-18T07:33:01Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/cain-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — CAIN 2027 — Posters and Demos: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-posters-and-demos-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/cain-2027"/>
+    <updated>2026-10-18T07:33:01Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: Posters and Demos
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/cain-2027</summary>
+  </entry>
+</feed>

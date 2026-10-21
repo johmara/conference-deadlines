@@ -1,0 +1,234 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SANER deadlines
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:saner-2027-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:SANER 2027 — Research Track: abstract deadline
+DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:SANER 2027 — Research Track: submission deadline
+DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-agentic-ai4se-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Agentic AI4SE Track: abstract deadline
+DESCRIPTION:Track: Agentic AI4SE Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-early-research-achievement-era-track-r1-abstract@se-conferen
+ ces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Early Research Achievement (ERA) Track: abstract dea
+ dline
+DESCRIPTION:Track: Early Research Achievement (ERA) Track\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.
+ org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-industrial-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Industrial Track: abstract deadline
+DESCRIPTION:Track: Industrial Track\nDeadline: 23:59 AoE (UTC-12)\nLocation
+ : Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-reproducibility-studies-and-negative-results-rene-track-r1-a
+ bstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Reproducibility Studies and Negative Results (RENE) 
+ Track: abstract deadline
+DESCRIPTION:Track: Reproducibility Studies and Negative Results (RENE) Trac
+ k\nDeadline: 23:59 AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: http
+ s://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-short-papers-and-posters-sp-p-track-r1-abstract@se-conferenc
+ es
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Short Papers and Posters (SP&P) Track: abstract dead
+ line
+DESCRIPTION:Track: Short Papers and Posters (SP&P) Track\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.o
+ rg/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-tool-demo-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Tool Demo Track: abstract deadline
+DESCRIPTION:Track: Tool Demo Track\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-workshops-tutorials-w-t-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Workshops & Tutorials (W&T): abstract deadline
+DESCRIPTION:Track: Workshops & Tutorials (W&T)\nDeadline: 23:59 AoE (UTC-12
+ )\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/sa
+ ner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-agentic-ai4se-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Agentic AI4SE Track: submission deadline
+DESCRIPTION:Track: Agentic AI4SE Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-early-research-achievement-era-track-r1-submission@se-confer
+ ences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Early Research Achievement (ERA) Track: submission d
+ eadline
+DESCRIPTION:Track: Early Research Achievement (ERA) Track\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.
+ org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-industrial-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Industrial Track: submission deadline
+DESCRIPTION:Track: Industrial Track\nDeadline: 23:59 AoE (UTC-12)\nLocation
+ : Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-reproducibility-studies-and-negative-results-rene-track-r1-s
+ ubmission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Reproducibility Studies and Negative Results (RENE) 
+ Track: submission deadline
+DESCRIPTION:Track: Reproducibility Studies and Negative Results (RENE) Trac
+ k\nDeadline: 23:59 AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: http
+ s://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-short-papers-and-posters-sp-p-track-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Short Papers and Posters (SP&P) Track: submission de
+ adline
+DESCRIPTION:Track: Short Papers and Posters (SP&P) Track\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.o
+ rg/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-tool-demo-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Tool Demo Track: submission deadline
+DESCRIPTION:Track: Tool Demo Track\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-workshops-tutorials-w-t-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Workshops & Tutorials (W&T): submission deadline
+DESCRIPTION:Track: Workshops & Tutorials (W&T)\nDeadline: 23:59 AoE (UTC-12
+ )\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/sa
+ ner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-registered-report-rr-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:SANER 2027 — Registered Report (RR) Track: abstract deadline
+DESCRIPTION:Track: Registered Report (RR) Track\nDeadline: 23:59 AoE (UTC-1
+ 2)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/s
+ aner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,43 @@
+name: Update feeds
+
+# Regenerate the calendar/Atom feeds whenever deadline data changes on main
+# (manual edits, merged PRs, seed changes). The weekly scrape in update-data.yml
+# regenerates them itself, since pushes made with GITHUB_TOKEN don't trigger this.
+on:
+  push:
+    branches: [main]
+    paths:
+      - data.json
+      - generate_feeds.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feeds
+  cancel-in-progress: false
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate feeds
+        run: python generate_feeds.py
+
+      - name: Commit updated feeds
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds
+          git diff --cached --quiet || git commit -m "chore: refresh feeds $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push

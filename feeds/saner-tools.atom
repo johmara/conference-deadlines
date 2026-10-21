@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SANER deadlines — Tools</title>
+  <id>https://johmara.github.io/conference-deadlines/feeds/saner-tools.atom</id>
+  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/saner-tools.atom"/>
+  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <updated>2026-10-18T07:33:12Z</updated>
+  <entry>
+    <title>2026-10-19 — SANER 2027 — Tool Demo Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-tool-demo-track-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: Tool Demo Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — SANER 2027 — Tool Demo Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-tool-demo-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Tool Demo Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+</feed>

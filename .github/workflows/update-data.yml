@@ -42,10 +42,13 @@ jobs:
         env:
           YEAR_RANGE: 5
 
+      - name: Generate calendar and Atom feeds
+        run: python generate_feeds.py
+
       - name: Commit updated data.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json package.json package-lock.json vendor assets
+          git add data.json feeds package.json package-lock.json vendor assets
           git diff --cached --quiet || git commit -m "chore: refresh conference data and design system $(date -u +%Y-%m-%d)"
           git push

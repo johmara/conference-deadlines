@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CAIN deadlines — Doctoral
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cain-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073301Z
+LAST-MODIFIED:20261018T073301Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:CAIN 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/cain-2027
+URL:https://conf.researchr.org/home/cain-2027
+END:VEVENT
+END:VCALENDAR

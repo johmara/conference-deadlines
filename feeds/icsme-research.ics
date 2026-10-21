@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICSME deadlines — Research
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:icsme-2027-research-papers-track-r1-submission@se-conferences
+DTSTAMP:20261018T073308Z
+LAST-MODIFIED:20261018T073308Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:ICSME 2027 — Research Papers Track: submission deadline
+DESCRIPTION:Track: Research Papers Track\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: Dynamic City of Toronto\, Canada\nInfo: https://conf.researchr.org/
+ home/icsme-2027
+URL:https://conf.researchr.org/home/icsme-2027
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SANER deadlines — Short/NIER
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:saner-2027-short-papers-and-posters-sp-p-track-r1-abstract@se-conferenc
+ es
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Short Papers and Posters (SP&P) Track: abstract dead
+ line
+DESCRIPTION:Track: Short Papers and Posters (SP&P) Track\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.o
+ rg/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-short-papers-and-posters-sp-p-track-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Short Papers and Posters (SP&P) Track: submission de
+ adline
+DESCRIPTION:Track: Short Papers and Posters (SP&P) Track\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.o
+ rg/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+END:VCALENDAR

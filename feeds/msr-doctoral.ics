@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MSR deadlines — Doctoral
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msr-2027-cain-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MSR 2027 — CAIN Doctoral Symposium: submission deadline
+DESCRIPTION:Track: CAIN Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:MSR 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-doctoral-symposium-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:MSR 2027 — Doctoral Symposium: abstract deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@s
+ e-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:MSR 2027 — CHASE Doctoral and Early Career Symposium (DECS): subm
+ ission deadline
+DESCRIPTION:Track: CHASE Doctoral and Early Career Symposium (DECS)\nDeadli
+ ne: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Conventio
+ n Centre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+END:VCALENDAR

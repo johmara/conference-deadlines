@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CAIN deadlines — Research
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cain-2027-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073301Z
+LAST-MODIFIED:20261018T073301Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:CAIN 2027 — Research Track: submission deadline
+DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Dublin\, Ireland\nInfo: https://conf.researchr.org/home/cain-2027
+URL:https://conf.researchr.org/home/cain-2027
+END:VEVENT
+END:VCALENDAR

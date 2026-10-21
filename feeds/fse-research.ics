@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FSE deadlines — Research
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fse-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073304Z
+LAST-MODIFIED:20261018T073304Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:FSE 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+END:VCALENDAR

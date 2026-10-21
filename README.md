@@ -103,6 +103,7 @@ se-conferences/
 ├── conferences-seed.yaml # Hand-curated fallback / override data
 ├── series-config.yaml    # Conference series to track
 └── generate_data.py      # Scraper — reads series-config, writes data.json
+├── generate_feeds.py     # Reads data.json, writes feeds/*.ics and feeds/*.atom
 ```
 
 ---
@@ -112,6 +113,17 @@ se-conferences/
 GitHub Actions runs the scraper on a schedule and commits updated `data.json` to `main`. The live site picks up changes automatically via GitHub Pages.
 
 To trigger a manual refresh, re-run the scraper and commit `data.json`.
+
+---
+
+## 📅 Subscribe
+
+The toolbar's subscribe button gives you links to static feeds. Pick a series and optionally a track type (research, short, tools, doctoral):
+
+- Calendar: `feeds/all.ics`, `feeds/icse.ics`, `feeds/icse-research.ics`, `feeds/all-tools.ics`, ... Open as `webcal://` or paste the `https://` URL into Google Calendar ("From URL").
+- Atom: the same names with `.atom`, listing deadlines in the next six months.
+
+Feeds follow the data. `feeds/history.json` records when each deadline first appeared or moved, so a moved deadline gets a new "Moved" Atom entry and a higher `SEQUENCE` in the calendar. They regenerate in the weekly scrape and, via `update-feeds.yml`, on any push to `main` that changes `data.json`. Locally: `python generate_feeds.py` (set `SITE_URL` if hosted elsewhere).
 
 ---
 

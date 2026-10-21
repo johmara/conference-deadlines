@@ -1,0 +1,208 @@
+{
+ "series": [
+  {
+   "slug": "ase",
+   "display": "ASE"
+  },
+  {
+   "slug": "cain",
+   "display": "CAIN"
+  },
+  {
+   "slug": "ease",
+   "display": "EASE"
+  },
+  {
+   "slug": "ecoop",
+   "display": "ECOOP"
+  },
+  {
+   "slug": "esem",
+   "display": "ESEM"
+  },
+  {
+   "slug": "fse",
+   "display": "FSE"
+  },
+  {
+   "slug": "gpce",
+   "display": "GPCE"
+  },
+  {
+   "slug": "icpc",
+   "display": "ICPC"
+  },
+  {
+   "slug": "icsa",
+   "display": "ICSA"
+  },
+  {
+   "slug": "icse",
+   "display": "ICSE"
+  },
+  {
+   "slug": "icsme",
+   "display": "ICSME"
+  },
+  {
+   "slug": "icst",
+   "display": "ICST"
+  },
+  {
+   "slug": "issre",
+   "display": "ISSRE"
+  },
+  {
+   "slug": "issta",
+   "display": "ISSTA"
+  },
+  {
+   "slug": "models",
+   "display": "MODELS"
+  },
+  {
+   "slug": "msr",
+   "display": "MSR"
+  },
+  {
+   "slug": "saner",
+   "display": "SANER"
+  },
+  {
+   "slug": "scam",
+   "display": "SCAM"
+  },
+  {
+   "slug": "sle",
+   "display": "SLE"
+  },
+  {
+   "slug": "splash",
+   "display": "SPLASH"
+  },
+  {
+   "slug": "ssbse",
+   "display": "SSBSE"
+  },
+  {
+   "slug": "variability",
+   "display": "VARIABILITY"
+  }
+ ],
+ "tracks": [
+  {
+   "id": "research",
+   "label": "Research"
+  },
+  {
+   "id": "short",
+   "label": "Short/NIER"
+  },
+  {
+   "id": "tools",
+   "label": "Tools"
+  },
+  {
+   "id": "doctoral",
+   "label": "Doctoral"
+  }
+ ],
+ "available": [
+  "all",
+  "all-research",
+  "all-short",
+  "all-tools",
+  "all-doctoral",
+  "ase",
+  "ase-research",
+  "ase-short",
+  "ase-tools",
+  "ase-doctoral",
+  "cain",
+  "cain-research",
+  "cain-short",
+  "cain-doctoral",
+  "ease",
+  "ease-research",
+  "ease-short",
+  "ease-doctoral",
+  "ecoop",
+  "ecoop-research",
+  "ecoop-short",
+  "ecoop-tools",
+  "ecoop-doctoral",
+  "esem",
+  "esem-research",
+  "esem-short",
+  "esem-doctoral",
+  "fse",
+  "fse-research",
+  "fse-short",
+  "fse-tools",
+  "fse-doctoral",
+  "gpce",
+  "icpc",
+  "icpc-research",
+  "icpc-short",
+  "icpc-tools",
+  "icpc-doctoral",
+  "icsa",
+  "icsa-research",
+  "icsa-short",
+  "icsa-tools",
+  "icse",
+  "icse-research",
+  "icse-short",
+  "icse-tools",
+  "icse-doctoral",
+  "icsme",
+  "icsme-research",
+  "icsme-short",
+  "icsme-tools",
+  "icsme-doctoral",
+  "icst",
+  "icst-research",
+  "icst-short",
+  "icst-tools",
+  "icst-doctoral",
+  "issre",
+  "issre-research",
+  "issre-short",
+  "issre-tools",
+  "issta",
+  "issta-research",
+  "issta-short",
+  "issta-tools",
+  "issta-doctoral",
+  "models",
+  "models-research",
+  "models-short",
+  "models-tools",
+  "models-doctoral",
+  "msr",
+  "msr-research",
+  "msr-short",
+  "msr-tools",
+  "msr-doctoral",
+  "saner",
+  "saner-research",
+  "saner-short",
+  "saner-tools",
+  "scam",
+  "scam-research",
+  "sle",
+  "splash",
+  "splash-research",
+  "splash-short",
+  "splash-tools",
+  "splash-doctoral",
+  "ssbse",
+  "ssbse-research",
+  "ssbse-short",
+  "variability",
+  "variability-research",
+  "variability-short",
+  "variability-tools",
+  "variability-doctoral"
+ ]
+}

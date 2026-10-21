@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICST deadlines — Doctoral
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:icst-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:ICST 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: San Sebastian\, Basque Country\nInfo: https://conf.researchr.org/home/
+ icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+END:VCALENDAR

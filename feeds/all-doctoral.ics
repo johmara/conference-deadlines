@@ -1,0 +1,205 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SE Conference Deadlines — Doctoral
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cain-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073301Z
+LAST-MODIFIED:20261018T073301Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:CAIN 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/cain-2027
+URL:https://conf.researchr.org/home/cain-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-cain-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICPC 2027 — CAIN Doctoral Symposium: submission deadline
+DESCRIPTION:Track: CAIN Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-cain-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICSE 2027 — CAIN Doctoral Symposium: submission deadline
+DESCRIPTION:Track: CAIN Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-cain-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MSR 2027 — CAIN Doctoral Symposium: submission deadline
+DESCRIPTION:Track: CAIN Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ICPC 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ICSE 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:MSR 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-doctoral-symposium-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:ICPC 2027 — Doctoral Symposium: abstract deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-doctoral-symposium-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:ICSE 2027 — Doctoral Symposium: abstract deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-doctoral-symposium-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:MSR 2027 — Doctoral Symposium: abstract deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@
+ se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:ICPC 2027 — CHASE Doctoral and Early Career Symposium (DECS): sub
+ mission deadline
+DESCRIPTION:Track: CHASE Doctoral and Early Career Symposium (DECS)\nDeadli
+ ne: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Conventio
+ n Centre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@
+ se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:ICSE 2027 — CHASE Doctoral and Early Career Symposium (DECS): sub
+ mission deadline
+DESCRIPTION:Track: CHASE Doctoral and Early Career Symposium (DECS)\nDeadli
+ ne: 23:59 AoE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.res
+ earchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@s
+ e-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:MSR 2027 — CHASE Doctoral and Early Career Symposium (DECS): subm
+ ission deadline
+DESCRIPTION:Track: CHASE Doctoral and Early Career Symposium (DECS)\nDeadli
+ ne: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Conventio
+ n Centre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:EASE 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:ICST 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: San Sebastian\, Basque Country\nInfo: https://conf.researchr.org/home/
+ icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+END:VCALENDAR

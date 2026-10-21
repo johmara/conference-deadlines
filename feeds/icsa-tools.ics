@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICSA deadlines — Tools
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:icsa-2027-artifacts-evaluation-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ICSA 2027 — Artifacts Evaluation: submission deadline
+DESCRIPTION:Track: Artifacts Evaluation\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-software-architecture-showcase-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ICSA 2027 — Software Architecture Showcase: submission deadline
+DESCRIPTION:Track: Software Architecture Showcase\nDeadline: 23:59 AoE (UTC
+ -12)\nLocation: Sydney\, Australia\nInfo: https://conf.researchr.org/home/
+ icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+END:VCALENDAR

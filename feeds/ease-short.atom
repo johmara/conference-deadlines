@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>EASE deadlines — Short/NIER</title>
+  <id>https://johmara.github.io/conference-deadlines/feeds/ease-short.atom</id>
+  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/ease-short.atom"/>
+  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <updated>2026-10-18T07:33:02Z</updated>
+  <entry>
+    <title>2027-02-22 — EASE 2027 — Industry Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-industry-papers-r1-abstract@se-conferences/2027-02-22</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-02-22 (23:59 AoE)
+Track: Industry Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-02-22 — EASE 2027 — Short Papers and Emerging Results: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-short-papers-and-emerging-results-r1-abstract@se-conferences/2027-02-22</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-02-22 (23:59 AoE)
+Track: Short Papers and Emerging Results
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-01 — EASE 2027 — Industry Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-industry-papers-r1-submission@se-conferences/2027-03-01</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-03-01 (23:59 AoE)
+Track: Industry Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-01 — EASE 2027 — Short Papers and Emerging Results: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-short-papers-and-emerging-results-r1-submission@se-conferences/2027-03-01</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-03-01 (23:59 AoE)
+Track: Short Papers and Emerging Results
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-16 — EASE 2027 — Posters and Vision: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-posters-and-vision-r1-submission@se-conferences/2027-03-16</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-03-16 (23:59 AoE)
+Track: Posters and Vision
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+</feed>

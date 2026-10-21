@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ICST deadlines — Research</title>
+  <id>https://johmara.github.io/conference-deadlines/feeds/icst-research.atom</id>
+  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/icst-research.atom"/>
+  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <updated>2026-10-18T07:33:09Z</updated>
+  <entry>
+    <title>2026-11-02 — ICST 2027 — Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-research-papers-r1-submission@se-conferences/2026-11-02</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-10-18T07:33:09Z</updated>
+    <summary type="text">Deadline: 2026-11-02 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+</feed>

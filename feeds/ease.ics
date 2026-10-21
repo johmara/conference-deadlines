@@ -1,0 +1,133 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EASE deadlines
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ease-2027-workshops-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:EASE 2027 — Workshops: submission deadline
+DESCRIPTION:Track: Workshops\nDeadline: 23:59 AoE (UTC-12)\nLocation: Hanoi
+ \, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:EASE 2027 — Research Papers: abstract deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:EASE 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-industry-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:EASE 2027 — Industry Papers: abstract deadline
+DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-short-papers-and-emerging-results-r1-abstract@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:EASE 2027 — Short Papers and Emerging Results: abstract deadline
+DESCRIPTION:Track: Short Papers and Emerging Results\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/
+ ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-industry-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EASE 2027 — Industry Papers: submission deadline
+DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-short-papers-and-emerging-results-r1-submission@se-conference
+ s
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EASE 2027 — Short Papers and Emerging Results: submission deadlin
+ e
+DESCRIPTION:Track: Short Papers and Emerging Results\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/
+ ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-tutorials-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EASE 2027 — Tutorials: submission deadline
+DESCRIPTION:Track: Tutorials\nDeadline: 23:59 AoE (UTC-12)\nLocation: Hanoi
+ \, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:EASE 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-posters-and-vision-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:EASE 2027 — Posters and Vision: submission deadline
+DESCRIPTION:Track: Posters and Vision\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+END:VCALENDAR

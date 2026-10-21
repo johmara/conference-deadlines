@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SANER deadlines — Research
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:saner-2027-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:SANER 2027 — Research Track: abstract deadline
+DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:SANER 2027 — Research Track: submission deadline
+DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-early-research-achievement-era-track-r1-abstract@se-conferen
+ ces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Early Research Achievement (ERA) Track: abstract dea
+ dline
+DESCRIPTION:Track: Early Research Achievement (ERA) Track\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.
+ org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-early-research-achievement-era-track-r1-submission@se-confer
+ ences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Early Research Achievement (ERA) Track: submission d
+ eadline
+DESCRIPTION:Track: Early Research Achievement (ERA) Track\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.
+ org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+END:VCALENDAR

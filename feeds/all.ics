@@ -1,0 +1,3866 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SE Conference Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SE Conference Deadlines
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:saner-2027-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:SANER 2027 — Research Track: abstract deadline
+DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:SANER 2027 — Research Track: submission deadline
+DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-shadow-pc-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:ICPC 2027 — Shadow PC: submission deadline
+DESCRIPTION:Track: Shadow PC\nDeadline: 23:59 AoE (UTC-12)\nLocation: May i
+ n Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.
+ org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-shadow-pc-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:ICSE 2027 — Shadow PC: submission deadline
+DESCRIPTION:Track: Shadow PC\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dubli
+ n\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-shadow-pc-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:MSR 2027 — Shadow PC: submission deadline
+DESCRIPTION:Track: Shadow PC\nDeadline: 23:59 AoE (UTC-12)\nLocation: May i
+ n Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.
+ org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fse-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073304Z
+LAST-MODIFIED:20261018T073304Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:FSE 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-challenge-competition-track-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:ICST 2027 — Challenge Competition Track: submission deadline
+DESCRIPTION:Track: Challenge Competition Track\nDeadline: 23:59 AoE (UTC-12
+ )\nLocation: San Sebastian\, Basque Country\nInfo: https://conf.researchr.
+ org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fse-2027-workshops-r1-submission@se-conferences
+DTSTAMP:20261018T073304Z
+LAST-MODIFIED:20261018T073304Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:FSE 2027 — Workshops: submission deadline
+DESCRIPTION:Track: Workshops\nDeadline: 23:59 AoE (UTC-12)\nLocation: Shenz
+ hen\, China\nInfo: https://conf.researchr.org/home/fse-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-working-sessions-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:ICSA 2027 — Working Sessions: submission deadline
+DESCRIPTION:Track: Working Sessions\nDeadline: 23:59 AoE (UTC-12)\nLocation
+ : Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-chase-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:ICPC 2027 — CHASE Research Track: abstract deadline
+DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-chase-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:ICSE 2027 — CHASE Research Track: abstract deadline
+DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-chase-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:MSR 2027 — CHASE Research Track: abstract deadline
+DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-techdebt-technical-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:ICPC 2027 — TechDebt Technical Papers: abstract deadline
+DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
+ /conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-techdebt-technical-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:ICSE 2027 — TechDebt Technical Papers: abstract deadline
+DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-20
+ 27
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-techdebt-technical-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:MSR 2027 — TechDebt Technical Papers: abstract deadline
+DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
+ /conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-agentic-ai4se-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Agentic AI4SE Track: abstract deadline
+DESCRIPTION:Track: Agentic AI4SE Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-early-research-achievement-era-track-r1-abstract@se-conferen
+ ces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Early Research Achievement (ERA) Track: abstract dea
+ dline
+DESCRIPTION:Track: Early Research Achievement (ERA) Track\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.
+ org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-industrial-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Industrial Track: abstract deadline
+DESCRIPTION:Track: Industrial Track\nDeadline: 23:59 AoE (UTC-12)\nLocation
+ : Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-reproducibility-studies-and-negative-results-rene-track-r1-a
+ bstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Reproducibility Studies and Negative Results (RENE) 
+ Track: abstract deadline
+DESCRIPTION:Track: Reproducibility Studies and Negative Results (RENE) Trac
+ k\nDeadline: 23:59 AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: http
+ s://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-short-papers-and-posters-sp-p-track-r1-abstract@se-conferenc
+ es
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Short Papers and Posters (SP&P) Track: abstract dead
+ line
+DESCRIPTION:Track: Short Papers and Posters (SP&P) Track\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.o
+ rg/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-tool-demo-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Tool Demo Track: abstract deadline
+DESCRIPTION:Track: Tool Demo Track\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-workshops-tutorials-w-t-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SANER 2027 — Workshops & Tutorials (W&T): abstract deadline
+DESCRIPTION:Track: Workshops & Tutorials (W&T)\nDeadline: 23:59 AoE (UTC-12
+ )\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/sa
+ ner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-technical-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:ICPC 2027 — MSR Technical Papers: abstract deadline
+DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-technical-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:ICSE 2027 — MSR Technical Papers: abstract deadline
+DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-technical-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:MSR 2027 — MSR Technical Papers: abstract deadline
+DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-chase-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — CHASE Research Track: submission deadline
+DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-technical-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — MSR Technical Papers: submission deadline
+DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferen
+ ces
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — New Ideas and Emerging Results (NIER): submission dea
+ dline
+DESCRIPTION:Track: New Ideas and Emerging Results (NIER)\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nI
+ nfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-se-in-practice-seip-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — SE in Practice (SEIP): submission deadline
+DESCRIPTION:Track: SE in Practice (SEIP)\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
+ f.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-se-in-society-seis-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — SE in Society (SEIS): submission deadline
+DESCRIPTION:Track: SE in Society (SEIS)\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-seams-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — SEAMS Research Track: submission deadline
+DESCRIPTION:Track: SEAMS Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-software-engineering-education-and-training-seet-r1-submissio
+ n@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — Software Engineering Education and Training (SEET): s
+ ubmission deadline
+DESCRIPTION:Track: Software Engineering Education and Training (SEET)\nDead
+ line: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convent
+ ion Centre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-tool-demonstration-and-data-showcase-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — Tool Demonstration and Data Showcase: submission dead
+ line
+DESCRIPTION:Track: Tool Demonstration and Data Showcase\nDeadline: 23:59 Ao
+ E (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nIn
+ fo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-tutorials-and-technical-briefings-r1-submission@se-conference
+ s
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICPC 2027 — Tutorials and Technical Briefings: submission deadlin
+ e
+DESCRIPTION:Track: Tutorials and Technical Briefings\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
+  https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-chase-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — CHASE Research Track: submission deadline
+DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-technical-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — MSR Technical Papers: submission deadline
+DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferen
+ ces
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — New Ideas and Emerging Results (NIER): submission dea
+ dline
+DESCRIPTION:Track: New Ideas and Emerging Results (NIER)\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-se-in-practice-seip-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — SE in Practice (SEIP): submission deadline
+DESCRIPTION:Track: SE in Practice (SEIP)\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-se-in-society-seis-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — SE in Society (SEIS): submission deadline
+DESCRIPTION:Track: SE in Society (SEIS)\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-seams-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — SEAMS Research Track: submission deadline
+DESCRIPTION:Track: SEAMS Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-software-engineering-education-and-training-seet-r1-submissio
+ n@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — Software Engineering Education and Training (SEET): s
+ ubmission deadline
+DESCRIPTION:Track: Software Engineering Education and Training (SEET)\nDead
+ line: 23:59 AoE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-tool-demonstration-and-data-showcase-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — Tool Demonstration and Data Showcase: submission dead
+ line
+DESCRIPTION:Track: Tool Demonstration and Data Showcase\nDeadline: 23:59 Ao
+ E (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-tutorials-and-technical-briefings-r1-submission@se-conference
+ s
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ICSE 2027 — Tutorials and Technical Briefings: submission deadlin
+ e
+DESCRIPTION:Track: Tutorials and Technical Briefings\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home
+ /icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-chase-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — CHASE Research Track: submission deadline
+DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-technical-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — MSR Technical Papers: submission deadline
+DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferenc
+ es
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — New Ideas and Emerging Results (NIER): submission dead
+ line
+DESCRIPTION:Track: New Ideas and Emerging Results (NIER)\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nI
+ nfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-se-in-practice-seip-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — SE in Practice (SEIP): submission deadline
+DESCRIPTION:Track: SE in Practice (SEIP)\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
+ f.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-se-in-society-seis-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — SE in Society (SEIS): submission deadline
+DESCRIPTION:Track: SE in Society (SEIS)\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-seams-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — SEAMS Research Track: submission deadline
+DESCRIPTION:Track: SEAMS Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-software-engineering-education-and-training-seet-r1-submission
+ @se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — Software Engineering Education and Training (SEET): su
+ bmission deadline
+DESCRIPTION:Track: Software Engineering Education and Training (SEET)\nDead
+ line: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convent
+ ion Centre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-tool-demonstration-and-data-showcase-r1-submission@se-conferen
+ ces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — Tool Demonstration and Data Showcase: submission deadl
+ ine
+DESCRIPTION:Track: Tool Demonstration and Data Showcase\nDeadline: 23:59 Ao
+ E (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nIn
+ fo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-tutorials-and-technical-briefings-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:MSR 2027 — Tutorials and Technical Briefings: submission deadline
+DESCRIPTION:Track: Tutorials and Technical Briefings\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
+  https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-agentic-ai4se-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Agentic AI4SE Track: submission deadline
+DESCRIPTION:Track: Agentic AI4SE Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-early-research-achievement-era-track-r1-submission@se-confer
+ ences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Early Research Achievement (ERA) Track: submission d
+ eadline
+DESCRIPTION:Track: Early Research Achievement (ERA) Track\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.
+ org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-industrial-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Industrial Track: submission deadline
+DESCRIPTION:Track: Industrial Track\nDeadline: 23:59 AoE (UTC-12)\nLocation
+ : Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-reproducibility-studies-and-negative-results-rene-track-r1-s
+ ubmission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Reproducibility Studies and Negative Results (RENE) 
+ Track: submission deadline
+DESCRIPTION:Track: Reproducibility Studies and Negative Results (RENE) Trac
+ k\nDeadline: 23:59 AoE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: http
+ s://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-short-papers-and-posters-sp-p-track-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Short Papers and Posters (SP&P) Track: submission de
+ adline
+DESCRIPTION:Track: Short Papers and Posters (SP&P) Track\nDeadline: 23:59 A
+ oE (UTC-12)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.o
+ rg/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-tool-demo-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Tool Demo Track: submission deadline
+DESCRIPTION:Track: Tool Demo Track\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-workshops-tutorials-w-t-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SANER 2027 — Workshops & Tutorials (W&T): submission deadline
+DESCRIPTION:Track: Workshops & Tutorials (W&T)\nDeadline: 23:59 AoE (UTC-12
+ )\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/sa
+ ner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-forge-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:ICPC 2027 — FORGE Research Papers: abstract deadline
+DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
+ f.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-forge-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:ICSE 2027 — FORGE Research Papers: abstract deadline
+DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-forge-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:MSR 2027 — FORGE Research Papers: abstract deadline
+DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
+ f.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-techdebt-technical-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:ICPC 2027 — TechDebt Technical Papers: submission deadline
+DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
+ /conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-techdebt-technical-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:ICSE 2027 — TechDebt Technical Papers: submission deadline
+DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-20
+ 27
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-techdebt-technical-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:MSR 2027 — TechDebt Technical Papers: submission deadline
+DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
+ /conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-icpc-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:ICPC 2027 — ICPC Research Track: abstract deadline
+DESCRIPTION:Track: ICPC Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-icpc-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:ICSE 2027 — ICPC Research Track: abstract deadline
+DESCRIPTION:Track: ICPC Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-icpc-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:MSR 2027 — ICPC Research Track: abstract deadline
+DESCRIPTION:Track: ICPC Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:cain-2027-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073301Z
+LAST-MODIFIED:20261018T073301Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:CAIN 2027 — Research Track: submission deadline
+DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Dublin\, Ireland\nInfo: https://conf.researchr.org/home/cain-2027
+URL:https://conf.researchr.org/home/cain-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-ast-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICPC 2027 — AST: submission deadline
+DESCRIPTION:Track: AST\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dubl
+ in\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/ho
+ me/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-cain-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICPC 2027 — CAIN Research Track: submission deadline
+DESCRIPTION:Track: CAIN Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-forge-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICPC 2027 — FORGE Research Papers: submission deadline
+DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
+ f.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-formalise-artifact-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICPC 2027 — FormaliSE Artifact Track: abstract deadline
+DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
+ conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-formalise-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICPC 2027 — FormaliSE Research Track: abstract deadline
+DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
+ conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-journal-first-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICPC 2027 — Journal-first Papers: submission deadline
+DESCRIPTION:Track: Journal-first Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSA 2027 — Research Papers: abstract deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-software-architecture-in-practice-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSA 2027 — Software Architecture in Practice: abstract deadline
+DESCRIPTION:Track: Software Architecture in Practice\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Sydney\, Australia\nInfo: https://conf.researchr.org/ho
+ me/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-ast-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSE 2027 — AST: submission deadline
+DESCRIPTION:Track: AST\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, Ir
+ eland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-cain-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSE 2027 — CAIN Research Track: submission deadline
+DESCRIPTION:Track: CAIN Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-forge-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSE 2027 — FORGE Research Papers: submission deadline
+DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-formalise-artifact-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSE 2027 — FormaliSE Artifact Track: abstract deadline
+DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-202
+ 7
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-formalise-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSE 2027 — FormaliSE Research Track: abstract deadline
+DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-202
+ 7
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-journal-first-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICSE 2027 — Journal-first Papers: submission deadline
+DESCRIPTION:Track: Journal-first Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-workshops-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:ICST 2027 — Workshops: submission deadline
+DESCRIPTION:Track: Workshops\nDeadline: 23:59 AoE (UTC-12)\nLocation: San S
+ ebastian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-ast-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:MSR 2027 — AST: submission deadline
+DESCRIPTION:Track: AST\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dubl
+ in\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/ho
+ me/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-cain-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:MSR 2027 — CAIN Research Track: submission deadline
+DESCRIPTION:Track: CAIN Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-forge-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:MSR 2027 — FORGE Research Papers: submission deadline
+DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
+ f.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-formalise-artifact-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:MSR 2027 — FormaliSE Artifact Track: abstract deadline
+DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
+ conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-formalise-research-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:MSR 2027 — FormaliSE Research Track: abstract deadline
+DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
+ conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-journal-first-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:MSR 2027 — Journal-first Papers: submission deadline
+DESCRIPTION:Track: Journal-first Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:saner-2027-registered-report-rr-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:SANER 2027 — Registered Report (RR) Track: abstract deadline
+DESCRIPTION:Track: Registered Report (RR) Track\nDeadline: 23:59 AoE (UTC-1
+ 2)\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/s
+ aner-2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-agentverify-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ICPC 2027 — AGENTVERIFY: abstract deadline
+DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
+  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
+ r.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-agentverify-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ICSE 2027 — AGENTVERIFY: abstract deadline
+DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dub
+ lin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-agentverify-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:MSR 2027 — AGENTVERIFY: abstract deadline
+DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
+  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
+ r.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:ICST 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  San Sebastian\, Basque Country\nInfo: https://conf.researchr.org/home/ics
+ t-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:ICSA 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-software-architecture-in-practice-r1-submission@se-conference
+ s
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:ICSA 2027 — Software Architecture in Practice: submission deadlin
+ e
+DESCRIPTION:Track: Software Architecture in Practice\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Sydney\, Australia\nInfo: https://conf.researchr.org/ho
+ me/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-icpc-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:ICPC 2027 — ICPC Research Track: submission deadline
+DESCRIPTION:Track: ICPC Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:ICPC 2027 — MSR Data and Tool Showcase Track: abstract deadline
+DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
+ TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
+ https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-icpc-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:ICSE 2027 — ICPC Research Track: submission deadline
+DESCRIPTION:Track: ICPC Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:ICSE 2027 — MSR Data and Tool Showcase Track: abstract deadline
+DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
+ TC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/
+ icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-icpc-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:MSR 2027 — ICPC Research Track: submission deadline
+DESCRIPTION:Track: ICPC Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:MSR 2027 — MSR Data and Tool Showcase Track: abstract deadline
+DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
+ TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
+ https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ase-2026-livewrite-r1-submission@se-conferences
+DTSTAMP:20261018T073300Z
+LAST-MODIFIED:20261018T073300Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ASE 2026 — LiveWrite: submission deadline
+DESCRIPTION:Track: LiveWrite\nDeadline: 23:59 AoE (UTC-12)\nLocation: Munic
+ h\, Germany\nInfo: https://conf.researchr.org/home/ase-2026
+URL:https://conf.researchr.org/home/ase-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cain-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073301Z
+LAST-MODIFIED:20261018T073301Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:CAIN 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/cain-2027
+URL:https://conf.researchr.org/home/cain-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:cain-2027-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073301Z
+LAST-MODIFIED:20261018T073301Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:CAIN 2027 — Industry Track: submission deadline
+DESCRIPTION:Track: Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
+ Dublin\, Ireland\nInfo: https://conf.researchr.org/home/cain-2027
+URL:https://conf.researchr.org/home/cain-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:cain-2027-posters-and-demos-r1-submission@se-conferences
+DTSTAMP:20261018T073301Z
+LAST-MODIFIED:20261018T073301Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:CAIN 2027 — Posters and Demos: submission deadline
+DESCRIPTION:Track: Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLocatio
+ n: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/cain-2027
+URL:https://conf.researchr.org/home/cain-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-agentverify-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICPC 2027 — AGENTVERIFY: submission deadline
+DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
+  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
+ r.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-cain-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICPC 2027 — CAIN Doctoral Symposium: submission deadline
+DESCRIPTION:Track: CAIN Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-cain-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICPC 2027 — CAIN Industry Track: submission deadline
+DESCRIPTION:Track: CAIN Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-cain-posters-and-demos-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICPC 2027 — CAIN Posters and Demos: submission deadline
+DESCRIPTION:Track: CAIN Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-formalise-artifact-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICPC 2027 — FormaliSE Artifact Track: submission deadline
+DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
+ conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-formalise-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICPC 2027 — FormaliSE Research Track: submission deadline
+DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
+ conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-agentverify-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICSE 2027 — AGENTVERIFY: submission deadline
+DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dub
+ lin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-cain-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICSE 2027 — CAIN Doctoral Symposium: submission deadline
+DESCRIPTION:Track: CAIN Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-cain-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICSE 2027 — CAIN Industry Track: submission deadline
+DESCRIPTION:Track: CAIN Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-cain-posters-and-demos-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICSE 2027 — CAIN Posters and Demos: submission deadline
+DESCRIPTION:Track: CAIN Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-formalise-artifact-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICSE 2027 — FormaliSE Artifact Track: submission deadline
+DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-202
+ 7
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-formalise-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:ICSE 2027 — FormaliSE Research Track: submission deadline
+DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-202
+ 7
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-agentverify-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MSR 2027 — AGENTVERIFY: submission deadline
+DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
+  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
+ r.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-cain-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MSR 2027 — CAIN Doctoral Symposium: submission deadline
+DESCRIPTION:Track: CAIN Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-cain-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MSR 2027 — CAIN Industry Track: submission deadline
+DESCRIPTION:Track: CAIN Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-cain-posters-and-demos-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MSR 2027 — CAIN Posters and Demos: submission deadline
+DESCRIPTION:Track: CAIN Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-formalise-artifact-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MSR 2027 — FormaliSE Artifact Track: submission deadline
+DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
+ conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-formalise-research-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MSR 2027 — FormaliSE Research Track: submission deadline
+DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
+ conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:ICPC 2027 — MSR Data and Tool Showcase Track: submission deadline
+DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
+ TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
+ https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:ICSE 2027 — MSR Data and Tool Showcase Track: submission deadline
+DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
+ TC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/
+ icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:MSR 2027 — MSR Data and Tool Showcase Track: submission deadline
+DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
+ TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
+ https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-agent-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — AGENT: submission deadline
+DESCRIPTION:Track: AGENT\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-aiperf-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — AIPerf: submission deadline
+DESCRIPTION:Track: AIPerf\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-amplify-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — AMPLIFY: submission deadline
+DESCRIPTION:Track: AMPLIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in 
+ Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.or
+ g/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-case2space-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — CASE2Space: submission deadline
+DESCRIPTION:Track: CASE2Space\nDeadline: 23:59 AoE (UTC-12)\nLocation: May 
+ in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr
+ .org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-dtwise-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — DTwiSE: submission deadline
+DESCRIPTION:Track: DTwiSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-designing-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — Designing: submission deadline
+DESCRIPTION:Track: Designing\nDeadline: 23:59 AoE (UTC-12)\nLocation: May i
+ n Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.
+ org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-greens-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — GREENS: submission deadline
+DESCRIPTION:Track: GREENS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-hugs-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — HUGS: submission deadline
+DESCRIPTION:Track: HUGS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
+ lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-mo2re-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — MO2RE: submission deadline
+DESCRIPTION:Track: MO2RE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-registered-reports-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — MSR Registered Reports: abstract deadline
+DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-q-se-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — Q-SE: submission deadline
+DESCRIPTION:Track: Q-SE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
+ lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-recode-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — ReCode: submission deadline
+DESCRIPTION:Track: ReCode\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-responsiblese-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — ResponsibleSE: submission deadline
+DESCRIPTION:Track: ResponsibleSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: M
+ ay in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.resear
+ chr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-se4all-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — SE4ALL: submission deadline
+DESCRIPTION:Track: SE4ALL\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-serp4iot-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — SERP4IoT: submission deadline
+DESCRIPTION:Track: SERP4IoT\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in
+  Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.o
+ rg/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-sers-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — SERS: submission deadline
+DESCRIPTION:Track: SERS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
+ lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-src-acm-student-research-competition-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — SRC - ACM Student Research Competition: submission de
+ adline
+DESCRIPTION:Track: SRC - ACM Student Research Competition\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
+ Info: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-swebok-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — SWEBOK: submission deadline
+DESCRIPTION:Track: SWEBOK\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-uise-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICPC 2027 — UISE: submission deadline
+DESCRIPTION:Track: UISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
+ lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-agent-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — AGENT: submission deadline
+DESCRIPTION:Track: AGENT\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, 
+ Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-aiperf-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — AIPerf: submission deadline
+DESCRIPTION:Track: AIPerf\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\,
+  Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-amplify-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — AMPLIFY: submission deadline
+DESCRIPTION:Track: AMPLIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\
+ , Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-case2space-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — CASE2Space: submission deadline
+DESCRIPTION:Track: CASE2Space\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dubl
+ in\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-dtwise-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — DTwiSE: submission deadline
+DESCRIPTION:Track: DTwiSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\,
+  Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-designing-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — Designing: submission deadline
+DESCRIPTION:Track: Designing\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dubli
+ n\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-greens-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — GREENS: submission deadline
+DESCRIPTION:Track: GREENS\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\,
+  Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-hugs-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — HUGS: submission deadline
+DESCRIPTION:Track: HUGS\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, I
+ reland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-mo2re-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — MO2RE: submission deadline
+DESCRIPTION:Track: MO2RE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, 
+ Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-registered-reports-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — MSR Registered Reports: abstract deadline
+DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-q-se-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — Q-SE: submission deadline
+DESCRIPTION:Track: Q-SE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, I
+ reland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-recode-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — ReCode: submission deadline
+DESCRIPTION:Track: ReCode\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\,
+  Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-responsiblese-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — ResponsibleSE: submission deadline
+DESCRIPTION:Track: ResponsibleSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: D
+ ublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-se4all-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — SE4ALL: submission deadline
+DESCRIPTION:Track: SE4ALL\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\,
+  Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-serp4iot-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — SERP4IoT: submission deadline
+DESCRIPTION:Track: SERP4IoT\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin
+ \, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-sers-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — SERS: submission deadline
+DESCRIPTION:Track: SERS\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, I
+ reland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-src-acm-student-research-competition-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — SRC - ACM Student Research Competition: submission de
+ adline
+DESCRIPTION:Track: SRC - ACM Student Research Competition\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-swebok-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — SWEBOK: submission deadline
+DESCRIPTION:Track: SWEBOK\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\,
+  Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-uise-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — UISE: submission deadline
+DESCRIPTION:Track: UISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, I
+ reland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-agent-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — AGENT: submission deadline
+DESCRIPTION:Track: AGENT\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-aiperf-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — AIPerf: submission deadline
+DESCRIPTION:Track: AIPerf\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-amplify-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — AMPLIFY: submission deadline
+DESCRIPTION:Track: AMPLIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in 
+ Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.or
+ g/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-case2space-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — CASE2Space: submission deadline
+DESCRIPTION:Track: CASE2Space\nDeadline: 23:59 AoE (UTC-12)\nLocation: May 
+ in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr
+ .org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-dtwise-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — DTwiSE: submission deadline
+DESCRIPTION:Track: DTwiSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-designing-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — Designing: submission deadline
+DESCRIPTION:Track: Designing\nDeadline: 23:59 AoE (UTC-12)\nLocation: May i
+ n Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.
+ org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-greens-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — GREENS: submission deadline
+DESCRIPTION:Track: GREENS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-hugs-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — HUGS: submission deadline
+DESCRIPTION:Track: HUGS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
+ lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-mo2re-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — MO2RE: submission deadline
+DESCRIPTION:Track: MO2RE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-registered-reports-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — MSR Registered Reports: abstract deadline
+DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-q-se-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — Q-SE: submission deadline
+DESCRIPTION:Track: Q-SE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
+ lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-recode-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — ReCode: submission deadline
+DESCRIPTION:Track: ReCode\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-responsiblese-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — ResponsibleSE: submission deadline
+DESCRIPTION:Track: ResponsibleSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: M
+ ay in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.resear
+ chr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-se4all-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — SE4ALL: submission deadline
+DESCRIPTION:Track: SE4ALL\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-serp4iot-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — SERP4IoT: submission deadline
+DESCRIPTION:Track: SERP4IoT\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in
+  Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.o
+ rg/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-sers-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — SERS: submission deadline
+DESCRIPTION:Track: SERS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
+ lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-src-acm-student-research-competition-r1-submission@se-conferen
+ ces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — SRC - ACM Student Research Competition: submission dea
+ dline
+DESCRIPTION:Track: SRC - ACM Student Research Competition\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
+ Info: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-swebok-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — SWEBOK: submission deadline
+DESCRIPTION:Track: SWEBOK\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
+ ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-uise-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — UISE: submission deadline
+DESCRIPTION:Track: UISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
+ lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
+ ome/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ICPC 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ICSE 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:MSR 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-forge-data-and-benchmarking-track-r1-submission@se-conference
+ s
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ICPC 2027 — FORGE Data and Benchmarking Track: submission deadlin
+ e
+DESCRIPTION:Track: FORGE Data and Benchmarking Track\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
+  https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-forge-data-and-benchmarking-track-r1-submission@se-conference
+ s
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ICSE 2027 — FORGE Data and Benchmarking Track: submission deadlin
+ e
+DESCRIPTION:Track: FORGE Data and Benchmarking Track\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home
+ /icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-forge-data-and-benchmarking-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:MSR 2027 — FORGE Data and Benchmarking Track: submission deadline
+DESCRIPTION:Track: FORGE Data and Benchmarking Track\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
+  https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-icpc-early-research-achievements-era-r1-abstract@se-conferenc
+ es
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:ICPC 2027 — ICPC Early Research Achievements (ERA): abstract dead
+ line
+DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
+ Info: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-icpc-tool-demonstration-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:ICPC 2027 — ICPC Tool Demonstration: submission deadline
+DESCRIPTION:Track: ICPC Tool Demonstration\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-icpc-early-research-achievements-era-r1-abstract@se-conferenc
+ es
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:ICSE 2027 — ICPC Early Research Achievements (ERA): abstract dead
+ line
+DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-icpc-tool-demonstration-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:ICSE 2027 — ICPC Tool Demonstration: submission deadline
+DESCRIPTION:Track: ICPC Tool Demonstration\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-icpc-early-research-achievements-era-r1-abstract@se-conference
+ s
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:MSR 2027 — ICPC Early Research Achievements (ERA): abstract deadl
+ ine
+DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
+ Info: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-icpc-tool-demonstration-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:MSR 2027 — ICPC Tool Demonstration: submission deadline
+DESCRIPTION:Track: ICPC Tool Demonstration\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-registered-reports-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:ICPC 2027 — MSR Registered Reports: submission deadline
+DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-registered-reports-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:ICSE 2027 — MSR Registered Reports: submission deadline
+DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-registered-reports-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:MSR 2027 — MSR Registered Reports: submission deadline
+DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-cause-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:ICPC 2027 — CauSE: submission deadline
+DESCRIPTION:Track: CauSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-iwsib-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:ICPC 2027 — IWSiB: submission deadline
+DESCRIPTION:Track: IWSiB\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-awards-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:ICPC 2027 — MSR  Awards: submission deadline
+DESCRIPTION:Track: MSR  Awards\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
+  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
+ r.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-cause-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:ICSE 2027 — CauSE: submission deadline
+DESCRIPTION:Track: CauSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, 
+ Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-iwsib-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:ICSE 2027 — IWSiB: submission deadline
+DESCRIPTION:Track: IWSiB\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, 
+ Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-awards-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:ICSE 2027 — MSR  Awards: submission deadline
+DESCRIPTION:Track: MSR  Awards\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dub
+ lin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-cause-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:MSR 2027 — CauSE: submission deadline
+DESCRIPTION:Track: CauSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-iwsib-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:MSR 2027 — IWSiB: submission deadline
+DESCRIPTION:Track: IWSiB\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-awards-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:MSR 2027 — MSR  Awards: submission deadline
+DESCRIPTION:Track: MSR  Awards\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
+  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
+ r.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-icpc-early-research-achievements-era-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:ICPC 2027 — ICPC Early Research Achievements (ERA): submission de
+ adline
+DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
+ Info: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-icpc-early-research-achievements-era-r1-submission@se-confere
+ nces
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:ICSE 2027 — ICPC Early Research Achievements (ERA): submission de
+ adline
+DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org
+ /home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-icpc-early-research-achievements-era-r1-submission@se-conferen
+ ces
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:MSR 2027 — ICPC Early Research Achievements (ERA): submission dea
+ dline
+DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
+ AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
+ Info: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-nlbse-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICPC 2027 — NLBSE: submission deadline
+DESCRIPTION:Track: NLBSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICPC 2027 — Tutorials and Technical Briefings: abstract deadline
+DESCRIPTION:Track: Tutorials and Technical Briefings\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
+  https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-wsese-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICPC 2027 — WSESE: submission deadline
+DESCRIPTION:Track: WSESE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-nlbse-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICSE 2027 — NLBSE: submission deadline
+DESCRIPTION:Track: NLBSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, 
+ Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICSE 2027 — Tutorials and Technical Briefings: abstract deadline
+DESCRIPTION:Track: Tutorials and Technical Briefings\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home
+ /icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-wsese-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICSE 2027 — WSESE: submission deadline
+DESCRIPTION:Track: WSESE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, 
+ Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-nlbse-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:MSR 2027 — NLBSE: submission deadline
+DESCRIPTION:Track: NLBSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:MSR 2027 — Tutorials and Technical Briefings: abstract deadline
+DESCRIPTION:Track: Tutorials and Technical Briefings\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
+  https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-wsese-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:MSR 2027 — WSESE: submission deadline
+DESCRIPTION:Track: WSESE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-seams-artifact-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:ICPC 2027 — SEAMS Artifact Track: abstract deadline
+DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-seams-artifact-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:ICSE 2027 — SEAMS Artifact Track: abstract deadline
+DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-seams-artifact-track-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:MSR 2027 — SEAMS Artifact Track: abstract deadline
+DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-workshops-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:EASE 2027 — Workshops: submission deadline
+DESCRIPTION:Track: Workshops\nDeadline: 23:59 AoE (UTC-12)\nLocation: Hanoi
+ \, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-seams-artifact-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:ICPC 2027 — SEAMS Artifact Track: submission deadline
+DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-seams-artifact-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:ICSE 2027 — SEAMS Artifact Track: submission deadline
+DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-seams-artifact-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:MSR 2027 — SEAMS Artifact Track: submission deadline
+DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-icpc-replications-and-negative-results-rene-r1-abstract@se-co
+ nferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:ICPC 2027 — ICPC Replications and Negative Results (RENE): abstra
+ ct deadline
+DESCRIPTION:Track: ICPC Replications and Negative Results (RENE)\nDeadline:
+  23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention C
+ entre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-icpc-replications-and-negative-results-rene-r1-abstract@se-co
+ nferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:ICSE 2027 — ICPC Replications and Negative Results (RENE): abstra
+ ct deadline
+DESCRIPTION:Track: ICPC Replications and Negative Results (RENE)\nDeadline:
+  23:59 AoE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.resear
+ chr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-icpc-replications-and-negative-results-rene-r1-abstract@se-con
+ ferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:MSR 2027 — ICPC Replications and Negative Results (RENE): abstrac
+ t deadline
+DESCRIPTION:Track: ICPC Replications and Negative Results (RENE)\nDeadline:
+  23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention C
+ entre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-new-and-emerging-ideas-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:ICSA 2027 — New and Emerging Ideas: abstract deadline
+DESCRIPTION:Track: New and Emerging Ideas\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-202
+ 7
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-icpc-replications-and-negative-results-rene-r1-submission@se-
+ conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICPC 2027 — ICPC Replications and Negative Results (RENE): submis
+ sion deadline
+DESCRIPTION:Track: ICPC Replications and Negative Results (RENE)\nDeadline:
+  23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention C
+ entre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICPC 2027 — MSR Industry Track: submission deadline
+DESCRIPTION:Track: MSR Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-msr-mining-challenge-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICPC 2027 — MSR Mining Challenge: abstract deadline
+DESCRIPTION:Track: MSR Mining Challenge\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-icpc-replications-and-negative-results-rene-r1-submission@se-
+ conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICSE 2027 — ICPC Replications and Negative Results (RENE): submis
+ sion deadline
+DESCRIPTION:Track: ICPC Replications and Negative Results (RENE)\nDeadline:
+  23:59 AoE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.resear
+ chr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICSE 2027 — MSR Industry Track: submission deadline
+DESCRIPTION:Track: MSR Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-msr-mining-challenge-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:ICSE 2027 — MSR Mining Challenge: abstract deadline
+DESCRIPTION:Track: MSR Mining Challenge\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-icpc-replications-and-negative-results-rene-r1-submission@se-c
+ onferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:MSR 2027 — ICPC Replications and Negative Results (RENE): submiss
+ ion deadline
+DESCRIPTION:Track: ICPC Replications and Negative Results (RENE)\nDeadline:
+  23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention C
+ entre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:MSR 2027 — MSR Industry Track: submission deadline
+DESCRIPTION:Track: MSR Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-msr-mining-challenge-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:MSR 2027 — MSR Mining Challenge: abstract deadline
+DESCRIPTION:Track: MSR Mining Challenge\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
+ .researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-artifacts-evaluation-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ICSA 2027 — Artifacts Evaluation: submission deadline
+DESCRIPTION:Track: Artifacts Evaluation\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-journal-first-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ICSA 2027 — Journal First: submission deadline
+DESCRIPTION:Track: Journal First\nDeadline: 23:59 AoE (UTC-12)\nLocation: S
+ ydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-new-and-emerging-ideas-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ICSA 2027 — New and Emerging Ideas: submission deadline
+DESCRIPTION:Track: New and Emerging Ideas\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-202
+ 7
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-posters-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ICSA 2027 — Posters: submission deadline
+DESCRIPTION:Track: Posters\nDeadline: 23:59 AoE (UTC-12)\nLocation: Sydney\
+ , Australia\nInfo: https://conf.researchr.org/home/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-software-architecture-showcase-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ICSA 2027 — Software Architecture Showcase: submission deadline
+DESCRIPTION:Track: Software Architecture Showcase\nDeadline: 23:59 AoE (UTC
+ -12)\nLocation: Sydney\, Australia\nInfo: https://conf.researchr.org/home/
+ icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-tutorials-tech-briefings-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ICSA 2027 — Tutorials/Tech Briefings: submission deadline
+DESCRIPTION:Track: Tutorials/Tech Briefings\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2
+ 027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-student-volunteers-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:ICPC 2027 — Student Volunteers: submission deadline
+DESCRIPTION:Track: Student Volunteers\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-student-volunteers-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:ICSE 2027 — Student Volunteers: submission deadline
+DESCRIPTION:Track: Student Volunteers\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:issta-2027-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073310Z
+LAST-MODIFIED:20261018T073310Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:ISSTA 2027 — Research Papers: abstract deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nInfo: htt
+ ps://conf.researchr.org/home/issta-2027
+URL:https://conf.researchr.org/home/issta-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-student-volunteers-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:MSR 2027 — Student Volunteers: submission deadline
+DESCRIPTION:Track: Student Volunteers\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:issta-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073310Z
+LAST-MODIFIED:20261018T073310Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:ISSTA 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nInfo: htt
+ ps://conf.researchr.org/home/issta-2027
+URL:https://conf.researchr.org/home/issta-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-new-ideas-and-emerging-results-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:ICST 2027 — New Ideas and Emerging Results: submission deadline
+DESCRIPTION:Track: New Ideas and Emerging Results\nDeadline: 23:59 AoE (UTC
+ -12)\nLocation: San Sebastian\, Basque Country\nInfo: https://conf.researc
+ hr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:EASE 2027 — Research Papers: abstract deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-seams-community-debate-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ICPC 2027 — SEAMS Community Debate: submission deadline
+DESCRIPTION:Track: SEAMS Community Debate\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-seams-journal-first-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ICPC 2027 — SEAMS Journal First Track: submission deadline
+DESCRIPTION:Track: SEAMS Journal First Track\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
+ /conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-techdebt-journal-first-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ICPC 2027 — TechDebt Journal First: submission deadline
+DESCRIPTION:Track: TechDebt Journal First\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsa-2027-early-career-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ICSA 2027 — Early Career: submission deadline
+DESCRIPTION:Track: Early Career\nDeadline: 23:59 AoE (UTC-12)\nLocation: Sy
+ dney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2027
+URL:https://conf.researchr.org/home/icsa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-seams-community-debate-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ICSE 2027 — SEAMS Community Debate: submission deadline
+DESCRIPTION:Track: SEAMS Community Debate\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-seams-journal-first-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ICSE 2027 — SEAMS Journal First Track: submission deadline
+DESCRIPTION:Track: SEAMS Journal First Track\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-20
+ 27
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-techdebt-journal-first-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:ICSE 2027 — TechDebt Journal First: submission deadline
+DESCRIPTION:Track: TechDebt Journal First\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-seams-community-debate-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:MSR 2027 — SEAMS Community Debate: submission deadline
+DESCRIPTION:Track: SEAMS Community Debate\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-seams-journal-first-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:MSR 2027 — SEAMS Journal First Track: submission deadline
+DESCRIPTION:Track: SEAMS Journal First Track\nDeadline: 23:59 AoE (UTC-12)\
+ nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
+ /conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-techdebt-journal-first-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:MSR 2027 — TechDebt Journal First: submission deadline
+DESCRIPTION:Track: TechDebt Journal First\nDeadline: 23:59 AoE (UTC-12)\nLo
+ cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
+ nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-icpc-journal-first-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:ICPC 2027 — ICPC Journal First: submission deadline
+DESCRIPTION:Track: ICPC Journal First\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-icpc-journal-first-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:ICSE 2027 — ICPC Journal First: submission deadline
+DESCRIPTION:Track: ICPC Journal First\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-icpc-journal-first-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:MSR 2027 — ICPC Journal First: submission deadline
+DESCRIPTION:Track: ICPC Journal First\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-industry-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:ICST 2027 — Industry: submission deadline
+DESCRIPTION:Track: Industry\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Se
+ bastian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:EASE 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-artifact-evaluation-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:ICPC 2027 — Artifact Evaluation: submission deadline
+DESCRIPTION:Track: Artifact Evaluation\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-techdebt-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:ICPC 2027 — TechDebt Industry Track: submission deadline
+DESCRIPTION:Track: TechDebt Industry Track\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-artifact-evaluation-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:ICSE 2027 — Artifact Evaluation: submission deadline
+DESCRIPTION:Track: Artifact Evaluation\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-techdebt-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:ICSE 2027 — TechDebt Industry Track: submission deadline
+DESCRIPTION:Track: TechDebt Industry Track\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-artifact-evaluation-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:MSR 2027 — Artifact Evaluation: submission deadline
+DESCRIPTION:Track: Artifact Evaluation\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-techdebt-industry-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:MSR 2027 — TechDebt Industry Track: submission deadline
+DESCRIPTION:Track: TechDebt Industry Track\nDeadline: 23:59 AoE (UTC-12)\nL
+ ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
+ onf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fse-2027-industry-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073304Z
+LAST-MODIFIED:20261018T073304Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:FSE 2027 — Industry Papers: submission deadline
+DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-doctoral-symposium-r1-abstract@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:ICPC 2027 — Doctoral Symposium: abstract deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-doctoral-symposium-r1-abstract@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:ICSE 2027 — Doctoral Symposium: abstract deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-doctoral-symposium-r1-abstract@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:MSR 2027 — Doctoral Symposium: abstract deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
+ esearchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@
+ se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:ICPC 2027 — CHASE Doctoral and Early Career Symposium (DECS): sub
+ mission deadline
+DESCRIPTION:Track: CHASE Doctoral and Early Career Symposium (DECS)\nDeadli
+ ne: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Conventio
+ n Centre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@
+ se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:ICSE 2027 — CHASE Doctoral and Early Career Symposium (DECS): sub
+ mission deadline
+DESCRIPTION:Track: CHASE Doctoral and Early Career Symposium (DECS)\nDeadli
+ ne: 23:59 AoE (UTC-12)\nLocation: Dublin\, Ireland\nInfo: https://conf.res
+ earchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@s
+ e-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:MSR 2027 — CHASE Doctoral and Early Career Symposium (DECS): subm
+ ission deadline
+DESCRIPTION:Track: CHASE Doctoral and Early Career Symposium (DECS)\nDeadli
+ ne: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Conventio
+ n Centre\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fse-2027-software-engineering-education-r1-submission@se-conferences
+DTSTAMP:20261018T073304Z
+LAST-MODIFIED:20261018T073304Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:FSE 2027 — Software Engineering Education: submission deadline
+DESCRIPTION:Track: Software Engineering Education\nDeadline: 23:59 AoE (UTC
+ -12)\nLocation: Shenzhen\, China\nInfo: https://conf.researchr.org/home/fs
+ e-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icpc-2027-techdebt-tool-track-r1-submission@se-conferences
+DTSTAMP:20261018T073306Z
+LAST-MODIFIED:20261018T073306Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:ICPC 2027 — TechDebt Tool Track: submission deadline
+DESCRIPTION:Track: TechDebt Tool Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-techdebt-tool-track-r1-submission@se-conferences
+DTSTAMP:20261018T073307Z
+LAST-MODIFIED:20261018T073307Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:ICSE 2027 — TechDebt Tool Track: submission deadline
+DESCRIPTION:Track: TechDebt Tool Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-techdebt-tool-track-r1-submission@se-conferences
+DTSTAMP:20261018T073312Z
+LAST-MODIFIED:20261018T073312Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:MSR 2027 — TechDebt Tool Track: submission deadline
+DESCRIPTION:Track: TechDebt Tool Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
+ researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-industry-papers-r1-abstract@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:EASE 2027 — Industry Papers: abstract deadline
+DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-short-papers-and-emerging-results-r1-abstract@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:EASE 2027 — Short Papers and Emerging Results: abstract deadline
+DESCRIPTION:Track: Short Papers and Emerging Results\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/
+ ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-tutorials-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:ICST 2027 — Tutorials: submission deadline
+DESCRIPTION:Track: Tutorials\nDeadline: 23:59 AoE (UTC-12)\nLocation: San S
+ ebastian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-industry-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EASE 2027 — Industry Papers: submission deadline
+DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-short-papers-and-emerging-results-r1-submission@se-conference
+ s
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EASE 2027 — Short Papers and Emerging Results: submission deadlin
+ e
+DESCRIPTION:Track: Short Papers and Emerging Results\nDeadline: 23:59 AoE (
+ UTC-12)\nLocation: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/
+ ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-tutorials-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EASE 2027 — Tutorials: submission deadline
+DESCRIPTION:Track: Tutorials\nDeadline: 23:59 AoE (UTC-12)\nLocation: Hanoi
+ \, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsme-2027-research-papers-track-r1-submission@se-conferences
+DTSTAMP:20261018T073308Z
+LAST-MODIFIED:20261018T073308Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:ICSME 2027 — Research Papers Track: submission deadline
+DESCRIPTION:Track: Research Papers Track\nDeadline: 23:59 AoE (UTC-12)\nLoc
+ ation: Dynamic City of Toronto\, Canada\nInfo: https://conf.researchr.org/
+ home/icsme-2027
+URL:https://conf.researchr.org/home/icsme-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-journal-first-papers-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:ICST 2027 — Journal-First Papers: submission deadline
+DESCRIPTION:Track: Journal-First Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
+ tion: San Sebastian\, Basque Country\nInfo: https://conf.researchr.org/hom
+ e/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:EASE 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-posters-and-vision-r1-submission@se-conferences
+DTSTAMP:20261018T073302Z
+LAST-MODIFIED:20261018T073302Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:EASE 2027 — Posters and Vision: submission deadline
+DESCRIPTION:Track: Posters and Vision\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-doctoral-symposium-r1-submission@se-conferences
+DTSTAMP:20261018T073309Z
+LAST-MODIFIED:20261018T073309Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:ICST 2027 — Doctoral Symposium: submission deadline
+DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: San Sebastian\, Basque Country\nInfo: https://conf.researchr.org/home/
+ icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:splash-2027-mplr-2027-r1-submission@se-conferences
+DTSTAMP:20261018T073315Z
+LAST-MODIFIED:20261018T073315Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:SPLASH 2027 — MPLR 2027: submission deadline
+DESCRIPTION:Track: MPLR 2027\nDeadline: 23:59 AoE (UTC-12)\nInfo: https://c
+ onf.researchr.org/home/mplr-2027
+URL:https://conf.researchr.org/home/mplr-2027
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>FSE deadlines — Short/NIER</title>
+  <id>https://johmara.github.io/conference-deadlines/feeds/fse-short.atom</id>
+  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/fse-short.atom"/>
+  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <updated>2026-10-18T07:33:04Z</updated>
+  <entry>
+    <title>2027-01-23 — FSE 2027 — Industry Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/fse-2027-industry-papers-r1-submission@se-conferences/2027-01-23</id>
+    <link href="https://conf.researchr.org/home/fse-2027"/>
+    <updated>2026-10-18T07:33:04Z</updated>
+    <summary type="text">Deadline: 2027-01-23 (23:59 AoE)
+Track: Industry Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Shenzhen, China
+Info: https://conf.researchr.org/home/fse-2027</summary>
+  </entry>
+</feed>

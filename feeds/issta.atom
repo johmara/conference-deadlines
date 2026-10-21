@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ISSTA deadlines</title>
+  <id>https://johmara.github.io/conference-deadlines/feeds/issta.atom</id>
+  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/issta.atom"/>
+  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <updated>2026-10-18T07:33:10Z</updated>
+  <entry>
+    <title>2027-01-08 — ISSTA 2027 — Research Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/issta-2027-research-papers-r1-abstract@se-conferences/2027-01-08</id>
+    <link href="https://conf.researchr.org/home/issta-2027"/>
+    <updated>2026-10-18T07:33:10Z</updated>
+    <summary type="text">Deadline: 2027-01-08 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Info: https://conf.researchr.org/home/issta-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-11 — ISSTA 2027 — Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/issta-2027-research-papers-r1-submission@se-conferences/2027-01-11</id>
+    <link href="https://conf.researchr.org/home/issta-2027"/>
+    <updated>2026-10-18T07:33:10Z</updated>
+    <summary type="text">Deadline: 2027-01-11 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Info: https://conf.researchr.org/home/issta-2027</summary>
+  </entry>
+</feed>

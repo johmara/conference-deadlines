@@ -1,0 +1,3196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SE Conference Deadlines</title>
+  <id>https://johmara.github.io/conference-deadlines/feeds/all.atom</id>
+  <link rel="self" href="https://johmara.github.io/conference-deadlines/feeds/all.atom"/>
+  <link rel="alternate" href="https://johmara.github.io/conference-deadlines/"/>
+  <updated>2026-10-18T07:33:12Z</updated>
+  <entry>
+    <title>2026-10-15 — FSE 2027 — Workshops: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/fse-2027-workshops-r1-submission@se-conferences/2026-10-15</id>
+    <link href="https://conf.researchr.org/home/fse-2027"/>
+    <updated>2026-10-18T07:33:04Z</updated>
+    <summary type="text">Deadline: 2026-10-15 (23:59 AoE)
+Track: Workshops
+Deadline: 23:59 AoE (UTC-12)
+Location: Shenzhen, China
+Info: https://conf.researchr.org/home/fse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-15 — ICSA 2027 — Working Sessions: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-working-sessions-r1-submission@se-conferences/2026-10-15</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-15 (23:59 AoE)
+Track: Working Sessions
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-16 — ICPC 2027 — CHASE Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-16 (23:59 AoE)
+Track: CHASE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-16 — ICSE 2027 — CHASE Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-16 (23:59 AoE)
+Track: CHASE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-16 — MSR 2027 — CHASE Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-chase-research-track-r1-abstract@se-conferences/2026-10-16</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-16 (23:59 AoE)
+Track: CHASE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — ICPC 2027 — TechDebt Technical Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: TechDebt Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — ICSE 2027 — TechDebt Technical Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: TechDebt Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — MSR 2027 — TechDebt Technical Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: TechDebt Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — SANER 2027 — Agentic AI4SE Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-agentic-ai4se-track-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: Agentic AI4SE Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — SANER 2027 — Early Research Achievement (ERA) Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-early-research-achievement-era-track-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: Early Research Achievement (ERA) Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — SANER 2027 — Industrial Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-industrial-track-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: Industrial Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — SANER 2027 — Reproducibility Studies and Negative Results (RENE) Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-reproducibility-studies-and-negative-results-rene-track-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: Reproducibility Studies and Negative Results (RENE) Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — SANER 2027 — Short Papers and Posters (SP&amp;P) Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-short-papers-and-posters-sp-p-track-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: Short Papers and Posters (SP&amp;P) Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — SANER 2027 — Tool Demo Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-tool-demo-track-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: Tool Demo Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-19 — SANER 2027 — Workshops &amp; Tutorials (W&amp;T): abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-workshops-tutorials-w-t-r1-abstract@se-conferences/2026-10-19</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-19 (23:59 AoE)
+Track: Workshops &amp; Tutorials (W&amp;T)
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-20 — ICPC 2027 — MSR Technical Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-20 (23:59 AoE)
+Track: MSR Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-20 — ICSE 2027 — MSR Technical Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-20 (23:59 AoE)
+Track: MSR Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-20 — MSR 2027 — MSR Technical Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-20 (23:59 AoE)
+Track: MSR Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — CHASE Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: CHASE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — MSR Technical Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: MSR Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — New Ideas and Emerging Results (NIER): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: New Ideas and Emerging Results (NIER)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — SE in Practice (SEIP): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-se-in-practice-seip-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SE in Practice (SEIP)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — SE in Society (SEIS): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-se-in-society-seis-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SE in Society (SEIS)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — SEAMS Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SEAMS Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — Software Engineering Education and Training (SEET): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-software-engineering-education-and-training-seet-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Software Engineering Education and Training (SEET)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — Tool Demonstration and Data Showcase: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-tool-demonstration-and-data-showcase-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Tool Demonstration and Data Showcase
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICPC 2027 — Tutorials and Technical Briefings: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Tutorials and Technical Briefings
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — CHASE Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: CHASE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — MSR Technical Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: MSR Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — New Ideas and Emerging Results (NIER): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: New Ideas and Emerging Results (NIER)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — SE in Practice (SEIP): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-se-in-practice-seip-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SE in Practice (SEIP)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — SE in Society (SEIS): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-se-in-society-seis-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SE in Society (SEIS)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — SEAMS Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SEAMS Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — Software Engineering Education and Training (SEET): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-software-engineering-education-and-training-seet-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Software Engineering Education and Training (SEET)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — Tool Demonstration and Data Showcase: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-tool-demonstration-and-data-showcase-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Tool Demonstration and Data Showcase
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — ICSE 2027 — Tutorials and Technical Briefings: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Tutorials and Technical Briefings
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — CHASE Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-chase-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: CHASE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — MSR Technical Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: MSR Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — New Ideas and Emerging Results (NIER): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: New Ideas and Emerging Results (NIER)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — SE in Practice (SEIP): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-se-in-practice-seip-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SE in Practice (SEIP)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — SE in Society (SEIS): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-se-in-society-seis-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SE in Society (SEIS)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — SEAMS Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: SEAMS Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — Software Engineering Education and Training (SEET): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-software-engineering-education-and-training-seet-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Software Engineering Education and Training (SEET)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — Tool Demonstration and Data Showcase: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-tool-demonstration-and-data-showcase-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Tool Demonstration and Data Showcase
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — MSR 2027 — Tutorials and Technical Briefings: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Tutorials and Technical Briefings
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — SANER 2027 — Agentic AI4SE Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-agentic-ai4se-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Agentic AI4SE Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — SANER 2027 — Early Research Achievement (ERA) Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-early-research-achievement-era-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Early Research Achievement (ERA) Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — SANER 2027 — Industrial Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-industrial-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Industrial Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — SANER 2027 — Reproducibility Studies and Negative Results (RENE) Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-reproducibility-studies-and-negative-results-rene-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Reproducibility Studies and Negative Results (RENE) Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — SANER 2027 — Short Papers and Posters (SP&amp;P) Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-short-papers-and-posters-sp-p-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Short Papers and Posters (SP&amp;P) Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — SANER 2027 — Tool Demo Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-tool-demo-track-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Tool Demo Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-23 — SANER 2027 — Workshops &amp; Tutorials (W&amp;T): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-workshops-tutorials-w-t-r1-submission@se-conferences/2026-10-23</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
+Track: Workshops &amp; Tutorials (W&amp;T)
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-25 — ICPC 2027 — FORGE Research Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-25 (23:59 AoE)
+Track: FORGE Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-25 — ICSE 2027 — FORGE Research Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-25 (23:59 AoE)
+Track: FORGE Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-25 — MSR 2027 — FORGE Research Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-25 (23:59 AoE)
+Track: FORGE Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-26 — ICPC 2027 — TechDebt Technical Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-26 (23:59 AoE)
+Track: TechDebt Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-26 — ICSE 2027 — TechDebt Technical Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-26 (23:59 AoE)
+Track: TechDebt Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-26 — MSR 2027 — TechDebt Technical Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-10-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-26 (23:59 AoE)
+Track: TechDebt Technical Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-29 — ICPC 2027 — ICPC Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-29 (23:59 AoE)
+Track: ICPC Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-29 — ICSE 2027 — ICPC Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-29 (23:59 AoE)
+Track: ICPC Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-29 — MSR 2027 — ICPC Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-29 (23:59 AoE)
+Track: ICPC Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — CAIN 2027 — Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/cain-2027"/>
+    <updated>2026-10-18T07:33:01Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/cain-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICPC 2027 — AST: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-ast-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: AST
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICPC 2027 — CAIN Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: CAIN Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICPC 2027 — FORGE Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FORGE Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICPC 2027 — FormaliSE Artifact Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-formalise-artifact-track-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FormaliSE Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICPC 2027 — FormaliSE Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FormaliSE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICPC 2027 — Journal-first Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-journal-first-papers-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Journal-first Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICSA 2027 — Research Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-research-papers-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICSA 2027 — Software Architecture in Practice: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-software-architecture-in-practice-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Software Architecture in Practice
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICSE 2027 — AST: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-ast-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: AST
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICSE 2027 — CAIN Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: CAIN Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICSE 2027 — FORGE Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FORGE Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICSE 2027 — FormaliSE Artifact Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-formalise-artifact-track-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FormaliSE Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICSE 2027 — FormaliSE Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FormaliSE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICSE 2027 — Journal-first Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-journal-first-papers-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Journal-first Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — ICST 2027 — Workshops: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-workshops-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-10-18T07:33:09Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Workshops
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — MSR 2027 — AST: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-ast-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: AST
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — MSR 2027 — CAIN Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: CAIN Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — MSR 2027 — FORGE Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FORGE Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — MSR 2027 — FormaliSE Artifact Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-formalise-artifact-track-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FormaliSE Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — MSR 2027 — FormaliSE Research Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: FormaliSE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — MSR 2027 — Journal-first Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-journal-first-papers-r1-submission@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Journal-first Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-10-30 — SANER 2027 — Registered Report (RR) Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/saner-2027-registered-report-rr-track-r1-abstract@se-conferences/2026-10-30</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
+Track: Registered Report (RR) Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-01 — ICPC 2027 — AGENTVERIFY: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-agentverify-r1-abstract@se-conferences/2026-11-01</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-01 (23:59 AoE)
+Track: AGENTVERIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-01 — ICSE 2027 — AGENTVERIFY: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-agentverify-r1-abstract@se-conferences/2026-11-01</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-01 (23:59 AoE)
+Track: AGENTVERIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-01 — MSR 2027 — AGENTVERIFY: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-agentverify-r1-abstract@se-conferences/2026-11-01</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-01 (23:59 AoE)
+Track: AGENTVERIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-02 — ICST 2027 — Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-research-papers-r1-submission@se-conferences/2026-11-02</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-10-18T07:33:09Z</updated>
+    <summary type="text">Deadline: 2026-11-02 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-04 — ICSA 2027 — Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-research-papers-r1-submission@se-conferences/2026-11-04</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-04 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-04 — ICSA 2027 — Software Architecture in Practice: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-software-architecture-in-practice-r1-submission@se-conferences/2026-11-04</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-04 (23:59 AoE)
+Track: Software Architecture in Practice
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-05 — ICPC 2027 — ICPC Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
+Track: ICPC Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-05 — ICPC 2027 — MSR Data and Tool Showcase Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences/2026-11-05</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
+Track: MSR Data and Tool Showcase Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-05 — ICSE 2027 — ICPC Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
+Track: ICPC Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-05 — ICSE 2027 — MSR Data and Tool Showcase Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences/2026-11-05</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
+Track: MSR Data and Tool Showcase Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-05 — MSR 2027 — ICPC Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-research-track-r1-submission@se-conferences/2026-11-05</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
+Track: ICPC Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-05 — MSR 2027 — MSR Data and Tool Showcase Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences/2026-11-05</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-05 (23:59 AoE)
+Track: MSR Data and Tool Showcase Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ASE 2026 — LiveWrite: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ase-2026-livewrite-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/ase-2026"/>
+    <updated>2026-10-18T07:33:00Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: LiveWrite
+Deadline: 23:59 AoE (UTC-12)
+Location: Munich, Germany
+Info: https://conf.researchr.org/home/ase-2026</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — CAIN 2027 — Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-doctoral-symposium-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/cain-2027"/>
+    <updated>2026-10-18T07:33:01Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/cain-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — CAIN 2027 — Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-industry-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/cain-2027"/>
+    <updated>2026-10-18T07:33:01Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/cain-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — CAIN 2027 — Posters and Demos: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/cain-2027-posters-and-demos-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/cain-2027"/>
+    <updated>2026-10-18T07:33:01Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: Posters and Demos
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/cain-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICPC 2027 — AGENTVERIFY: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-agentverify-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: AGENTVERIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICPC 2027 — CAIN Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-cain-doctoral-symposium-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICPC 2027 — CAIN Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-cain-industry-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICPC 2027 — CAIN Posters and Demos: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-cain-posters-and-demos-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Posters and Demos
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICPC 2027 — FormaliSE Artifact Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-formalise-artifact-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: FormaliSE Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICPC 2027 — FormaliSE Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: FormaliSE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICSE 2027 — AGENTVERIFY: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-agentverify-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: AGENTVERIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICSE 2027 — CAIN Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-cain-doctoral-symposium-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICSE 2027 — CAIN Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-cain-industry-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICSE 2027 — CAIN Posters and Demos: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-cain-posters-and-demos-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Posters and Demos
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICSE 2027 — FormaliSE Artifact Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-formalise-artifact-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: FormaliSE Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — ICSE 2027 — FormaliSE Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: FormaliSE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — MSR 2027 — AGENTVERIFY: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-agentverify-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: AGENTVERIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — MSR 2027 — CAIN Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-cain-doctoral-symposium-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — MSR 2027 — CAIN Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-cain-industry-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — MSR 2027 — CAIN Posters and Demos: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-cain-posters-and-demos-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Posters and Demos
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — MSR 2027 — FormaliSE Artifact Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-formalise-artifact-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: FormaliSE Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-06 — MSR 2027 — FormaliSE Research Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-formalise-research-track-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: FormaliSE Research Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-10 — ICPC 2027 — MSR Data and Tool Showcase Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences/2026-11-10</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-10 (23:59 AoE)
+Track: MSR Data and Tool Showcase Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-10 — ICSE 2027 — MSR Data and Tool Showcase Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences/2026-11-10</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-10 (23:59 AoE)
+Track: MSR Data and Tool Showcase Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-10 — MSR 2027 — MSR Data and Tool Showcase Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences/2026-11-10</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-10 (23:59 AoE)
+Track: MSR Data and Tool Showcase Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — AGENT: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-agent-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AGENT
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — AIPerf: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-aiperf-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AIPerf
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — AMPLIFY: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-amplify-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AMPLIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — CASE2Space: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-case2space-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: CASE2Space
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — DTwiSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-dtwise-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: DTwiSE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — Designing: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-designing-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: Designing
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — GREENS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-greens-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: GREENS
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — HUGS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-hugs-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: HUGS
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — MO2RE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-mo2re-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: MO2RE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — MSR Registered Reports: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-registered-reports-r1-abstract@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: MSR Registered Reports
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — Q-SE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-q-se-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: Q-SE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — ReCode: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-recode-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: ReCode
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — ResponsibleSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-responsiblese-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: ResponsibleSE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — SE4ALL: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-se4all-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SE4ALL
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — SERP4IoT: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-serp4iot-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SERP4IoT
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — SERS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-sers-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SERS
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — SRC - ACM Student Research Competition: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SRC - ACM Student Research Competition
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — SWEBOK: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-swebok-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SWEBOK
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICPC 2027 — UISE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-uise-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: UISE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — AGENT: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-agent-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AGENT
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — AIPerf: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-aiperf-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AIPerf
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — AMPLIFY: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-amplify-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AMPLIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — CASE2Space: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-case2space-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: CASE2Space
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — DTwiSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-dtwise-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: DTwiSE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — Designing: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-designing-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: Designing
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — GREENS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-greens-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: GREENS
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — HUGS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-hugs-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: HUGS
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — MO2RE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-mo2re-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: MO2RE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — MSR Registered Reports: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-registered-reports-r1-abstract@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: MSR Registered Reports
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — Q-SE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-q-se-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: Q-SE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — ReCode: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-recode-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: ReCode
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — ResponsibleSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-responsiblese-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: ResponsibleSE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — SE4ALL: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-se4all-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SE4ALL
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — SERP4IoT: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-serp4iot-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SERP4IoT
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — SERS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-sers-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SERS
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — SRC - ACM Student Research Competition: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SRC - ACM Student Research Competition
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — SWEBOK: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-swebok-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SWEBOK
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — ICSE 2027 — UISE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-uise-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: UISE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — AGENT: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-agent-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AGENT
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — AIPerf: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-aiperf-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AIPerf
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — AMPLIFY: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-amplify-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: AMPLIFY
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — CASE2Space: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-case2space-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: CASE2Space
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — DTwiSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-dtwise-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: DTwiSE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — Designing: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-designing-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: Designing
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — GREENS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-greens-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: GREENS
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — HUGS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-hugs-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: HUGS
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — MO2RE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-mo2re-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: MO2RE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — MSR Registered Reports: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-registered-reports-r1-abstract@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: MSR Registered Reports
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — Q-SE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-q-se-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: Q-SE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — ReCode: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-recode-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: ReCode
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — ResponsibleSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-responsiblese-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: ResponsibleSE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — SE4ALL: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-se4all-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SE4ALL
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — SERP4IoT: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-serp4iot-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SERP4IoT
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — SERS: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-sers-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SERS
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — SRC - ACM Student Research Competition: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-src-acm-student-research-competition-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SRC - ACM Student Research Competition
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — SWEBOK: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-swebok-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: SWEBOK
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-13 — MSR 2027 — UISE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-uise-r1-submission@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: UISE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-14 — ICPC 2027 — Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-doctoral-symposium-r1-submission@se-conferences/2026-11-14</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-14 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-14 — ICSE 2027 — Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-doctoral-symposium-r1-submission@se-conferences/2026-11-14</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-14 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-14 — MSR 2027 — Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-doctoral-symposium-r1-submission@se-conferences/2026-11-14</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-14 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-15 — ICPC 2027 — FORGE Data and Benchmarking Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-forge-data-and-benchmarking-track-r1-submission@se-conferences/2026-11-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-15 (23:59 AoE)
+Track: FORGE Data and Benchmarking Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-15 — ICSE 2027 — FORGE Data and Benchmarking Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-forge-data-and-benchmarking-track-r1-submission@se-conferences/2026-11-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-15 (23:59 AoE)
+Track: FORGE Data and Benchmarking Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-15 — MSR 2027 — FORGE Data and Benchmarking Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-forge-data-and-benchmarking-track-r1-submission@se-conferences/2026-11-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-15 (23:59 AoE)
+Track: FORGE Data and Benchmarking Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-19 — ICPC 2027 — ICPC Early Research Achievements (ERA): abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
+Track: ICPC Early Research Achievements (ERA)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-19 — ICPC 2027 — ICPC Tool Demonstration: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-tool-demonstration-r1-submission@se-conferences/2026-11-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
+Track: ICPC Tool Demonstration
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-19 — ICSE 2027 — ICPC Early Research Achievements (ERA): abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
+Track: ICPC Early Research Achievements (ERA)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-19 — ICSE 2027 — ICPC Tool Demonstration: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-tool-demonstration-r1-submission@se-conferences/2026-11-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
+Track: ICPC Tool Demonstration
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-19 — MSR 2027 — ICPC Early Research Achievements (ERA): abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences/2026-11-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
+Track: ICPC Early Research Achievements (ERA)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-19 — MSR 2027 — ICPC Tool Demonstration: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-tool-demonstration-r1-submission@se-conferences/2026-11-19</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-19 (23:59 AoE)
+Track: ICPC Tool Demonstration
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-20 — ICPC 2027 — MSR Registered Reports: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-registered-reports-r1-submission@se-conferences/2026-11-20</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-20 (23:59 AoE)
+Track: MSR Registered Reports
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-20 — ICSE 2027 — MSR Registered Reports: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-registered-reports-r1-submission@se-conferences/2026-11-20</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-20 (23:59 AoE)
+Track: MSR Registered Reports
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-20 — MSR 2027 — MSR Registered Reports: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-registered-reports-r1-submission@se-conferences/2026-11-20</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-20 (23:59 AoE)
+Track: MSR Registered Reports
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — ICPC 2027 — CauSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-cause-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: CauSE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — ICPC 2027 — IWSiB: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-iwsib-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: IWSiB
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — ICPC 2027 — MSR  Awards: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-awards-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: MSR  Awards
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — ICSE 2027 — CauSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-cause-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: CauSE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — ICSE 2027 — IWSiB: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-iwsib-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: IWSiB
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — ICSE 2027 — MSR  Awards: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-awards-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: MSR  Awards
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — MSR 2027 — CauSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-cause-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: CauSE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — MSR 2027 — IWSiB: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-iwsib-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: IWSiB
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23 — MSR 2027 — MSR  Awards: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-awards-r1-submission@se-conferences/2026-11-23</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-23 (23:59 AoE)
+Track: MSR  Awards
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-26 — ICPC 2027 — ICPC Early Research Achievements (ERA): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-26 (23:59 AoE)
+Track: ICPC Early Research Achievements (ERA)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-26 — ICSE 2027 — ICPC Early Research Achievements (ERA): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-26 (23:59 AoE)
+Track: ICPC Early Research Achievements (ERA)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-26 — MSR 2027 — ICPC Early Research Achievements (ERA): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-early-research-achievements-era-r1-submission@se-conferences/2026-11-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-26 (23:59 AoE)
+Track: ICPC Early Research Achievements (ERA)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — ICPC 2027 — NLBSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-nlbse-r1-submission@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: NLBSE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — ICPC 2027 — Tutorials and Technical Briefings: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: Tutorials and Technical Briefings
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — ICPC 2027 — WSESE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-wsese-r1-submission@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: WSESE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — ICSE 2027 — NLBSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-nlbse-r1-submission@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: NLBSE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — ICSE 2027 — Tutorials and Technical Briefings: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: Tutorials and Technical Briefings
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — ICSE 2027 — WSESE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-wsese-r1-submission@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: WSESE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — MSR 2027 — NLBSE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-nlbse-r1-submission@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: NLBSE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — MSR 2027 — Tutorials and Technical Briefings: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: Tutorials and Technical Briefings
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-11-27 — MSR 2027 — WSESE: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-wsese-r1-submission@se-conferences/2026-11-27</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
+Track: WSESE
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-01 — ICPC 2027 — SEAMS Artifact Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-seams-artifact-track-r1-abstract@se-conferences/2026-12-01</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-12-01 (23:59 AoE)
+Track: SEAMS Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-01 — ICSE 2027 — SEAMS Artifact Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-seams-artifact-track-r1-abstract@se-conferences/2026-12-01</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-01 (23:59 AoE)
+Track: SEAMS Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-01 — MSR 2027 — SEAMS Artifact Track: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-seams-artifact-track-r1-abstract@se-conferences/2026-12-01</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-12-01 (23:59 AoE)
+Track: SEAMS Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-02 — EASE 2027 — Workshops: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-workshops-r1-submission@se-conferences/2026-12-02</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2026-12-02 (23:59 AoE)
+Track: Workshops
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-07 — ICPC 2027 — SEAMS Artifact Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-seams-artifact-track-r1-submission@se-conferences/2026-12-07</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-12-07 (23:59 AoE)
+Track: SEAMS Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-07 — ICSE 2027 — SEAMS Artifact Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-seams-artifact-track-r1-submission@se-conferences/2026-12-07</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-07 (23:59 AoE)
+Track: SEAMS Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-07 — MSR 2027 — SEAMS Artifact Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-seams-artifact-track-r1-submission@se-conferences/2026-12-07</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-12-07 (23:59 AoE)
+Track: SEAMS Artifact Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-11 — ICPC 2027 — ICPC Replications and Negative Results (RENE): abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-replications-and-negative-results-rene-r1-abstract@se-conferences/2026-12-11</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-12-11 (23:59 AoE)
+Track: ICPC Replications and Negative Results (RENE)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-11 — ICSE 2027 — ICPC Replications and Negative Results (RENE): abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-replications-and-negative-results-rene-r1-abstract@se-conferences/2026-12-11</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-11 (23:59 AoE)
+Track: ICPC Replications and Negative Results (RENE)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-11 — MSR 2027 — ICPC Replications and Negative Results (RENE): abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-replications-and-negative-results-rene-r1-abstract@se-conferences/2026-12-11</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-12-11 (23:59 AoE)
+Track: ICPC Replications and Negative Results (RENE)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-16 — ICSA 2027 — New and Emerging Ideas: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-new-and-emerging-ideas-r1-abstract@se-conferences/2026-12-16</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-16 (23:59 AoE)
+Track: New and Emerging Ideas
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — ICPC 2027 — ICPC Replications and Negative Results (RENE): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-replications-and-negative-results-rene-r1-submission@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: ICPC Replications and Negative Results (RENE)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — ICPC 2027 — MSR Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-industry-track-r1-submission@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: MSR Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — ICPC 2027 — MSR Mining Challenge: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-msr-mining-challenge-r1-abstract@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: MSR Mining Challenge
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — ICSE 2027 — ICPC Replications and Negative Results (RENE): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-replications-and-negative-results-rene-r1-submission@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: ICPC Replications and Negative Results (RENE)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — ICSE 2027 — MSR Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-industry-track-r1-submission@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: MSR Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — ICSE 2027 — MSR Mining Challenge: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-msr-mining-challenge-r1-abstract@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: MSR Mining Challenge
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — MSR 2027 — ICPC Replications and Negative Results (RENE): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-replications-and-negative-results-rene-r1-submission@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: ICPC Replications and Negative Results (RENE)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — MSR 2027 — MSR Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-industry-track-r1-submission@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: MSR Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-18 — MSR 2027 — MSR Mining Challenge: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-msr-mining-challenge-r1-abstract@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: MSR Mining Challenge
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-20 — ICSA 2027 — Artifacts Evaluation: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-artifacts-evaluation-r1-submission@se-conferences/2026-12-20</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-20 (23:59 AoE)
+Track: Artifacts Evaluation
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-20 — ICSA 2027 — Journal First: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-journal-first-r1-submission@se-conferences/2026-12-20</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-20 (23:59 AoE)
+Track: Journal First
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-20 — ICSA 2027 — New and Emerging Ideas: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-new-and-emerging-ideas-r1-submission@se-conferences/2026-12-20</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-20 (23:59 AoE)
+Track: New and Emerging Ideas
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-20 — ICSA 2027 — Posters: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-posters-r1-submission@se-conferences/2026-12-20</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-20 (23:59 AoE)
+Track: Posters
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-20 — ICSA 2027 — Software Architecture Showcase: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-software-architecture-showcase-r1-submission@se-conferences/2026-12-20</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-20 (23:59 AoE)
+Track: Software Architecture Showcase
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2026-12-20 — ICSA 2027 — Tutorials/Tech Briefings: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-tutorials-tech-briefings-r1-submission@se-conferences/2026-12-20</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2026-12-20 (23:59 AoE)
+Track: Tutorials/Tech Briefings
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-08 — ICPC 2027 — Student Volunteers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-student-volunteers-r1-submission@se-conferences/2027-01-08</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-08 (23:59 AoE)
+Track: Student Volunteers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-08 — ICSE 2027 — Student Volunteers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-student-volunteers-r1-submission@se-conferences/2027-01-08</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-08 (23:59 AoE)
+Track: Student Volunteers
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-08 — ISSTA 2027 — Research Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/issta-2027-research-papers-r1-abstract@se-conferences/2027-01-08</id>
+    <link href="https://conf.researchr.org/home/issta-2027"/>
+    <updated>2026-10-18T07:33:10Z</updated>
+    <summary type="text">Deadline: 2027-01-08 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Info: https://conf.researchr.org/home/issta-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-08 — MSR 2027 — Student Volunteers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-student-volunteers-r1-submission@se-conferences/2027-01-08</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-08 (23:59 AoE)
+Track: Student Volunteers
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-11 — ISSTA 2027 — Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/issta-2027-research-papers-r1-submission@se-conferences/2027-01-11</id>
+    <link href="https://conf.researchr.org/home/issta-2027"/>
+    <updated>2026-10-18T07:33:10Z</updated>
+    <summary type="text">Deadline: 2027-01-11 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Info: https://conf.researchr.org/home/issta-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-13 — ICST 2027 — New Ideas and Emerging Results: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-new-ideas-and-emerging-results-r1-submission@se-conferences/2027-01-13</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-10-18T07:33:09Z</updated>
+    <summary type="text">Deadline: 2027-01-13 (23:59 AoE)
+Track: New Ideas and Emerging Results
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — EASE 2027 — Research Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-research-papers-r1-abstract@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — ICPC 2027 — SEAMS Community Debate: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-seams-community-debate-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: SEAMS Community Debate
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — ICPC 2027 — SEAMS Journal First Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-seams-journal-first-track-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: SEAMS Journal First Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — ICPC 2027 — TechDebt Journal First: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-techdebt-journal-first-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: TechDebt Journal First
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — ICSA 2027 — Early Career: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsa-2027-early-career-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icsa-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: Early Career
+Deadline: 23:59 AoE (UTC-12)
+Location: Sydney, Australia
+Info: https://conf.researchr.org/home/icsa-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — ICSE 2027 — SEAMS Community Debate: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-seams-community-debate-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: SEAMS Community Debate
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — ICSE 2027 — SEAMS Journal First Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-seams-journal-first-track-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: SEAMS Journal First Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — ICSE 2027 — TechDebt Journal First: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-techdebt-journal-first-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: TechDebt Journal First
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — MSR 2027 — SEAMS Community Debate: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-seams-community-debate-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: SEAMS Community Debate
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — MSR 2027 — SEAMS Journal First Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-seams-journal-first-track-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: SEAMS Journal First Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-15 — MSR 2027 — TechDebt Journal First: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-techdebt-journal-first-r1-submission@se-conferences/2027-01-15</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-15 (23:59 AoE)
+Track: TechDebt Journal First
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-16 — ICPC 2027 — ICPC Journal First: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-icpc-journal-first-r1-submission@se-conferences/2027-01-16</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-16 (23:59 AoE)
+Track: ICPC Journal First
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-16 — ICSE 2027 — ICPC Journal First: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-icpc-journal-first-r1-submission@se-conferences/2027-01-16</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-16 (23:59 AoE)
+Track: ICPC Journal First
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-16 — MSR 2027 — ICPC Journal First: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-icpc-journal-first-r1-submission@se-conferences/2027-01-16</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-16 (23:59 AoE)
+Track: ICPC Journal First
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-21 — ICST 2027 — Industry: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-industry-r1-submission@se-conferences/2027-01-21</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-10-18T07:33:09Z</updated>
+    <summary type="text">Deadline: 2027-01-21 (23:59 AoE)
+Track: Industry
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-22 — EASE 2027 — Research Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-research-papers-r1-submission@se-conferences/2027-01-22</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
+Track: Research Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-22 — ICPC 2027 — Artifact Evaluation: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-artifact-evaluation-r1-submission@se-conferences/2027-01-22</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
+Track: Artifact Evaluation
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-22 — ICPC 2027 — TechDebt Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-techdebt-industry-track-r1-submission@se-conferences/2027-01-22</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
+Track: TechDebt Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-22 — ICSE 2027 — Artifact Evaluation: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-artifact-evaluation-r1-submission@se-conferences/2027-01-22</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
+Track: Artifact Evaluation
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-22 — ICSE 2027 — TechDebt Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-techdebt-industry-track-r1-submission@se-conferences/2027-01-22</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
+Track: TechDebt Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-22 — MSR 2027 — Artifact Evaluation: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-artifact-evaluation-r1-submission@se-conferences/2027-01-22</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
+Track: Artifact Evaluation
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-22 — MSR 2027 — TechDebt Industry Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-techdebt-industry-track-r1-submission@se-conferences/2027-01-22</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-22 (23:59 AoE)
+Track: TechDebt Industry Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-23 — FSE 2027 — Industry Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/fse-2027-industry-papers-r1-submission@se-conferences/2027-01-23</id>
+    <link href="https://conf.researchr.org/home/fse-2027"/>
+    <updated>2026-10-18T07:33:04Z</updated>
+    <summary type="text">Deadline: 2027-01-23 (23:59 AoE)
+Track: Industry Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Shenzhen, China
+Info: https://conf.researchr.org/home/fse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-26 — ICPC 2027 — Doctoral Symposium: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-doctoral-symposium-r1-abstract@se-conferences/2027-01-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-26 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-26 — ICSE 2027 — Doctoral Symposium: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-doctoral-symposium-r1-abstract@se-conferences/2027-01-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-26 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-26 — MSR 2027 — Doctoral Symposium: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-doctoral-symposium-r1-abstract@se-conferences/2027-01-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-26 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-28 — ICPC 2027 — CHASE Doctoral and Early Career Symposium (DECS): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@se-conferences/2027-01-28</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-28 (23:59 AoE)
+Track: CHASE Doctoral and Early Career Symposium (DECS)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-28 — ICSE 2027 — CHASE Doctoral and Early Career Symposium (DECS): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@se-conferences/2027-01-28</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-28 (23:59 AoE)
+Track: CHASE Doctoral and Early Career Symposium (DECS)
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-28 — MSR 2027 — CHASE Doctoral and Early Career Symposium (DECS): submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@se-conferences/2027-01-28</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-28 (23:59 AoE)
+Track: CHASE Doctoral and Early Career Symposium (DECS)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-29 — FSE 2027 — Software Engineering Education: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/fse-2027-software-engineering-education-r1-submission@se-conferences/2027-01-29</id>
+    <link href="https://conf.researchr.org/home/fse-2027"/>
+    <updated>2026-10-18T07:33:04Z</updated>
+    <summary type="text">Deadline: 2027-01-29 (23:59 AoE)
+Track: Software Engineering Education
+Deadline: 23:59 AoE (UTC-12)
+Location: Shenzhen, China
+Info: https://conf.researchr.org/home/fse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-31 — ICPC 2027 — TechDebt Tool Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icpc-2027-techdebt-tool-track-r1-submission@se-conferences/2027-01-31</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:06Z</updated>
+    <summary type="text">Deadline: 2027-01-31 (23:59 AoE)
+Track: TechDebt Tool Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-31 — ICSE 2027 — TechDebt Tool Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icse-2027-techdebt-tool-track-r1-submission@se-conferences/2027-01-31</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:07Z</updated>
+    <summary type="text">Deadline: 2027-01-31 (23:59 AoE)
+Track: TechDebt Tool Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-01-31 — MSR 2027 — TechDebt Tool Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/msr-2027-techdebt-tool-track-r1-submission@se-conferences/2027-01-31</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-10-18T07:33:12Z</updated>
+    <summary type="text">Deadline: 2027-01-31 (23:59 AoE)
+Track: TechDebt Tool Track
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-02-22 — EASE 2027 — Industry Papers: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-industry-papers-r1-abstract@se-conferences/2027-02-22</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-02-22 (23:59 AoE)
+Track: Industry Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-02-22 — EASE 2027 — Short Papers and Emerging Results: abstract deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-short-papers-and-emerging-results-r1-abstract@se-conferences/2027-02-22</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-02-22 (23:59 AoE)
+Track: Short Papers and Emerging Results
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-02-25 — ICST 2027 — Tutorials: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-tutorials-r1-submission@se-conferences/2027-02-25</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-10-18T07:33:09Z</updated>
+    <summary type="text">Deadline: 2027-02-25 (23:59 AoE)
+Track: Tutorials
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-01 — EASE 2027 — Industry Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-industry-papers-r1-submission@se-conferences/2027-03-01</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-03-01 (23:59 AoE)
+Track: Industry Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-01 — EASE 2027 — Short Papers and Emerging Results: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-short-papers-and-emerging-results-r1-submission@se-conferences/2027-03-01</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-03-01 (23:59 AoE)
+Track: Short Papers and Emerging Results
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-01 — EASE 2027 — Tutorials: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-tutorials-r1-submission@se-conferences/2027-03-01</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-03-01 (23:59 AoE)
+Track: Tutorials
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-05 — ICSME 2027 — Research Papers Track: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icsme-2027-research-papers-track-r1-submission@se-conferences/2027-03-05</id>
+    <link href="https://conf.researchr.org/home/icsme-2027"/>
+    <updated>2026-10-18T07:33:08Z</updated>
+    <summary type="text">Deadline: 2027-03-05 (23:59 AoE)
+Track: Research Papers Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Dynamic City of Toronto, Canada
+Info: https://conf.researchr.org/home/icsme-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-05 — ICST 2027 — Journal-First Papers: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-journal-first-papers-r1-submission@se-conferences/2027-03-05</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-10-18T07:33:09Z</updated>
+    <summary type="text">Deadline: 2027-03-05 (23:59 AoE)
+Track: Journal-First Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-08 — EASE 2027 — Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-doctoral-symposium-r1-submission@se-conferences/2027-03-08</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-03-08 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-16 — EASE 2027 — Posters and Vision: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/ease-2027-posters-and-vision-r1-submission@se-conferences/2027-03-16</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-10-18T07:33:02Z</updated>
+    <summary type="text">Deadline: 2027-03-16 (23:59 AoE)
+Track: Posters and Vision
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>2027-03-19 — ICST 2027 — Doctoral Symposium: submission deadline</title>
+    <id>https://johmara.github.io/conference-deadlines/deadline/icst-2027-doctoral-symposium-r1-submission@se-conferences/2027-03-19</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-10-18T07:33:09Z</updated>
+    <summary type="text">Deadline: 2027-03-19 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+</feed>

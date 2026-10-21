@@ -50,6 +50,8 @@ body { font-family: var(--ds-font-sans); background: var(--bg); color: var(--tex
 #year-btns  { display: flex; gap: 0.35rem; flex-wrap: wrap; }
 
 .ds-footer p { margin:0; }
+.sub-hint { font-size:.76rem; color:var(--muted); margin-bottom:.5rem; line-height:1.5; }
+.sub-row { display:flex; gap:.5rem; }
 .theme-icon { width:1.25rem; height:1.25rem; }
 .sun-icon, .dark-mode .moon-icon { display:none; }
 .dark-mode .sun-icon { display:block; }
@@ -231,6 +233,9 @@ table.notes-hidden #th-notes, table.notes-hidden .note-cell { display:none; }
     Export .ics
   </button>
   <span class="updated-info ml-auto" id="updated-info"></span>
+  <button class="ds-btn ds-btn--ghost ds-btn--round" type="button" onclick="openSubscribe()" title="Subscribe to deadlines (calendar or feed)" aria-label="Subscribe to deadlines">
+    <svg class="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+  </button>
   <a href="https://github.com/johmara/conference-deadlines/actions" target="_blank" rel="noopener"
      class="ds-btn ds-btn--ghost ds-btn--round" title="Trigger a manual data refresh on GitHub Actions" aria-label="Refresh data">
     <svg class="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
@@ -423,6 +428,39 @@ table.notes-hidden #th-notes, table.notes-hidden .note-cell { display:none; }
 
 <!-- Tooltip -->
 <div class="tip ds-popover" id="tip"></div>
+
+<div id="sub-overlay" class="ds-modal-backdrop" style="display:none"
+     onclick="if(event.target===this)closeSubscribe()">
+  <div class="ds-modal" style="max-width:520px;margin:0 1rem" role="dialog" aria-labelledby="sub-title">
+    <div class="ds-modal__header">
+      <h2 class="ds-modal__title" id="sub-title" style="font-size:var(--ds-text-lg)">Subscribe to deadlines</h2>
+      <button class="ds-modal__close" aria-label="Close" onclick="closeSubscribe()">×</button>
+    </div>
+    <div class="ds-modal__body">
+      <label for="sub-series" style="display:block;font-size:.76rem;font-weight:600;margin-bottom:.25rem">Series and track</label>
+      <div class="sub-row">
+        <select id="sub-series" class="ds-input ds-input--sm" onchange="updateSubscribe()" aria-label="Conference series"></select>
+        <select id="sub-track" class="ds-input ds-input--sm" onchange="updateSubscribe()" aria-label="Track type"></select>
+      </div>
+      <p class="sub-hint" id="sub-empty" style="display:none;margin-top:.5rem">No deadlines for this combination.</p>
+
+      <h3 class="ds-section-heading ds-section-heading--bar">Calendar (iCal)</h3>
+      <p class="sub-hint">Updates automatically when deadlines are added or moved. In Google Calendar use "Other calendars → From URL" and paste the link below.</p>
+      <a id="sub-webcal" class="ds-btn ds-btn--solid" href="#" style="display:block;text-align:center;margin-bottom:.5rem">Subscribe in calendar app</a>
+      <div class="sub-row">
+        <input id="sub-ics" class="ds-input ds-input--sm" readonly onfocus="this.select()" aria-label="iCal feed URL">
+        <button class="ds-btn ds-btn--secondary" onclick="copyField('sub-ics', this)">Copy</button>
+      </div>
+
+      <h3 class="ds-section-heading ds-section-heading--bar">Feed reader (Atom)</h3>
+      <p class="sub-hint">Add to any RSS/Atom reader. Upcoming deadlines (next 6 months) appear as entries, and a moved deadline shows up as a new "Moved" entry.</p>
+      <div class="sub-row">
+        <input id="sub-atom" class="ds-input ds-input--sm" readonly onfocus="this.select()" aria-label="Atom feed URL">
+        <button class="ds-btn ds-btn--secondary" onclick="copyField('sub-atom', this)">Copy</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div id="note-overlay" class="ds-modal-backdrop" style="display:none"
      onclick="if(event.target===this)closeNoteEditor()">
@@ -1309,6 +1347,50 @@ function exportIcal() {
 // ── Boot ──────────────────────────────────────────────────────────────────────
 loadSettings();
 loadData();
+
+// ── Subscribe (calendar / feed) ───────────────────────────────────────────────
+const feedSlug = display => display.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+
+let FEED_INDEX = null;
+
+async function openSubscribe() {
+  document.getElementById('sub-overlay').style.display = 'flex';
+  if (!FEED_INDEX) {
+    try { FEED_INDEX = await (await fetch('feeds/index.json')).json(); }
+    catch (e) { FEED_INDEX = { series: ALL_SERIES.map(sr => ({slug: feedSlug(sr.display), display: sr.display})),
+                                tracks: [], available: null }; }
+    const ser = document.getElementById('sub-series'), trk = document.getElementById('sub-track');
+    ser.add(new Option('All series', 'all'));
+    FEED_INDEX.series.forEach(sr => ser.add(new Option(sr.display, sr.slug)));
+    trk.add(new Option('All tracks', ''));
+    FEED_INDEX.tracks.forEach(t => trk.add(new Option(t.label, t.id)));
+  }
+  updateSubscribe();
+}
+function closeSubscribe() { document.getElementById('sub-overlay').style.display = 'none'; }
+
+function updateSubscribe() {
+  const series = document.getElementById('sub-series').value;
+  const track  = document.getElementById('sub-track').value;
+  const name   = track ? `${series}-${track}` : series;
+  const ok     = !FEED_INDEX?.available || FEED_INDEX.available.includes(name);
+  const abs = ext => new URL(`feeds/${name}.${ext}`, location.href).href;
+  document.getElementById('sub-empty').style.display = ok ? 'none' : 'block';
+  const link = document.getElementById('sub-webcal');
+  link.href = ok ? abs('ics').replace(/^https?:/, 'webcal:') : '#';
+  link.style.pointerEvents = ok ? '' : 'none';
+  link.style.opacity = ok ? '' : '.5';
+  document.getElementById('sub-ics').value  = ok ? abs('ics')  : '';
+  document.getElementById('sub-atom').value = ok ? abs('atom') : '';
+}
+
+async function copyField(id, btn) {
+  const el = document.getElementById(id);
+  try { await navigator.clipboard.writeText(el.value); } catch (e) { el.select(); document.execCommand('copy'); }
+  const old = btn.textContent; btn.textContent = 'Copied';
+  setTimeout(() => btn.textContent = old, 1500);
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSubscribe(); });
 </script>
 </body>
 </html>
