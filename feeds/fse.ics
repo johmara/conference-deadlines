@@ -43,6 +43,18 @@ DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
 URL:https://conf.researchr.org/home/fse-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:fse-2027-tool-demonstrations-r1-submission@se-conferences
+DTSTAMP:20261025T075603Z
+LAST-MODIFIED:20261025T075603Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:FSE 2027 — Tool Demonstrations: submission deadline
+DESCRIPTION:Track: Tool Demonstrations\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:fse-2027-software-engineering-education-r1-submission@se-conferences
 DTSTAMP:20261018T073304Z
 LAST-MODIFIED:20261018T073304Z
@@ -53,6 +65,18 @@ SUMMARY:FSE 2027 — Software Engineering Education: submission deadline
 DESCRIPTION:Track: Software Engineering Education\nDeadline: 23:59 AoE (UTC
  -12)\nLocation: Shenzhen\, China\nInfo: https://conf.researchr.org/home/fs
  e-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fse-2027-journal-first-paper-r1-submission@se-conferences
+DTSTAMP:20261025T075603Z
+LAST-MODIFIED:20261025T075603Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:FSE 2027 — Journal-First Paper: submission deadline
+DESCRIPTION:Track: Journal-First Paper\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
 URL:https://conf.researchr.org/home/fse-2027
 END:VEVENT
 END:VCALENDAR

@@ -7,18 +7,6 @@ X-WR-CALNAME:SANER deadlines
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:saner-2027-research-track-r1-abstract@se-conferences
-DTSTAMP:20261018T073312Z
-LAST-MODIFIED:20261018T073312Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:SANER 2027 — Research Track: abstract deadline
-DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
- Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
-URL:https://conf.researchr.org/home/saner-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:saner-2027-research-track-r1-submission@se-conferences
 DTSTAMP:20261018T073312Z
 LAST-MODIFIED:20261018T073312Z

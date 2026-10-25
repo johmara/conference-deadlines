@@ -6,4 +6,16 @@ METHOD:PUBLISH
 X-WR-CALNAME:FSE deadlines — Tools
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fse-2027-tool-demonstrations-r1-submission@se-conferences
+DTSTAMP:20261025T075603Z
+LAST-MODIFIED:20261025T075603Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:FSE 2027 — Tool Demonstrations: submission deadline
+DESCRIPTION:Track: Tool Demonstrations\nDeadline: 23:59 AoE (UTC-12)\nLocat
+ ion: Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
 END:VCALENDAR
