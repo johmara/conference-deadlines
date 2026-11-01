@@ -68,6 +68,19 @@ DESCRIPTION:Track: Software Engineering Education\nDeadline: 23:59 AoE (UTC
 URL:https://conf.researchr.org/home/fse-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:fse-2027-ideas-visions-and-reflections-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:FSE 2027 — Ideas\, Visions and Reflections: submission deadline
+DESCRIPTION:Track: Ideas\, Visions and Reflections\nDeadline: 23:59 AoE (UT
+ C-12)\nLocation: Shenzhen\, China\nInfo: https://conf.researchr.org/home/f
+ se-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:fse-2027-journal-first-paper-r1-submission@se-conferences
 DTSTAMP:20261025T075603Z
 LAST-MODIFIED:20261025T075603Z

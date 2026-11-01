@@ -70,6 +70,31 @@ DESCRIPTION:Track: Industry\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Se
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:icst-2027-iteqs-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:ICST 2027 — ITEQS: submission deadline
+DESCRIPTION:Track: ITEQS\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Sebas
+ tian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-testing-tools-and-data-showcase-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:ICST 2027 — Testing Tools and Data Showcase: submission deadline
+DESCRIPTION:Track: Testing Tools and Data Showcase\nDeadline: 23:59 AoE (UT
+ C-12)\nLocation: San Sebastian\, Basque Country\nInfo: https://conf.resear
+ chr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:icst-2027-tutorials-r1-submission@se-conferences
 DTSTAMP:20261018T073309Z
 LAST-MODIFIED:20261018T073309Z

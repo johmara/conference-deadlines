@@ -4,5 +4,16 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/icst-tools.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/icst-tools.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2000-01-01T00:00:00Z</updated>
+  <updated>2026-11-01T09:54:16Z</updated>
+  <entry>
+    <title>New: 2027-02-12 — ICST 2027 — Testing Tools and Data Showcase: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icst-2027-testing-tools-and-data-showcase-r1-submission@se-conferences/2027-02-12</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2027-02-12 (23:59 AoE)
+Track: Testing Tools and Data Showcase
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
 </feed>

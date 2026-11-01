@@ -22,21 +22,6 @@ DESCRIPTION:Track: Short Papers and Posters (SP&P) Track\nDeadline: 23:59 A
 URL:https://conf.researchr.org/home/saner-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-new-ideas-and-emerging-results-nier-r1-submission@se-confere
- nces
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — New Ideas and Emerging Results (NIER): submission de
- adline
-DESCRIPTION:Track: New Ideas and Emerging Results (NIER)\nDeadline: 23:59 A
- oE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nI
- nfo: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferen
  ces
 DTSTAMP:20261018T073307Z
@@ -106,32 +91,6 @@ DESCRIPTION:Track: Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLocatio
 URL:https://conf.researchr.org/home/cain-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-cain-industry-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:FORGE 2027 — CAIN Industry Track: submission deadline
-DESCRIPTION:Track: CAIN Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-cain-posters-and-demos-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:FORGE 2027 — CAIN Posters and Demos: submission deadline
-DESCRIPTION:Track: CAIN Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLo
- cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
- nf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-cain-industry-track-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -179,19 +138,6 @@ SUMMARY:MSR 2027 — CAIN Posters and Demos: submission deadline
 DESCRIPTION:Track: CAIN Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLo
  cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
  nf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-msr-industry-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:FORGE 2027 — MSR Industry Track: submission deadline
-DESCRIPTION:Track: MSR Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocati
- on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
- esearchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -257,19 +203,6 @@ DESCRIPTION:Track: Industry\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Se
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-techdebt-industry-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-SUMMARY:FORGE 2027 — TechDebt Industry Track: submission deadline
-DESCRIPTION:Track: TechDebt Industry Track\nDeadline: 23:59 AoE (UTC-12)\nL
- ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
- onf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-techdebt-industry-track-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -304,6 +237,19 @@ DTEND;VALUE=DATE:20270124
 SUMMARY:FSE 2027 — Industry Papers: submission deadline
 DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
   Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fse-2027-ideas-visions-and-reflections-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:FSE 2027 — Ideas\, Visions and Reflections: submission deadline
+DESCRIPTION:Track: Ideas\, Visions and Reflections\nDeadline: 23:59 AoE (UT
+ C-12)\nLocation: Shenzhen\, China\nInfo: https://conf.researchr.org/home/f
+ se-2027
 URL:https://conf.researchr.org/home/fse-2027
 END:VEVENT
 BEGIN:VEVENT

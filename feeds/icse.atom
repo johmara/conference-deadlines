@@ -4,118 +4,7 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/icse.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/icse.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2026-10-21T08:31:59Z</updated>
-  <entry>
-    <title>2026-10-20 — ICSE 2027 — MSR Technical Papers: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-abstract@se-conferences/2026-10-20</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-20 (23:59 AoE)
-Track: MSR Technical Papers
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>Moved: 2026-10-23 — ICSE 2027 — CHASE Research Track: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-chase-research-track-r1-abstract@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-21T08:31:59Z</updated>
-    <summary type="text">Moved from 2026-10-16 to 2026-10-23.
-Deadline: 2026-10-23 (23:59 AoE)
-Track: CHASE Research Track
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICSE 2027 — MSR Technical Papers: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-msr-technical-papers-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: MSR Technical Papers
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICSE 2027 — New Ideas and Emerging Results (NIER): submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-new-ideas-and-emerging-results-nier-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: New Ideas and Emerging Results (NIER)
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICSE 2027 — SE in Practice (SEIP): submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-se-in-practice-seip-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: SE in Practice (SEIP)
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICSE 2027 — SE in Society (SEIS): submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-se-in-society-seis-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: SE in Society (SEIS)
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICSE 2027 — SEAMS Research Track: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-seams-research-track-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: SEAMS Research Track
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICSE 2027 — Software Engineering Education and Training (SEET): submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-software-engineering-education-and-training-seet-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: Software Engineering Education and Training (SEET)
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICSE 2027 — Tool Demonstration and Data Showcase: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-tool-demonstration-and-data-showcase-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: Tool Demonstration and Data Showcase
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-23 — ICSE 2027 — Tutorials and Technical Briefings: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-tutorials-and-technical-briefings-r1-submission@se-conferences/2026-10-23</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:07Z</updated>
-    <summary type="text">Deadline: 2026-10-23 (23:59 AoE)
-Track: Tutorials and Technical Briefings
-Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
+  <updated>2026-11-01T09:54:16Z</updated>
   <entry>
     <title>2026-10-25 — ICSE 2027 — FORGE Research Papers: abstract deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
@@ -484,6 +373,17 @@ Location: Dublin, Ireland
 Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
   <entry>
+    <title>New: 2026-11-13 — ICSE 2027 — RAISE: abstract deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-raise-r1-abstract@se-conferences/2026-11-13</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2026-11-13 (23:59 AoE)
+Track: RAISE
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
     <title>2026-11-13 — ICSE 2027 — ReCode: submission deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-recode-r1-submission@se-conferences/2026-11-13</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
@@ -622,6 +522,17 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
     <updated>2026-10-18T07:33:07Z</updated>
     <summary type="text">Deadline: 2026-11-20 (23:59 AoE)
 Track: MSR Registered Reports
+Deadline: 23:59 AoE (UTC-12)
+Location: Dublin, Ireland
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2026-11-20 — ICSE 2027 — RAISE: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icse-2027-raise-r1-submission@se-conferences/2026-11-20</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2026-11-20 (23:59 AoE)
+Track: RAISE
 Deadline: 23:59 AoE (UTC-12)
 Location: Dublin, Ireland
 Info: https://conf.researchr.org/home/icse-2027</summary>

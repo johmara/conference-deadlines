@@ -4,7 +4,7 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/icst.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/icst.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2026-10-18T07:33:09Z</updated>
+  <updated>2026-11-01T09:54:16Z</updated>
   <entry>
     <title>2026-10-30 — ICST 2027 — Workshops: submission deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/icst-2027-workshops-r1-submission@se-conferences/2026-10-30</id>
@@ -45,6 +45,28 @@ Info: https://conf.researchr.org/home/icst-2027</summary>
     <updated>2026-10-18T07:33:09Z</updated>
     <summary type="text">Deadline: 2027-01-21 (23:59 AoE)
 Track: Industry
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2027-02-04 — ICST 2027 — ITEQS: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icst-2027-iteqs-r1-submission@se-conferences/2027-02-04</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2027-02-04 (23:59 AoE)
+Track: ITEQS
+Deadline: 23:59 AoE (UTC-12)
+Location: San Sebastian, Basque Country
+Info: https://conf.researchr.org/home/icst-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2027-02-12 — ICST 2027 — Testing Tools and Data Showcase: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/icst-2027-testing-tools-and-data-showcase-r1-submission@se-conferences/2027-02-12</id>
+    <link href="https://conf.researchr.org/home/icst-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2027-02-12 (23:59 AoE)
+Track: Testing Tools and Data Showcase
 Deadline: 23:59 AoE (UTC-12)
 Location: San Sebastian, Basque Country
 Info: https://conf.researchr.org/home/icst-2027</summary>

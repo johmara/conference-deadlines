@@ -7,56 +7,6 @@ X-WR-CALNAME:SE Conference Deadlines
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:saner-2027-research-track-r1-submission@se-conferences
-DTSTAMP:20261018T073312Z
-LAST-MODIFIED:20261018T073312Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:SANER 2027 — Research Track: submission deadline
-DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation: 
- Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner-2027
-URL:https://conf.researchr.org/home/saner-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-shadow-pc-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:FORGE 2027 — Shadow PC: submission deadline
-DESCRIPTION:Track: Shadow PC\nDeadline: 23:59 AoE (UTC-12)\nLocation: May i
- n Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.
- org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:icse-2027-shadow-pc-r1-submission@se-conferences
-DTSTAMP:20261018T073307Z
-LAST-MODIFIED:20261018T073307Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:ICSE 2027 — Shadow PC: submission deadline
-DESCRIPTION:Track: Shadow PC\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dubli
- n\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:msr-2027-shadow-pc-r1-submission@se-conferences
-DTSTAMP:20261018T073312Z
-LAST-MODIFIED:20261018T073312Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:MSR 2027 — Shadow PC: submission deadline
-DESCRIPTION:Track: Shadow PC\nDeadline: 23:59 AoE (UTC-12)\nLocation: May i
- n Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.
- org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:fse-2027-research-papers-r1-submission@se-conferences
 DTSTAMP:20261018T073304Z
 LAST-MODIFIED:20261018T073304Z
@@ -200,19 +150,6 @@ DESCRIPTION:Track: Workshops & Tutorials (W&T)\nDeadline: 23:59 AoE (UTC-12
 URL:https://conf.researchr.org/home/saner-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-msr-technical-papers-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:FORGE 2027 — MSR Technical Papers: abstract deadline
-DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-msr-technical-papers-r1-abstract@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -235,131 +172,6 @@ SUMMARY:MSR 2027 — MSR Technical Papers: abstract deadline
 DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
  tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
  .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-chase-research-track-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — CHASE Research Track: abstract deadline
-DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-msr-technical-papers-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — MSR Technical Papers: submission deadline
-DESCRIPTION:Track: MSR Technical Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-new-ideas-and-emerging-results-nier-r1-submission@se-confere
- nces
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — New Ideas and Emerging Results (NIER): submission de
- adline
-DESCRIPTION:Track: New Ideas and Emerging Results (NIER)\nDeadline: 23:59 A
- oE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nI
- nfo: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-se-in-practice-seip-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — SE in Practice (SEIP): submission deadline
-DESCRIPTION:Track: SE in Practice (SEIP)\nDeadline: 23:59 AoE (UTC-12)\nLoc
- ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
- f.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-se-in-society-seis-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — SE in Society (SEIS): submission deadline
-DESCRIPTION:Track: SE in Society (SEIS)\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-seams-research-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — SEAMS Research Track: submission deadline
-DESCRIPTION:Track: SEAMS Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-software-engineering-education-and-training-seet-r1-submissi
- on@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — Software Engineering Education and Training (SEET): 
- submission deadline
-DESCRIPTION:Track: Software Engineering Education and Training (SEET)\nDead
- line: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convent
- ion Centre\nInfo: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-tool-demonstration-and-data-showcase-r1-submission@se-confer
- ences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — Tool Demonstration and Data Showcase: submission dea
- dline
-DESCRIPTION:Track: Tool Demonstration and Data Showcase\nDeadline: 23:59 Ao
- E (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nIn
- fo: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-tutorials-and-technical-briefings-r1-submission@se-conferenc
- es
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:FORGE 2027 — Tutorials and Technical Briefings: submission deadli
- ne
-DESCRIPTION:Track: Tutorials and Technical Briefings\nDeadline: 23:59 AoE (
- UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
-  https://conf.researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -687,30 +499,16 @@ DESCRIPTION:Track: Tool Demo Track\nDeadline: 23:59 AoE (UTC-12)\nLocation:
 URL:https://conf.researchr.org/home/saner-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:saner-2027-workshops-tutorials-w-t-r1-submission@se-conferences
-DTSTAMP:20261018T073312Z
-LAST-MODIFIED:20261018T073312Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:SANER 2027 — Workshops & Tutorials (W&T): submission deadline
-DESCRIPTION:Track: Workshops & Tutorials (W&T)\nDeadline: 23:59 AoE (UTC-12
- )\nLocation: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/sa
- ner-2027
-URL:https://conf.researchr.org/home/saner-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-forge-research-papers-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
+UID:forge-2027-research-papers-r1-abstract@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-SUMMARY:FORGE 2027 — FORGE Research Papers: abstract deadline
-DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
- ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
- f.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
+SUMMARY:FORGE 2027 — Research Papers: abstract deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Dublin\, Ireland\nInfo: https://conf.researchr.org/home/forge-2027
+URL:https://conf.researchr.org/home/forge-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icse-2027-forge-research-papers-r1-abstract@se-conferences
@@ -738,19 +536,6 @@ DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-techdebt-technical-papers-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:FORGE 2027 — TechDebt Technical Papers: abstract deadline
-DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
- nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
- /conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-techdebt-technical-papers-r1-abstract@se-conferences
 DTSTAMP:20261021T083159Z
 LAST-MODIFIED:20261021T083159Z
@@ -774,19 +559,6 @@ SUMMARY:MSR 2027 — TechDebt Technical Papers: abstract deadline
 DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
  nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
  /conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-icpc-research-track-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:FORGE 2027 — ICPC Research Track: abstract deadline
-DESCRIPTION:Track: ICPC Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -839,95 +611,16 @@ DESCRIPTION:Track: Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocation:
 URL:https://conf.researchr.org/home/cain-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-ast-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
+UID:forge-2027-research-papers-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-SUMMARY:FORGE 2027 — AST: submission deadline
-DESCRIPTION:Track: AST\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dubl
- in\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/ho
- me/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-cain-research-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:FORGE 2027 — CAIN Research Track: submission deadline
-DESCRIPTION:Track: CAIN Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-chase-research-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:FORGE 2027 — CHASE Research Track: submission deadline
-DESCRIPTION:Track: CHASE Research Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-forge-research-papers-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:FORGE 2027 — FORGE Research Papers: submission deadline
-DESCRIPTION:Track: FORGE Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLoc
- ation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://con
- f.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-formalise-artifact-track-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:FORGE 2027 — FormaliSE Artifact Track: abstract deadline
-DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
- Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
- conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-formalise-research-track-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:FORGE 2027 — FormaliSE Research Track: abstract deadline
-DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
- Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
- conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-journal-first-papers-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:FORGE 2027 — Journal-first Papers: submission deadline
-DESCRIPTION:Track: Journal-first Papers\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
+SUMMARY:FORGE 2027 — Research Papers: submission deadline
+DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Dublin\, Ireland\nInfo: https://conf.researchr.org/home/forge-2027
+URL:https://conf.researchr.org/home/forge-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icsa-2027-research-papers-r1-abstract@se-conferences
@@ -1157,19 +850,6 @@ DESCRIPTION:Track: Registered Report (RR) Track\nDeadline: 23:59 AoE (UTC-1
 URL:https://conf.researchr.org/home/saner-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-agentverify-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:FORGE 2027 — AGENTVERIFY: abstract deadline
-DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
-  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
- r.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-agentverify-r1-abstract@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -1192,19 +872,6 @@ SUMMARY:MSR 2027 — AGENTVERIFY: abstract deadline
 DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
   in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
  r.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-techdebt-technical-papers-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:FORGE 2027 — TechDebt Technical Papers: submission deadline
-DESCRIPTION:Track: TechDebt Technical Papers\nDeadline: 23:59 AoE (UTC-12)\
- nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
- /conf.researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -1272,32 +939,6 @@ DESCRIPTION:Track: Software Architecture in Practice\nDeadline: 23:59 AoE (
  UTC-12)\nLocation: Sydney\, Australia\nInfo: https://conf.researchr.org/ho
  me/icsa-2027
 URL:https://conf.researchr.org/home/icsa-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-icpc-research-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:FORGE 2027 — ICPC Research Track: submission deadline
-DESCRIPTION:Track: ICPC Research Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-msr-data-and-tool-showcase-track-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:FORGE 2027 — MSR Data and Tool Showcase Track: abstract deadline
-DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
- TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
- https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icpc-2027-research-track-r1-submission@se-conferences
@@ -1409,84 +1050,6 @@ SUMMARY:CAIN 2027 — Posters and Demos: submission deadline
 DESCRIPTION:Track: Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLocatio
  n: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/cain-2027
 URL:https://conf.researchr.org/home/cain-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-agentverify-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:FORGE 2027 — AGENTVERIFY: submission deadline
-DESCRIPTION:Track: AGENTVERIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
-  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
- r.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-cain-doctoral-symposium-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:FORGE 2027 — CAIN Doctoral Symposium: submission deadline
-DESCRIPTION:Track: CAIN Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nL
- ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
- onf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-cain-industry-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:FORGE 2027 — CAIN Industry Track: submission deadline
-DESCRIPTION:Track: CAIN Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-cain-posters-and-demos-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:FORGE 2027 — CAIN Posters and Demos: submission deadline
-DESCRIPTION:Track: CAIN Posters and Demos\nDeadline: 23:59 AoE (UTC-12)\nLo
- cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
- nf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-formalise-artifact-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:FORGE 2027 — FormaliSE Artifact Track: submission deadline
-DESCRIPTION:Track: FormaliSE Artifact Track\nDeadline: 23:59 AoE (UTC-12)\n
- Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
- conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-formalise-research-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:FORGE 2027 — FormaliSE Research Track: submission deadline
-DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
- Location: May in Dublin\, Ireland at the Convention Centre\nInfo: https://
- conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icse-2027-agentverify-r1-submission@se-conferences
@@ -1641,21 +1204,6 @@ DESCRIPTION:Track: FormaliSE Research Track\nDeadline: 23:59 AoE (UTC-12)\n
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-msr-data-and-tool-showcase-track-r1-submission@se-conference
- s
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:FORGE 2027 — MSR Data and Tool Showcase Track: submission deadlin
- e
-DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
- TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
- https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-msr-data-and-tool-showcase-track-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -1679,268 +1227,6 @@ SUMMARY:MSR 2027 — MSR Data and Tool Showcase Track: submission deadline
 DESCRIPTION:Track: MSR Data and Tool Showcase Track\nDeadline: 23:59 AoE (U
  TC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: 
  https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-agent-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — AGENT: submission deadline
-DESCRIPTION:Track: AGENT\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
- blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
- home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-aiperf-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — AIPerf: submission deadline
-DESCRIPTION:Track: AIPerf\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
- ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
- /home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-amplify-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — AMPLIFY: submission deadline
-DESCRIPTION:Track: AMPLIFY\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in 
- Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.or
- g/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-case2space-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — CASE2Space: submission deadline
-DESCRIPTION:Track: CASE2Space\nDeadline: 23:59 AoE (UTC-12)\nLocation: May 
- in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr
- .org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-dtwise-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — DTwiSE: submission deadline
-DESCRIPTION:Track: DTwiSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
- ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
- /home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-designing-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — Designing: submission deadline
-DESCRIPTION:Track: Designing\nDeadline: 23:59 AoE (UTC-12)\nLocation: May i
- n Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.
- org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-greens-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — GREENS: submission deadline
-DESCRIPTION:Track: GREENS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
- ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
- /home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-hugs-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — HUGS: submission deadline
-DESCRIPTION:Track: HUGS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
- lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
- ome/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-mo2re-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — MO2RE: submission deadline
-DESCRIPTION:Track: MO2RE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
- blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
- home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-msr-registered-reports-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — MSR Registered Reports: abstract deadline
-DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
- cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
- nf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-nlbse-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — NLBSE: submission deadline
-DESCRIPTION:Track: NLBSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
- blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
- home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-q-se-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — Q-SE: submission deadline
-DESCRIPTION:Track: Q-SE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
- lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
- ome/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-recode-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — ReCode: submission deadline
-DESCRIPTION:Track: ReCode\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
- ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
- /home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-responsiblese-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — ResponsibleSE: submission deadline
-DESCRIPTION:Track: ResponsibleSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: M
- ay in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.resear
- chr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-se4all-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — SE4ALL: submission deadline
-DESCRIPTION:Track: SE4ALL\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
- ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
- /home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-serp4iot-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — SERP4IoT: submission deadline
-DESCRIPTION:Track: SERP4IoT\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in
-  Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.o
- rg/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-sers-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — SERS: submission deadline
-DESCRIPTION:Track: SERS\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
- lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
- ome/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-src-acm-student-research-competition-r1-submission@se-confer
- ences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — SRC - ACM Student Research Competition: submission d
- eadline
-DESCRIPTION:Track: SRC - ACM Student Research Competition\nDeadline: 23:59 
- AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
- Info: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-swebok-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — SWEBOK: submission deadline
-DESCRIPTION:Track: SWEBOK\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in D
- ublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org
- /home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-uise-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:FORGE 2027 — UISE: submission deadline
-DESCRIPTION:Track: UISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
- lin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/h
- ome/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -2085,6 +1371,18 @@ DTEND;VALUE=DATE:20261114
 SUMMARY:ICSE 2027 — Q-SE: submission deadline
 DESCRIPTION:Track: Q-SE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, I
  reland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-raise-r1-abstract@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ICSE 2027 — RAISE: abstract deadline
+DESCRIPTION:Track: RAISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, 
+ Ireland\nInfo: https://conf.researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -2343,6 +1641,19 @@ DESCRIPTION:Track: Q-SE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:msr-2027-raise-r1-abstract@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — RAISE: abstract deadline
+DESCRIPTION:Track: RAISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:msr-2027-recode-r1-submission@se-conferences
 DTSTAMP:20261018T073312Z
 LAST-MODIFIED:20261018T073312Z
@@ -2449,19 +1760,6 @@ DESCRIPTION:Track: UISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-doctoral-symposium-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:FORGE 2027 — Doctoral Symposium: submission deadline
-DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
- on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
- esearchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-doctoral-symposium-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -2487,19 +1785,17 @@ DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-forge-data-and-benchmarking-track-r1-submission@se-conferenc
- es
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
+UID:forge-2027-data-and-benchmarking-track-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:FORGE 2027 — FORGE Data and Benchmarking Track: submission deadli
- ne
-DESCRIPTION:Track: FORGE Data and Benchmarking Track\nDeadline: 23:59 AoE (
- UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
-  https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
+SUMMARY:FORGE 2027 — Data and Benchmarking Track: submission deadline
+DESCRIPTION:Track: Data and Benchmarking Track\nDeadline: 23:59 AoE (UTC-12
+ )\nLocation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/forge
+ -2027
+URL:https://conf.researchr.org/home/forge-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icse-2027-forge-data-and-benchmarking-track-r1-submission@se-conference
@@ -2527,34 +1823,6 @@ SUMMARY:MSR 2027 — FORGE Data and Benchmarking Track: submission deadline
 DESCRIPTION:Track: FORGE Data and Benchmarking Track\nDeadline: 23:59 AoE (
  UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
   https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-icpc-early-research-achievements-era-r1-abstract@se-conferen
- ces
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:FORGE 2027 — ICPC Early Research Achievements (ERA): abstract dea
- dline
-DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
- AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
- Info: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-icpc-tool-demonstration-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:FORGE 2027 — ICPC Tool Demonstration: submission deadline
-DESCRIPTION:Track: ICPC Tool Demonstration\nDeadline: 23:59 AoE (UTC-12)\nL
- ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
- onf.researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -2638,19 +1906,6 @@ DESCRIPTION:Track: ICPC Tool Demonstration\nDeadline: 23:59 AoE (UTC-12)\nL
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-msr-registered-reports-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:FORGE 2027 — MSR Registered Reports: submission deadline
-DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
- cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
- nf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-msr-registered-reports-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -2660,6 +1915,18 @@ DTEND;VALUE=DATE:20261121
 SUMMARY:ICSE 2027 — MSR Registered Reports: submission deadline
 DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
  cation: Dublin\, Ireland\nInfo: https://conf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icse-2027-raise-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:ICSE 2027 — RAISE: submission deadline
+DESCRIPTION:Track: RAISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dublin\, 
+ Ireland\nInfo: https://conf.researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -2676,42 +1943,16 @@ DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-cause-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
+UID:msr-2027-raise-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
 SEQUENCE:0
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:FORGE 2027 — CauSE: submission deadline
-DESCRIPTION:Track: CauSE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:MSR 2027 — RAISE: submission deadline
+DESCRIPTION:Track: RAISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
  blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
  home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-iwsib-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:FORGE 2027 — IWSiB: submission deadline
-DESCRIPTION:Track: IWSiB\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
- blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
- home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-msr-awards-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:FORGE 2027 — MSR  Awards: submission deadline
-DESCRIPTION:Track: MSR  Awards\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
-  in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.research
- r.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -2790,21 +2031,6 @@ DESCRIPTION:Track: MSR  Awards\nDeadline: 23:59 AoE (UTC-12)\nLocation: May
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-icpc-early-research-achievements-era-r1-submission@se-confer
- ences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:FORGE 2027 — ICPC Early Research Achievements (ERA): submission d
- eadline
-DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
- AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
- Info: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icpc-2027-early-research-achievements-era-r1-submission@se-conferences
 DTSTAMP:20261021T083159Z
 LAST-MODIFIED:20261021T083159Z
@@ -2846,32 +2072,6 @@ SUMMARY:MSR 2027 — ICPC Early Research Achievements (ERA): submission dea
 DESCRIPTION:Track: ICPC Early Research Achievements (ERA)\nDeadline: 23:59 
  AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\n
  Info: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:FORGE 2027 — Tutorials and Technical Briefings: abstract deadline
-DESCRIPTION:Track: Tutorials and Technical Briefings\nDeadline: 23:59 AoE (
- UTC-12)\nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo:
-  https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-wsese-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:FORGE 2027 — WSESE: submission deadline
-DESCRIPTION:Track: WSESE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
- blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
- home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -2926,19 +2126,6 @@ DESCRIPTION:Track: WSESE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-seams-artifact-track-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:FORGE 2027 — SEAMS Artifact Track: abstract deadline
-DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-seams-artifact-track-r1-abstract@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -2976,19 +2163,6 @@ DESCRIPTION:Track: Workshops\nDeadline: 23:59 AoE (UTC-12)\nLocation: Hanoi
 URL:https://conf.researchr.org/home/ease-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-seams-artifact-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-SUMMARY:FORGE 2027 — SEAMS Artifact Track: submission deadline
-DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-seams-artifact-track-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -3011,21 +2185,6 @@ SUMMARY:MSR 2027 — SEAMS Artifact Track: submission deadline
 DESCRIPTION:Track: SEAMS Artifact Track\nDeadline: 23:59 AoE (UTC-12)\nLoca
  tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
  .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-icpc-replications-and-negative-results-rene-r1-abstract@se-c
- onferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:FORGE 2027 — ICPC Replications and Negative Results (RENE): abstr
- act deadline
-DESCRIPTION:Track: ICPC Replications and Negative Results (RENE)\nDeadline:
-  23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention C
- entre\nInfo: https://conf.researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -3085,47 +2244,6 @@ DESCRIPTION:Track: New and Emerging Ideas\nDeadline: 23:59 AoE (UTC-12)\nLo
  cation: Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-202
  7
 URL:https://conf.researchr.org/home/icsa-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-icpc-replications-and-negative-results-rene-r1-submission@se
- -conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:FORGE 2027 — ICPC Replications and Negative Results (RENE): submi
- ssion deadline
-DESCRIPTION:Track: ICPC Replications and Negative Results (RENE)\nDeadline:
-  23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Convention C
- entre\nInfo: https://conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-msr-industry-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:FORGE 2027 — MSR Industry Track: submission deadline
-DESCRIPTION:Track: MSR Industry Track\nDeadline: 23:59 AoE (UTC-12)\nLocati
- on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
- esearchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-msr-mining-challenge-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:FORGE 2027 — MSR Mining Challenge: abstract deadline
-DESCRIPTION:Track: MSR Mining Challenge\nDeadline: 23:59 AoE (UTC-12)\nLoca
- tion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf
- .researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icpc-2027-replications-and-negative-results-rene-r1-submission@se-confe
@@ -3223,6 +2341,19 @@ DESCRIPTION:Track: MSR Mining Challenge\nDeadline: 23:59 AoE (UTC-12)\nLoca
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:saner-2027-doctoral-symposium-track-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:SANER 2027 — Doctoral Symposium Track: submission deadline
+DESCRIPTION:Track: Doctoral Symposium Track\nDeadline: 23:59 AoE (UTC-12)\n
+ Location: Richmond\, VA\, USA\nInfo: https://conf.researchr.org/home/saner
+ -2027
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:icsa-2027-artifacts-evaluation-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -3298,19 +2429,6 @@ DESCRIPTION:Track: Tutorials/Tech Briefings\nDeadline: 23:59 AoE (UTC-12)\n
 URL:https://conf.researchr.org/home/icsa-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-student-volunteers-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270108
-DTEND;VALUE=DATE:20270109
-SUMMARY:FORGE 2027 — Student Volunteers: submission deadline
-DESCRIPTION:Track: Student Volunteers\nDeadline: 23:59 AoE (UTC-12)\nLocati
- on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
- esearchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-student-volunteers-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -3383,45 +2501,6 @@ SUMMARY:EASE 2027 — Research Papers: abstract deadline
 DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
   Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
 URL:https://conf.researchr.org/home/ease-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-seams-community-debate-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
-SUMMARY:FORGE 2027 — SEAMS Community Debate: submission deadline
-DESCRIPTION:Track: SEAMS Community Debate\nDeadline: 23:59 AoE (UTC-12)\nLo
- cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
- nf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-seams-journal-first-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
-SUMMARY:FORGE 2027 — SEAMS Journal First Track: submission deadline
-DESCRIPTION:Track: SEAMS Journal First Track\nDeadline: 23:59 AoE (UTC-12)\
- nLocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https:/
- /conf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-techdebt-journal-first-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
-SUMMARY:FORGE 2027 — TechDebt Journal First: submission deadline
-DESCRIPTION:Track: TechDebt Journal First\nDeadline: 23:59 AoE (UTC-12)\nLo
- cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
- nf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icsa-2027-early-career-r1-submission@se-conferences
@@ -3512,19 +2591,6 @@ DESCRIPTION:Track: TechDebt Journal First\nDeadline: 23:59 AoE (UTC-12)\nLo
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-icpc-journal-first-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270116
-DTEND;VALUE=DATE:20270117
-SUMMARY:FORGE 2027 — ICPC Journal First: submission deadline
-DESCRIPTION:Track: ICPC Journal First\nDeadline: 23:59 AoE (UTC-12)\nLocati
- on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
- esearchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icpc-2027-journal-first-r1-submission@se-conferences
 DTSTAMP:20261021T083159Z
 LAST-MODIFIED:20261021T083159Z
@@ -3584,32 +2650,6 @@ SUMMARY:EASE 2027 — Research Papers: submission deadline
 DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
   Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
 URL:https://conf.researchr.org/home/ease-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-artifact-evaluation-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-SUMMARY:FORGE 2027 — Artifact Evaluation: submission deadline
-DESCRIPTION:Track: Artifact Evaluation\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-techdebt-industry-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-SUMMARY:FORGE 2027 — TechDebt Industry Track: submission deadline
-DESCRIPTION:Track: TechDebt Industry Track\nDeadline: 23:59 AoE (UTC-12)\nL
- ocation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://c
- onf.researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:icse-2027-artifact-evaluation-r1-submission@se-conferences
@@ -3674,19 +2714,6 @@ DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
 URL:https://conf.researchr.org/home/fse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-doctoral-symposium-r1-abstract@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:FORGE 2027 — Doctoral Symposium: abstract deadline
-DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
- on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
- esearchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:fse-2027-tool-demonstrations-r1-submission@se-conferences
 DTSTAMP:20261025T075603Z
 LAST-MODIFIED:20261025T075603Z
@@ -3721,21 +2748,6 @@ SUMMARY:MSR 2027 — Doctoral Symposium: abstract deadline
 DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
  on: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.r
  esearchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
-UID:forge-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission
- @se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270129
-SUMMARY:FORGE 2027 — CHASE Doctoral and Early Career Symposium (DECS): su
- bmission deadline
-DESCRIPTION:Track: CHASE Doctoral and Early Career Symposium (DECS)\nDeadli
- ne: 23:59 AoE (UTC-12)\nLocation: May in Dublin\, Ireland at the Conventio
- n Centre\nInfo: https://conf.researchr.org/home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -3782,19 +2794,6 @@ DESCRIPTION:Track: Software Engineering Education\nDeadline: 23:59 AoE (UTC
 URL:https://conf.researchr.org/home/fse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:forge-2027-techdebt-tool-track-r1-submission@se-conferences
-DTSTAMP:20261025T075603Z
-LAST-MODIFIED:20261025T075603Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20270131
-DTEND;VALUE=DATE:20270201
-SUMMARY:FORGE 2027 — TechDebt Tool Track: submission deadline
-DESCRIPTION:Track: TechDebt Tool Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
- ion: May in Dublin\, Ireland at the Convention Centre\nInfo: https://conf.
- researchr.org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icse-2027-techdebt-tool-track-r1-submission@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z
@@ -3820,6 +2819,44 @@ DESCRIPTION:Track: TechDebt Tool Track\nDeadline: 23:59 AoE (UTC-12)\nLocat
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:icst-2027-iteqs-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:ICST 2027 — ITEQS: submission deadline
+DESCRIPTION:Track: ITEQS\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Sebas
+ tian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fse-2027-ideas-visions-and-reflections-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:FSE 2027 — Ideas\, Visions and Reflections: submission deadline
+DESCRIPTION:Track: Ideas\, Visions and Reflections\nDeadline: 23:59 AoE (UT
+ C-12)\nLocation: Shenzhen\, China\nInfo: https://conf.researchr.org/home/f
+ se-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-testing-tools-and-data-showcase-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:ICST 2027 — Testing Tools and Data Showcase: submission deadline
+DESCRIPTION:Track: Testing Tools and Data Showcase\nDeadline: 23:59 AoE (UT
+ C-12)\nLocation: San Sebastian\, Basque Country\nInfo: https://conf.resear
+ chr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:ease-2027-industry-papers-r1-abstract@se-conferences
 DTSTAMP:20261018T073302Z
 LAST-MODIFIED:20261018T073302Z
@@ -3829,6 +2866,21 @@ DTEND;VALUE=DATE:20270223
 SUMMARY:EASE 2027 — Industry Papers: abstract deadline
 DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
   Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-reproducibility-and-negative-results-r1-abstract@se-conferenc
+ es
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:EASE 2027 — Reproducibility and Negative Results: abstract deadli
+ ne
+DESCRIPTION:Track: Reproducibility and Negative Results\nDeadline: 23:59 Ao
+ E (UTC-12)\nLocation: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/ho
+ me/ease-2027
 URL:https://conf.researchr.org/home/ease-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -3878,6 +2930,21 @@ DTEND;VALUE=DATE:20270302
 SUMMARY:EASE 2027 — Industry Papers: submission deadline
 DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
   Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-reproducibility-and-negative-results-r1-submission@se-confere
+ nces
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EASE 2027 — Reproducibility and Negative Results: submission dead
+ line
+DESCRIPTION:Track: Reproducibility and Negative Results\nDeadline: 23:59 Ao
+ E (UTC-12)\nLocation: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/ho
+ me/ease-2027
 URL:https://conf.researchr.org/home/ease-2027
 END:VEVENT
 BEGIN:VEVENT
@@ -3943,6 +3010,18 @@ DTEND;VALUE=DATE:20270309
 SUMMARY:EASE 2027 — Doctoral Symposium: submission deadline
 DESCRIPTION:Track: Doctoral Symposium\nDeadline: 23:59 AoE (UTC-12)\nLocati
  on: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
+URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ease-2027-ai-models-data-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:EASE 2027 — AI Models / Data: submission deadline
+DESCRIPTION:Track: AI Models / Data\nDeadline: 23:59 AoE (UTC-12)\nLocation
+ : Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
 URL:https://conf.researchr.org/home/ease-2027
 END:VEVENT
 BEGIN:VEVENT

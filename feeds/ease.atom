@@ -4,7 +4,7 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/ease.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/ease.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2026-10-18T07:33:02Z</updated>
+  <updated>2026-11-01T09:54:16Z</updated>
   <entry>
     <title>2026-12-02 — EASE 2027 — Workshops: submission deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/ease-2027-workshops-r1-submission@se-conferences/2026-12-02</id>
@@ -50,6 +50,17 @@ Location: Hanoi, Vietnam
 Info: https://conf.researchr.org/home/ease-2027</summary>
   </entry>
   <entry>
+    <title>New: 2027-02-22 — EASE 2027 — Reproducibility and Negative Results: abstract deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ease-2027-reproducibility-and-negative-results-r1-abstract@se-conferences/2027-02-22</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2027-02-22 (23:59 AoE)
+Track: Reproducibility and Negative Results
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
     <title>2027-02-22 — EASE 2027 — Short Papers and Emerging Results: abstract deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/ease-2027-short-papers-and-emerging-results-r1-abstract@se-conferences/2027-02-22</id>
     <link href="https://conf.researchr.org/home/ease-2027"/>
@@ -67,6 +78,17 @@ Info: https://conf.researchr.org/home/ease-2027</summary>
     <updated>2026-10-18T07:33:02Z</updated>
     <summary type="text">Deadline: 2027-03-01 (23:59 AoE)
 Track: Industry Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2027-03-01 — EASE 2027 — Reproducibility and Negative Results: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ease-2027-reproducibility-and-negative-results-r1-submission@se-conferences/2027-03-01</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2027-03-01 (23:59 AoE)
+Track: Reproducibility and Negative Results
 Deadline: 23:59 AoE (UTC-12)
 Location: Hanoi, Vietnam
 Info: https://conf.researchr.org/home/ease-2027</summary>
@@ -100,6 +122,17 @@ Info: https://conf.researchr.org/home/ease-2027</summary>
     <updated>2026-10-18T07:33:02Z</updated>
     <summary type="text">Deadline: 2027-03-08 (23:59 AoE)
 Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: Hanoi, Vietnam
+Info: https://conf.researchr.org/home/ease-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2027-03-15 — EASE 2027 — AI Models / Data: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ease-2027-ai-models-data-r1-submission@se-conferences/2027-03-15</id>
+    <link href="https://conf.researchr.org/home/ease-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2027-03-15 (23:59 AoE)
+Track: AI Models / Data
 Deadline: 23:59 AoE (UTC-12)
 Location: Hanoi, Vietnam
 Info: https://conf.researchr.org/home/ease-2027</summary>

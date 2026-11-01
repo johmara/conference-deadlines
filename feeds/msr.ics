@@ -7,19 +7,6 @@ X-WR-CALNAME:MSR deadlines
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:msr-2027-shadow-pc-r1-submission@se-conferences
-DTSTAMP:20261018T073312Z
-LAST-MODIFIED:20261018T073312Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:MSR 2027 — Shadow PC: submission deadline
-DESCRIPTION:Track: Shadow PC\nDeadline: 23:59 AoE (UTC-12)\nLocation: May i
- n Dublin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.
- org/home/icse-2027
-URL:https://conf.researchr.org/home/icse-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:msr-2027-msr-technical-papers-r1-abstract@se-conferences
 DTSTAMP:20261018T073312Z
 LAST-MODIFIED:20261018T073312Z
@@ -585,6 +572,19 @@ DESCRIPTION:Track: Q-SE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Dub
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:msr-2027-raise-r1-abstract@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:MSR 2027 — RAISE: abstract deadline
+DESCRIPTION:Track: RAISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:msr-2027-recode-r1-submission@se-conferences
 DTSTAMP:20261018T073312Z
 LAST-MODIFIED:20261018T073312Z
@@ -755,6 +755,19 @@ SUMMARY:MSR 2027 — MSR Registered Reports: submission deadline
 DESCRIPTION:Track: MSR Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLo
  cation: May in Dublin\, Ireland at the Convention Centre\nInfo: https://co
  nf.researchr.org/home/icse-2027
+URL:https://conf.researchr.org/home/icse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-2027-raise-r1-submission@se-conferences
+DTSTAMP:20261101T095416Z
+LAST-MODIFIED:20261101T095416Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:MSR 2027 — RAISE: submission deadline
+DESCRIPTION:Track: RAISE\nDeadline: 23:59 AoE (UTC-12)\nLocation: May in Du
+ blin\, Ireland at the Convention Centre\nInfo: https://conf.researchr.org/
+ home/icse-2027
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT

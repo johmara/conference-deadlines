@@ -4,7 +4,7 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/fse.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/fse.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2026-10-25T07:56:03Z</updated>
+  <updated>2026-11-01T09:54:16Z</updated>
   <entry>
     <title>2027-01-23 — FSE 2027 — Industry Papers: submission deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/fse-2027-industry-papers-r1-submission@se-conferences/2027-01-23</id>
@@ -34,6 +34,17 @@ Info: https://conf.researchr.org/home/fse-2027</summary>
     <updated>2026-10-18T07:33:04Z</updated>
     <summary type="text">Deadline: 2027-01-29 (23:59 AoE)
 Track: Software Engineering Education
+Deadline: 23:59 AoE (UTC-12)
+Location: Shenzhen, China
+Info: https://conf.researchr.org/home/fse-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2027-02-12 — FSE 2027 — Ideas, Visions and Reflections: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/fse-2027-ideas-visions-and-reflections-r1-submission@se-conferences/2027-02-12</id>
+    <link href="https://conf.researchr.org/home/fse-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2027-02-12 (23:59 AoE)
+Track: Ideas, Visions and Reflections
 Deadline: 23:59 AoE (UTC-12)
 Location: Shenzhen, China
 Info: https://conf.researchr.org/home/fse-2027</summary>

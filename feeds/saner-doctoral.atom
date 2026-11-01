@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SANER deadlines — Doctoral</title>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/saner-doctoral.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/saner-doctoral.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
+  <updated>2026-11-01T09:54:16Z</updated>
+  <entry>
+    <title>New: 2026-12-18 — SANER 2027 — Doctoral Symposium Track: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/saner-2027-doctoral-symposium-track-r1-submission@se-conferences/2026-12-18</id>
+    <link href="https://conf.researchr.org/home/saner-2027"/>
+    <updated>2026-11-01T09:54:16Z</updated>
+    <summary type="text">Deadline: 2026-12-18 (23:59 AoE)
+Track: Doctoral Symposium Track
+Deadline: 23:59 AoE (UTC-12)
+Location: Richmond, VA, USA
+Info: https://conf.researchr.org/home/saner-2027</summary>
+  </entry>
+</feed>
