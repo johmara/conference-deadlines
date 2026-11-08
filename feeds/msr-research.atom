@@ -4,93 +4,13 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/msr-research.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/msr-research.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2026-10-21T08:31:59Z</updated>
+  <updated>2026-11-08T09:42:52Z</updated>
   <entry>
-    <title>2026-10-25 — MSR 2027 — FORGE Research Papers: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-forge-research-papers-r1-abstract@se-conferences/2026-10-25</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:12Z</updated>
-    <summary type="text">Deadline: 2026-10-25 (23:59 AoE)
-Track: FORGE Research Papers
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>Moved: 2026-10-26 — MSR 2027 — TechDebt Technical Papers: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-techdebt-technical-papers-r1-abstract@se-conferences/2026-10-26</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-21T08:31:59Z</updated>
-    <summary type="text">Moved from 2026-10-19 to 2026-10-26.
-Deadline: 2026-10-26 (23:59 AoE)
-Track: TechDebt Technical Papers
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-29 — MSR 2027 — ICPC Research Track: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-icpc-research-track-r1-abstract@se-conferences/2026-10-29</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:12Z</updated>
-    <summary type="text">Deadline: 2026-10-29 (23:59 AoE)
-Track: ICPC Research Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-30 — MSR 2027 — CAIN Research Track: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-cain-research-track-r1-submission@se-conferences/2026-10-30</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:12Z</updated>
-    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
-Track: CAIN Research Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>Moved: 2026-10-30 — MSR 2027 — CHASE Research Track: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-chase-research-track-r1-submission@se-conferences/2026-10-30</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-21T08:31:59Z</updated>
-    <summary type="text">Moved from 2026-10-23 to 2026-10-30.
-Deadline: 2026-10-30 (23:59 AoE)
-Track: CHASE Research Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-30 — MSR 2027 — FORGE Research Papers: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-forge-research-papers-r1-submission@se-conferences/2026-10-30</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:12Z</updated>
-    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
-Track: FORGE Research Papers
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>2026-10-30 — MSR 2027 — FormaliSE Research Track: abstract deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-formalise-research-track-r1-abstract@se-conferences/2026-10-30</id>
-    <link href="https://conf.researchr.org/home/icse-2027"/>
-    <updated>2026-10-18T07:33:12Z</updated>
-    <summary type="text">Deadline: 2026-10-30 (23:59 AoE)
-Track: FormaliSE Research Track
-Deadline: 23:59 AoE (UTC-12)
-Location: May in Dublin, Ireland at the Convention Centre
-Info: https://conf.researchr.org/home/icse-2027</summary>
-  </entry>
-  <entry>
-    <title>Moved: 2026-11-02 — MSR 2027 — TechDebt Technical Papers: submission deadline</title>
+    <title>2026-11-02 — MSR 2027 — TechDebt Technical Papers: submission deadline</title>
     <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-techdebt-technical-papers-r1-submission@se-conferences/2026-11-02</id>
     <link href="https://conf.researchr.org/home/icse-2027"/>
     <updated>2026-10-21T08:31:59Z</updated>
-    <summary type="text">Moved from 2026-10-26 to 2026-11-02.
-Deadline: 2026-11-02 (23:59 AoE)
+    <summary type="text">Deadline: 2026-11-02 (23:59 AoE)
 Track: TechDebt Technical Papers
 Deadline: 23:59 AoE (UTC-12)
 Location: May in Dublin, Ireland at the Convention Centre
@@ -158,6 +78,17 @@ Info: https://conf.researchr.org/home/icse-2027</summary>
     <updated>2026-10-18T07:33:12Z</updated>
     <summary type="text">Deadline: 2026-11-27 (23:59 AoE)
 Track: Tutorials and Technical Briefings
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2026-12-04 — MSR 2027 — MOBILESoft Research Track: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/msr-2027-mobilesoft-research-track-r1-submission@se-conferences/2026-12-04</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-11-08T09:42:52Z</updated>
+    <summary type="text">Deadline: 2026-12-04 (23:59 AoE)
+Track: MOBILESoft Research Track
 Deadline: 23:59 AoE (UTC-12)
 Location: May in Dublin, Ireland at the Convention Centre
 Info: https://conf.researchr.org/home/icse-2027</summary>

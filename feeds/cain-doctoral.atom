@@ -4,16 +4,50 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/cain-doctoral.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/cain-doctoral.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2026-10-18T07:33:01Z</updated>
+  <updated>2026-11-08T09:42:52Z</updated>
   <entry>
-    <title>2026-11-06 — CAIN 2027 — Doctoral Symposium: submission deadline</title>
-    <id>https://johan.martinson.phd/conference-deadlines/deadline/cain-2027-doctoral-symposium-r1-submission@se-conferences/2026-11-06</id>
-    <link href="https://conf.researchr.org/home/cain-2027"/>
-    <updated>2026-10-18T07:33:01Z</updated>
+    <title>New: 2026-11-06 — CAIN 2027 — CAIN Doctoral Symposium: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/cain-2027-cain-doctoral-symposium-r1-submission@se-conferences/2026-11-06</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-11-08T09:42:52Z</updated>
     <summary type="text">Deadline: 2026-11-06 (23:59 AoE)
+Track: CAIN Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>Moved: 2026-11-14 — CAIN 2027 — Doctoral Symposium: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/cain-2027-doctoral-symposium-r1-submission@se-conferences/2026-11-14</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-11-08T09:42:52Z</updated>
+    <summary type="text">Moved from 2026-11-06 to 2026-11-14.
+Deadline: 2026-11-14 (23:59 AoE)
 Track: Doctoral Symposium
 Deadline: 23:59 AoE (UTC-12)
-Location: Dublin, Ireland
-Info: https://conf.researchr.org/home/cain-2027</summary>
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2027-01-26 — CAIN 2027 — Doctoral Symposium: abstract deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/cain-2027-doctoral-symposium-r1-abstract@se-conferences/2027-01-26</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-11-08T09:42:52Z</updated>
+    <summary type="text">Deadline: 2027-01-26 (23:59 AoE)
+Track: Doctoral Symposium
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2027-01-28 — CAIN 2027 — CHASE Doctoral and Early Career Symposium (DECS): submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/cain-2027-chase-doctoral-and-early-career-symposium-decs-r1-submission@se-conferences/2027-01-28</id>
+    <link href="https://conf.researchr.org/home/icse-2027"/>
+    <updated>2026-11-08T09:42:52Z</updated>
+    <summary type="text">Deadline: 2027-01-28 (23:59 AoE)
+Track: CHASE Doctoral and Early Career Symposium (DECS)
+Deadline: 23:59 AoE (UTC-12)
+Location: May in Dublin, Ireland at the Convention Centre
+Info: https://conf.researchr.org/home/icse-2027</summary>
   </entry>
 </feed>

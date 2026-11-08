@@ -7,19 +7,6 @@ X-WR-CALNAME:ICST deadlines
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:icst-2027-challenge-competition-track-r1-submission@se-conferences
-DTSTAMP:20261018T073309Z
-LAST-MODIFIED:20261018T073309Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:ICST 2027 — Challenge Competition Track: submission deadline
-DESCRIPTION:Track: Challenge Competition Track\nDeadline: 23:59 AoE (UTC-12
- )\nLocation: San Sebastian\, Basque Country\nInfo: https://conf.researchr.
- org/home/icst-2027
-URL:https://conf.researchr.org/home/icst-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icst-2027-workshops-r1-submission@se-conferences
 DTSTAMP:20261018T073309Z
 LAST-MODIFIED:20261018T073309Z
@@ -70,6 +57,18 @@ DESCRIPTION:Track: Industry\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Se
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:icst-2027-asta-r1-submission@se-conferences
+DTSTAMP:20261108T094252Z
+LAST-MODIFIED:20261108T094252Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:ICST 2027 — ASTA: submission deadline
+DESCRIPTION:Track: ASTA\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Sebast
+ ian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:icst-2027-iteqs-r1-submission@se-conferences
 DTSTAMP:20261101T095416Z
 LAST-MODIFIED:20261101T095416Z
@@ -79,6 +78,18 @@ DTEND;VALUE=DATE:20270205
 SUMMARY:ICST 2027 — ITEQS: submission deadline
 DESCRIPTION:Track: ITEQS\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Sebas
  tian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-iwct-r1-submission@se-conferences
+DTSTAMP:20261108T094252Z
+LAST-MODIFIED:20261108T094252Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:ICST 2027 — IWCT: submission deadline
+DESCRIPTION:Track: IWCT\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Sebast
+ ian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
 BEGIN:VEVENT
