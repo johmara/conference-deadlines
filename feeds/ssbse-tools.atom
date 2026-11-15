@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SSBSE deadlines — Tools</title>
+  <id>https://johan.martinson.phd/conference-deadlines/feeds/ssbse-tools.atom</id>
+  <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/ssbse-tools.atom"/>
+  <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
+  <updated>2026-11-15T10:09:43Z</updated>
+  <entry>
+    <title>New: 2027-01-26 — SSBSE 2027 — Tool Demonstrations: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ssbse-2027-tool-demonstrations-r1-submission@se-conferences/2027-01-26</id>
+    <link href="https://conf.researchr.org/home/fse-2027"/>
+    <updated>2026-11-15T10:09:43Z</updated>
+    <summary type="text">Deadline: 2027-01-26 (23:59 AoE)
+Track: Tool Demonstrations
+Deadline: 23:59 AoE (UTC-12)
+Location: Shenzhen, China
+Info: https://conf.researchr.org/home/fse-2027</summary>
+  </entry>
+</feed>

@@ -32,6 +32,18 @@ DESCRIPTION:Track: Research Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:icst-2027-education-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:ICST 2027 — Education: submission deadline
+DESCRIPTION:Track: Education\nDeadline: 23:59 AoE (UTC-12)\nLocation: San S
+ ebastian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:icst-2027-new-ideas-and-emerging-results-r1-submission@se-conferences
 DTSTAMP:20261018T073309Z
 LAST-MODIFIED:20261018T073309Z
@@ -57,6 +69,19 @@ DESCRIPTION:Track: Industry\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Se
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:icst-2027-registered-reports-r1-abstract@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:ICST 2027 — Registered Reports: abstract deadline
+DESCRIPTION:Track: Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: San Sebastian\, Basque Country\nInfo: https://conf.researchr.org/home/
+ icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:icst-2027-asta-r1-submission@se-conferences
 DTSTAMP:20261108T094252Z
 LAST-MODIFIED:20261108T094252Z
@@ -65,6 +90,18 @@ DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:ICST 2027 — ASTA: submission deadline
 DESCRIPTION:Track: ASTA\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Sebast
+ ian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-cciw-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:ICST 2027 — CCIW: submission deadline
+DESCRIPTION:Track: CCIW\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Sebast
  ian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
@@ -90,6 +127,19 @@ DTEND;VALUE=DATE:20270205
 SUMMARY:ICST 2027 — IWCT: submission deadline
 DESCRIPTION:Track: IWCT\nDeadline: 23:59 AoE (UTC-12)\nLocation: San Sebast
  ian\, Basque Country\nInfo: https://conf.researchr.org/home/icst-2027
+URL:https://conf.researchr.org/home/icst-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icst-2027-registered-reports-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:ICST 2027 — Registered Reports: submission deadline
+DESCRIPTION:Track: Registered Reports\nDeadline: 23:59 AoE (UTC-12)\nLocati
+ on: San Sebastian\, Basque Country\nInfo: https://conf.researchr.org/home/
+ icst-2027
 URL:https://conf.researchr.org/home/icst-2027
 END:VEVENT
 BEGIN:VEVENT

@@ -405,25 +405,25 @@ DESCRIPTION:Track: TechDebt Industry Track\nDeadline: 23:59 AoE (UTC-12)\nL
 URL:https://conf.researchr.org/home/icse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:fse-2027-industry-papers-r1-submission@se-conferences
-DTSTAMP:20261018T073304Z
-LAST-MODIFIED:20261018T073304Z
+UID:ssbse-2027-industry-papers-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:FSE 2027 — Industry Papers: submission deadline
+SUMMARY:SSBSE 2027 — Industry Papers: submission deadline
 DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
   Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
 URL:https://conf.researchr.org/home/fse-2027
 END:VEVENT
 BEGIN:VEVENT
-UID:fse-2027-ideas-visions-and-reflections-r1-submission@se-conferences
-DTSTAMP:20261101T095416Z
-LAST-MODIFIED:20261101T095416Z
+UID:ssbse-2027-ideas-visions-and-reflections-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
-SUMMARY:FSE 2027 — Ideas\, Visions and Reflections: submission deadline
+SUMMARY:SSBSE 2027 — Ideas\, Visions and Reflections: submission deadline
 DESCRIPTION:Track: Ideas\, Visions and Reflections\nDeadline: 23:59 AoE (UT
  C-12)\nLocation: Shenzhen\, China\nInfo: https://conf.researchr.org/home/f
  se-2027
@@ -492,5 +492,18 @@ SUMMARY:EASE 2027 — Posters and Vision: submission deadline
 DESCRIPTION:Track: Posters and Vision\nDeadline: 23:59 AoE (UTC-12)\nLocati
  on: Hanoi\, Vietnam\nInfo: https://conf.researchr.org/home/ease-2027
 URL:https://conf.researchr.org/home/ease-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:icsme-2027-posters-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:ICSME 2027 — Posters: submission deadline
+DESCRIPTION:Track: Posters\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dynamic
+  City of Toronto\, Canada\nInfo: https://conf.researchr.org/home/icsme-202
+ 7
+URL:https://conf.researchr.org/home/icsme-2027
 END:VEVENT
 END:VCALENDAR

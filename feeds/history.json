@@ -378,11 +378,11 @@
   "seq": 0
  },
  "cain-2027-designing-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-doctoral-symposium-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -399,8 +399,15 @@
   "seq": 1
  },
  "cain-2027-dtwise-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
+ },
+ "cain-2027-encycris-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": true,
   "prev_day": null,
   "seq": 0
@@ -455,18 +462,18 @@
   "seq": 0
  },
  "cain-2027-greens-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-hugs-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -553,11 +560,11 @@
   "seq": 0
  },
  "cain-2027-mo2re-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-mobilesoft-research-track-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -651,11 +658,11 @@
   "seq": 0
  },
  "cain-2027-nlbse-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-q-se-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -700,11 +707,11 @@
   "seq": 1
  },
  "cain-2027-responsiblese-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-se-in-practice-seip-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -721,11 +728,11 @@
   "seq": 0
  },
  "cain-2027-se4all-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-seams-artifact-track-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -770,11 +777,11 @@
   "seq": 0
  },
  "cain-2027-sers-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-19",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-shadow-pc-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -853,6 +860,13 @@
   "prev_day": null,
   "seq": 0
  },
+ "cain-2027-trustedsoftwair-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-17",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
  "cain-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
   "day": "2026-11-27",
@@ -868,11 +882,11 @@
   "seq": 0
  },
  "cain-2027-uise-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-18",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "cain-2027-workshops-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -882,11 +896,11 @@
   "seq": 0
  },
  "cain-2027-wsese-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-27",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-13",
+  "new": false,
+  "prev_day": "2026-11-27",
+  "seq": 1
  },
  "ease-2026-ai-models-data-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:02Z",
@@ -1336,16 +1350,695 @@
   "prev_day": null,
   "seq": 0
  },
- "forge-2026-data-and-benchmarking-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
+ "forge-2026-agent-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-07",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-ai-sqe-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-artifact-evaluation-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-08",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-ast-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-09",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-boatse-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-27",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-brazilian-se-showcase-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-cain-doctoral-symposium-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-18",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-cain-industry-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-18",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-cain-journal-first-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-18",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-cain-posters-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-18",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-cain-research-track-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-16",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-cain-research-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-chase-doctoral-and-early-career-symposium-decs-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-29",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-chase-research-track-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-16",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-chase-research-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-chase-voices-of-the-industry-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-02-02",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-deeptest-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-27",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-demonstrations-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-09-29",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-designing-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-27",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-doctoral-symposium-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-26",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-doctoral-symposium-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-14",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-dse-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-encycris-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-02",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-finanse-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-26",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-forge-data-and-benchmarking-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
   "day": "2025-11-21",
   "new": true,
   "prev_day": null,
   "seq": 0
  },
- "forge-2026-research-papers-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
+ "forge-2026-forge-research-papers-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
   "day": "2025-11-05",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-formalise-research-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-06",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-ftw-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-10",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-gas-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-26",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-icpc-early-research-achievements-era-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-10",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-icpc-early-research-achievements-era-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-17",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-icpc-journal-first-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-16",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-icpc-replications-and-negative-results-rene-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-12",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-icpc-research-track-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-19",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-icpc-research-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-icpc-tool-demonstration-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-01",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-icpc-tool-demonstration-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-08",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-industry-challenge-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-07-17",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-iwsib-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-journal-ahead-workshop-jaws-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-16",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-journal-first-papers-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-20",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-larc-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-mo2re-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-18",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-mobilesoft-research-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-06",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-awards-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-24",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-data-and-tool-showcase-track-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-05",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-data-and-tool-showcase-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-10",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-industry-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-19",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-junior-pc-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-09-07",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-mining-challenge-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-18",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-mining-challenge-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-08-20",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-registered-reports-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-14",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-registered-reports-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-21",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-technical-papers-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-20",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-technical-papers-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-msr-tutorials-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-19",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-mssis-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-02",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-new-ideas-and-emerging-results-nier-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-09-29",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-nse-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-10",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-posters-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-05",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-q-se-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-27",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-raie-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-04",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-raise-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-recode-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-research-track-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-03-07",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-research-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-03-14",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-school-of-empirical-studies-in-se-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-07",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-se-in-practice-seip-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-09-29",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-se-in-society-seis-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-09-29",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-seams-artifact-track-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-04",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-seams-artifact-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-15",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-seams-community-debate-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-06",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-seams-journal-first-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-12-11",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-seams-research-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-seigs-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-serp4iot-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-02",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-sers-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-24",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-sesos-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-shadow-pc-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-07-24",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-software-architecture-bof-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-09",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-software-engineering-education-and-training-seet-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-09-29",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-src-acm-student-research-competition-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-14",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-static-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-31",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-student-mentoring-workshop-smew-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-17",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-student-volunteers-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-09",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-svm-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-27",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-swebok-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-swebok-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-05",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-techdebt-industry-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-08",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-techdebt-journal-first-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-01-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-techdebt-technical-papers-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-16",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-techdebt-technical-papers-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-tutorials-and-technical-briefings-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-25",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-tutorials-and-technical-briefings-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-09-29",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-uise-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-31",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-wetseb-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-11-03",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-workshops-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-06-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-wsese-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-20",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "forge-2026-wsese-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2025-10-27",
   "new": true,
   "prev_day": null,
   "seq": 0
@@ -1463,11 +2156,11 @@
   "seq": 0
  },
  "forge-2027-designing-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-doctoral-symposium-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -1484,8 +2177,15 @@
   "seq": 0
  },
  "forge-2027-dtwise-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
+ },
+ "forge-2027-encycris-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": true,
   "prev_day": null,
   "seq": 0
@@ -1540,18 +2240,18 @@
   "seq": 0
  },
  "forge-2027-greens-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-hugs-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -1638,11 +2338,11 @@
   "seq": 0
  },
  "forge-2027-mo2re-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-mobilesoft-research-track-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -1736,11 +2436,11 @@
   "seq": 0
  },
  "forge-2027-nlbse-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-q-se-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -1785,11 +2485,11 @@
   "seq": 0
  },
  "forge-2027-responsiblese-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-se-in-practice-seip-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -1806,11 +2506,11 @@
   "seq": 0
  },
  "forge-2027-se4all-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-seams-artifact-track-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -1855,11 +2555,11 @@
   "seq": 0
  },
  "forge-2027-sers-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-19",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-shadow-pc-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -1938,6 +2638,13 @@
   "prev_day": null,
   "seq": 0
  },
+ "forge-2027-trustedsoftwair-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-17",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
  "forge-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
   "day": "2026-11-27",
@@ -1953,11 +2660,11 @@
   "seq": 0
  },
  "forge-2027-uise-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-18",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "forge-2027-workshops-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -1967,11 +2674,11 @@
   "seq": 0
  },
  "forge-2027-wsese-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-27",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-13",
+  "new": false,
+  "prev_day": "2026-11-27",
+  "seq": 1
  },
  "fse-2026-aiware-arxiv-track-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:04Z",
@@ -2144,55 +2851,6 @@
  "fse-2026-workshops-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:04Z",
   "day": "2025-10-16",
-  "new": false,
-  "prev_day": null,
-  "seq": 0
- },
- "fse-2027-ideas-visions-and-reflections-r1-submission@se-conferences": {
-  "changed_at": "2026-11-01T09:54:16Z",
-  "day": "2027-02-12",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
- },
- "fse-2027-industry-papers-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:04Z",
-  "day": "2027-01-23",
-  "new": false,
-  "prev_day": null,
-  "seq": 0
- },
- "fse-2027-journal-first-paper-r1-submission@se-conferences": {
-  "changed_at": "2026-10-25T07:56:03Z",
-  "day": "2027-02-25",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
- },
- "fse-2027-research-papers-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:04Z",
-  "day": "2026-10-02",
-  "new": false,
-  "prev_day": null,
-  "seq": 0
- },
- "fse-2027-software-engineering-education-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:04Z",
-  "day": "2027-01-29",
-  "new": false,
-  "prev_day": null,
-  "seq": 0
- },
- "fse-2027-tool-demonstrations-r1-submission@se-conferences": {
-  "changed_at": "2026-10-25T07:56:03Z",
-  "day": "2027-01-26",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
- },
- "fse-2027-workshops-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:04Z",
-  "day": "2026-10-15",
   "new": false,
   "prev_day": null,
   "seq": 0
@@ -2373,11 +3031,11 @@
   "seq": 0
  },
  "icpc-2027-designing-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-doctoral-symposium-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -2394,8 +3052,15 @@
   "seq": 0
  },
  "icpc-2027-dtwise-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
+ },
+ "icpc-2027-encycris-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": true,
   "prev_day": null,
   "seq": 0
@@ -2450,18 +3115,18 @@
   "seq": 0
  },
  "icpc-2027-greens-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-hugs-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -2548,11 +3213,11 @@
   "seq": 0
  },
  "icpc-2027-mo2re-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-mobilesoft-research-track-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -2646,11 +3311,11 @@
   "seq": 0
  },
  "icpc-2027-nlbse-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-q-se-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -2695,11 +3360,11 @@
   "seq": 2
  },
  "icpc-2027-responsiblese-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-se-in-practice-seip-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -2716,11 +3381,11 @@
   "seq": 0
  },
  "icpc-2027-se4all-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-seams-artifact-track-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -2765,11 +3430,11 @@
   "seq": 0
  },
  "icpc-2027-sers-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-19",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-shadow-pc-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -2848,6 +3513,13 @@
   "prev_day": null,
   "seq": 0
  },
+ "icpc-2027-trustedsoftwair-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-17",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
  "icpc-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
   "day": "2026-11-27",
@@ -2863,11 +3535,11 @@
   "seq": 0
  },
  "icpc-2027-uise-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-13",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-18",
+  "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icpc-2027-workshops-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -2877,11 +3549,11 @@
   "seq": 0
  },
  "icpc-2027-wsese-r1-submission@se-conferences": {
-  "changed_at": "2026-11-08T09:42:52Z",
-  "day": "2026-11-27",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-13",
+  "new": false,
+  "prev_day": "2026-11-27",
+  "seq": 1
  },
  "icsa-2026-artifacts-evaluation-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:06Z",
@@ -3885,11 +4557,11 @@
   "seq": 1
  },
  "icse-2027-designing-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icse-2027-doctoral-symposium-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:07Z",
@@ -3906,9 +4578,16 @@
   "seq": 0
  },
  "icse-2027-dtwise-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
+ },
+ "icse-2027-encycris-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": true,
   "prev_day": null,
   "seq": 0
  },
@@ -3962,18 +4641,18 @@
   "seq": 0
  },
  "icse-2027-greens-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icse-2027-hugs-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icse-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:07Z",
@@ -4060,11 +4739,11 @@
   "seq": 0
  },
  "icse-2027-mo2re-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icse-2027-mobilesoft-research-track-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -4158,11 +4837,11 @@
   "seq": 0
  },
  "icse-2027-nlbse-r1-submission@se-conferences": {
-  "changed_at": "2026-10-21T08:31:59Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": "2026-11-27",
-  "seq": 1
+  "prev_day": "2026-11-13",
+  "seq": 2
  },
  "icse-2027-q-se-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:07Z",
@@ -4207,11 +4886,11 @@
   "seq": 0
  },
  "icse-2027-responsiblese-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icse-2027-se-in-practice-seip-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:07Z",
@@ -4228,11 +4907,11 @@
   "seq": 0
  },
  "icse-2027-se4all-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icse-2027-seams-artifact-track-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:07Z",
@@ -4277,11 +4956,11 @@
   "seq": 0
  },
  "icse-2027-sers-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-19",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icse-2027-shadow-pc-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:07Z",
@@ -4360,6 +5039,13 @@
   "prev_day": null,
   "seq": 0
  },
+ "icse-2027-trustedsoftwair-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-17",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
  "icse-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:07Z",
   "day": "2026-11-27",
@@ -4375,11 +5061,11 @@
   "seq": 0
  },
  "icse-2027-uise-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-18",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "icse-2027-workshops-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:07Z",
@@ -4389,11 +5075,11 @@
   "seq": 0
  },
  "icse-2027-wsese-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:07Z",
-  "day": "2026-11-27",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-13",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-27",
+  "seq": 1
  },
  "icsme-2026-doctoral-symposium-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:08Z",
@@ -4500,10 +5186,38 @@
   "prev_day": null,
   "seq": 0
  },
+ "icsme-2027-posters-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-06-04",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "icsme-2027-research-papers-track-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-02-19",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
  "icsme-2027-research-papers-track-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:08Z",
-  "day": "2027-03-05",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-02-26",
   "new": false,
+  "prev_day": "2027-03-05",
+  "seq": 1
+ },
+ "icsme-2027-student-volunteer-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-06-11",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "icsme-2027-workshop-and-panel-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-01-30",
+  "new": true,
   "prev_day": null,
   "seq": 0
  },
@@ -4668,6 +5382,13 @@
   "prev_day": null,
   "seq": 0
  },
+ "icst-2027-cciw-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-02-04",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
  "icst-2027-challenge-competition-track-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:09Z",
   "day": "2026-10-02",
@@ -4679,6 +5400,13 @@
   "changed_at": "2026-10-18T07:33:09Z",
   "day": "2027-03-19",
   "new": false,
+  "prev_day": null,
+  "seq": 0
+ },
+ "icst-2027-education-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-01-13",
+  "new": true,
   "prev_day": null,
   "seq": 0
  },
@@ -4714,6 +5442,20 @@
   "changed_at": "2026-10-18T07:33:09Z",
   "day": "2027-01-13",
   "new": false,
+  "prev_day": null,
+  "seq": 0
+ },
+ "icst-2027-registered-reports-r1-abstract@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-01-28",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "icst-2027-registered-reports-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-02-04",
+  "new": true,
   "prev_day": null,
   "seq": 0
  },
@@ -5299,11 +6041,11 @@
   "seq": 1
  },
  "msr-2027-designing-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "msr-2027-doctoral-symposium-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
@@ -5320,9 +6062,16 @@
   "seq": 0
  },
  "msr-2027-dtwise-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
+  "prev_day": "2026-11-13",
+  "seq": 1
+ },
+ "msr-2027-encycris-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
+  "new": true,
   "prev_day": null,
   "seq": 0
  },
@@ -5376,18 +6125,18 @@
   "seq": 0
  },
  "msr-2027-greens-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "msr-2027-hugs-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "msr-2027-icpc-early-research-achievements-era-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
@@ -5474,11 +6223,11 @@
   "seq": 0
  },
  "msr-2027-mo2re-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "msr-2027-mobilesoft-research-track-r1-submission@se-conferences": {
   "changed_at": "2026-11-08T09:42:52Z",
@@ -5572,11 +6321,11 @@
   "seq": 0
  },
  "msr-2027-nlbse-r1-submission@se-conferences": {
-  "changed_at": "2026-10-21T08:31:59Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": "2026-11-27",
-  "seq": 1
+  "prev_day": "2026-11-13",
+  "seq": 2
  },
  "msr-2027-q-se-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
@@ -5621,11 +6370,11 @@
   "seq": 0
  },
  "msr-2027-responsiblese-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "msr-2027-se-in-practice-seip-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
@@ -5642,11 +6391,11 @@
   "seq": 0
  },
  "msr-2027-se4all-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-20",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "msr-2027-seams-artifact-track-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
@@ -5691,11 +6440,11 @@
   "seq": 0
  },
  "msr-2027-sers-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-19",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "msr-2027-shadow-pc-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
@@ -5774,6 +6523,13 @@
   "prev_day": null,
   "seq": 0
  },
+ "msr-2027-trustedsoftwair-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-17",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
  "msr-2027-tutorials-and-technical-briefings-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
   "day": "2026-11-27",
@@ -5789,11 +6545,11 @@
   "seq": 0
  },
  "msr-2027-uise-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-13",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-18",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-13",
+  "seq": 1
  },
  "msr-2027-workshops-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
@@ -5803,11 +6559,11 @@
   "seq": 0
  },
  "msr-2027-wsese-r1-submission@se-conferences": {
-  "changed_at": "2026-10-18T07:33:12Z",
-  "day": "2026-11-27",
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-11-13",
   "new": false,
-  "prev_day": null,
-  "seq": 0
+  "prev_day": "2026-11-27",
+  "seq": 1
  },
  "saner-2026-early-research-achievement-era-track-r1-abstract@se-conferences": {
   "changed_at": "2026-10-18T07:33:12Z",
@@ -5953,6 +6709,13 @@
   "changed_at": "2026-10-18T07:33:12Z",
   "day": "2026-10-23",
   "new": false,
+  "prev_day": null,
+  "seq": 0
+ },
+ "saner-2027-journal-first-track-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-12-08",
+  "new": true,
   "prev_day": null,
   "seq": 0
  },
@@ -6278,13 +7041,6 @@
   "prev_day": null,
   "seq": 0
  },
- "splash-2027-mplr-2027-r1-submission@se-conferences": {
-  "changed_at": "2026-10-25T07:56:03Z",
-  "day": "2027-06-11",
-  "new": true,
-  "prev_day": null,
-  "seq": 0
- },
  "ssbse-2026-hot-off-the-press-track-r1-submission@se-conferences": {
   "changed_at": "2026-10-18T07:33:15Z",
   "day": "2026-04-15",
@@ -6310,6 +7066,55 @@
   "changed_at": "2026-10-18T07:33:15Z",
   "day": "2026-04-09",
   "new": false,
+  "prev_day": null,
+  "seq": 0
+ },
+ "ssbse-2027-ideas-visions-and-reflections-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-02-12",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "ssbse-2027-industry-papers-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-01-23",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "ssbse-2027-journal-first-paper-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-02-25",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "ssbse-2027-research-papers-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-10-02",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "ssbse-2027-software-engineering-education-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-01-29",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "ssbse-2027-tool-demonstrations-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2027-01-26",
+  "new": true,
+  "prev_day": null,
+  "seq": 0
+ },
+ "ssbse-2027-workshops-r1-submission@se-conferences": {
+  "changed_at": "2026-11-15T10:09:43Z",
+  "day": "2026-10-15",
+  "new": true,
   "prev_day": null,
   "seq": 0
  },

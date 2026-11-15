@@ -6,4 +6,29 @@ METHOD:PUBLISH
 X-WR-CALNAME:SSBSE deadlines — Short/NIER
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ssbse-2027-industry-papers-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:SSBSE 2027 — Industry Papers: submission deadline
+DESCRIPTION:Track: Industry Papers\nDeadline: 23:59 AoE (UTC-12)\nLocation:
+  Shenzhen\, China\nInfo: https://conf.researchr.org/home/fse-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ssbse-2027-ideas-visions-and-reflections-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:SSBSE 2027 — Ideas\, Visions and Reflections: submission deadline
+DESCRIPTION:Track: Ideas\, Visions and Reflections\nDeadline: 23:59 AoE (UT
+ C-12)\nLocation: Shenzhen\, China\nInfo: https://conf.researchr.org/home/f
+ se-2027
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
 END:VCALENDAR

@@ -7,18 +7,6 @@ X-WR-CALNAME:ICSA deadlines
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:icsa-2027-working-sessions-r1-submission@se-conferences
-DTSTAMP:20261018T073307Z
-LAST-MODIFIED:20261018T073307Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:ICSA 2027 — Working Sessions: submission deadline
-DESCRIPTION:Track: Working Sessions\nDeadline: 23:59 AoE (UTC-12)\nLocation
- : Sydney\, Australia\nInfo: https://conf.researchr.org/home/icsa-2027
-URL:https://conf.researchr.org/home/icsa-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:icsa-2027-research-papers-r1-abstract@se-conferences
 DTSTAMP:20261018T073307Z
 LAST-MODIFIED:20261018T073307Z

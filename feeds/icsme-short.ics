@@ -6,4 +6,17 @@ METHOD:PUBLISH
 X-WR-CALNAME:ICSME deadlines — Short/NIER
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:icsme-2027-posters-r1-submission@se-conferences
+DTSTAMP:20261115T100943Z
+LAST-MODIFIED:20261115T100943Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:ICSME 2027 — Posters: submission deadline
+DESCRIPTION:Track: Posters\nDeadline: 23:59 AoE (UTC-12)\nLocation: Dynamic
+  City of Toronto\, Canada\nInfo: https://conf.researchr.org/home/icsme-202
+ 7
+URL:https://conf.researchr.org/home/icsme-2027
+END:VEVENT
 END:VCALENDAR

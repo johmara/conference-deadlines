@@ -4,5 +4,27 @@
   <id>https://johan.martinson.phd/conference-deadlines/feeds/ssbse-short.atom</id>
   <link rel="self" href="https://johan.martinson.phd/conference-deadlines/feeds/ssbse-short.atom"/>
   <link rel="alternate" href="https://johan.martinson.phd/conference-deadlines/"/>
-  <updated>2000-01-01T00:00:00Z</updated>
+  <updated>2026-11-15T10:09:43Z</updated>
+  <entry>
+    <title>New: 2027-01-23 — SSBSE 2027 — Industry Papers: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ssbse-2027-industry-papers-r1-submission@se-conferences/2027-01-23</id>
+    <link href="https://conf.researchr.org/home/fse-2027"/>
+    <updated>2026-11-15T10:09:43Z</updated>
+    <summary type="text">Deadline: 2027-01-23 (23:59 AoE)
+Track: Industry Papers
+Deadline: 23:59 AoE (UTC-12)
+Location: Shenzhen, China
+Info: https://conf.researchr.org/home/fse-2027</summary>
+  </entry>
+  <entry>
+    <title>New: 2027-02-12 — SSBSE 2027 — Ideas, Visions and Reflections: submission deadline</title>
+    <id>https://johan.martinson.phd/conference-deadlines/deadline/ssbse-2027-ideas-visions-and-reflections-r1-submission@se-conferences/2027-02-12</id>
+    <link href="https://conf.researchr.org/home/fse-2027"/>
+    <updated>2026-11-15T10:09:43Z</updated>
+    <summary type="text">Deadline: 2027-02-12 (23:59 AoE)
+Track: Ideas, Visions and Reflections
+Deadline: 23:59 AoE (UTC-12)
+Location: Shenzhen, China
+Info: https://conf.researchr.org/home/fse-2027</summary>
+  </entry>
 </feed>
